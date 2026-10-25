@@ -10,6 +10,76 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>">
+  <style id="saydha-affiliate-style">
+    .saydha-aff-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem .75rem;
+      align-items: center;
+      justify-content: center;
+      padding: .65rem 1rem;
+      background: #fff7ed;
+      color: #7c2d12;
+      border-bottom: 1px solid #fed7aa;
+      font-size: .85rem;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    .saydha-aff-bar strong {
+      color: #9a3412;
+    }
+
+    .saydha-aff-bar a {
+      color: #9a3412;
+      font-weight: 700;
+      text-decoration: underline;
+      white-space: nowrap;
+    }
+
+    .saydha-aff-foot {
+      max-width: 1100px;
+      margin: 2rem auto 0;
+      padding: 1.25rem 1.35rem 1.5rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      color: #334155;
+      font-size: .85rem;
+      line-height: 1.95;
+      text-align: right;
+    }
+
+    .saydha-aff-foot h3 {
+      margin: 0 0 .7rem;
+      font-size: 1rem;
+      color: #0f172a;
+    }
+
+    .saydha-aff-foot p {
+      margin: 0 0 .7rem;
+    }
+
+    .saydha-aff-foot p:last-child {
+      margin-bottom: 0;
+    }
+
+    .saydha-aff-foot .aff-code {
+      direction: ltr;
+      unicode-bidi: embed;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #e2e8f0;
+      padding: 0 .3rem;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .saydha-aff-foot {
+        margin: 1.5rem .75rem 0;
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -37,6 +107,17 @@
       <a href="#all-products">جميع المنتجات</a>
     </nav>
   </header>
+
+  <!-- إفصاح التسويق بالعمولة (ظاهر قبل روابط الشراء) -->
+  <div class="saydha-aff-bar" id="affiliate-disclosure-bar" role="note"
+    aria-label="إفصاح التسويق بالعمولة">
+    <span>
+      <strong>إفصاح:</strong> نشارك في برامج التسويق بالعمولة (أمازون، تيمو، نون)،
+      وقد نحصل على عمولة عند الشراء عبر روابطنا — دون أي زيادة في سعرك.
+    </span>
+    <a href="#affiliate-disclosure">التفاصيل</a>
+  </div>
+
 
   <!-- مسار هبوط النتائج عند البحث أو الفلترة -->
   <div id="mainContentAnchor"></div>
@@ -294,6 +375,36 @@
         </div>
       </div>
     </div>
+
+  <!-- إفصاح التسويق بالعمولة (تفصيلي) -->
+  <section class="saydha-aff-foot" id="affiliate-disclosure" aria-labelledby="affiliateDisclosureTitle">
+    <h3 id="affiliateDisclosureTitle">إفصاح التسويق بالعمولة</h3>
+    <p>
+      منصة <strong>صيدها صح</strong> تشارك في برامج التسويق بالعمولة. عندما تشتري منتجاً عبر
+      أحد روابط المتاجر المنشورة هنا، قد نحصل على عمولة من المتجر، وذلك دون أي زيادة على
+      السعر الذي تدفعه. اختيارنا للعروض لا يتأثر بقيمة العمولة.
+    </p>
+    <p>
+      <strong>أمازون:</strong> نحن مشاركون في برنامج أمازون أسوشيتس (Amazon Associates)،
+      ونربح من عمليات الشراء المؤهلة.
+      <span class="aff-code">As an Amazon Associate I earn from qualifying purchases.</span>
+    </p>
+    <p>
+      <strong>تيمو:</strong> نشارك في برنامج التسويق بالعمولة عبر الكود
+      <span class="aff-code">alt065258</span>.
+      <strong>نون:</strong> نشارك في عروض التسويق بالعمولة عبر الكوبون
+      <span class="aff-code">saydha</span>.
+    </p>
+    <p>
+      الأسعار والتوفر والخصومات منقولة من صفحات المتاجر وقت النشر، وقد تتغير في أي وقت.
+      السعر النهائي هو المعروض في صفحة المتجر قبل تأكيد الطلب، وقد لا يكون سعر أمازون هو
+      الأقل دائماً.
+    </p>
+    <p>
+      وجود رابط أو عرض في هذا الموقع لا يعني أن المتجر أو برنامج التسويق بالعمولة يتبنى
+      الموقع أو يوافق على محتواه.
+    </p>
+  </section>
 
     <div class="footer-bottom">
       <p>© جميع الحقوق محفوظة — منصة <strong>صيدها صح</strong> | قبل لا تروح عليك 💰 <span class="admin-discrete-link"
