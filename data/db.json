@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_027",
+      "name": "طقم أحزمة تمارين المقاومة الرياضية 11 قطعة مع مقابض ومثبت باب",
+      "description": "عرض نون الحصري لقسم الرياضة واللياقة — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 110.0,
+      "currentPrice": 35.0,
+      "discount": 68,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=رياضة&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_026",
       "name": "عطر شرقي فاخر للجنسين يدوم طويلاً بتركيبة العود والمسك الأبيض 100 مل",
       "description": "عرض نون الحصري لقسم الجمال والعناية — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
