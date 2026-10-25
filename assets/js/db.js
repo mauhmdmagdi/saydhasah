@@ -4,8 +4,8 @@
  * ويوفر دوال CRUD كاملة للمنتجات، الأقسام، المستخدمين، والإعدادات.
  */
 
-const DB_KEY = 'wafartha_sah_db_v1';
-const DB_VERSION = 1;
+const DB_KEY = 'saydhasah_db_v5';
+const DB_VERSION = 5;
 
 class StoreDB {
   constructor() {
@@ -160,7 +160,7 @@ class StoreDB {
         discount: 55,
         category: "cat_001",
         store: "amazon",
-        storeLink: "https://amazon.com",
+        storeLink: "https://www.amazon.sa/s?k=smart+tv+4k&tag=amazon0137a1-21",
         image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&q=80",
         tag: "range1000_plus",
         isActive: true,
@@ -173,15 +173,15 @@ class StoreDB {
     if (!hasBestSeller) {
       this.data.products.push({
         id: "prod_011",
-        name: "ماكينة قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار",
-        description: "تحضير فوري للقهوة برغوة حليب كريمية غنية ومضخة إيطالية متطورة",
+        name: "ماكينة تحضير قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار مع مبخرة حليب",
+        description: "مضخة إيطالية احترافية 20 بار، خزان ماء سعة 1.5 لتر، ذراع تبخير ستانلس ستيل لتحضير الكابتشينو واللاتيه.",
         originalPrice: 890,
         currentPrice: 299,
         discount: 66,
-        category: "cat_005",
+        category: "cat_003",
         store: "amazon",
-        storeLink: "https://amazon.com",
-        image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500&q=80",
+        storeLink: "https://www.amazon.sa/s?k=%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9+%D9%82%D9%87%D9%88%D8%A9+%D8%A7%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3%D9%88&tag=amazon0137a1-21",
+        image: "https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=500&q=80",
         tag: "best_seller",
         isActive: true,
         createdAt: new Date().toISOString()
@@ -200,7 +200,7 @@ class StoreDB {
         discount: 75,
         category: "cat_009",
         store: "temu",
-        storeLink: "https://temu.com",
+        storeLink: "https://temu.to/k/ee56j55qh35",
         image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
         tag: "new_arrival",
         isActive: true,
@@ -337,15 +337,15 @@ class StoreDB {
         },
         {
           id: "prod_006",
-          name: "حقيبة يد جلدية فاخرة متعددة الجيوب بتصميم تركي",
-          description: "جلد ناعم مقاوم للخدوش مع حزام كتف إضافي قابل للتعديل.",
+          name: "تابلت لوحي ذكي 10.9 بوصة شاشة ريتينا مع قلم لمسي ولوحة مفاتيح",
+          description: "معالج ثماني النواة فائق السرعة، ذاكرة 128GB، بطارية تدوم طويلاً، مثالي للعمل والدراسة والترفيه.",
           originalPrice: 1200,
           currentPrice: 650,
           discount: 46,
-          category: "cat_008",
-          store: "trendyol",
-          storeLink: "https://trendyol.com",
-          image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80",
+          category: "cat_001",
+          store: "amazon",
+          storeLink: "https://www.amazon.sa/s?k=tablet&tag=amazon0137a1-21",
+          image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&q=80",
           tag: "range500_1000",
           isActive: true,
           createdAt: new Date().toISOString()
@@ -359,7 +359,7 @@ class StoreDB {
           discount: 63,
           category: "cat_001",
           store: "amazon",
-          storeLink: "https://amazon.com",
+          storeLink: "https://www.amazon.sa/s?k=smartphone&tag=amazon0137a1-21",
           image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80",
           tag: "range500_1000",
           isActive: true,
@@ -372,9 +372,9 @@ class StoreDB {
           originalPrice: 420,
           currentPrice: 79,
           discount: 81,
-          category: "cat_005",
+          category: "cat_003",
           store: "temu",
-          storeLink: "https://temu.com",
+          storeLink: "https://temu.to/k/ee56j55qh35",
           image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&q=80",
           tag: "range50_100",
           isActive: true,
@@ -389,7 +389,7 @@ class StoreDB {
           discount: 55,
           category: "cat_001",
           store: "amazon",
-          storeLink: "https://amazon.com",
+          storeLink: "https://www.amazon.sa/s?k=smart+tv+4k&tag=amazon0137a1-21",
           image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&q=80",
           tag: "range1000_plus",
           isActive: true,
@@ -404,7 +404,7 @@ class StoreDB {
           discount: 51,
           category: "cat_001",
           store: "noon",
-          storeLink: "https://noon.com",
+          storeLink: "https://www.noon.com/saudi-ar/search/?q=laptop&coupon=saydha",
           image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
           tag: "range1000_plus",
           isActive: true,
@@ -412,16 +412,31 @@ class StoreDB {
         },
         {
           id: "prod_011",
-          name: "ماكينة قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار",
-          description: "تحضير فوري للقهوة برغوة حليب كريمية غنية ومضخة إيطالية متطورة",
+          name: "ماكينة تحضير قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار مع مبخرة حليب",
+          description: "مضخة إيطالية احترافية 20 بار، خزان ماء سعة 1.5 لتر، ذراع تبخير ستانلس ستيل لتحضير الكابتشينو واللاتيه.",
           originalPrice: 890,
           currentPrice: 299,
           discount: 66,
-          category: "cat_005",
+          category: "cat_003",
           store: "amazon",
-          storeLink: "https://amazon.com",
-          image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500&q=80",
+          storeLink: "https://www.amazon.sa/s?k=%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9+%D9%82%D9%87%D9%88%D8%A9+%D8%A7%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3%D9%88&tag=amazon0137a1-21",
+          image: "https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=500&q=80",
           tag: "best_seller",
+          isActive: true,
+          createdAt: new Date().toISOString()
+        },
+        {
+          id: "prod_013",
+          name: "حقيبة يد جلدية فاخرة متعددة الجيوب بتصميم تركي أنيق",
+          description: "جلد ناعم مقاوم للخدوش مع حزام كتف إضافي قابل للتعديل ومساحة واسعة.",
+          originalPrice: 380,
+          currentPrice: 185,
+          discount: 51,
+          category: "cat_002",
+          store: "noon",
+          storeLink: "https://www.noon.com/saudi-ar/search/?q=women+handbag&coupon=saydha",
+          image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80",
+          tag: "range100_500",
           isActive: true,
           createdAt: new Date().toISOString()
         },
