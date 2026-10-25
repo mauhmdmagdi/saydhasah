@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_039",
+      "name": "ساعة كاسيو أصلية رقمية كلاسيكية مقاومة للماء مع منبه وإضاءة مدمجة",
+      "description": "عرض أمازون السعودية الحصري لقسم الساعات والمجوهرات — تخفيض ضخم 58% وشحن سريع وضمان رسمي.",
+      "originalPrice": 140.0,
+      "currentPrice": 59.0,
+      "discount": 58,
+      "category": "cat_007",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=ساعة&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_038",
       "name": "شاشة مراقبة الأطفال اللاسلكية بالفيديو والصوت ورؤية ليلية بالأشعة تحت الحمراء",
       "description": "عرض أمازون السعودية الحصري لقسم الأطفال والرضع — تخفيض ضخم 65% وشحن سريع وضمان رسمي.",
