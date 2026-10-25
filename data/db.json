@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_034",
+      "name": "حذاء سكتشرز رياضي خفيف الوزن للمشي والتمارين وسهل الارتداء",
+      "description": "عرض أمازون السعودية الحصري لقسم الأزياء والموضة — تخفيض ضخم 63% وشحن سريع وضمان رسمي.",
+      "originalPrice": 320.0,
+      "currentPrice": 119.0,
+      "discount": 63,
+      "category": "cat_002",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=فستان&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_033",
       "name": "سماعات أذن أنكر ساوند كور لاسلكية بخاصية إلغاء الضوضاء وبطارية تدوم 36 ساعة",
       "description": "عرض أمازون السعودية الحصري لقسم الإلكترونيات — تخفيض ضخم 60% وشحن سريع وضمان رسمي.",
