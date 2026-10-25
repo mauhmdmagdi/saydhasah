@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_035",
+      "name": "غلاية مياه كهربائية من الفولاذ المقاوم للصدأ سعة 1.7 لتر مع إيقاف تلقائي",
+      "description": "عرض أمازون السعودية الحصري لقسم المنزل والمطبخ — تخفيض ضخم 61% وشحن سريع وضمان رسمي.",
+      "originalPrice": 125.0,
+      "currentPrice": 49.0,
+      "discount": 61,
+      "category": "cat_003",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=مطبخ&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_034",
       "name": "حذاء سكتشرز رياضي خفيف الوزن للمشي والتمارين وسهل الارتداء",
       "description": "عرض أمازون السعودية الحصري لقسم الأزياء والموضة — تخفيض ضخم 63% وشحن سريع وضمان رسمي.",
