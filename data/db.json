@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_063",
+      "name": "شاحن سيارة سريع معدني 60 واط منفذين USB و Type-C بتقنية الشحن السريع PD",
+      "description": "هيكل من سبائك الألومنيوم المقاوم للحرارة وشحن فائق السرعة لهواتف آبل وسامسونج في السيارة.",
+      "originalPrice": 49.0,
+      "currentPrice": 14.5,
+      "discount": 70,
+      "category": "cat_010",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&q=80",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_062",
       "name": "طقم منظم حقائب السفر 6 قطع مقاوم للماء بسحابات متينة وموفر للمساحة",
       "description": "ترتيب الملابس ومستلزمات السفر بدقة داخل حقيبة السفر مع أكياس شبكية للملابس وأكياس للأحذية.",
