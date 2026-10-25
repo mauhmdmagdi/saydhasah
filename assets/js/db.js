@@ -16,34 +16,45 @@ class StoreDB {
 
   async init() {
     try {
-      // 1. فحص التخزين المحلي أولاً
+      // 1. فحص التخزين المحلي أولاً للسرعة
       const localData = localStorage.getItem(DB_KEY);
       if (localData) {
-        this.data = JSON.parse(localData);
-        // ترقية وضمان وجود المستخدم mohmd ومخطط username
-        this.migrateUsers();
-        this.migrateCategories();
-        this.migrateProducts();
-      } else {
-        // 2. إذا لم يكن موجوداً، جلبه من ملف db.json المرفق
-        try {
-          const basePath = window.location.pathname.includes('/admin/') || window.location.pathname.includes('/pages/') ? '../' : './';
-          const res = await fetch(`${basePath}data/db.json`);
-          if (res.ok) {
-            this.data = await res.json();
+        try { this.data = JSON.parse(localData); } catch (err) { this.data = null; }
+      }
+
+      // 2. جلب أحدث البيانات دائماً من ملف db.json المرفوع على السيرفر
+      try {
+        const basePath = window.location.pathname.includes('/admin/') || window.location.pathname.includes('/pages/') ? '../' : './';
+        const res = await fetch(${basePath}data/db.json?t=);
+        if (res.ok) {
+          const remoteData = await res.json();
+          if (remoteData && remoteData.products) {
+            if (!this.data || !this.data.products) {
+              this.data = remoteData;
+            } else {
+              // دمج أي منتجات جديدة مرفوعة تلقائياً مع الكاش المحلي
+              const existingIds = new Set(this.data.products.map(p => p.id));
+              const newItems = remoteData.products.filter(p => !existingIds.has(p.id));
+              if (newItems.length > 0) {
+                this.data.products = [...newItems, ...this.data.products];
+              }
+              if (remoteData.categories) this.data.categories = remoteData.categories;
+              if (remoteData.stores) this.data.stores = remoteData.stores;
+            }
             this.migrateUsers();
             this.migrateCategories();
             this.migrateProducts();
             this.save();
-          } else {
-            throw new Error('Could not fetch db.json');
           }
-        } catch (fetchErr) {
-          console.warn('Falling back to default embedded schema', fetchErr);
+        }
+      } catch (fetchErr) {
+        console.warn('Could not fetch latest db.json, using local', fetchErr);
+        if (!this.data) {
           this.data = this.getDefaultSchema();
           this.save();
         }
       }
+
       this.isReady = true;
       return this.data;
     } catch (e) {
