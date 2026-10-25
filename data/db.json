@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_032",
+      "name": "مصباح مكتب ذكي LED قابل للتعديل بحماية للعين ومستويات إضاءة متعددة",
+      "description": "عرض نون الحصري لقسم المزيد — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 120.0,
+      "currentPrice": 38.0,
+      "discount": 68,
+      "category": "cat_010",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=أخرى&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_031",
       "name": "حقيبة ظهر ذكية متعددة الوظائف مقاومة للسرقة والماء مع منفذ شحن USB",
       "description": "عرض نون الحصري لقسم السفر والرحلات — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
