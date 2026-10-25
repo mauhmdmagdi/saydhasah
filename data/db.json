@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_056",
+      "name": "إضاءة ليلية ذكية بمستشعر حركة قابلة للشحن عبر USB مع قاعدة مغناطيسية",
+      "description": "تضيء تلقائياً عند الاقتراب في الظلام وتطفئ بعد 20 ثانية، مثالية للممرات وخزائن الملابس.",
+      "originalPrice": 45.0,
+      "currentPrice": 12.9,
+      "discount": 71,
+      "category": "cat_003",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_055",
       "name": "حقيبة يد كروس نسائية عصرية مبطنة بحزام سلسلة أنيقة وخفيفة الوزن",
       "description": "تصميم أنيق ومريح للمناسبات اليومية والعملية تتسع للهاتف والمحفظة وأدوات التجميل.",
