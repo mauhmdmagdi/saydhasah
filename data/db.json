@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_030",
+      "name": "مسدس تدليك العضلات الاحترافي المحمول بـ 6 سرعات و4 رؤوس قابلة للتبديل",
+      "description": "عرض نون الحصري لقسم الصحة والعناية الشخصية — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 210.0,
+      "currentPrice": 65.0,
+      "discount": 69,
+      "category": "cat_008",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=صحة&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_029",
       "name": "طقم مجوهرات نسائي زركون لامع مطلي بالذهب عيار 18 يشمل قلادة وأقراط",
       "description": "عرض نون الحصري لقسم الساعات والمجوهرات — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
