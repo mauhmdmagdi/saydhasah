@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_068",
+      "name": "بساط يوجا رياضي مانع للانزلاق عالي الكثافة 10 ملم مع حزام حمل مريح للتمارين",
+      "description": "سطح ناعم ومقاوم للتمزق يحمي المفاصل أثناء تمارين اللياقة واليوجا والضغط في المنزل.",
+      "originalPrice": 89.0,
+      "currentPrice": 49.0,
+      "discount": 45,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N41295244A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1611749842/N41295244A_1.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_067",
       "name": "سيروم لوريال باريس ريفايتاليفت بحمض الهيالورونيك النقي 1.5% لترطيب وملء البشرة",
       "description": "يعيد نضارة وشباب البشرة ويقلل التجاعيد بشكل ملحوظ خلال أسابيع، خفيف وسريع الامتصاص.",
