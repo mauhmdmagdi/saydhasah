@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_066",
+      "name": "مقلاة هوائية رقمية إيروفراي سعة 4 لتر من بلاك آند ديكر بقوة 1500 واط",
+      "description": "طهي مقرمش وصحي مع 8 برامج مسبقة وسلة مانعة للالتصاق قابلة للغسل في غسالة الأطباق.",
+      "originalPrice": 399.0,
+      "currentPrice": 199.0,
+      "discount": 50,
+      "category": "cat_003",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N37691656A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1589196431/N37691656A_1.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_065",
       "name": "حقيبة يد كروس نسائية جلدية ناعمة من تومي هيلفيغر أنيقة متعددة الاستخدامات",
       "description": "تصميم أنيق مع حزام قابل للتعديل وشعار تومي هيلفيغر الذهبي، مثالية للمناسبات والعمل.",
