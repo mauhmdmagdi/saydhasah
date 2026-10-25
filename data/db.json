@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_046",
+      "name": "فاين مناديل مطبخ سوبر تاول، 12 لفة 40 ورقة × 2 مناديل ورقية من طبقتين",
+      "description": "عرض أمازون السعودية في قسم المنزل والمطبخ بخصم 51% — السعر الحالي 16.95 ريال بدلاً من 34.63 ريال.",
+      "originalPrice": 34.63,
+      "currentPrice": 16.95,
+      "discount": 51,
+      "category": "cat_003",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B01F7WRL8E?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/81oW8MPP4nL._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_045",
       "name": "فستان ماكسي بودي كون ضيق كاجوال طويل للنساء من ريليتي بدون أكمام وبرقبة برباط",
       "description": "عرض أمازون السعودية في قسم الأزياء والموضة بخصم 67% — السعر الحالي 26.42 ريال بدلاً من 79.00 ريال.",
