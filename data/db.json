@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_052",
+      "name": "منظم أغراض إلكتروني من FYY، منظم كيبل السفر، حقيبة الملحقات الإلكترونية، حقيبة حمل، حقيبة محمولة مقاومة للماء مزدوجة الطبقات، حقيبة تخزين الكل في واحد للكيبل، الحبل، الشاحن، الهاتف، سماعة الأذن",
+      "description": "عرض أمازون السعودية في قسم السفر والرحلات بخصم 77% — السعر الحالي 17.02 ريال بدلاً من 74.00 ريال.",
+      "originalPrice": 74.0,
+      "currentPrice": 17.02,
+      "discount": 77,
+      "category": "cat_009",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0924H4XB9?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/81NHG+QSyJS._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_051",
       "name": "Heal Your Gut, Mind & Emotions: 5 Steps to Reset Your Health with Ayurveda and Food Chemistry",
       "description": "عرض أمازون السعودية في قسم الصحة والعناية الشخصية بخصم 69% — السعر الحالي 35.29 ريال بدلاً من 115.00 ريال.",
