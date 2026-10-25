@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_041",
+      "name": "ميزان أمتعة رقمي محمول عالي الدقة بشاشة LCD بإضاءة خلفية للرحلات",
+      "description": "عرض أمازون السعودية الحصري لقسم السفر والرحلات — تخفيض ضخم 66% وشحن سريع وضمان رسمي.",
+      "originalPrice": 65.0,
+      "currentPrice": 22.0,
+      "discount": 66,
+      "category": "cat_009",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=سفر&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_040",
       "name": "فرشاة أسنان كهربائية صوتية ذكية مع 4 رؤوس بديلة ومؤقت دقيقتين",
       "description": "عرض أمازون السعودية الحصري لقسم الصحة والعناية الشخصية — تخفيض ضخم 66% وشحن سريع وضمان رسمي.",
