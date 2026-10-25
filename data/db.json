@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_037",
+      "name": "ساعة يد رياضية ذكية مقاومة للماء مع متتبع لنبضات القلب والنشاط",
+      "description": "أقوى عروض تيمو لقسم الساعات والمجوهرات — تخفيض ضخم بنسبة 79% وأقل سعر متاح.",
+      "originalPrice": 160.0,
+      "currentPrice": 34.0,
+      "discount": 79,
+      "category": "cat_007",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_036",
       "name": "لعبة ألغاز خشبية مونتيسوري تعليمية لتنمية مهارات الأطفال والتركيز",
       "description": "أقوى عروض تيمو لقسم الأطفال والرضع — تخفيض ضخم بنسبة 75% وأقل سعر متاح.",
