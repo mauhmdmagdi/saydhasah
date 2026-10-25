@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_040",
+      "name": "فرشاة أسنان كهربائية صوتية ذكية مع 4 رؤوس بديلة ومؤقت دقيقتين",
+      "description": "عرض أمازون السعودية الحصري لقسم الصحة والعناية الشخصية — تخفيض ضخم 66% وشحن سريع وضمان رسمي.",
+      "originalPrice": 160.0,
+      "currentPrice": 55.0,
+      "discount": 66,
+      "category": "cat_008",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=صحة&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_039",
       "name": "ساعة كاسيو أصلية رقمية كلاسيكية مقاومة للماء مع منبه وإضاءة مدمجة",
       "description": "عرض أمازون السعودية الحصري لقسم الساعات والمجوهرات — تخفيض ضخم 58% وشحن سريع وضمان رسمي.",
