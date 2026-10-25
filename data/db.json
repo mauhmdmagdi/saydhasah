@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_035",
+      "name": "حبل قفز احترافي مدمج بمحامل سرعة وشاشة عداد رقمية",
+      "description": "أقوى عروض تيمو لقسم الرياضة واللياقة — تخفيض ضخم بنسبة 82% وأقل سعر متاح.",
+      "originalPrice": 65.0,
+      "currentPrice": 12.0,
+      "discount": 82,
+      "category": "cat_005",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_034",
       "name": "جهاز تدليك وتنظيف الوجه بالاهتزاز الصوتي ومقاوم للماء",
       "description": "أقوى عروض تيمو لقسم الجمال والعناية — تخفيض ضخم بنسبة 80% وأقل سعر متاح.",
