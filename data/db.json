@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_047",
+      "name": "كريم اساس بيبي سكين خافي العيوب الفوري، شفاف، 22 مل من ميبيلين نيو يورك",
+      "description": "عرض أمازون السعودية في قسم الجمال والعناية بخصم 67% — السعر الحالي 20.33 ريال بدلاً من 61.38 ريال.",
+      "originalPrice": 61.38,
+      "currentPrice": 20.33,
+      "discount": 67,
+      "category": "cat_004",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B00H56KCUU?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61B+hUbxb8L._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_046",
       "name": "فاين مناديل مطبخ سوبر تاول، 12 لفة 40 ورقة × 2 مناديل ورقية من طبقتين",
       "description": "عرض أمازون السعودية في قسم المنزل والمطبخ بخصم 51% — السعر الحالي 16.95 ريال بدلاً من 34.63 ريال.",
