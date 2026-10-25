@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_044",
+      "name": "سماعات أذن هواوي فري بادز SE 2، سماعات أذن بلوتوث لاسلكية، عمر بطارية 40 ساعة، 3 ساعات من تشغيل الموسيقى بشحنة 10 دقائق، مدمجة ومريحة، لون أبيض",
+      "description": "عرض أمازون السعودية في قسم الإلكترونيات بخصم 60% — السعر الحالي 75.00 ريال بدلاً من 189.00 ريال.",
+      "originalPrice": 189.0,
+      "currentPrice": 75.0,
+      "discount": 60,
+      "category": "cat_001",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0CDMB5ZQW?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/41gB8rTn8tL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_001",
       "name": "سماعات أبل إيربودز (USB-C)",
       "description": "صوت عالي الجودة مع تحكم مدمج في مستوى الصوت وتشغيل الموسيقى والرد على المكالمات، وتأتي بمنفذ شحن USB-C.",
