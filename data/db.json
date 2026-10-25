@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_040",
+      "name": "منتج تيمو الحصري",
+      "description": "عرض حصري ومميز من متجر تيمو (Temu) بخصم رائع وسعر لا يفوت.",
+      "originalPrice": 199.0,
+      "currentPrice": 49.0,
+      "discount": 75,
+      "category": "cat_010",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/sa/a-foldable-multi-functional--wire--designed-for-electricians--from-durable-high--cutting-crimping-and-stripping-suitable-for-all-electrical-work-g-601099776071217.html?_oak_mp_inf=ELGsgpWn1ogBGgp0Yjh3ZjNrN2I1INGC25KXNA%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F770fd41a-36b5-42d8-9293-1372b36e4cc5.jpg&spec_gallery_id=24291&refer_page_sn=15498&freesia_scene=689&_oak_freesia_scene=689&_oak_rec_ext_1=MjI2OQ&share_token=IzxPXwxc-cRRzauO3jbByaKKBw4gRP-SdUXNcoQ6WrYLfE_cqll7jSNg2I6qzbzNyCUK9NquAgwmdFDcTA3uF63BBndJSjRn7fIR4Ua422yv9UiN7Z0wHJw0fn77mPrWNefTpgJV_GOqMQpIz20xrWZPfSrPPnirx5qDkb6__Yo&refer_page_el_sn=223143&_x_vst_scene=adg&_x_ads_channel=google&_x_ads_sub_channel=search&_x_ads_account=4898917807&_x_ads_set=21918247841&_x_ads_id=173332247449&_x_ads_creative_id=721745715045&_x_ns_source=g&_x_ns_gclid=CjwKCAjw0fbWBhBkEiwAwJuQ8ZQ8LKnEsZp2xOhsTePDH89bOjTejXdpheWmHQlPiuwduWZ7UdjsZRoC7BQQAvD_BwE&_x_ns_match_type=e&_x_ns_wbraid=CkEKCQjwrvHWBhDNARIwAEC1yzgZVV9y4HxlWnTTfN02pzvKWXEanILXUxzgnW69cx7Xv0gTtt2OefSAWqT2GgJJVg&_x_ns_gbraid=0AAAAAo4mICFXudXaYkb4yxM-1xOgOGpRR&_x_ns_keyword=temu&_x_ns_targetid=kwd-4583699489&refer_page_name=kuiper&refer_page_id=15498_1792919651014_ggikwqhoc8&_x_sessn_id=e6gl2jtitc&_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_039",
       "name": "مجموعة حقائب تنظيم أمتعة السفر 6 قطع مقاومة للماء وموفرة للمساحة",
       "description": "أقوى عروض تيمو لقسم السفر والرحلات — تخفيض ضخم بنسبة 77% وأقل سعر متاح.",
