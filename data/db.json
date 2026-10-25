@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_069",
+      "name": "كرسي طعام للأطفال متعدد الارتفاعات قابل للطي مع صينية مزدوجة قابلة للإزالة",
+      "description": "هيكل متين بحزام أمان خماسي النقاط ومقعد مبطن سهل التنظيف يوفر أقصى راحة للطفل.",
+      "originalPrice": 299.0,
+      "currentPrice": 179.0,
+      "discount": 40,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N46281729A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1620138921/N46281729A_1.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_068",
       "name": "بساط يوجا رياضي مانع للانزلاق عالي الكثافة 10 ملم مع حزام حمل مريح للتمارين",
       "description": "سطح ناعم ومقاوم للتمزق يحمي المفاصل أثناء تمارين اللياقة واليوجا والضغط في المنزل.",
