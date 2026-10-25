@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_013",
+      "name": "سماعات أذن لاسلكية بلوتوث 5.3 بصوت استريو HIFI وشاشة رقمية",
+      "description": "أقوى عروض تيمو لقسم الإلكترونيات — تخفيض ضخم بنسبة 83% وأقل سعر متاح.",
+      "originalPrice": 145.0,
+      "currentPrice": 24.5,
+      "discount": 83,
+      "category": "cat_001",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_001",
       "name": "سماعة بلوتوث لاسلكية عالية الجودة",
       "description": "سماعة بلوتوث لاسلكية مع إلغاء الضوضاء وصوت نقي",
