@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_024",
+      "name": "ساعة يد كلاسيكية رجالية مقاومة للماء بسوار شبكي من الستانلس ستيل",
+      "description": "عرض نون الحصري لقسم الأزياء والموضة — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 220.0,
+      "currentPrice": 59.0,
+      "discount": 73,
+      "category": "cat_002",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=فستان&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_023",
       "name": "سماعات رأس لاسلكية فوق الأذن بإلغاء ضوضاء نشط وجودة صوت استثنائية",
       "description": "عرض نون الحصري لقسم الإلكترونيات — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
