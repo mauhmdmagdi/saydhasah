@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_049",
+      "name": "My First Library: Boxset of 10 Board Books for Kids (Pack-1)",
+      "description": "عرض أمازون السعودية في قسم الأطفال والرضع بخصم 71% — السعر الحالي 45.50 ريال بدلاً من 157.70 ريال.",
+      "originalPrice": 157.7,
+      "currentPrice": 45.5,
+      "discount": 71,
+      "category": "cat_006",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/9387779262?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71RPFp7+gfL._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_048",
       "name": "بروكيغ بنطلون رياضي للرجال من دراي لايت، سروال رياضي قابل للتمدد لممارسة رياضة الجولف، سروال رياضي للجري والعمل مع جيب بسحاب",
       "description": "عرض أمازون السعودية في قسم الرياضة واللياقة بخصم 47% — السعر الحالي 108.97 ريال بدلاً من 206.67 ريال.",
