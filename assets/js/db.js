@@ -62,56 +62,6 @@ class StoreDB {
     }
   }
 
-  old_init_disabled() {
-
-      const localData = localStorage.getItem(DB_KEY);
-      if (localData) {
-        try { this.data = JSON.parse(localData); } catch (err) { this.data = null; }
-      }
-
-      // 2. جلب أحدث البيانات دائماً من ملف db.json المرفوع على السيرفر
-      try {
-        const basePath = window.location.pathname.includes('/admin/') || window.location.pathname.includes('/pages/') ? '../' : './';
-        const res = await fetch(basePath + 'data/db.json?t=' + Date.now());
-        if (res.ok) {
-          const remoteData = await res.json();
-          if (remoteData && remoteData.products) {
-            if (!this.data || !this.data.products) {
-              this.data = remoteData;
-            } else {
-              // دمج أي منتجات جديدة مرفوعة تلقائياً مع الكاش المحلي
-              const existingIds = new Set(this.data.products.map(p => p.id));
-              const newItems = remoteData.products.filter(p => !existingIds.has(p.id));
-              if (newItems.length > 0) {
-                this.data.products = [...newItems, ...this.data.products];
-              }
-              if (remoteData.categories) this.data.categories = remoteData.categories;
-              if (remoteData.stores) this.data.stores = remoteData.stores;
-            }
-            this.migrateUsers();
-            this.migrateCategories();
-            this.migrateProducts();
-            this.save();
-          }
-        }
-      } catch (fetchErr) {
-        console.warn('Could not fetch latest db.json, using local', fetchErr);
-        if (!this.data) {
-          this.data = this.getDefaultSchema();
-          this.save();
-        }
-      }
-
-      this.isReady = true;
-      return this.data;
-    } catch (e) {
-      console.error('Database initialization error:', e);
-      this.data = this.getDefaultSchema();
-      this.isReady = true;
-      return this.data;
-    }
-  }
-
   migrateUsers() {
     if (!this.data) return;
     if (!Array.isArray(this.data.users)) {
@@ -196,62 +146,6 @@ class StoreDB {
 
   migrateProducts() {
     if (!this.data || !Array.isArray(this.data.products)) return;
-    const has1000Plus = this.data.products.some(p => p.tag === 'range1000_plus' || p.currentPrice >= 1000);
-    if (!has1000Plus) {
-      // disabled fake prod_009 push,
-        name: "شاشة ذكية 65 بوصة 4K Ultra HD مع نظام أندرويد",
-        description: "شاشة عملاقة سينمائية بتقنية HDR10 ومعدل تحديث 120Hz وصوت محيطي Dolby Atmos",
-        originalPrice: 3200,
-        currentPrice: 1450,
-        discount: 55,
-        category: "cat_001",
-        store: "amazon",
-        storeLink: "https://amazon.com",
-        image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&q=80",
-        tag: "range1000_plus",
-        isActive: true,
-        createdAt: new Date().toISOString()
-      });
-      this.save();
-    }
-
-    const hasBestSeller = this.data.products.some(p => p.tag === 'best_seller');
-    if (!hasBestSeller) {
-      // disabled fake prod_011 push,
-        name: "ماكينة قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار",
-        description: "تحضير فوري للقهوة برغوة حليب كريمية غنية ومضخة إيطالية متطورة",
-        originalPrice: 890,
-        currentPrice: 299,
-        discount: 66,
-        category: "cat_005",
-        store: "amazon",
-        storeLink: "https://amazon.com",
-        image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500&q=80",
-        tag: "best_seller",
-        isActive: true,
-        createdAt: new Date().toISOString()
-      });
-      this.save();
-    }
-
-    const hasNewArrival = this.data.products.some(p => p.tag === 'new_arrival');
-    if (!hasNewArrival) {
-      // disabled fake prod_012 push,
-        name: "نظارة شمسية بولارايزد عصرية بإطار كلاسيكي",
-        description: "حماية UV400 كاملة من أشعة الشمس مع عدسات استقطاب عالية الوضوح",
-        originalPrice: 350,
-        currentPrice: 89,
-        discount: 75,
-        category: "cat_009",
-        store: "temu",
-        storeLink: "https://temu.com",
-        image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
-        tag: "new_arrival",
-        isActive: true,
-        createdAt: new Date().toISOString()
-      });
-      this.save();
-    }
 
     const defaultImages = {
       prod_001: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
