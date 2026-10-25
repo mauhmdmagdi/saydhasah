@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_028",
+      "name": "كرسي طعام للأطفال متعدد المستويات قابل للطي وسهل التنظيف",
+      "description": "عرض نون الحصري لقسم الأطفال والرضع — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 260.0,
+      "currentPrice": 79.0,
+      "discount": 70,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=أطفال&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_027",
       "name": "طقم أحزمة تمارين المقاومة الرياضية 11 قطعة مع مقابض ومثبت باب",
       "description": "عرض نون الحصري لقسم الرياضة واللياقة — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
