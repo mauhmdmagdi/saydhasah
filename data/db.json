@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_037",
+      "name": "بساط يوجا احترافي مانع للانزلاق بسماكة مريحة للمفاصل مع حزام حمل مجاني",
+      "description": "عرض أمازون السعودية الحصري لقسم الرياضة واللياقة — تخفيض ضخم 62% وشحن سريع وضمان رسمي.",
+      "originalPrice": 110.0,
+      "currentPrice": 42.0,
+      "discount": 62,
+      "category": "cat_005",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=رياضة&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_036",
       "name": "سيروم حمض الهيالورونيك وفيتامين سي لنضارة وترطيب البشرة 60 مل",
       "description": "عرض أمازون السعودية الحصري لقسم الجمال والعناية — تخفيض ضخم 66% وشحن سريع وضمان رسمي.",
