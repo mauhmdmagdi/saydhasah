@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> صيدها صح | قبل لا تروح عليك </title>
+  <meta name="description"
+    content="منصة وفّرها صح تجمع لك أقوى الخصومات والعروض الحصرية من أمازون، نون، تيمو، علي إكسبريس، وشي إن بأسعار لا تقبل المنافسة.">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>">
+</head>
+
+<body>
+
+
+
+  <!-- الهيدر الرئيسي -->
+  <header class="site-header">
+    <img src="assets/images/logos/02.svg?v=2" alt="صيداها صح — كل ما تدور عليه في مكان واحد">
+    <form class="banner-search" id="bannerSearchForm" role="search">
+      <input type="search" id="headerSearchInput" aria-label="ابحث عن منتج أو متجر أو علامة تجارية"
+        placeholder="ابحث عن منتج، متجر أو علامة تجارية..." autocomplete="off">
+      <button type="submit" class="banner-search-submit" aria-label="بحث"></button>
+    </form>
+    <button type="button" class="banner-favorites" id="favHeaderBtn" aria-label="المفضلة" title="المفضلة">
+      <span aria-hidden="true">♥</span>
+      <span class="badge fav-count-badge" style="display: none;">0</span>
+    </button>
+    <button type="button" class="banner-menu-toggle" id="bannerMenuToggle" aria-label="عرض أقسام الموقع"
+      aria-controls="bannerSectionMenu" aria-expanded="false"></button>
+    <nav class="banner-section-menu" id="bannerSectionMenu" aria-label="أقسام الموقع" hidden>
+      <a href="#deals">عروض اليوم</a>
+      <a href="#stores">المتاجر العالمية</a>
+      <a href="#categories">تسوق حسب الفئات</a>
+      <a href="#all-products">جميع المنتجات</a>
+    </nav>
+  </header>
+
+  <!-- مسار هبوط النتائج عند البحث أو الفلترة -->
+  <div id="mainContentAnchor"></div>
+
+  <!-- 4. قسم عروض اليوم مع العداد التنازلي -->
+  <section class="section" id="deals">
+    <div class="deal-banner">
+      <div class="deal-banner-text">
+        <h2>🔥 عروض اليوم الحصرية</h2>
+        <p>خصومات جنونية تنتهي قريباً — لا تفوّت فرصة التوفير القصوى!</p>
+      </div>
+
+      <div class="countdown-timer">
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerDays">00</span>
+          <span class="countdown-label">أيام</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerHours">00</span>
+          <span class="countdown-label">ساعات</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerMinutes">00</span>
+          <span class="countdown-label">دقائق</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerSeconds">00</span>
+          <span class="countdown-label">ثواني</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- شبكة منتجات عروض اليوم -->
+    <div class="products-grid" id="todayDealsGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 5. قسم المتاجر الرسمية -->
+  <section class="section" id="stores">
+    <div class="stores-grid" id="storesGrid">
+      <!-- Populated by JS with official brand logos -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 6. قسم الأقسام والفئات -->
+  <section class="section" id="categories">
+    <div class="section-header">
+      <h2 class="section-title">تسوق حسب الفئات</h2>
+      <a href="#all-products" class="see-all-btn">عرض كل المنتجات ←</a>
+    </div>
+    <div class="categories-grid" id="categoriesGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- 7. قسم منتجات أقل من 50 ريال -->
+  <section class="section">
+    <div class="price-range-banner orange">
+      <div class="price-range-icon">⚡</div>
+      <div class="price-range-text">
+        <h3>منتجات اقتصادية أقل من 50 ريال</h3>
+        <p>تسوّق بأقل التكاليف مع أعلى مستويات الجودة والتوفير الحقيقي</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="under50Grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 8. قسم منتجات من 50 إلى 100 ريال -->
+  <section class="section">
+    <div class="price-range-banner blue">
+      <div class="price-range-icon">💎</div>
+      <div class="price-range-text">
+        <h3>عروض مختارة بين 50 - 100 ريال</h3>
+        <p>التوازن المثالي بين السعر المناسب والمنتجات الأعلى تقييماً</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="range50to100Grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- قسم عروض مختارة بين 100 - 500 ريال -->
+  <section class="section">
+    <div class="price-range-banner green">
+      <div class="price-range-icon">⭐</div>
+      <div class="price-range-text">
+        <h3>عروض مختارة بين 100 - 500 ريال</h3>
+        <p>التوازن المثالي بين السعر المناسب والمنتجات الأعلى تقييماً</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="range100to500Grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 9. قسم منتجات من 500 إلى 1000 ريال -->
+  <section class="section">
+    <div class="price-range-banner purple">
+      <div class="price-range-icon">👑</div>
+      <div class="price-range-text">
+        <h3>أجهزة وإلكترونيات فاخرة (500 - 1000 ريال)</h3>
+        <p>أكبر التخفيضات على الهواتف، الساعات الذكية، والإلكترونيات المتطورة</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="range500to1000Grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 10. قسم عروض مختارة من 1000 الى أكثر -->
+  <section class="section" id="all-products">
+    <div class="price-range-banner gold">
+      <div class="price-range-icon">🏆</div>
+      <div class="price-range-text">
+        <h3>عروض مختارة من 1000 الى أكثر</h3>
+        <p>التوازن المثالي بين السعر المناسب والمنتجات الأعلى تقييماً</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="range1000PlusGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 11. قسم الأكثر طلباً -->
+  <section class="section">
+    <div class="price-range-banner rose">
+      <div class="price-range-icon">🔥</div>
+      <div class="price-range-text">
+        <h3>الأكثر طلباً</h3>
+        <p>المنتجات الأكثر مبيعاً والأعلى إقبالاً وتقييماً من المتسوقين</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="bestSellersGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 12. قسم وصل حديثاً -->
+  <section class="section">
+    <div class="price-range-banner teal">
+      <div class="price-range-icon">✨</div>
+      <div class="price-range-text">
+        <h3>وصل حديثاً</h3>
+        <p>أحدث المنتجات والعروض المنضمة حديثاً بأفضل التخفيضات</p>
+      </div>
+    </div>
+
+    <div class="products-grid" id="newArrivalsGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- 14. شريط التنقل السفلي للهواتف الذكية -->
+  <nav class="bottom-nav">
+    <div class="bottom-nav-inner">
+      <a href="index.html" class="bottom-nav-item active">
+        <span class="nav-icon">🏠</span>
+        <span>الرئيسية</span>
+      </a>
+      <a href="#categories" class="bottom-nav-item">
+        <span class="nav-icon">📂</span>
+        <span>الأقسام</span>
+      </a>
+      <a href="#deals" class="bottom-nav-item">
+        <span class="nav-icon">🔥</span>
+        <span>العروض</span>
+      </a>
+      <a href="#" class="bottom-nav-item" id="favNavBtn">
+        <span class="nav-icon">❤️</span>
+        <span>المفضلة</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- 11. الفوتر -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-area">
+          <img src="assets/images/logos/eagle-discount-mark.svg" alt="صيدها صح" class="footer-brand-logo">
+          <div>
+            <h3 class="footer-brand-name">صيدها صح</h3>
+            <span class="footer-brand-sub">صيدها صح ... قبل لا تروح عليك</span>
+          </div>
+        </div>
+        <p class="footer-desc">
+          بوابتك الأولى لاكتشاف أفضل التخفيضات وكوبونات الخصم من كبرى المتاجر الإلكترونية الموثوقة محلياً وعالمياً.
+        </p>
+        <div class="social-links">
+          <a href="#" id="socialWhatsapp" class="social-link whatsapp" title="واتساب" target="_blank" rel="noopener"
+            aria-label="واتساب">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.97.58 3.89 1.68 5.54L2 22l4.69-1.77c1.58.98 3.4 1.5 5.35 1.5 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c2.2 0 4.27.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.7 0-3.32-.52-4.69-1.5l-.34-.23-2.82 1.06 1.07-2.74-.23-.37a8.21 8.21 0 0 1-1.39-4.57c0-4.54 3.7-8.24 8.24-8.24zm4.84 11.64c-.26-.13-1.56-.77-1.8-.86-.24-.09-.42-.13-.6.13-.18.26-.69.86-.85 1.04-.15.18-.31.2-.57.07-.26-.13-1.1-.41-2.09-1.3-.77-.69-1.3-1.54-1.45-1.8-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.07-.13-.6-1.44-.82-1.98-.22-.52-.44-.45-.6-.46l-.51-.01c-.18 0-.46.07-.7.33-.24.26-.92.9-.92 2.2 0 1.3 1.02 2.56 1.16 2.74.15.18 2.01 3.07 4.88 4.31.68.29 1.22.47 1.63.6.69.22 1.31.19 1.81.12.55-.08 1.56-.64 1.78-1.25.22-.61.22-1.14.15-1.25-.07-.11-.24-.18-.5-.31z" />
+            </svg>
+          </a>
+          <a href="#" id="socialTelegram" class="social-link telegram" title="تيليجرام" target="_blank" rel="noopener"
+            aria-label="تيليجرام">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+            </svg>
+          </a>
+          <a href="#" id="socialInstagram" class="social-link instagram" title="انستجرام" target="_blank" rel="noopener"
+            aria-label="انستجرام">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+            </svg>
+          </a>
+          <a href="#" id="socialTwitter" class="social-link twitter" title="منصة إكس" target="_blank" rel="noopener"
+            aria-label="منصة إكس">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <a href="#" id="socialFacebook" class="social-link facebook" title="فيسبوك" target="_blank" rel="noopener"
+            aria-label="فيسبوك">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© جميع الحقوق محفوظة — منصة <strong>صيدها صح</strong> | قبل لا تروح عليك 💰 <span class="admin-discrete-link"
+          id="adminDiscreteBtn" role="button" tabindex="0">⚙️</span></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/db.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
