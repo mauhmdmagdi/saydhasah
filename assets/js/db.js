@@ -25,7 +25,7 @@ class StoreDB {
       // 2. جلب أحدث البيانات دائماً من ملف db.json المرفوع على السيرفر
       try {
         const basePath = window.location.pathname.includes('/admin/') || window.location.pathname.includes('/pages/') ? '../' : './';
-        const res = await fetch(${basePath}data/db.json?t=);
+        const res = await fetch(basePath + 'data/db.json?t=' + Date.now());
         if (res.ok) {
           const remoteData = await res.json();
           if (remoteData && remoteData.products) {
