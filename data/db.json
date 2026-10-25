@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_014",
+      "name": "حذاء رياضي مريح خفيف الوزن مانع للانزلاق للمشي اليومي",
+      "description": "أقوى عروض تيمو لقسم الأزياء والموضة — تخفيض ضخم بنسبة 78% وأقل سعر متاح.",
+      "originalPrice": 180.0,
+      "currentPrice": 39.0,
+      "discount": 78,
+      "category": "cat_002",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_013",
       "name": "سماعات أذن لاسلكية بلوتوث 5.3 بصوت استريو HIFI وشاشة رقمية",
       "description": "أقوى عروض تيمو لقسم الإلكترونيات — تخفيض ضخم بنسبة 83% وأقل سعر متاح.",
