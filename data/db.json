@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_070",
+      "name": "ساعة مايكل كورس نسائية أنيقة بسوار ستانلس ستيل باللون الذهبي الوردي",
+      "description": "مينا أنيق مرصع بكريستالات لامعة وحركة كوارتز يابانية دقيقة مع مقاومة للماء.",
+      "originalPrice": 950.0,
+      "currentPrice": 489.0,
+      "discount": 49,
+      "category": "cat_007",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N36671892A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1587377042/N36671892A_1.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_069",
       "name": "كرسي طعام للأطفال متعدد الارتفاعات قابل للطي مع صينية مزدوجة قابلة للإزالة",
       "description": "هيكل متين بحزام أمان خماسي النقاط ومقعد مبطن سهل التنظيف يوفر أقصى راحة للطفل.",
