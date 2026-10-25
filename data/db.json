@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_060",
+      "name": "صندوق منظم ساعات ومجوهرات فاخر بـ 6 خانات مع نافذة زجاجية شفافة وقفل أنيق",
+      "description": "بطانة مخملية ناعمة تحمي الساعات من الخدوش مع وسائد قابلة للإزالة وتصميم جلدي فخم.",
+      "originalPrice": 89.0,
+      "currentPrice": 32.5,
+      "discount": 63,
+      "category": "cat_007",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_059",
       "name": "طقم ألعاب تعليمية خشبية منتسوري لتطوير مهارات الطفل الحركية والتركيز",
       "description": "قطع خشبية ناعمة آمنة للأطفال بألوان طبيعية جذابة تساعد على تمييز الأشكال والألوان.",
