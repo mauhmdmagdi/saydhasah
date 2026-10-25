@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_064",
+      "name": "جهاز ألعاب بلايستيشن 5 سليم ديجيتال سعة 1 تيرابايت SSD مع يد تحكم دوال سينس",
+      "description": "تجربة ألعاب مذهلة بدقة 4K ومعدل تحديث يصل إلى 120 إطاراً في الثانية مع تقنية تتبع الأشعة.",
+      "originalPrice": 1999.0,
+      "currentPrice": 1649.0,
+      "discount": 18,
+      "category": "cat_001",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N53443376A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1700647167/N53443376A_1.jpg",
+      "tag": "range1000_plus",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_063",
       "name": "شاحن سيارة سريع معدني 60 واط منفذين USB و Type-C بتقنية الشحن السريع PD",
       "description": "هيكل من سبائك الألومنيوم المقاوم للحرارة وشحن فائق السرعة لهواتف آبل وسامسونج في السيارة.",
