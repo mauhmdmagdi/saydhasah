@@ -303,8 +303,13 @@ function renderAllProductSections() {
   const range100_500 = allProds.filter(p => p.tag === 'range100_500' || (p.currentPrice > 100 && p.currentPrice <= 500));
   renderProductGrid('range100to500Grid', range100_500);
 
-  // 5. من 500 إلى 1000 ريال
-  const range500_1000 = allProds.filter(p => p.tag === 'range500_1000' || (p.currentPrice > 500 && p.currentPrice <= 1000));
+  // 5. من 500 إلى 1000 ريال - أجهزة وإلكترونيات فاخرة حصراً
+  const range500_1000 = allProds.filter(p => {
+    const isElectronics = p.category === 'cat_001' || p.category === 'cat_007';
+    const isFashionOrBag = p.category === 'cat_002' || (p.name && /حقيبة|شنطة|فستان|حذاء|قميص|عطر|سيروم/i.test(p.name));
+    if (isFashionOrBag) return false;
+    return isElectronics && (p.tag === 'range500_1000' || (p.currentPrice >= 500 && p.currentPrice <= 1000));
+  });
   renderProductGrid('range500to1000Grid', range500_1000);
 
   // 6. من 1000 إلى أكثر
