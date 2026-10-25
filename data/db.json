@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_071",
+      "name": "ماكينة حلاقة كهربائية رطبة وجافة سيريز 3000 من فيليبس برؤوس مرنة 5D",
+      "description": "شفرات PowerCut الدقيقة ذاتية الشحذ، بطارية ليثيوم تكفي 60 دقيقة استخدام، وتنظيف بلمسة زر واحدة.",
+      "originalPrice": 299.0,
+      "currentPrice": 169.0,
+      "discount": 43,
+      "category": "cat_008",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N42438910A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1606827014/N42438910A_1.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_070",
       "name": "ساعة مايكل كورس نسائية أنيقة بسوار ستانلس ستيل باللون الذهبي الوردي",
       "description": "مينا أنيق مرصع بكريستالات لامعة وحركة كوارتز يابانية دقيقة مع مقاومة للماء.",
