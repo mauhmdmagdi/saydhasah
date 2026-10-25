@@ -4,8 +4,8 @@
  * ويوفر دوال CRUD كاملة للمنتجات، الأقسام، المستخدمين، والإعدادات.
  */
 
-const DB_KEY = 'saydhasah_db_v5';
-const DB_VERSION = 5;
+const DB_KEY = 'saydhasah_clean_v8';
+const DB_VERSION = 8;
 
 class StoreDB {
   constructor() {
@@ -16,7 +16,54 @@ class StoreDB {
 
   async init() {
     try {
-      // 1. فحص التخزين المحلي أولاً للسرعة
+      // تنظيف الكاش القديم المتضارب
+      ['wafartha_sah_db_v1', 'saydhasah_db_v1', 'saydhasah_db_v2', 'saydhasah_db_v3', 'saydhasah_db_v4', 'saydhasah_db_v5', 'saydhasah_clean_v7'].forEach(k => {
+        try { localStorage.removeItem(k); } catch (e) {}
+      });
+
+      // جلب البيانات دائماً من ملف data/db.json المرفوع على السيرفر
+      const basePath = window.location.pathname.includes('/admin/') || window.location.pathname.includes('/pages/') ? '../' : './';
+      try {
+        const res = await fetch(basePath + 'data/db.json?t=' + Date.now());
+        if (res.ok) {
+          const remoteData = await res.json();
+          if (remoteData && Array.isArray(remoteData.products) && remoteData.products.length > 0) {
+            this.data = remoteData;
+            this.migrateUsers();
+            this.migrateCategories();
+            this.save();
+            this.isReady = true;
+            return this.data;
+          }
+        }
+      } catch (fetchErr) {
+        console.warn('Could not fetch latest db.json, using local or default', fetchErr);
+      }
+
+      const localData = localStorage.getItem(DB_KEY);
+      if (localData) {
+        try { this.data = JSON.parse(localData); } catch (err) { this.data = null; }
+      }
+
+      if (!this.data) {
+        this.data = this.getDefaultSchema();
+        this.save();
+      }
+
+      this.migrateUsers();
+      this.migrateCategories();
+      this.isReady = true;
+      return this.data;
+    } catch (e) {
+      console.error('Database initialization error:', e);
+      this.data = this.getDefaultSchema();
+      this.isReady = true;
+      return this.data;
+    }
+  }
+
+  old_init_disabled() {
+
       const localData = localStorage.getItem(DB_KEY);
       if (localData) {
         try { this.data = JSON.parse(localData); } catch (err) { this.data = null; }
@@ -151,8 +198,7 @@ class StoreDB {
     if (!this.data || !Array.isArray(this.data.products)) return;
     const has1000Plus = this.data.products.some(p => p.tag === 'range1000_plus' || p.currentPrice >= 1000);
     if (!has1000Plus) {
-      this.data.products.push({
-        id: "prod_009",
+      // disabled fake prod_009 push,
         name: "شاشة ذكية 65 بوصة 4K Ultra HD مع نظام أندرويد",
         description: "شاشة عملاقة سينمائية بتقنية HDR10 ومعدل تحديث 120Hz وصوت محيطي Dolby Atmos",
         originalPrice: 3200,
@@ -160,7 +206,7 @@ class StoreDB {
         discount: 55,
         category: "cat_001",
         store: "amazon",
-        storeLink: "https://www.amazon.sa/s?k=smart+tv+4k&tag=amazon0137a1-21",
+        storeLink: "https://amazon.com",
         image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&q=80",
         tag: "range1000_plus",
         isActive: true,
@@ -171,17 +217,16 @@ class StoreDB {
 
     const hasBestSeller = this.data.products.some(p => p.tag === 'best_seller');
     if (!hasBestSeller) {
-      this.data.products.push({
-        id: "prod_011",
-        name: "ماكينة تحضير قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار مع مبخرة حليب",
-        description: "مضخة إيطالية احترافية 20 بار، خزان ماء سعة 1.5 لتر، ذراع تبخير ستانلس ستيل لتحضير الكابتشينو واللاتيه.",
+      // disabled fake prod_011 push,
+        name: "ماكينة قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار",
+        description: "تحضير فوري للقهوة برغوة حليب كريمية غنية ومضخة إيطالية متطورة",
         originalPrice: 890,
         currentPrice: 299,
         discount: 66,
-        category: "cat_003",
+        category: "cat_005",
         store: "amazon",
-        storeLink: "https://www.amazon.sa/s?k=%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9+%D9%82%D9%87%D9%88%D8%A9+%D8%A7%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3%D9%88&tag=amazon0137a1-21",
-        image: "https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=500&q=80",
+        storeLink: "https://amazon.com",
+        image: "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500&q=80",
         tag: "best_seller",
         isActive: true,
         createdAt: new Date().toISOString()
@@ -191,8 +236,7 @@ class StoreDB {
 
     const hasNewArrival = this.data.products.some(p => p.tag === 'new_arrival');
     if (!hasNewArrival) {
-      this.data.products.push({
-        id: "prod_012",
+      // disabled fake prod_012 push,
         name: "نظارة شمسية بولارايزد عصرية بإطار كلاسيكي",
         description: "حماية UV400 كاملة من أشعة الشمس مع عدسات استقطاب عالية الوضوح",
         originalPrice: 350,
@@ -200,7 +244,7 @@ class StoreDB {
         discount: 75,
         category: "cat_009",
         store: "temu",
-        storeLink: "https://temu.to/k/ee56j55qh35",
+        storeLink: "https://temu.com",
         image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
         tag: "new_arrival",
         isActive: true,
@@ -261,201 +305,486 @@ class StoreDB {
       ],
       products: [
         {
-          id: "prod_001",
-          name: "سماعة رأس بلوتوث احترافية مع عزل ضوضاء فعال",
-          description: "صوت استريو نقي، بطارية تدوم 40 ساعة، ميكروفون مدمج عالي الوضوح.",
-          originalPrice: 450,
-          currentPrice: 72,
-          discount: 84,
-          category: "cat_001",
-          store: "temu",
-          storeLink: "https://temu.com",
-          image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
-          tag: "today_deal",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_001",
+                "name": "سماعات رأس لاسلكية فوق الأذن بإلغاء ضوضاء نشط وصوت استريو عالي الدقة",
+                "description": "صوت نقي ومحيطي، وسائد أذن مريحة للاستخدام الطويل، بطارية تدوم حتى 40 ساعة تشغيل متواصل.",
+                "originalPrice": 180,
+                "currentPrice": 89,
+                "discount": 51,
+                "category": "cat_001",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=wireless+headphones&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80",
+                "tag": "today_deal",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:00:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_002",
-          name: "ساعة ذكية بشاشة AMOLED ومستشعر نبضات وضغط",
-          description: "مقاومة للماء، تتبع الأنشطة الرياضية، تدعم المكالمات عبر البلوتوث.",
-          originalPrice: 800,
-          currentPrice: 120,
-          discount: 85,
-          category: "cat_007",
-          store: "aliexpress",
-          storeLink: "https://aliexpress.com",
-          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
-          tag: "today_deal",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_002",
+                "name": "سماعات أذن أنكر ساوند كور لايف P2 لاسلكية بلوتوث 5.2 مقاومة للماء",
+                "description": "ميكروفونات مدمجة بخاصية تقليل الضوضاء للمكالمات الواضحة وصوت جهوري فائق.",
+                "originalPrice": 199,
+                "currentPrice": 99,
+                "discount": 50,
+                "category": "cat_001",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=anker+soundcore+earbuds&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&q=80",
+                "tag": "today_deal",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:01:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_003",
-          name: "حذاء رياضي مبطن مريح للجري والمشي الطويل",
-          description: "تصميم انسيابي مع تهوية ممتازة ونعل مطاطي مانع للانزلاق.",
-          originalPrice: 350,
-          currentPrice: 48,
-          discount: 86,
-          category: "cat_002",
-          store: "noon",
-          storeLink: "https://noon.com",
-          image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
-          tag: "under50",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_003",
+                "name": "تابلت لوحي ذكي 10.9 بوصة شاشة ريتينا مع قلم لمسي ولوحة مفاتيح",
+                "description": "معالج ثماني النواة فائق السرعة، ذاكرة 128GB، بطارية تدوم طويلاً، مثالي للعمل والدراسة والترفيه.",
+                "originalPrice": 1200,
+                "currentPrice": 650,
+                "discount": 46,
+                "category": "cat_001",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=tablet&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&q=80",
+                "tag": "range500_1000",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:02:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_004",
-          name: "عطر فرنسي كلاسيكي فاخر للرجال والنساء 100 مل",
-          description: "مزيج ساحر من العود والزهور الشرقية بثبات فائق يدوم طويلاً.",
-          originalPrice: 600,
-          currentPrice: 85,
-          discount: 86,
-          category: "cat_004",
-          store: "amazon",
-          storeLink: "https://amazon.com",
-          image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&q=80",
-          tag: "range50_100",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_004",
+                "name": "هاتف ذكي بكاميرا رباعية 108MP وبطارية ضخمة 6000mAh وشحن سريع 67W",
+                "description": "شاشة أموليد فائقة السرعة 120Hz ومعالج ألعاب قوي لتجربة ترفيهية استثنائية.",
+                "originalPrice": 2100,
+                "currentPrice": 780,
+                "discount": 63,
+                "category": "cat_001",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=smartphone&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80",
+                "tag": "range500_1000",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:03:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_005",
-          name: "فستان أنيق بنقشة عصرية وقماش خفيف مريح",
-          description: "قصة مميزة ملائمة للمناسبات والخروجات اليومية، قماش عالي الجودة.",
-          originalPrice: 380,
-          currentPrice: 42,
-          discount: 89,
-          category: "cat_003",
-          store: "shein",
-          storeLink: "https://shein.com",
-          image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&q=80",
-          tag: "under50",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_005",
+                "name": "شاشة ذكية 65 بوصة 4K Ultra HD مع نظام تشغيل أندرويد ودولبي أتموس",
+                "description": "شاشة سينمائية عملاقة بتقنية HDR10 ومعدل تحديث 120Hz وصوت محيطي نقي وتطبيقات مدمجة.",
+                "originalPrice": 3200,
+                "currentPrice": 1450,
+                "discount": 55,
+                "category": "cat_001",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=smart+tv+4k&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&q=80",
+                "tag": "range1000_plus",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:04:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_006",
-          name: "تابلت لوحي ذكي 10.9 بوصة شاشة ريتينا مع قلم لمسي ولوحة مفاتيح",
-          description: "معالج ثماني النواة فائق السرعة، ذاكرة 128GB، بطارية تدوم طويلاً، مثالي للعمل والدراسة والترفيه.",
-          originalPrice: 1200,
-          currentPrice: 650,
-          discount: 46,
-          category: "cat_001",
-          store: "amazon",
-          storeLink: "https://www.amazon.sa/s?k=tablet&tag=amazon0137a1-21",
-          image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&q=80",
-          tag: "range500_1000",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_006",
+                "name": "لابتوب ألترا بوك فائق النحافة مع معالج حديث وذاكرة 16GB وقرص SSD 512GB",
+                "description": "شاشة IPS مذهلة، خفيف الوزن للعمل والجامعة، بطارية تدوم طوال اليوم وأداء عالي السرعة.",
+                "originalPrice": 3800,
+                "currentPrice": 1850,
+                "discount": 51,
+                "category": "cat_001",
+                "store": "noon",
+                "storeLink": "https://www.noon.com/saudi-ar/search/?q=laptop&coupon=saydha",
+                "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+                "tag": "range1000_plus",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:05:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_007",
-          name: "هاتف ذكي بكاميرا رباعية 108MP وبطارية ضخمة 6000mAh",
-          description: "شاشة فائقة السرعة 120Hz ومعالج ألعاب قوي وسريع الشحن 67W.",
-          originalPrice: 2100,
-          currentPrice: 780,
-          discount: 63,
-          category: "cat_001",
-          store: "amazon",
-          storeLink: "https://www.amazon.sa/s?k=smartphone&tag=amazon0137a1-21",
-          image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80",
-          tag: "range500_1000",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_007",
+                "name": "حذاء سكتشرز جو ووك رياضي أصلي مريح للمشي اليومي والجري",
+                "description": "نعل مرن وممتص للصدمات يوفر دعماً فائقاً للقدم أثناء المشي والوقوف الطويل.",
+                "originalPrice": 240,
+                "currentPrice": 119,
+                "discount": 50,
+                "category": "cat_002",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=skechers+shoes&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+                "tag": "range100_500",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:06:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_008",
-          name: "مكيف هواء صحراوي متنقل مدمج ومرطب للجو",
-          description: "تبريد سريع وهادئ مع 3 سرعات وخزان ماء ثلجي واستهلاك اقتصادي.",
-          originalPrice: 420,
-          currentPrice: 79,
-          discount: 81,
-          category: "cat_003",
-          store: "temu",
-          storeLink: "https://temu.to/k/ee56j55qh35",
-          image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&q=80",
-          tag: "range50_100",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_008",
+                "name": "فستان صيفي أنيق بنقشة عصرية وقماش بارد خفيف",
+                "description": "تصميم واسع وعملي يناسب جميع المناسبات اليومية مع خامة صيفية ناعمة ومريحة.",
+                "originalPrice": 110,
+                "currentPrice": 45,
+                "discount": 59,
+                "category": "cat_002",
+                "store": "shein",
+                "storeLink": "https://temu.to/k/ee56j55qh35",
+                "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:07:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_009",
-          name: "شاشة ذكية 65 بوصة 4K Ultra HD مع نظام أندرويد",
-          description: "شاشة عملاقة سينمائية بتقنية HDR10 ومعدل تحديث 120Hz وصوت محيطي Dolby Atmos",
-          originalPrice: 3200,
-          currentPrice: 1450,
-          discount: 55,
-          category: "cat_001",
-          store: "amazon",
-          storeLink: "https://www.amazon.sa/s?k=smart+tv+4k&tag=amazon0137a1-21",
-          image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&q=80",
-          tag: "range1000_plus",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_009",
+                "name": "حقيبة يد جلدية فاخرة متعددة الجيوب بتصميم تركي أنيق",
+                "description": "جلد ناعم مقاوم للخدوش مع حزام كتف إضافي قابل للتعديل ومساحة واسعة.",
+                "originalPrice": 380,
+                "currentPrice": 185,
+                "discount": 51,
+                "category": "cat_002",
+                "store": "noon",
+                "storeLink": "https://www.noon.com/saudi-ar/search/?q=women+handbag&coupon=saydha",
+                "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80",
+                "tag": "range100_500",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:08:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_010",
-          name: "لابتوب ألترا بوك فائق النحافة مع معالج حديث",
-          description: "شاشة IPS مذهلة، ذاكرة 16GB، وقرص SSD 512GB فائق السرعة",
-          originalPrice: 3800,
-          currentPrice: 1850,
-          discount: 51,
-          category: "cat_001",
-          store: "noon",
-          storeLink: "https://www.noon.com/saudi-ar/search/?q=laptop&coupon=saydha",
-          image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
-          tag: "range1000_plus",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_010",
+                "name": "نظارة شمسية بولارايزد عصرية بإطار كلاسيكي خفيف الوزن",
+                "description": "حماية UV400 كاملة من أشعة الشمس مع عدسات استقطاب عالية الوضوح وضد الوهج.",
+                "originalPrice": 120,
+                "currentPrice": 49,
+                "discount": 59,
+                "category": "cat_002",
+                "store": "temu",
+                "storeLink": "https://temu.to/k/ee56j55qh35",
+                "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:09:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_011",
-          name: "ماكينة تحضير قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار مع مبخرة حليب",
-          description: "مضخة إيطالية احترافية 20 بار، خزان ماء سعة 1.5 لتر، ذراع تبخير ستانلس ستيل لتحضير الكابتشينو واللاتيه.",
-          originalPrice: 890,
-          currentPrice: 299,
-          discount: 66,
-          category: "cat_003",
-          store: "amazon",
-          storeLink: "https://www.amazon.sa/s?k=%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9+%D9%82%D9%87%D9%88%D8%A9+%D8%A7%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3%D9%88&tag=amazon0137a1-21",
-          image: "https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=500&q=80",
-          tag: "best_seller",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_011",
+                "name": "ماكينة تحضير قهوة إسبريسو وكابتشينو احترافية بقوة 20 بار مع مبخرة حليب",
+                "description": "مضخة إيطالية احترافية 20 بار، خزان ماء سعة 1.5 لتر، ذراع تبخير ستانلس ستيل لتحضير الكابتشينو واللاتيه برغوة كريمية.",
+                "originalPrice": 890,
+                "currentPrice": 299,
+                "discount": 66,
+                "category": "cat_003",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9+%D9%82%D9%87%D9%88%D8%A9+%D8%A7%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3%D9%88&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=500&q=80",
+                "tag": "best_seller",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:10:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_013",
-          name: "حقيبة يد جلدية فاخرة متعددة الجيوب بتصميم تركي أنيق",
-          description: "جلد ناعم مقاوم للخدوش مع حزام كتف إضافي قابل للتعديل ومساحة واسعة.",
-          originalPrice: 380,
-          currentPrice: 185,
-          discount: 51,
-          category: "cat_002",
-          store: "noon",
-          storeLink: "https://www.noon.com/saudi-ar/search/?q=women+handbag&coupon=saydha",
-          image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&q=80",
-          tag: "range100_500",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_012",
+                "name": "مقلاة هوائية رقمية سعة 4.5 لتر بدون زيت بشاشة لمس ذكية",
+                "description": "طهي صحي وسريع بقوة 1500 واط مع برامج مسبقة متعددة وسلة مانعة للالتصاق سهلة التنظيف.",
+                "originalPrice": 299,
+                "currentPrice": 129,
+                "discount": 57,
+                "category": "cat_003",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=air+fryer&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500&q=80",
+                "tag": "range100_500",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:11:00.000Z",
+                "currency": "SAR"
         },
         {
-          id: "prod_012",
-          name: "نظارة شمسية بولارايزد عصرية بإطار كلاسيكي",
-          description: "حماية UV400 كاملة من أشعة الشمس مع عدسات استقطاب عالية الوضوح",
-          originalPrice: 350,
-          currentPrice: 89,
-          discount: 75,
-          category: "cat_009",
-          store: "temu",
-          storeLink: "https://temu.com",
-          image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&q=80",
-          tag: "new_arrival",
-          isActive: true,
-          createdAt: new Date().toISOString()
+                "id": "prod_013",
+                "name": "غلاية مياه كهربائية ستانلس ستيل سعة 1.7 لتر من فيليبس",
+                "description": "تسخين فائق السرعة مع مؤشر مستوى الماء وقاعدة لاسلكية تدور 360 درجة ونظام أمان.",
+                "originalPrice": 110,
+                "currentPrice": 49,
+                "discount": 55,
+                "category": "cat_003",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=electric+kettle&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:12:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_014",
+                "name": "مكيف هواء صحراوي متنقل مدمج ومرطب للجو اقتصادي الطاقة",
+                "description": "تبريد سريع وهادئ مع 3 سرعات وخزان ماء ثلجي واستهلاك اقتصادي للكهرباء عبر USB.",
+                "originalPrice": 160,
+                "currentPrice": 79,
+                "discount": 51,
+                "category": "cat_003",
+                "store": "temu",
+                "storeLink": "https://temu.to/k/ee56j55qh35",
+                "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:13:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_015",
+                "name": "عطر شرقي فاخر للجنسين 100 مل بتركيبة العود والمسك الأبيض",
+                "description": "ثبات يدوم طويلاً وفوحان عالي بمزيج نوتات فرنسية شرقية ساحرة تناسب جميع الأوقات.",
+                "originalPrice": 180,
+                "currentPrice": 69,
+                "discount": 62,
+                "category": "cat_004",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=perfume&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:14:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_016",
+                "name": "سيروم حمض الهيالورونيك وفيتامين سي لنضارة وترطيب البشرة",
+                "description": "تركيبة متطورة لمحاربة الخطوط الدقيقة وتوحيد لون البشرة وإعطائها إشراقة شبابية.",
+                "originalPrice": 85,
+                "currentPrice": 39,
+                "discount": 54,
+                "category": "cat_004",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=vitamin+c+serum&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:15:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_017",
+                "name": "طقم أحزمة تمارين المقاومة الرياضية 11 قطعة مع مقابض ومثبت باب",
+                "description": "مثالي للتمارين المنزلية وبناء العضلات وتأهيل المفاصل بمستويات مقاومة مختلفة حتى 150 رطل.",
+                "originalPrice": 80,
+                "currentPrice": 35,
+                "discount": 56,
+                "category": "cat_005",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=resistance+bands+set&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:16:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_018",
+                "name": "بساط يوجا احترافي مانع للانزلاق بسماكة مريحة للمفاصل 6 مم",
+                "description": "خامة TPE صديقة للبيئة مع خطوط توجيه المحاذاة وحزام حمل عملي للتمارين.",
+                "originalPrice": 95,
+                "currentPrice": 42,
+                "discount": 56,
+                "category": "cat_005",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=non+slip+yoga+mat&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:17:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_019",
+                "name": "كرسي طعام للأطفال متعدد المستويات قابل للطي وسهل التنظيف",
+                "description": "حزام أمان خماسي النقاط وصينية طعام مزدوجة قابلة للإزالة مع أرجل مانعة للانزلاق.",
+                "originalPrice": 160,
+                "currentPrice": 79,
+                "discount": 51,
+                "category": "cat_006",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=baby+high+chair&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:18:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_020",
+                "name": "شاشة مراقبة الأطفال اللاسلكية الذكية برؤية ليلية وصوت ثنائي",
+                "description": "مستشعر حرارة الغرفة، تشغيل التهويدات عن بعد، وتنبيهات صوتية فورية لراحة الوالدين.",
+                "originalPrice": 210,
+                "currentPrice": 99,
+                "discount": 53,
+                "category": "cat_006",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=baby+video+monitor+camera&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:19:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_021",
+                "name": "ساعة ذكية بشاشة AMOLED ومستشعر نبضات القلب والأكسجين ومقاومة للماء",
+                "description": "تدعم المكالمات عبر البلوتوث وتتبع النوم وأكثر من 100 وضع رياضي وبطارية تدوم 10 أيام.",
+                "originalPrice": 250,
+                "currentPrice": 120,
+                "discount": 52,
+                "category": "cat_007",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=smart+watch&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+                "tag": "range100_500",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:20:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_022",
+                "name": "ساعة كاسيو الأصلية الرقمية الكلاسيكية المقاومة للماء A158WA",
+                "description": "إضاءة LED دقيقة وسوار ستانلس ستيل فضي أنيق ومنبه ومؤقت مدمج.",
+                "originalPrice": 120,
+                "currentPrice": 59,
+                "discount": 51,
+                "category": "cat_007",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=casio+watch+silver&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:21:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_023",
+                "name": "طقم مجوهرات نسائي زركون لامع مطلي بالذهب عيار 18",
+                "description": "عقد ناعم مع أقراط متناسقة بتصميم كلاسيكي ساحر مناسب للإهداء والمناسبات.",
+                "originalPrice": 110,
+                "currentPrice": 45,
+                "discount": 59,
+                "category": "cat_007",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=women+jewelry+set&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:22:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_024",
+                "name": "مسدس تدليك العضلات الاحترافي المحمول بـ 6 سرعات و4 رؤوس تدليك",
+                "description": "تخفيف آلام وتصلب العضلات بعد التمارين ببطارية ليثيوم قابلة لإعادة الشحن عبر Type-C.",
+                "originalPrice": 140,
+                "currentPrice": 65,
+                "discount": 54,
+                "category": "cat_008",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=massage+gun&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:23:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_025",
+                "name": "فرشاة أسنان كهربائية صوتية ذكية مع 4 رؤوس بديلة ومؤقت ذكي",
+                "description": "تنظيف عميق يصل إلى 40,000 ذبذبة بالدقيقة ومقاومة كاملة للماء IPX7.",
+                "originalPrice": 115,
+                "currentPrice": 55,
+                "discount": 52,
+                "category": "cat_008",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=electric+toothbrush&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1559591937-e62fb330bc1f?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:24:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_026",
+                "name": "حقيبة ظهر ذكية متعددة الوظائف مقاومة للماء مع منفذ شحن USB",
+                "description": "جيب مبطن مخصص للابتوب حتى 15.6 بوصة وسحابات ضد السرقة ومساحات تخزين واسعة.",
+                "originalPrice": 120,
+                "currentPrice": 52,
+                "discount": 57,
+                "category": "cat_009",
+                "store": "noon",
+                "storeLink": "https://www.noon.com/saudi-ar/luggage-and-travel-gear/backpacks/?coupon=saydha&project=PRJ639948",
+                "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80",
+                "tag": "range50_100",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:25:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_027",
+                "name": "ميزان أمتعة وحقائب رقمي محمول عالي الدقة بشاشة LCD",
+                "description": "يتحمل حتى 50 كجم لتجنب رسوم الوزن الزائد في المطارات بتصميم خفيف ومدمج.",
+                "originalPrice": 50,
+                "currentPrice": 22,
+                "discount": 56,
+                "category": "cat_009",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=luggage+scale&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:26:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_028",
+                "name": "مصباح مكتب ذكي LED قابل للتعديل بحماية للعين ومستويات إضاءة متعددة",
+                "description": "شحن عبر USB وثلاثة درجات ألوان مختلفة مناسبة للمذاكرة والقراءة والعمل المكتبي.",
+                "originalPrice": 85,
+                "currentPrice": 38,
+                "discount": 55,
+                "category": "cat_010",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=desk+lamp+led&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:27:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_029",
+                "name": "إضاءة شريطية ذكية LED بطول 5 أمتار RGB مع ريموت تحكم متعدد الألوان",
+                "description": "إضاءة خلفية للغرف والشاشات مع إمكانية التثبيت السهل ومزامنة الألوان.",
+                "originalPrice": 65,
+                "currentPrice": 29,
+                "discount": 55,
+                "category": "cat_010",
+                "store": "amazon",
+                "storeLink": "https://www.amazon.sa/s?k=led+strip+lights&tag=amazon0137a1-21",
+                "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:28:00.000Z",
+                "currency": "SAR"
+        },
+        {
+                "id": "prod_030",
+                "name": "حامل هاتف ذكي مغناطيسي للسيارة دوران 360 درجة بقوة تثبيت فائقة",
+                "description": "تثبيت محكم على فتحة المكيف بمغناطيس قوي يتحمل المطبات وحرارة الجو.",
+                "originalPrice": 30,
+                "currentPrice": 11.5,
+                "discount": 62,
+                "category": "cat_010",
+                "store": "temu",
+                "storeLink": "https://temu.to/k/ee56j55qh35",
+                "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=500&q=80",
+                "tag": "under50",
+                "isActive": true,
+                "createdAt": "2026-10-25T11:29:00.000Z",
+                "currency": "SAR"
         }
-      ],
+],
       users: [
         {
           id: "usr_001",
