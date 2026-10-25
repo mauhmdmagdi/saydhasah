@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل الدخول — لوحة تحكم وفّرها صح</title>
+  <link rel="stylesheet" href="../assets/css/admin.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>">
+</head>
+<body class="login-page-body">
+
+  <div class="login-card">
+    <div class="login-brand-icon">
+      🛒
+    </div>
+    <h1 class="login-title">وفّرها صح</h1>
+    <p class="login-subtitle">لوحة الإدارة والتحكم الشاملة في المتجر</p>
+
+    <div id="loginAlert" style="display: none; padding: 10px 14px; background: #fee2e2; color: #b91c1c; border-radius: 8px; font-size: 0.85rem; font-weight: 700; margin-bottom: 20px;"></div>
+
+    <form id="adminLoginForm">
+      <div class="form-group">
+        <label class="form-label" for="loginUsername">اسم المستخدم (Username)</label>
+        <input type="text" id="loginUsername" class="form-control" placeholder="أدخل اسم المستخدم" required autocomplete="username">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="loginPassword">كلمة المرور</label>
+        <input type="password" id="loginPassword" class="form-control" placeholder="••••••••" required autocomplete="current-password">
+      </div>
+
+      <button type="submit" id="loginSubmitBtn" class="btn-primary" style="margin-top: 10px;">
+        <span>تسجيل الدخول</span>
+        <span>←</span>
+      </button>
+    </form>
+
+    <div style="margin-top: 24px;">
+      <a href="../index.html" style="color: var(--admin-primary-light); font-size: 0.85rem; font-weight: 700; text-decoration: none;">
+        ← العودة لمتجر وفّرها صح
+      </a>
+    </div>
+  </div>
+
+  <script src="../assets/js/db.js"></script>
+  <script src="../assets/js/auth.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // إذا كان مسجل دخول بالفعل يتم تحويله للوحة التحكم
+      if (window.auth && window.auth.isAuthenticated()) {
+        window.location.replace('dashboard.html');
+        return;
+      }
+
+      const form = document.getElementById('adminLoginForm');
+      const alertBox = document.getElementById('loginAlert');
+      const submitBtn = document.getElementById('loginSubmitBtn');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        alertBox.style.display = 'none';
+
+        const username = document.getElementById('loginUsername').value.trim();
+        const password = document.getElementById('loginPassword').value;
+
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = 'جاري التحقق...';
+
+        try {
+          await window.auth.login(username, password);
+          window.location.href = 'dashboard.html';
+        } catch (err) {
+          alertBox.textContent = err.message || 'حدث خطأ في تسجيل الدخول';
+          alertBox.style.display = 'block';
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<span>تسجيل الدخول</span><span>←</span>';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

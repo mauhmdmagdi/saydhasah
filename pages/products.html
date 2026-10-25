@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>جميع المنتجات والعروض — وفّرها صح</title>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">
+        <div class="logo-icon">🛒</div>
+        <div class="logo-text">
+          <span class="main-name">وفّرها صح</span>
+          <span class="sub-name">جميع المنتجات</span>
+        </div>
+      </a>
+
+      <div class="header-search">
+        <input type="text" id="pageSearchInput" placeholder="ابحث في جميع المنتجات...">
+        <button class="search-btn">🔍</button>
+      </div>
+
+      <div class="header-actions"></div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <main class="section">
+    <div class="section-header" style="flex-wrap: wrap;">
+      <h1 class="section-title">كتالوج المنتجات والعروض</h1>
+      <div style="display:flex; gap:10px; align-items:center;">
+        <select id="filterCategory" style="padding: 8px 16px; border-radius: 50px; border: 2px solid var(--border); font-family: inherit;">
+          <option value="">جميع الأقسام</option>
+        </select>
+        <select id="filterStore" style="padding: 8px 16px; border-radius: 50px; border: 2px solid var(--border); font-family: inherit;">
+          <option value="">جميع المتاجر</option>
+          <option value="amazon">Amazon (أمازون)</option>
+          <option value="noon">Noon (نون)</option>
+          <option value="temu">Temu (تيمو)</option>
+          <option value="shein">Shein (شي إن)</option>
+          <option value="trendyol">Trendyol (ترينديول)</option>
+          <option value="namshi">Namshi (نمشي)</option>
+          <option value="fordel">Fordeal (فورديل)</option>
+          <option value="theluxury">The Luxury (ذا لاكجري)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="products-grid" id="allProductsCatalog">
+      <!-- Populated by JS -->
+    </div>
+  </main>
+
+  <script src="../assets/js/db.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      await window.db.initPromise;
+      
+      const catSelect = document.getElementById('filterCategory');
+      const storeSelect = document.getElementById('filterStore');
+      const searchInput = document.getElementById('pageSearchInput');
+      const container = document.getElementById('allProductsCatalog');
+
+      // تعبئة الأقسام
+      const cats = window.db.getCategories();
+      cats.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.id;
+        opt.textContent = `${c.icon} ${c.name}`;
+        catSelect.appendChild(opt);
+      });
+
+      function renderCatalog() {
+        const prods = window.db.getProducts({
+          category: catSelect.value,
+          store: storeSelect.value,
+          search: searchInput.value
+        });
+
+        if (prods.length === 0) {
+          container.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:50px; color:#888;">لا توجد منتجات مطابقة لهذا الفلتر</div>';
+          return;
+        }
+
+        container.innerHTML = prods.map(p => createProductCardHTML(p)).join('');
+      }
+
+      catSelect.addEventListener('change', renderCatalog);
+      storeSelect.addEventListener('change', renderCatalog);
+      searchInput.addEventListener('input', renderCatalog);
+
+      renderCatalog();
+    });
+  </script>
+</body>
+</html>

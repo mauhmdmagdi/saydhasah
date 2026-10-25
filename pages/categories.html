@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أقسام وتصنيفات المتجر — وفّرها صح</title>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">
+        <div class="logo-icon">🛒</div>
+        <div class="logo-text">
+          <span class="main-name">وفّرها صح</span>
+          <span class="sub-name">الأقسام والتصنيفات</span>
+        </div>
+      </a>
+      <div class="header-actions"></div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="section-header">
+      <h1 class="section-title">تصفح حسب الأقسام</h1>
+      <a href="../index.html" class="see-all-btn">← العودة للرئيسية</a>
+    </div>
+
+    <div class="categories-grid" id="fullCategoriesGrid" style="grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px;">
+      <!-- Populated by JS -->
+    </div>
+  </main>
+
+  <script src="../assets/js/db.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      await window.db.initPromise;
+      const cats = window.db.getCategories();
+      const container = document.getElementById('fullCategoriesGrid');
+      
+      container.innerHTML = cats.map(c => {
+        const count = window.db.getProducts({ category: c.id }).length;
+        return `
+          <a href="products.html?category=${c.id}" class="category-card" style="padding: 0; background: transparent;">
+            <img src="../assets/images/categories/${c.id}.svg?v=2" alt="${c.name}" class="category-card-img" loading="lazy">
+          </a>
+        `;
+      }).join('');
+    });
+  </script>
+</body>
+</html>

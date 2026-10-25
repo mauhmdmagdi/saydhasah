@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لوحة التحكم الإدارية — وفّرها صح</title>
+  <link rel="stylesheet" href="../assets/css/admin.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛒</text></svg>">
+</head>
+<body>
+
+  <div class="admin-layout">
+    <!-- Sidebar -->
+    <aside class="admin-sidebar" id="adminSidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">🛒</div>
+        <div class="sidebar-brand">
+          <h2>وفّرها صح</h2>
+          <span>لوحة التحكم الشاملة</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#overview" class="nav-link-item active" data-tab="tab-overview">
+          <span class="nav-icon">📊</span>
+          <span>نظرة عامة</span>
+        </a>
+        <a href="#products" class="nav-link-item" data-tab="tab-products">
+          <span class="nav-icon">📦</span>
+          <span>إدارة المنتجات</span>
+        </a>
+        <a href="#categories" class="nav-link-item" data-tab="tab-categories">
+          <span class="nav-icon">📂</span>
+          <span>الأقسام والتصنيفات</span>
+        </a>
+        <a href="#users" class="nav-link-item" data-tab="tab-users">
+          <span class="nav-icon">👥</span>
+          <span>المستخدمين والمشرفين</span>
+        </a>
+        <a href="#settings" class="nav-link-item" data-tab="tab-settings">
+          <span class="nav-icon">⚙️</span>
+          <span>إعدادات الموقع</span>
+        </a>
+        <a href="#backup" class="nav-link-item" data-tab="tab-backup">
+          <span class="nav-icon">💾</span>
+          <span>النسخ وقاعدة البيانات</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a href="../index.html" target="_blank" class="site-preview-btn">
+          <span>🌐</span>
+          <span>معاينة المتجر المباشر</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="admin-main">
+      <!-- Topbar -->
+      <header class="admin-topbar">
+        <div class="topbar-title">
+          <h1 id="topbarPageTitle">نظرة عامة</h1>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="user-profile-badge">
+            <div class="user-avatar" id="adminUserAvatar">م</div>
+            <div class="user-meta">
+              <span class="name" id="adminUserName">المشرف</span>
+              <span class="role" id="adminUserRole">مدير النظام</span>
+            </div>
+          </div>
+
+          <button class="btn-change-pass" id="btnChangeMyPass" title="تغيير كلمة المرور الخاصة بحسابي">
+            <span>🔑</span>
+            <span>تغيير كلمة المرور</span>
+          </button>
+
+          <button class="btn-logout" id="logoutBtn" title="تسجيل الخروج">
+            <span>🚪</span>
+            <span>خروج</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Content Tabs -->
+      <div class="admin-content">
+
+        <!-- ================= TAB 1: OVERVIEW ================= -->
+        <div class="tab-pane active" id="tab-overview">
+          <!-- Stat Cards -->
+          <div class="stats-grid">
+            <div class="stat-card blue">
+              <div class="stat-info">
+                <span>إجمالي المنتجات</span>
+                <h3 id="statTotalProducts">0</h3>
+              </div>
+              <div class="stat-icon">📦</div>
+            </div>
+
+            <div class="stat-card orange">
+              <div class="stat-info">
+                <span>الأقسام المتاحة</span>
+                <h3 id="statTotalCategories">0</h3>
+              </div>
+              <div class="stat-icon">📂</div>
+            </div>
+
+            <div class="stat-card pink">
+              <div class="stat-info">
+                <span>عروض اليوم النشطة</span>
+                <h3 id="statTotalDeals">0</h3>
+              </div>
+              <div class="stat-icon">🔥</div>
+            </div>
+
+            <div class="stat-card green">
+              <div class="stat-info">
+                <span>المشرفين والمسؤولين</span>
+                <h3 id="statTotalUsers">0</h3>
+              </div>
+              <div class="stat-icon">👥</div>
+            </div>
+          </div>
+
+          <!-- Recent Products -->
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <div class="admin-card-title">
+                <span>⚡</span>
+                <span>أحدث المنتجات المضافة للمتجر</span>
+              </div>
+              <button class="btn-sm btn-edit" onclick="document.querySelector('[data-tab=\'tab-products\']').click()">عرض كل المنتجات ←</button>
+            </div>
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>الصورة</th>
+                    <th>اسم المنتج</th>
+                    <th>السعر والتخفيض</th>
+                    <th>المتجر</th>
+                    <th>الحالة</th>
+                  </tr>
+                </thead>
+                <tbody id="recentProductsTableBody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 2: PRODUCTS ================= -->
+        <div class="tab-pane" id="tab-products">
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <div class="admin-card-title">
+                <span>📦</span>
+                <span>قائمة المنتجات والعروض</span>
+                <span class="badge badge-category" id="productsCountBadge">0 منتج</span>
+              </div>
+              <button class="btn-add" id="btnOpenAddProduct">
+                <span>➕</span>
+                <span>إضافة منتج جديد</span>
+              </button>
+            </div>
+
+            <!-- Filters Bar -->
+            <div style="padding: 16px 24px; background: #fafafa; border-bottom: 1px solid var(--admin-border); display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+              <input type="text" id="productSearchInput" class="table-search-input" placeholder="🔍 بحث باسم المنتج أو الوصف...">
+              
+              <select id="productCategoryFilter" class="form-control" style="width: auto; padding: 8px 14px;">
+                <option value="">جميع الأقسام</option>
+              </select>
+
+              <select id="productStoreFilter" class="form-control" style="width: auto; padding: 8px 14px;">
+                <option value="">جميع المتاجر (الكل)</option>
+                <option value="amazon">Amazon (أمازون)</option>
+                <option value="noon">Noon (نون)</option>
+                <option value="temu">Temu (تيمو)</option>
+                <option value="aliexpress">AliExpress (علي إكسبريس)</option>
+                <option value="shein">Shein (شي إن)</option>
+                <option value="trendyol">Trendyol (ترينديول)</option>
+                <option value="iherb">iHerb (آيهيرب)</option>
+                <option value="namshi">Namshi (نمشي)</option>
+                <option value="ebay">eBay (إيباي)</option>
+                <option value="walmart">Walmart (ولمارت)</option>
+                <option value="jarir">Jarir (جرير)</option>
+                <option value="extra">eXtra (إكسترا)</option>
+                <option value="sephora">Sephora (سيفورا)</option>
+                <option value="nike">Nike (نايكي)</option>
+                <option value="adidas">Adidas (أديداس)</option>
+                <option value="apple">Apple (أبل)</option>
+                <option value="ikea">IKEA (إيكيا)</option>
+                <option value="zara">ZARA (زارا)</option>
+                <option value="hm">H&M (إتش آند إم)</option>
+                <option value="carrefour">Carrefour (كارفور)</option>
+              </select>
+            </div>
+
+            <!-- Products Table -->
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>الصورة</th>
+                    <th>اسم المنتج</th>
+                    <th>السعر / الخصم</th>
+                    <th>القسم</th>
+                    <th>المتجر</th>
+                    <th>التصنيف التسويقي</th>
+                    <th>الحالة</th>
+                    <th>الإجراءات</th>
+                  </tr>
+                </thead>
+                <tbody id="productsTableBody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 3: CATEGORIES ================= -->
+        <div class="tab-pane" id="tab-categories">
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <div class="admin-card-title">
+                <span>📂</span>
+                <span>أقسام المتجر</span>
+                <span class="badge badge-category" id="categoriesCountBadge">0 قسم</span>
+              </div>
+              <button class="btn-add" id="btnOpenAddCategory">
+                <span>➕</span>
+                <span>إضافة قسم جديد</span>
+              </button>
+            </div>
+
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th style="width:60px;">الأيقونة</th>
+                    <th>اسم القسم</th>
+                    <th>اللون التعريفي</th>
+                    <th>عدد المنتجات</th>
+                    <th>الحالة</th>
+                    <th>الإجراءات</th>
+                  </tr>
+                </thead>
+                <tbody id="categoriesTableBody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 4: USERS ================= -->
+        <div class="tab-pane" id="tab-users">
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <div class="admin-card-title">
+                <span>👥</span>
+                <span>المستخدمين ومشرفي الموقع</span>
+              </div>
+              <button class="btn-add" id="btnOpenAddUser">
+                <span>➕</span>
+                <span>إضافة حساب مدير أو مشرف</span>
+              </button>
+            </div>
+
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>المستخدم</th>
+                    <th>اسم المستخدم (Username)</th>
+                    <th>الصلاحية / الدور</th>
+                    <th>الحالة</th>
+                    <th>الإجراءات</th>
+                  </tr>
+                </thead>
+                <tbody id="usersTableBody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 5: SETTINGS ================= -->
+        <div class="tab-pane" id="tab-settings">
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <div class="admin-card-title">
+                <span>⚙️</span>
+                <span>إعدادات الموقع والهوية</span>
+              </div>
+            </div>
+
+            <div class="admin-modal-body">
+              <form id="siteSettingsForm">
+                <div class="settings-form-grid">
+                  <div class="form-group">
+                    <label class="form-label">اسم الموقع</label>
+                    <input type="text" id="setSiteName" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">الشعار النصي (Slogan)</label>
+                    <input type="text" id="setSiteTagline" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">نص شريط الإعلانات المتحرك العلوي</label>
+                  <textarea id="setAnnouncementText" class="form-control" rows="2" placeholder="اكتب عبارات الترويج والعروض هنا..."></textarea>
+                </div>
+
+                <div class="settings-form-grid">
+                  <div class="form-group">
+                    <label class="form-label">عنوان البانر الرئيسي (Hero Title)</label>
+                    <input type="text" id="setHeroTitle" class="form-control">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">نص توضيحي للبانر (Hero Subtitle)</label>
+                    <input type="text" id="setHeroSubtitle" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group" style="max-width: 320px;">
+                  <label class="form-label">تاريخ ووقت انتهاء العرض (عداد تنازلي)</label>
+                  <input type="datetime-local" id="setDealEndDate" class="form-control">
+                </div>
+
+                <h4 style="margin: 24px 0 16px; color: var(--admin-primary); font-size: 1rem; border-top: 1px solid var(--admin-border); padding-top: 20px;">
+                  🔗 روابط وسائل التواصل الاجتماعي
+                </h4>
+
+                <div class="settings-form-grid">
+                  <div class="form-group">
+                    <label class="form-label">واتساب (WhatsApp)</label>
+                    <input type="text" id="setSocialWhatsapp" class="form-control" placeholder="https://wa.me/...">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">تيليجرام (Telegram)</label>
+                    <input type="text" id="setSocialTelegram" class="form-control" placeholder="https://t.me/...">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">انستجرام (Instagram)</label>
+                    <input type="text" id="setSocialInstagram" class="form-control" placeholder="https://instagram.com/...">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">منصة إكس / تويتر (X / Twitter)</label>
+                    <input type="text" id="setSocialTwitter" class="form-control" placeholder="https://twitter.com/...">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">فيسبوك (Facebook)</label>
+                    <input type="text" id="setSocialFacebook" class="form-control" placeholder="https://facebook.com/...">
+                  </div>
+                </div>
+
+                <div style="margin-top: 24px;">
+                  <button type="submit" class="btn-primary" style="max-width: 240px;">
+                    <span>💾 حفظ الإعدادات</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= TAB 6: BACKUP & DATABASE ================= -->
+        <div class="tab-pane" id="tab-backup">
+          <div class="admin-card">
+            <div class="admin-card-header">
+              <div class="admin-card-title">
+                <span>💾</span>
+                <span>إدارة وحفظ قاعدة البيانات (GitHub Pages Compatible)</span>
+              </div>
+            </div>
+
+            <div class="admin-modal-body">
+              <p style="color: #64748b; line-height: 1.8; margin-bottom: 24px;">
+                يعمل الموقع بنظام قاعدة بيانات محلية ذكية ومتوافقة 100% مع الاستضافة المجانية على GitHub Pages بدون الحاجة لخادم سيرفر مدفوع.<br>
+                يمكنك تحميل نسخة ملف <code>db.json</code> بضغطة زر واحدة ووضعها داخل مجلد <code>data/db.json</code> في المشروع قبل رفع التحديثات إلى GitHub، أو استعادة نسخة سابقة في أي وقت.
+              </p>
+
+              <div class="backup-box">
+                <div style="font-size: 48px; margin-bottom: 12px;">📥</div>
+                <h3 style="color: var(--admin-primary); margin-bottom: 8px;">تصدير قاعدة البيانات (Export JSON)</h3>
+                <p style="color: #64748b; font-size: 0.9rem;">قم بتنزيل كافة المنتجات والأقسام والإعدادات في ملف JSON واحد منظم ومحدّث.</p>
+                <div class="backup-actions">
+                  <button id="btnExportDB" class="btn-add">
+                    <span>⬇️ تحميل ملف db_backup.json</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="backup-box" style="background:#fefce8; border-color:#fef08a;">
+                <div style="font-size: 48px; margin-bottom: 12px;">📤</div>
+                <h3 style="color: #854d0e; margin-bottom: 8px;">استيراد قاعدة بيانات من ملف (Import JSON)</h3>
+                <p style="color: #713f12; font-size: 0.9rem;">اختر ملف JSON محفوظ مسبقاً لاسترجاع كافة البيانات والمنتجات فوراً.</p>
+                <div class="backup-actions">
+                  <label class="btn-add" style="background:#ca8a04; cursor:pointer;">
+                    <span>📁 اختيار ملف JSON للاستيراد</span>
+                    <input type="file" id="importDBFile" accept=".json" style="display: none;">
+                  </label>
+                </div>
+              </div>
+
+              <div class="backup-box" style="background:#fff1f2; border-color:#fecdd3;">
+                <div style="font-size: 48px; margin-bottom: 12px;">⚠️</div>
+                <h3 style="color: #9f1239; margin-bottom: 8px;">إعادة ضبط المصنع (Reset to Default)</h3>
+                <p style="color: #881337; font-size: 0.9rem;">استعادة بيانات العينات التجريبية الافتراضية وحذف أي تغييرات مخزنة محلياً.</p>
+                <div class="backup-actions">
+                  <button id="btnResetDB" class="btn-sm btn-delete" style="padding: 10px 20px; font-size: 0.9rem;">
+                    <span>🔄 استعادة البيانات الافتراضية</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- ================= PRODUCT MODAL ================= -->
+  <div class="admin-modal-overlay" id="productModal">
+    <div class="admin-modal">
+      <div class="admin-modal-header">
+        <h3 id="productModalTitle">إضافة منتج جديد</h3>
+        <button class="modal-close-btn" onclick="closeModal(document.getElementById('productModal'))">✕</button>
+      </div>
+      <form id="productForm">
+        <div class="admin-modal-body">
+          <input type="hidden" id="prodEditId">
+
+          <div class="form-group">
+            <label class="form-label">اسم المنتج *</label>
+            <input type="text" id="prodName" class="form-control" placeholder="مثال: سماعة بلوتوث لاسلكية..." required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">وصف المنتج</label>
+            <textarea id="prodDesc" class="form-control" rows="2" placeholder="وصف مميزات ومواصفات المنتج..."></textarea>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label">السعر الأصلي (قبل الخصم) *</label>
+              <input type="number" id="prodOriginalPrice" class="form-control" placeholder="مثال: 500" min="0" step="any" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">السعر بعد التخفيض *</label>
+              <input type="number" id="prodCurrentPrice" class="form-control" placeholder="مثال: 80" min="0" step="any" required>
+            </div>
+          </div>
+
+          <div id="prodDiscountPreview" style="font-size: 0.85rem; font-weight: 700; margin-bottom: 16px;"></div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label">القسم *</label>
+              <select id="prodCategory" class="form-control" required>
+                <!-- Populated dynamically -->
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">المتجر التابع له *</label>
+              <select id="prodStore" class="form-control" required>
+                <option value="amazon">Amazon (أمازون)</option>
+                <option value="noon">Noon (نون)</option>
+                <option value="temu">Temu (تيمو)</option>
+                <option value="shein">Shein (شي إن)</option>
+                <option value="trendyol">Trendyol (ترينديول)</option>
+                <option value="namshi">Namshi (نمشي)</option>
+                <option value="fordel">Fordeal (فورديل)</option>
+                <option value="theluxury">The Luxury (ذا لاكجري)</option>
+                <option value="aliexpress">AliExpress (علي إكسبريس)</option>
+                <option value="iherb">iHerb (آيهيرب)</option>
+                <option value="ebay">eBay (إيباي)</option>
+                <option value="walmart">Walmart (ولمارت)</option>
+                <option value="jarir">Jarir (جرير)</option>
+                <option value="extra">eXtra (إكسترا)</option>
+                <option value="sephora">Sephora (سيفورا)</option>
+                <option value="nike">Nike (نايكي)</option>
+                <option value="adidas">Adidas (أديداس)</option>
+                <option value="apple">Apple (أبل)</option>
+                <option value="ikea">IKEA (إيكيا)</option>
+                <option value="zara">ZARA (زارا)</option>
+                <option value="hm">H&M (إتش آند إم)</option>
+                <option value="carrefour">Carrefour (كارفور)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">رابط الشراء الخارجي (رابط الإفلييت / المتجر)</label>
+            <input type="url" id="prodStoreLink" class="form-control" placeholder="https://amazon.sa/dp/..." required>
+          </div>
+
+          <!-- Image Upload / Link -->
+          <div class="form-group">
+            <label class="form-label">صورة المنتج</label>
+            <div class="image-upload-box" onclick="document.getElementById('prodImageFile').click()">
+              <div style="font-size: 28px; margin-bottom: 6px;">📷</div>
+              <strong>اضغط هنا لاختيار صورة من جهازك (يرفع ويحفظ محلياً)</strong>
+              <div style="font-size:0.75rem; color:#64748b; margin-top:4px;">JPG, PNG, WEBP (حجم مثالي &lt; 2MB)</div>
+              <input type="file" id="prodImageFile" accept="image/*" style="display: none;">
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 8px; margin-top: 10px;">
+              <span style="font-size:0.85rem; color:#64748b; white-space:nowrap;">أو رابط مباشر:</span>
+              <input type="url" id="prodImageUrl" class="form-control" placeholder="https://example.com/image.jpg">
+            </div>
+
+            <div class="image-preview-area">
+              <img id="prodImagePreview" src="" alt="معاينة" style="display: none;">
+            </div>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label">القسم الترويجي في الصفحة الرئيسية</label>
+              <select id="prodTag" class="form-control">
+                <option value="today_deal">🔥 عروض اليوم (Today's Deals)</option>
+                <option value="under50">⚡ منتجات أقل من 50 ريال</option>
+                <option value="range50_100">💎 منتجات بين 50 - 100 ريال</option>
+                <option value="range100_500">⭐ منتجات بين 100 - 500 ريال</option>
+                <option value="range500_1000">👑 منتجات بين 500 - 1000 ريال</option>
+                <option value="range1000_plus">🏆 عروض مختارة من 1000 الى أكثر</option>
+                <option value="best_seller">🔥 الأكثر طلباً (Best Sellers)</option>
+                <option value="new_arrival">✨ وصل حديثاً (New Arrivals)</option>
+                <option value="general">عام (يظهر بالأقسام والبحث فقط)</option>
+              </select>
+            </div>
+
+            <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-top: 30px;">
+              <input type="checkbox" id="prodIsActive" checked style="width: 20px; height: 20px; cursor: pointer;">
+              <label for="prodIsActive" class="form-label" style="margin-bottom:0; cursor:pointer;">ظهور المنتج للمستخدمين في الموقع</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="admin-modal-footer">
+          <button type="button" class="btn-secondary" onclick="closeModal(document.getElementById('productModal'))">إلغاء</button>
+          <button type="submit" class="btn-add">حفظ المنتج</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= CATEGORY MODAL ================= -->
+  <div class="admin-modal-overlay" id="categoryModal">
+    <div class="admin-modal" style="max-width: 480px;">
+      <div class="admin-modal-header">
+        <h3 id="categoryModalTitle">إضافة قسم جديد</h3>
+        <button class="modal-close-btn" onclick="closeModal(document.getElementById('categoryModal'))">✕</button>
+      </div>
+      <form id="categoryForm">
+        <div class="admin-modal-body">
+          <input type="hidden" id="catEditId">
+
+          <div class="form-group">
+            <label class="form-label">اسم القسم *</label>
+            <input type="text" id="catName" class="form-control" placeholder="مثال: ألعاب وهدايا" required>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label">الأيقونة (إيموجي أو رمز) *</label>
+              <input type="text" id="catIcon" class="form-control" placeholder="🎁" required style="font-size: 1.3rem; text-align: center;">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">اللون التعريفي</label>
+              <input type="color" id="catColor" class="form-control" value="#1e3c72" style="height: 48px; padding: 4px; cursor: pointer;">
+            </div>
+          </div>
+
+          <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-top: 16px;">
+            <input type="checkbox" id="catIsActive" checked style="width: 20px; height: 20px; cursor: pointer;">
+            <label for="catIsActive" class="form-label" style="margin-bottom:0; cursor:pointer;">تفعيل ظهور القسم</label>
+          </div>
+        </div>
+
+        <div class="admin-modal-footer">
+          <button type="button" class="btn-secondary" onclick="closeModal(document.getElementById('categoryModal'))">إلغاء</button>
+          <button type="submit" class="btn-add">حفظ القسم</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= USER MODAL ================= -->
+  <div class="admin-modal-overlay" id="userModal">
+    <div class="admin-modal" style="max-width: 480px;">
+      <div class="admin-modal-header">
+        <h3 id="userModalTitle">إضافة حساب مدير أو مشرف</h3>
+        <button class="modal-close-btn" onclick="closeModal(document.getElementById('userModal'))">✕</button>
+      </div>
+      <form id="userForm">
+        <div class="admin-modal-body">
+          <input type="hidden" id="userEditId">
+
+          <div class="form-group">
+            <label class="form-label">الاسم الكامل *</label>
+            <input type="text" id="userName" class="form-control" placeholder="مثال: محمد علي" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">اسم المستخدم (Username) *</label>
+            <input type="text" id="userUsername" class="form-control" placeholder="مثال: mohmd أو admin2" required autocomplete="username">
+            <small style="color: #64748b; font-size: 0.75rem; margin-top: 4px; display:block;">اسم عادي لتسجيل الدخول مباشرة (بدون إيميل)</small>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">الصلاحية والرتبة</label>
+            <select id="userRole" class="form-control">
+              <option value="super_admin">👑 مدير رئيسي (Super Admin) — صلاحيات كاملة + إدارة المستخدمين</option>
+              <option value="moderator">🛡️ مشرف موقع (Moderator) — إدارة المنتجات والأقسام والعروض</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">كلمة المرور</label>
+            <input type="password" id="userPassword" class="form-control" placeholder="••••••••">
+            <small id="userPassHelp" style="color: #64748b; font-size: 0.75rem; margin-top: 4px; display:block;">كلمة مرور مطلوبة عند إضافة حساب جديد</small>
+          </div>
+
+          <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-top: 16px;">
+            <input type="checkbox" id="userIsActive" checked style="width: 20px; height: 20px; cursor: pointer;">
+            <label for="userIsActive" class="form-label" style="margin-bottom:0; cursor:pointer;">حساب نشط ومفعّل</label>
+          </div>
+        </div>
+
+        <div class="admin-modal-footer">
+          <button type="button" class="btn-secondary" onclick="closeModal(document.getElementById('userModal'))">إلغاء</button>
+          <button type="submit" class="btn-add">حفظ الحساب</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= CHANGE MY PASSWORD MODAL ================= -->
+  <div class="admin-modal-overlay" id="changePasswordModal">
+    <div class="admin-modal" style="max-width: 440px;">
+      <div class="admin-modal-header">
+        <h3>🔑 تغيير كلمة المرور</h3>
+        <button class="modal-close-btn" onclick="closeModal(document.getElementById('changePasswordModal'))">✕</button>
+      </div>
+      <form id="changePasswordForm">
+        <div class="admin-modal-body">
+          <div style="background: #f1f5f9; padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 0.88rem; display:flex; justify-content:space-between; align-items:center;">
+            <span>الحساب الحالي:</span>
+            <strong id="myCurrentUsername" style="color: var(--admin-primary); font-size: 0.95rem;">mohmd</strong>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">كلمة المرور الجديدة *</label>
+            <input type="password" id="newPasswordInput" class="form-control" placeholder="أدخل كلمة المرور الجديدة" required minlength="4">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">تأكيد كلمة المرور الجديدة *</label>
+            <input type="password" id="confirmPasswordInput" class="form-control" placeholder="أعد إدخال كلمة المرور للتأكيد" required minlength="4">
+          </div>
+
+          <div id="changePassError" style="display: none; padding: 10px; background: #fee2e2; color: #b91c1c; border-radius: 6px; font-size: 0.82rem; font-weight: bold; margin-top: 10px;"></div>
+        </div>
+
+        <div class="admin-modal-footer">
+          <button type="button" class="btn-secondary" onclick="closeModal(document.getElementById('changePasswordModal'))">إلغاء</button>
+          <button type="submit" class="btn-add">حفظ وتحديث كلمة المرور</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="../assets/js/db.js"></script>
+  <script src="../assets/js/auth.js"></script>
+  <script src="../assets/js/admin.js"></script>
+</body>
+</html>
