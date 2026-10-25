@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_038",
+      "name": "شاشة مراقبة الأطفال اللاسلكية بالفيديو والصوت ورؤية ليلية بالأشعة تحت الحمراء",
+      "description": "عرض أمازون السعودية الحصري لقسم الأطفال والرضع — تخفيض ضخم 65% وشحن سريع وضمان رسمي.",
+      "originalPrice": 280.0,
+      "currentPrice": 99.0,
+      "discount": 65,
+      "category": "cat_006",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=أطفال&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_037",
       "name": "بساط يوجا احترافي مانع للانزلاق بسماكة مريحة للمفاصل مع حزام حمل مجاني",
       "description": "عرض أمازون السعودية الحصري لقسم الرياضة واللياقة — تخفيض ضخم 62% وشحن سريع وضمان رسمي.",
