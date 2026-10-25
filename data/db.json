@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_050",
+      "name": "ساعات ذكية للرجال والنساء، هدية للأب والأم والأزواج، جهاز تتبع اللياقة البدنية مزود بمراقبة معدل ضربات القلب والنوم، معيار IP68، متوافقة مع أنظمة أندرويد وiOS، أسود",
+      "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 59% — السعر الحالي 149.96 ريال بدلاً من 369.99 ريال.",
+      "originalPrice": 369.99,
+      "currentPrice": 149.96,
+      "discount": 59,
+      "category": "cat_007",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0HMH2CYBB?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61ISJ7JysLL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_049",
       "name": "My First Library: Boxset of 10 Board Books for Kids (Pack-1)",
       "description": "عرض أمازون السعودية في قسم الأطفال والرضع بخصم 71% — السعر الحالي 45.50 ريال بدلاً من 157.70 ريال.",
