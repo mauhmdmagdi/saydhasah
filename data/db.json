@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_072",
+      "name": "حقيبة سفر صلبة كابينة مقاس 20 بوصة إيكو جلايد بعجلات دوارة مزدوجة من سامسونايت",
+      "description": "خفيفة الوزن ومصنوعة من البولي بروبيلين المقاوم للصدمات وقفل أمان مدمج معتمد من إدارة أمن النقل.",
+      "originalPrice": 750.0,
+      "currentPrice": 399.0,
+      "discount": 47,
+      "category": "cat_009",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N51839210A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1638361730/N51839210A_1.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_071",
       "name": "ماكينة حلاقة كهربائية رطبة وجافة سيريز 3000 من فيليبس برؤوس مرنة 5D",
       "description": "شفرات PowerCut الدقيقة ذاتية الشحذ، بطارية ليثيوم تكفي 60 دقيقة استخدام، وتنظيف بلمسة زر واحدة.",
