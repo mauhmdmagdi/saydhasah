@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_026",
+      "name": "عطر شرقي فاخر للجنسين يدوم طويلاً بتركيبة العود والمسك الأبيض 100 مل",
+      "description": "عرض نون الحصري لقسم الجمال والعناية — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 250.0,
+      "currentPrice": 69.0,
+      "discount": 72,
+      "category": "cat_004",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=مكياج&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_025",
       "name": "مقلاة هوائية رقمية سعة 4.5 لتر بدون زيت بشاشة لمس ذكية وبرامج طهي متعددة",
       "description": "عرض نون الحصري لقسم المنزل والمطبخ — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
