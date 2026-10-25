@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_033",
+      "name": "سماعات أذن أنكر ساوند كور لاسلكية بخاصية إلغاء الضوضاء وبطارية تدوم 36 ساعة",
+      "description": "عرض أمازون السعودية الحصري لقسم الإلكترونيات — تخفيض ضخم 60% وشحن سريع وضمان رسمي.",
+      "originalPrice": 249.0,
+      "currentPrice": 99.0,
+      "discount": 60,
+      "category": "cat_001",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/s?k=سماعة&tag=amazon0137a1-21",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_032",
       "name": "مصباح مكتب ذكي LED قابل للتعديل بحماية للعين ومستويات إضاءة متعددة",
       "description": "عرض نون الحصري لقسم المزيد — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
