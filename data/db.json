@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_023",
+      "name": "سماعات رأس لاسلكية فوق الأذن بإلغاء ضوضاء نشط وجودة صوت استثنائية",
+      "description": "عرض نون الحصري لقسم الإلكترونيات — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 299.0,
+      "currentPrice": 89.0,
+      "discount": 70,
+      "category": "cat_001",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=سماعة&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_022",
       "name": "حامل هاتف ذكي مغناطيسي للسيارة دوران 360 درجة بقوة تثبيت فائقة",
       "description": "أقوى عروض تيمو لقسم المزيد — تخفيض ضخم بنسبة 79% وأقل سعر متاح.",
