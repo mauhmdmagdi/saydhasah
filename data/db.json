@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_031",
+      "name": "حقيبة ظهر ذكية متعددة الوظائف مقاومة للسرقة والماء مع منفذ شحن USB",
+      "description": "عرض نون الحصري لقسم السفر والرحلات — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 175.0,
+      "currentPrice": 52.0,
+      "discount": 70,
+      "category": "cat_009",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=سفر&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_030",
       "name": "مسدس تدليك العضلات الاحترافي المحمول بـ 6 سرعات و4 رؤوس قابلة للتبديل",
       "description": "عرض نون الحصري لقسم الصحة والعناية الشخصية — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
