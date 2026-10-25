@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_022",
+      "name": "حامل هاتف ذكي مغناطيسي للسيارة دوران 360 درجة بقوة تثبيت فائقة",
+      "description": "أقوى عروض تيمو لقسم المزيد — تخفيض ضخم بنسبة 79% وأقل سعر متاح.",
+      "originalPrice": 55.0,
+      "currentPrice": 11.5,
+      "discount": 79,
+      "category": "cat_010",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_021",
       "name": "مجموعة حقائب تنظيم أمتعة السفر 6 قطع مقاومة للماء وموفرة للمساحة",
       "description": "أقوى عروض تيمو لقسم السفر والرحلات — تخفيض ضخم بنسبة 77% وأقل سعر متاح.",
