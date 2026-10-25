@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_073",
+      "name": "شاحن جداري سريع أنكر 65 واط بتقنية GaN بثلاثة منافذ شحن ذكية",
+      "description": "شحن متزامن للابتوب والهاتف والتابلت بسرعة فائقة وحماية متطورة من ارتفاع درجة الحرارة.",
+      "originalPrice": 220.0,
+      "currentPrice": 139.0,
+      "discount": 37,
+      "category": "cat_010",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/N49281745A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1630129481/N49281745A_1.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_072",
       "name": "حقيبة سفر صلبة كابينة مقاس 20 بوصة إيكو جلايد بعجلات دوارة مزدوجة من سامسونايت",
       "description": "خفيفة الوزن ومصنوعة من البولي بروبيلين المقاوم للصدمات وقفل أمان مدمج معتمد من إدارة أمن النقل.",
