@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_057",
+      "name": "منظم مكياج ومستحضرات تجميل أكريليك شفاف دوار 360 درجة قابل للتعديل",
+      "description": "سعة تخزين ضخمة لترتيب العطور والكريمات وأحمر الشفاه في مساحة مدمجة على طاولة التزيين.",
+      "originalPrice": 85.0,
+      "currentPrice": 29.5,
+      "discount": 65,
+      "category": "cat_004",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&q=80",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_056",
       "name": "إضاءة ليلية ذكية بمستشعر حركة قابلة للشحن عبر USB مع قاعدة مغناطيسية",
       "description": "تضيء تلقائياً عند الاقتراب في الظلام وتطفئ بعد 20 ثانية، مثالية للممرات وخزائن الملابس.",
