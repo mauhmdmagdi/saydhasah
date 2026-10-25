@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_016",
+      "name": "جهاز تدليك وتنظيف الوجه بالاهتزاز الصوتي ومقاوم للماء",
+      "description": "أقوى عروض تيمو لقسم الجمال والعناية — تخفيض ضخم بنسبة 80% وأقل سعر متاح.",
+      "originalPrice": 110.0,
+      "currentPrice": 22.0,
+      "discount": 80,
+      "category": "cat_004",
+      "store": "temu",
+      "storeLink": "https://temu.to/k/ee56j55qh35",
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_015",
       "name": "منظم أرفف مطبخ دوار 360 درجة متعدد الاستخدامات للتوابل",
       "description": "أقوى عروض تيمو لقسم المنزل والمطبخ — تخفيض ضخم بنسبة 81% وأقل سعر متاح.",
