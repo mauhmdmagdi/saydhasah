@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_025",
+      "name": "مقلاة هوائية رقمية سعة 4.5 لتر بدون زيت بشاشة لمس ذكية وبرامج طهي متعددة",
+      "description": "عرض نون الحصري لقسم المنزل والمطبخ — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
+      "originalPrice": 380.0,
+      "currentPrice": 129.0,
+      "discount": 66,
+      "category": "cat_003",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/search?q=مطبخ&utm_source=noon_affiliate&coupon=saydha&project=PRJ639948",
+      "image": "https://images.unsplash.com/photo-1585672840545-a74577ef3724?w=600&q=80",
+      "tag": "today_deal",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_024",
       "name": "ساعة يد كلاسيكية رجالية مقاومة للماء بسوار شبكي من الستانلس ستيل",
       "description": "عرض نون الحصري لقسم الأزياء والموضة — استخدم كود الخصم الإضافي [saydha] لتوفير إضافي 10%!",
