@@ -38,18 +38,25 @@ function applySiteSettings() {
   if (subtitleEl && settings.heroSubtitle) subtitleEl.textContent = settings.heroSubtitle;
   if (siteBrandName && settings.siteName) siteBrandName.textContent = settings.siteName;
 
-  // روابط التواصل الاجتماعي
+  // روابط التواصل الاجتماعي — تُخفى الأيقونة إذا لم يكن هناك رابط حقيقي
   if (settings.socialLinks) {
-    const wa = document.getElementById('socialWhatsapp');
-    const tg = document.getElementById('socialTelegram');
-    const ig = document.getElementById('socialInstagram');
-    const tw = document.getElementById('socialTwitter');
-    const fb = document.getElementById('socialFacebook');
-    if (wa && settings.socialLinks.whatsapp) wa.href = settings.socialLinks.whatsapp;
-    if (tg && settings.socialLinks.telegram) tg.href = settings.socialLinks.telegram;
-    if (ig && settings.socialLinks.instagram) ig.href = settings.socialLinks.instagram;
-    if (tw && settings.socialLinks.twitter) tw.href = settings.socialLinks.twitter;
-    if (fb && settings.socialLinks.facebook) fb.href = settings.socialLinks.facebook;
+    const socials = [
+      ['socialWhatsapp', settings.socialLinks.whatsapp],
+      ['socialTelegram', settings.socialLinks.telegram],
+      ['socialInstagram', settings.socialLinks.instagram],
+      ['socialTwitter', settings.socialLinks.twitter],
+      ['socialFacebook', settings.socialLinks.facebook],
+    ];
+    socials.forEach(([id, url]) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (!url || url === '#' || url === '') {
+        el.style.display = 'none';
+        el.removeAttribute('href');
+        return;
+      }
+      el.href = url;
+    });
   }
 }
 
@@ -173,7 +180,7 @@ function renderStoreBadges() {
   const storesGrid = document.getElementById('storesGrid');
   if (!storesGrid) return;
 
-  const stores = [
+  const allStores = [
     { id: 'amazon', name: 'أمازون (Amazon)', image: 'assets/images/stores/amazon.svg' },
     { id: 'noon', name: 'نون (Noon)', image: 'assets/images/stores/noon.svg' },
     { id: 'temu', name: 'تيمو (Temu)', image: 'assets/images/stores/temu.svg' },
@@ -183,6 +190,18 @@ function renderStoreBadges() {
     { id: 'fordel', name: 'فورديل (Fordeal)', image: 'assets/images/stores/fordel.svg' },
     { id: 'theluxury', name: 'ذا لاكجري كلوزيت (The Luxury Closet)', image: 'assets/images/stores/theluxury.svg' }
   ];
+
+  // نعرض فقط المتاجر التي لديها منتجات فعلية، حتى لا يظهر زر يقود إلى نتيجة فارغة
+  const activeStores = new Set(window.db.getProducts({ onlyActive: true }).map(p => p.store));
+  const stores = allStores.filter(s => activeStores.has(s.id));
+
+  if (stores.length === 0) {
+    const section = storesGrid.closest('section');
+    if (section) section.style.display = 'none';
+    const navStoreLink = document.querySelector('.banner-section-menu a[href="#stores"]');
+    if (navStoreLink) navStoreLink.style.display = 'none';
+    return;
+  }
 
   function createStoreBtn(s) {
     return `
@@ -195,6 +214,19 @@ function renderStoreBadges() {
   }
 
   const itemsHTML = stores.map(createStoreBtn).join('');
+
+  if (stores.length === 1) {
+    storesGrid.innerHTML = `
+      <div style="text-align:center; padding: 4px 0 8px;">
+        <h2 class="section-title">المتاجر العالمية بين يديك</h2>
+        <p style="color: var(--text-medium); margin-top: 6px;">تسوق من متجرك المفضل</p>
+      </div>
+      <div style="display:flex; justify-content:center; padding: 8px 0;">
+        ${createStoreBtn(stores[0])}
+      </div>
+    `;
+    return;
+  }
 
   storesGrid.innerHTML = `
     <div class="stores-marquee-wrapper">
@@ -365,7 +397,7 @@ function createProductCardHTML(p) {
         </h3>
 
         <div class="product-pricing">
-          <div class="price-original">${p.originalPrice} ريال</div>
+          ${savedAmount > 0 ? `<div class="price-original">${p.originalPrice} ريال</div>` : ''}
           <div class="price-current">
             ${p.currentPrice} <span class="currency">ريال</span>
           </div>
@@ -592,6 +624,7 @@ window.openProductDetailModal = function (prodId) {
         ${p.description ? `<p style="color: var(--text-medium); font-size: 0.95rem; margin-bottom: 20px; line-height: 1.6;">${escapeHtml(p.description)}</p>` : ''}
 
         <div style="background: var(--light-bg); padding: 16px; border-radius: 12px; display: flex; align-items: center; justify-content: space-around; margin-bottom: 24px;">
+          ${saved > 0 ? `
           <div>
             <div style="font-size: 0.8rem; color: #888;">السعر الأصلي</div>
             <div style="font-size: 1rem; text-decoration: line-through; color: #888;">${p.originalPrice} ريال</div>
@@ -599,7 +632,7 @@ window.openProductDetailModal = function (prodId) {
           <div>
             <div style="font-size: 0.8rem; color: var(--secondary); font-weight: 700;">نسبة التخفيض</div>
             <div style="font-size: 1.3rem; font-weight: 900; color: var(--secondary);">-${p.discount}%</div>
-          </div>
+          </div>` : ''}
           <div>
             <div style="font-size: 0.8rem; color: var(--accent-dark); font-weight: 700;">السعر الحالي</div>
             <div style="font-size: 1.5rem; font-weight: 900; color: var(--accent-dark);">${p.currentPrice} ريال</div>
