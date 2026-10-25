@@ -772,6 +772,38 @@
       "isActive": true,
       "createdAt": "2026-10-25",
       "currency": "ريال"
+    },
+    {
+      "id": "prod_042",
+      "name": "تلفزيون أوسكار 50 بوصة 4K QLED — webOS",
+      "description": "دقة UHD 4K (3840×2160) مع HDR10 وصوت Dolby Audio ونظام LG webOS، بتصميم بدون إطار وضمان لمدة عامين.",
+      "originalPrice": 999.0,
+      "currentPrice": 999.0,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0GVF1X2NF?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/81KjFM6nNsL._AC_UL600_.jpg",
+      "tag": "range500_1000",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
+    },
+    {
+      "id": "prod_043",
+      "name": "لابتوب ديل لاتيتيود 5410 (مجدد) — 14 بوصة i5",
+      "description": "لابتوب ديل لاتيتيود 5410 مجدد بشاشة 14 بوصة FHD، معالج i5 الجيل العاشر، ذاكرة 8 جيجا وتخزين SSD 256 جيجا مع ويندوز 11 برو.",
+      "originalPrice": 1164.15,
+      "currentPrice": 994.75,
+      "discount": 15,
+      "category": "cat_001",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0G2YHTZ1W?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/51Po7KBo+aL._AC_UL600_.jpg",
+      "tag": "range500_1000",
+      "isActive": true,
+      "createdAt": "2026-10-25",
+      "currency": "ريال"
     }
   ],
   "users": [
