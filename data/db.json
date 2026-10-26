@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_101",
+      "name": "Gift Wrap Tags 1pc Vinyl Candle Sticker, 5.08X5.08 cm, Friendship Quote Sticker, Perfect Gift for Best Friend, Mom, Women - Ideal Choice for Mother'S Day, Birthday, Graduation, And Farewell",
+      "description": "منتج حقيقي من تيمو ضمن قسم المزيد.",
+      "originalPrice": 9.48,
+      "currentPrice": 9.4,
+      "discount": 1,
+      "category": "cat_010",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-606741253169472.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/open/7be504c448c7430ab170c8325b08cf4e-goods.jpeg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_100",
       "name": "3D Butterfly Stud Earrings | Easy And Elegant Design | Versatile for Daily Wear Or Parties | Perfect Gift for Anniversaries, Valentine'S Day, Or Christmas for Her | Fashionable Stainless Steel Earrings That Resist Fading",
       "description": "المبيعات: 20K+ sold — تقييم المنتج: 4.8",
