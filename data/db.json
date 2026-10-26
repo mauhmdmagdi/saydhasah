@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_088",
+      "name": "حضانة أطفال، 200 × 180 سم، حضانة أطفال ورضع، سياج أطفال، ساحات لعب أطفال للأماكن الداخلية والخارجية مع شبكة قابلة للتنفس ومضادة للسقوط",
+      "description": "عرض نون في قسم الأطفال والرضع بسعر 210.24 ريال.",
+      "originalPrice": 599.0,
+      "currentPrice": 210.24,
+      "discount": 65,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/baby-playpen-200x180-cm-play-pens-for-babies-and-toddlers-baby-fence-baby-play-yards-for-indoor-outdoor-with-breathable-mesh-anti-fall-playpen/ZCC159D5E8658C1374B4CZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZCC159D5E8658C1374B4CZ/45/1741600428/b53d46ed-c98d-42b3-ab58-63f993cdda1c.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_087",
       "name": "طقم دمبل وزن مدمج وزن 20 كجم",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 194.99 ريال.",
