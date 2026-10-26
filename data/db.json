@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_108",
+      "name": "قناع وجه للعلاج الضوئي بـ 7 ألوان LED من HTMCK |   قناع الجمال الضوئي للاستخدام المنزلي، تجديد البشرة، علاج حب الشباب ومكافحة التجاعيد، أداة العناية بالبشرة",
+      "description": "عرض علي إكسبريس المميز بخصم 64% — السعر الحالي 44.91 ريال بدلاً من 126.49 ريال.",
+      "originalPrice": 126.49,
+      "currentPrice": 44.91,
+      "discount": 64,
+      "category": "cat_004",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006678225060.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2c9f6849f2bb4c2f8723645200cf0b63Y.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_107",
       "name": "غلاية كهربائية من الفولاذ المقاوم للصدأ سعة 2 لتر، سخان مياه ساخن سريع الغليان، إبريق شاي متعدد الأغراض للقهوة والمشروبات للاستخدام اليومي",
       "description": "عرض علي إكسبريس المميز بخصم 80% — السعر الحالي 12.33 ريال بدلاً من 63.0 ريال.",
