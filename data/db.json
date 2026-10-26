@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_109",
+      "name": "مجموعة من 11 قطعة تشمل حبل سحب وأربطة مقاومة، معدات لياقة بدنية محمولة، حزام للكاحل، موسع للصدر، شريط مرن للتمارين",
+      "description": "عرض علي إكسبريس المميز بخصم 58% — السعر الحالي 27.52 ريال بدلاً من 65.36 ريال.",
+      "originalPrice": 65.36,
+      "currentPrice": 27.52,
+      "discount": 58,
+      "category": "cat_005",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012287088376.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Aae470fe2f5644e03b25cd10300505032k.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_108",
       "name": "قناع وجه للعلاج الضوئي بـ 7 ألوان LED من HTMCK |   قناع الجمال الضوئي للاستخدام المنزلي، تجديد البشرة، علاج حب الشباب ومكافحة التجاعيد، أداة العناية بالبشرة",
       "description": "عرض علي إكسبريس المميز بخصم 64% — السعر الحالي 44.91 ريال بدلاً من 126.49 ريال.",
