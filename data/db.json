@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_103",
+      "name": "عجلة دوّارة لتمارين تقوية عضلات البطن مع وسادة للركب",
+      "description": "عرض نون في قسم الرياضة واللياقة بسعر 20.37 ريال.",
+      "originalPrice": 20.37,
+      "currentPrice": 20.37,
+      "discount": 0,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/strength-training-exercise-abdominal-roller-wheel-with-kneeling-pad/N34152840A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1580644732/N34152840A_1.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_102",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم الأزياء والموضة بسعر 159.00 ريال.",
