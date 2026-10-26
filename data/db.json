@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_112",
+      "name": "حقائب خصر رياضية للنساء مقاومة للماء لحمل النقود والهاتف، حزام للجري والتدريب، حافظة للمفاتيح وملحقات الدراجات",
+      "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 7.91 ريال بدلاً من 45.25 ريال.",
+      "originalPrice": 45.25,
+      "currentPrice": 7.91,
+      "discount": 83,
+      "category": "cat_009",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012172791436.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c543c10bc204f88b4ad4460c36261bdc.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_111",
       "name": "عطر فلورال سويتهارت 50 مل، ماء تواليت، عطر طويل الأمد، مناسب للسفر، هدية مثالية، الخيار الأول.",
       "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 26.42 ريال بدلاً من 80.44 ريال.",
