@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_107",
+      "name": "غلاية كهربائية من الفولاذ المقاوم للصدأ سعة 2 لتر، سخان مياه ساخن سريع الغليان، إبريق شاي متعدد الأغراض للقهوة والمشروبات للاستخدام اليومي",
+      "description": "عرض علي إكسبريس المميز بخصم 80% — السعر الحالي 12.33 ريال بدلاً من 63.0 ريال.",
+      "originalPrice": 63.0,
+      "currentPrice": 12.33,
+      "discount": 80,
+      "category": "cat_003",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010646047879.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S46680d3d48da4481aa0ffa083e11275a9.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_106",
       "name": "بنطلون رجالي فضفاض ومريح لعام 2026، رمادي وأبيض، بطبعة حروف منفوخة، بخصر مطاطي ورباط، قابل للتنفس، كاجوال، ستريت وير",
       "description": "عرض علي إكسبريس المميز بخصم 69% — السعر الحالي 27.68 ريال بدلاً من 88.49 ريال.",
