@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_100",
+      "name": "3D Butterfly Stud Earrings | Easy And Elegant Design | Versatile for Daily Wear Or Parties | Perfect Gift for Anniversaries, Valentine'S Day, Or Christmas for Her | Fashionable Stainless Steel Earrings That Resist Fading",
+      "description": "المبيعات: 20K+ sold — تقييم المنتج: 4.8",
+      "originalPrice": 34.0,
+      "currentPrice": 5.54,
+      "discount": 84,
+      "category": "cat_007",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-605750592118663.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/algo_check/auto/ca1ea2c1cb1a823c0023730ff0cfa35d_1768458342472.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_099",
       "name": "1 Set of Professional Hair Dye Kit, Hair Dyeing Tools Including Comb, Brush and Color Mixing Bowl, Suitable for DIY Salon-level Hair Dyeing and Bleaching at Home, Perfect for Partial Hair Dyeing and Care, Hair Dyeing Acc",
       "description": "المبيعات: 6 sold",
