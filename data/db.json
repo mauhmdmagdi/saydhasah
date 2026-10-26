@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_083",
+      "name": "سماعات Tune 510Bt اللاسلكية فوق الاذن - Pure Bass - بطارية 40H - شحن سريع - USB سريع من النوع C - قابلة للطي أسود",
+      "description": "عرض نون في قسم الإلكترونيات بسعر 114.00 ريال.",
+      "originalPrice": 249.0,
+      "currentPrice": 114.0,
+      "discount": 54,
+      "category": "cat_001",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/tune-510bt-wireless-on-ear-headphones-pure-bass-40h-battery-speed-charge-fast-usb-type-c-foldable-black/N49741483A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBD26FDC984AE1BA0AF7FZ/45/_/1779720901/1efab5db-62c3-451c-8134-84f88f0fd5cf.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_082",
       "name": "X8 فرش توربو مروحة نفاثة منفاخ 150000 دورة في الدقيقة قوية الكهربائية منفاخ الهواء فراغ منظف الغبار المحمولة الهواء Puissant أداة للسيارة",
       "description": "عرض علي إكسبريس المميز بخصم 63% — السعر الحالي 44.94 ريال بدلاً من 120.7 ريال.",
