@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_104",
+      "name": "كرسي هزاز للأطفال بلوتوث و موسيقى مع ريموت تحكم عن بعد، كرسي هزاز كهربائي مزود بشبكة حماية من البعوض و 5 سرعات قابلة للتعديل",
+      "description": "عرض نون في قسم الأطفال والرضع بسعر 248.99 ريال.",
+      "originalPrice": 699.0,
+      "currentPrice": 248.99,
+      "discount": 64,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/baby-rocking-chair-bluetooth-music-remote-control-electric-rocking-chair-with-mosquito-net-and-5-adjustable-speeds/Z56846B87363668404BCAZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z56846B87363668404BCAZ/45/_/1786881348/a71a577e-aa6f-46c5-b549-e7ed326d8439.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_103",
       "name": "عجلة دوّارة لتمارين تقوية عضلات البطن مع وسادة للركب",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 20.37 ريال.",
