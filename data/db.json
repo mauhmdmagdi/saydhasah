@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_081",
+      "name": "ساعة ذكية باند 10 مع مراقبة لياقة بدنية تعمل بالذكاء الاصطناعي، تحليل احترافي للنوم، مساعد للرفاهية العاطفية، تصميم معدني انسيابي، شحن سريع، اي او اس واندرويد، اسود",
+      "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 54% — السعر الحالي 109.76 ريال بدلاً من 239.00 ريال.",
+      "originalPrice": 239.0,
+      "currentPrice": 109.76,
+      "discount": 54,
+      "category": "cat_007",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0DWFQCY3V?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61VZkWamWRL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_080",
       "name": "Ghost Retro Ghost Stickers, Halloween Stickers, Vinyl Stickers (For Laptops, Water Bottles, Journals, Thermoses, Planners, Etc.)",
       "description": "المبيعات: 1 sold",
