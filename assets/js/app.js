@@ -206,6 +206,7 @@ function renderStoreBadges() {
     { id: 'amazon', name: 'أمازون (Amazon)', image: 'assets/images/stores/amazon.svg' },
     { id: 'noon', name: 'نون (Noon)', image: 'assets/images/stores/noon.svg' },
     { id: 'temu', name: 'تيمو (Temu)', image: 'assets/images/stores/temu.svg' },
+    { id: 'aliexpress', name: 'علي إكسبريس (AliExpress)', image: 'assets/images/stores/aliexpress.svg' },
     { id: 'shein', name: 'شي إن (SHEIN)', image: 'assets/images/stores/shein.svg' },
     { id: 'trendyol', name: 'ترينديول (Trendyol)', image: 'assets/images/stores/trendyol.svg' },
     { id: 'namshi', name: 'نمشي (Namshi)', image: 'assets/images/stores/namshi.svg' },
