@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_111",
+      "name": "عطر فلورال سويتهارت 50 مل، ماء تواليت، عطر طويل الأمد، مناسب للسفر، هدية مثالية، الخيار الأول.",
+      "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 26.42 ريال بدلاً من 80.44 ريال.",
+      "originalPrice": 80.44,
+      "currentPrice": 26.42,
+      "discount": 67,
+      "category": "cat_008",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013133079308.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3fed7e0889e449c19945dbb64c870d97e.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_110",
       "name": "ساعات رجالية فاخرة للأعمال، ساعة كوارتز أنيقة للرجال مع تقويم (بدون علبة)",
       "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 6.91 ريال بدلاً من 41.2 ريال.",
