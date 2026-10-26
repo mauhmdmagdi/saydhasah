@@ -99,17 +99,37 @@ function initCountdownTimer() {
 
   if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
 
-  const settings = window.db.getSettings();
-  let targetDate = settings.dealEndDate ? new Date(settings.dealEndDate).getTime() : (Date.now() + 4 * 24 * 3600 * 1000);
+  const settings = window.db ? window.db.getSettings() : {};
+
+  // عروض اليوم الحصرية تتجدد تلقائياً كل 24 ساعة وتنتهي بنهاية اليوم الحالي (منتصف الليل 23:59:59)
+  // ما لم يُحدد تاريخ عروض خاص قصير الأجل (خلال 7 أيام كحد أقصى) من لوحة التحكم
+  function getTargetTime() {
+    if (settings && settings.dealEndDate) {
+      const customTarget = new Date(settings.dealEndDate).getTime();
+      const diffHours = (customTarget - Date.now()) / (1000 * 3600);
+      if (diffHours > 0 && diffHours <= 168) {
+        return customTarget;
+      }
+    }
+    const now = new Date();
+    const endOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 999);
+    return endOfDay.getTime();
+  }
+
+  let targetDate = getTargetTime();
 
   function update() {
     const now = new Date().getTime();
     let distance = targetDate - now;
 
-    if (distance < 0) {
-      // إعادة تدوير العداد لـ 24 ساعة إذا انتهى حتى يبقى العرض حيوياً وجذاباً
-      targetDate = Date.now() + 24 * 3600 * 1000;
+    if (distance <= 0) {
+      // إعادة تدوير العداد تلقائياً لليوم الجديد عند انتهاء اليوم
+      targetDate = getTargetTime();
       distance = targetDate - now;
+      if (distance <= 0) {
+        targetDate = Date.now() + 24 * 3600 * 1000;
+        distance = targetDate - now;
+      }
     }
 
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
