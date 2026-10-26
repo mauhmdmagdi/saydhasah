@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_113",
+      "name": "قمع التزود بالوقود للسيارة + خرطوم قابل للفصل لزيت المحرك المضافة لآلة المزرعة للدراجات النارية تستخدم حشو مريح مضاد للتسرب",
+      "description": "عرض علي إكسبريس المميز بخصم 26% — السعر الحالي 36.55 ريال بدلاً من 49.54 ريال.",
+      "originalPrice": 49.54,
+      "currentPrice": 36.55,
+      "discount": 26,
+      "category": "cat_010",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007934940719.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb4eef3ab74844a5d8cc66616be241f7aQ.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_112",
       "name": "حقائب خصر رياضية للنساء مقاومة للماء لحمل النقود والهاتف، حزام للجري والتدريب، حافظة للمفاتيح وملحقات الدراجات",
       "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 7.91 ريال بدلاً من 45.25 ريال.",
