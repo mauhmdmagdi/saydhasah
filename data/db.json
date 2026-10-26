@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_098",
+      "name": "Magic Wet Sponge: Cleans All Surfaces from Wooden Bases to Glass, Vents, and Mirrors",
+      "description": "المبيعات: 47 sold — تقييم المنتج: 3.6",
+      "originalPrice": 23.49,
+      "currentPrice": 5.37,
+      "discount": 77,
+      "category": "cat_003",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-605597583960603.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/793c3638-7f73-4cfa-887f-018a08d6a4e8.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_097",
       "name": "98pcs Pack Adjustable Nylon Cable Ties Suitable for Wiring, Management, Industrial Use - Heat-Resistant Self-Locking Buckle, Anti-Slip Locking System, Length (4.9*300mm) for, Workshop,",
       "description": "المبيعات: 11 sold",
