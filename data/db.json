@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_106",
+      "name": "بنطلون رجالي فضفاض ومريح لعام 2026، رمادي وأبيض، بطبعة حروف منفوخة، بخصر مطاطي ورباط، قابل للتنفس، كاجوال، ستريت وير",
+      "description": "عرض علي إكسبريس المميز بخصم 69% — السعر الحالي 27.68 ريال بدلاً من 88.49 ريال.",
+      "originalPrice": 88.49,
+      "currentPrice": 27.68,
+      "discount": 69,
+      "category": "cat_002",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013296596911.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a90dfb2be0d46f685ca2a959b911cddq.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_105",
       "name": "Google Find My Gps Tracker Android Smart Activity Trackers أجهزة يمكن ارتداؤها Android Finder Tag Tracker Car Smart Electronics",
       "description": "عرض علي إكسبريس المميز بخصم 81% — السعر الحالي 9.91 ريال بدلاً من 53.45 ريال.",
