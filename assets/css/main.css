@@ -697,7 +697,7 @@ ul { list-style: none; }
   overflow: hidden;
   position: relative;
   padding: 4px 0;
-  min-height: 136px;
+  min-height: 164px;
 }
 
 .stores-heading {
@@ -776,13 +776,41 @@ ul { list-style: none; }
   margin: 0;
   cursor: pointer;
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
   flex-shrink: 0;
+}
+
+.store-product-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 12px;
+  background: #ffffff;
+  border: 1px solid rgba(7, 84, 63, 0.18);
+  color: var(--primary-green, #07543f);
+  font-size: 0.74rem;
+  font-weight: 700;
+  border-radius: 999px;
+  letter-spacing: -0.2px;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.store-icon-btn:hover .store-product-count {
+  background: var(--primary-green, #07543f);
+  color: #ffffff;
+  border-color: var(--primary-green, #07543f);
+  box-shadow: 0 4px 12px rgba(7, 84, 63, 0.25);
+  transform: translateY(-2px);
 }
 
 .store-icon-btn:hover {
@@ -1517,7 +1545,7 @@ ul { list-style: none; }
     font-size: 0.72rem;
   }
   .stores-marquee-row {
-    min-height: 104px;
+    min-height: 136px;
   }
   .stores-heading {
     right: 12px;

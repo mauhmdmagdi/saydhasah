@@ -214,9 +214,16 @@ function renderStoreBadges() {
     { id: 'theluxury', name: 'ذا لاكجري كلوزيت (The Luxury Closet)', image: 'assets/images/stores/theluxury.svg' }
   ];
 
-  // نعرض فقط المتاجر التي لديها منتجات فعلية، حتى لا يظهر زر يقود إلى نتيجة فارغة
-  const activeStores = new Set(window.db.getProducts({ onlyActive: true }).map(p => p.store));
-  const stores = allStores.filter(s => activeStores.has(s.id));
+  // احسب عدد المنتجات لكل متجر
+  const activeProducts = window.db.getProducts({ onlyActive: true });
+  const storeCounts = {};
+  activeProducts.forEach(p => {
+    if (p.store) {
+      storeCounts[p.store] = (storeCounts[p.store] || 0) + 1;
+    }
+  });
+
+  const stores = allStores.filter(s => (storeCounts[s.id] || 0) > 0);
 
   if (stores.length === 0) {
     const section = storesGrid.closest('section');
@@ -226,12 +233,21 @@ function renderStoreBadges() {
     return;
   }
 
+  function formatCountText(n) {
+    if (!n || n <= 0) return '0 منتج';
+    if (n >= 3 && n <= 10) return `${n} منتجات`;
+    return `${n} منتج`;
+  }
+
   function createStoreBtn(s) {
+    const count = storeCounts[s.id] || 0;
+    const countLabel = formatCountText(count);
     return `
-      <button class="store-icon-btn" onclick="filterByStore('${s.id}')" title="${s.name}" aria-label="${s.name}">
+      <button class="store-icon-btn" onclick="filterByStore('${s.id}')" title="${s.name} — ${countLabel}" aria-label="${s.name}">
         <div class="store-badge-card store-card-${s.id}">
           <img src="${encodeURI(s.image)}" alt="${s.name}" class="store-logo-img" loading="lazy">
         </div>
+        <span class="store-product-count">${countLabel}</span>
       </button>
     `;
   }
