@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_080",
+      "name": "Ghost Retro Ghost Stickers, Halloween Stickers, Vinyl Stickers (For Laptops, Water Bottles, Journals, Thermoses, Planners, Etc.)",
+      "description": "المبيعات: 1 sold",
+      "originalPrice": 28.49,
+      "currentPrice": 7.12,
+      "discount": 75,
+      "category": "cat_001",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-607381203346825.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/open/6fa402f7b0cf40cd8c7c9aa9fb865b69-goods.jpeg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_074",
       "name": "Mouse Blanket \"I'M Staying Home Today\" Self-Deprecating And Slacker-Hearted Fun Sticker, Vinyl Sticker - Durable Matte Surface, Self-Adhesive Bumper Sticker, Suitable for Cars, Windows, Laptops, Trucks, Vans",
       "description": "المبيعات: 2 sold",
