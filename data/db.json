@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_090",
+      "name": "اريكتا 100 مجم 4 أقراص",
+      "description": "عرض نون في قسم الصحة والعناية الشخصية بسعر 29.35 ريال.",
+      "originalPrice": 36.0,
+      "currentPrice": 29.35,
+      "discount": 18,
+      "category": "cat_008",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/erecta-100-mg-tablet-4pcs/Z865DFECE848CAE606789Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z865DFECE848CAE606789Z/45/1767808292/dbd3c286-ab84-4228-acb6-fbd427e42822.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_089",
       "name": "ساعة ذكية باند 11، تتبع نوم محسّن، متتبع للصحة واللياقة البدنية، عمر بطارية يصل إلى 14 يومًا، نحيفة للغاية ومريحة للارتداء، متوافقة مع iOS وAndroid، حصرية على الإنترنت",
       "description": "عرض نون في قسم الساعات والمجوهرات بسعر 149.00 ريال.",
