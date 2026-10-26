@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_099",
+      "name": "1 Set of Professional Hair Dye Kit, Hair Dyeing Tools Including Comb, Brush and Color Mixing Bowl, Suitable for DIY Salon-level Hair Dyeing and Bleaching at Home, Perfect for Partial Hair Dyeing and Care, Hair Dyeing Acc",
+      "description": "المبيعات: 6 sold",
+      "originalPrice": 36.99,
+      "currentPrice": 8.27,
+      "discount": 78,
+      "category": "cat_004",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-606933989868509.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/5782f5fc-676b-46f9-875f-f61cf9769e83.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_098",
       "name": "Magic Wet Sponge: Cleans All Surfaces from Wooden Bases to Glass, Vents, and Mirrors",
       "description": "المبيعات: 47 sold — تقييم المنتج: 3.6",
