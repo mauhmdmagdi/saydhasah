@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_084",
+      "name": "فستان ميدي دانتيل",
+      "description": "عرض نون في قسم الأزياء والموضة بسعر 199.00 ريال.",
+      "originalPrice": 199.0,
+      "currentPrice": 199.0,
+      "discount": 0,
+      "category": "cat_002",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/lace-midi-dress/ZF67F549620689739433EZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZF67F549620689739433EZ/45/_/1742328393/6b26f9d8-fd5d-43c3-8a43-b8a4b29f1518.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_083",
       "name": "سماعات Tune 510Bt اللاسلكية فوق الاذن - Pure Bass - بطارية 40H - شحن سريع - USB سريع من النوع C - قابلة للطي أسود",
       "description": "عرض نون في قسم الإلكترونيات بسعر 114.00 ريال.",
