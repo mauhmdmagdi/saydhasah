@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_105",
+      "name": "Google Find My Gps Tracker Android Smart Activity Trackers أجهزة يمكن ارتداؤها Android Finder Tag Tracker Car Smart Electronics",
+      "description": "عرض علي إكسبريس المميز بخصم 81% — السعر الحالي 9.91 ريال بدلاً من 53.45 ريال.",
+      "originalPrice": 53.45,
+      "currentPrice": 9.91,
+      "discount": 81,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005009384265434.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd4300a65f2a34ff9b99c3c43487316e7P.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_104",
       "name": "كرسي هزاز للأطفال بلوتوث و موسيقى مع ريموت تحكم عن بعد، كرسي هزاز كهربائي مزود بشبكة حماية من البعوض و 5 سرعات قابلة للتعديل",
       "description": "عرض نون في قسم الأطفال والرضع بسعر 248.99 ريال.",
