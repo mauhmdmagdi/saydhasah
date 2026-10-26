@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_110",
+      "name": "ساعات رجالية فاخرة للأعمال، ساعة كوارتز أنيقة للرجال مع تقويم (بدون علبة)",
+      "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 6.91 ريال بدلاً من 41.2 ريال.",
+      "originalPrice": 41.2,
+      "currentPrice": 6.91,
+      "discount": 83,
+      "category": "cat_007",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010706818410.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S915de6c2f5f340308ac1b52d7d51afa00.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_109",
       "name": "مجموعة من 11 قطعة تشمل حبل سحب وأربطة مقاومة، معدات لياقة بدنية محمولة، حزام للكاحل، موسع للصدر، شريط مرن للتمارين",
       "description": "عرض علي إكسبريس المميز بخصم 58% — السعر الحالي 27.52 ريال بدلاً من 65.36 ريال.",
