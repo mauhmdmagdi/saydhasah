@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_089",
+      "name": "ساعة ذكية باند 11، تتبع نوم محسّن، متتبع للصحة واللياقة البدنية، عمر بطارية يصل إلى 14 يومًا، نحيفة للغاية ومريحة للارتداء، متوافقة مع iOS وAndroid، حصرية على الإنترنت",
+      "description": "عرض نون في قسم الساعات والمجوهرات بسعر 149.00 ريال.",
+      "originalPrice": 229.0,
+      "currentPrice": 149.0,
+      "discount": 35,
+      "category": "cat_007",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/band-11-smart-watch-enhanced-sleep-tracking-health-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-ios-android-compatible-online-exclusive-black/N70285070V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z4B0C4DB7AEC44971E628Z/45/_/1780572419/c38ac872-e827-49a9-9fe5-943caa5f0ae3.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_088",
       "name": "حضانة أطفال، 200 × 180 سم، حضانة أطفال ورضع، سياج أطفال، ساحات لعب أطفال للأماكن الداخلية والخارجية مع شبكة قابلة للتنفس ومضادة للسقوط",
       "description": "عرض نون في قسم الأطفال والرضع بسعر 210.24 ريال.",
