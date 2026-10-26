@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_091",
+      "name": "طقم حقائب سفر منظمة مكون من 7 قطع بيج",
+      "description": "عرض نون في قسم السفر والرحلات بسعر 28.20 ريال.",
+      "originalPrice": 34.05,
+      "currentPrice": 28.2,
+      "discount": 17,
+      "category": "cat_009",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/7-piece-travel-organizer-luggage-set-beige/N46350599A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pnsku/N46350599A/45/_/1766380538/beac0ff6-a97c-41bb-bf26-ce545ea7d39e.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_090",
       "name": "اريكتا 100 مجم 4 أقراص",
       "description": "عرض نون في قسم الصحة والعناية الشخصية بسعر 29.35 ريال.",
