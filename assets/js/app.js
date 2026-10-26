@@ -278,10 +278,8 @@ function renderStoreBadges() {
           <div class="stores-marquee-track">
             <div class="stores-marquee-group">
               ${itemsHTML}
-              ${itemsHTML}
             </div>
             <div class="stores-marquee-group" aria-hidden="true">
-              ${itemsHTML}
               ${itemsHTML}
             </div>
           </div>
@@ -427,7 +425,7 @@ function createProductCardHTML(p) {
       </div>
 
       <div class="product-image-wrap" onclick="openProductDetailModal('${p.id}')">
-        <img src="${p.image}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300?text=منتج'">
+        <img src="${p.image}" alt="${escapeHtml(p.name)}" loading="lazy" decoding="async" onerror="this.src='https://via.placeholder.com/300x300?text=منتج'">
       </div>
 
       <div class="product-info">
