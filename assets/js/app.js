@@ -160,11 +160,13 @@ const STORE_LOGOS_MAP = {
   fordel: 'assets/images/stores/fordel.svg',
   fordeal: 'assets/images/stores/fordel.svg',
   theluxury: 'assets/images/stores/theluxury.svg',
+  aliexpress: 'assets/images/stores/aliexpress.svg',
   'the luxury': 'assets/images/stores/theluxury.svg'
 };
 
 const STORE_NAMES_MAP = {
   amazon: 'أمازون (Amazon)',
+  aliexpress: 'علي إكسبريس (AliExpress)',
   noon: 'نون (Noon)',
   temu: 'تيمو (Temu)',
   shein: 'شي إن (SHEIN)',
