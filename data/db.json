@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_087",
+      "name": "طقم دمبل وزن مدمج وزن 20 كجم",
+      "description": "عرض نون في قسم الرياضة واللياقة بسعر 194.99 ريال.",
+      "originalPrice": 319.0,
+      "currentPrice": 194.99,
+      "discount": 39,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/integrated-weight-dumbbell-set-20kg/N12519777A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pnsku/N12519777A/45/_/1719412927/f0792916-d29b-455b-9ec4-093a7a1a12db.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_086",
       "name": "طقم مكياج فاخر من Fancy Beauty، يحتوي على مجموعة متكاملة من مستحضرات التجميل",
       "description": "عرض نون في قسم الجمال والعناية بسعر 196.00 ريال.",
