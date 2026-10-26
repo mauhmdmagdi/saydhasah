@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_102",
+      "name": "فستان بتفاصيل مكشكشة",
+      "description": "عرض نون في قسم الأزياء والموضة بسعر 159.00 ريال.",
+      "originalPrice": 159.0,
+      "currentPrice": 159.0,
+      "discount": 0,
+      "category": "cat_002",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/ruched-detail-dress/ZEA5C9D116BF087FCB403Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEA5C9D116BF087FCB403Z/45/_/1706559758/d01dede8-24ee-4ac7-adff-e6e0ef47485f.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-26",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_101",
       "name": "Gift Wrap Tags 1pc Vinyl Candle Sticker, 5.08X5.08 cm, Friendship Quote Sticker, Perfect Gift for Best Friend, Mom, Women - Ideal Choice for Mother'S Day, Birthday, Graduation, And Farewell",
       "description": "منتج حقيقي من تيمو ضمن قسم المزيد.",
