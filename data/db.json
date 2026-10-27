@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_167",
+      "name": "حامل لوحة ترخيص قابل للفك عالمي من البلاستيك، حامل لوحة مركبة، إكسسوار خارجي للسيارة",
+      "description": "عرض علي إكسبريس المميز بخصم 65% — السعر الحالي 21.63 ريال بدلاً من 62.52 ريال.",
+      "originalPrice": 62.52,
+      "currentPrice": 21.63,
+      "discount": 65,
+      "category": "cat_010",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012967782574.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8ec69c6f44d4836a51865667ba62a54f.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_166",
       "name": "سحابة مطوي حقائب اليد مصمم حقيبة يد المرأة واحدة Crossbody زلابية حمل الإبط حقيبة التسوق حقائب كتف حقيبة تحت الإبط",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 47.94 ريال بدلاً من 47.94 ريال.",
