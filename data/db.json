@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_221",
+      "name": "بيجامة رجالية كبيرة الحجم من القطن الخالص، ملابس نوم للربيع والخريف بأكمام طويلة، تصميم بسيط باللون الأسود، ملابس منزلية، طقم بيجامة للشباب",
+      "description": "عرض علي إكسبريس المميز بخصم 53% — السعر الحالي 59.33 ريال بدلاً من 126.23 ريال.",
+      "originalPrice": 126.23,
+      "currentPrice": 59.33,
+      "discount": 53,
+      "category": "cat_019",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013435077373.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scc48e70e0c4a47dbb6d44123fa861411F.png",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_220",
       "name": "فستان طويل نسائي من الدنيم بأكمام طويلة وياقة مقلوبة وأزرار أنيقة مع شق خلفي بتصميم Y2k للشارع والعمل والاستخدام اليومي 2026",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 83.39 ريال بدلاً من 83.39 ريال.",
