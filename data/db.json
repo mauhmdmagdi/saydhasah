@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_156",
+      "name": "حقيبة أدوات الزينة المحمولة متعددة الوظائف، مقاومة للماء، قابلة للتعليق، مناسبة للسفر في الهواء الطلق، لتخزين المكياج الجاف والرطب",
+      "description": "عرض نون في قسم السفر والرحلات بسعر 59.80 ريال.",
+      "originalPrice": 80.0,
+      "currentPrice": 59.8,
+      "discount": 25,
+      "category": "cat_009",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/waterproof-travel-outdoor-big-capacity-hanging-toiletry-bag-portable-multifunction-dry-wet-separation-makeup-storage-bag/Z02513B192ACA8F209219Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z02513B192ACA8F209219Z/45/1742889377/7a745eb5-601c-400d-8e4d-f5654bad405b.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_155",
       "name": "مجموعة دمبل قابلة للتعديل بوزن 20 كجم قابلة للتحويل إلى أثقال، زوج من الوزن الخفيف لصالة الألعاب الرياضية المنزلية ومعدات النساء والرجال",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 157.99 ريال.",
