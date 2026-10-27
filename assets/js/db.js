@@ -110,27 +110,208 @@ class StoreDB {
     }
 
     const officialCats = [
-      { id: "cat_001", name: "الإلكترونيات", image: "assets/images/categories/cat_001.svg?v=2", icon: "💻", color: "#1e3c72", order: 1, isActive: true },
-      { id: "cat_002", name: "الأزياء والموضة", image: "assets/images/categories/cat_002.svg?v=2", icon: "👗", color: "#e91e63", order: 2, isActive: true },
-      { id: "cat_003", name: "المنزل والمطبخ", image: "assets/images/categories/cat_003.svg?v=2", icon: "🏠", color: "#10b981", order: 3, isActive: true },
-      { id: "cat_004", name: "الجمال والعناية", image: "assets/images/categories/cat_004.svg?v=2", icon: "💄", color: "#ec4899", order: 4, isActive: true },
-      { id: "cat_005", name: "الرياضة واللياقة", image: "assets/images/categories/cat_005.svg?v=2", icon: "⚽", color: "#0284c7", order: 5, isActive: true },
-      { id: "cat_006", name: "الأطفال والرضع", image: "assets/images/categories/cat_006.svg?v=2", icon: "🧸", color: "#06b6d4", order: 6, isActive: true },
-      { id: "cat_007", name: "الساعات والمجوهرات", image: "assets/images/categories/cat_007.svg?v=2", icon: "⌚", color: "#795548", order: 7, isActive: true },
-      { id: "cat_008", name: "الصحة والعناية الشخصية", image: "assets/images/categories/cat_008.svg?v=2", icon: "🧴", color: "#14b8a6", order: 8, isActive: true },
-      { id: "cat_009", name: "السفر والرحلات", image: "assets/images/categories/cat_009.svg?v=2", icon: "🧳", color: "#f59e0b", order: 9, isActive: true },
-      { id: "cat_011", name: "ملابس رجالي", image: "assets/images/categories/cat_011.svg?v=1", icon: "👔", color: "#1e3c72", order: 10, isActive: true },
-      { id: "cat_012", name: "ملابس حريمي", image: "assets/images/categories/cat_012.svg?v=1", icon: "👗", color: "#e91e63", order: 11, isActive: true },
-      { id: "cat_013", name: "ملابس أولاد", image: "assets/images/categories/cat_013.svg?v=1", icon: "👦", color: "#0284c7", order: 12, isActive: true },
-      { id: "cat_014", name: "ملابس بنات", image: "assets/images/categories/cat_014.svg?v=1", icon: "👧", color: "#f43f5e", order: 13, isActive: true },
-      { id: "cat_015", name: "ملابس مواليد", image: "assets/images/categories/cat_015.svg?v=1", icon: "👶", color: "#06b6d4", order: 14, isActive: true },
-      { id: "cat_016", name: "عدد وأدوات", image: "assets/images/categories/cat_016.svg?v=1", icon: "🛠️", color: "#f59e0b", order: 15, isActive: true },
-      { id: "cat_017", name: "إكسسوارات سيارات", image: "assets/images/categories/cat_017.svg?v=1", icon: "🚗", color: "#6366f1", order: 16, isActive: true },
-      { id: "cat_010", name: "المزيد", image: "assets/images/categories/cat_010.svg?v=2", icon: "🎮", color: "#8b5cf6", order: 17, isActive: true }
-    ];
+      {
+            "id": "cat_001",
+            "name": "الإلكترونيات",
+            "image": "assets/images/categories/cat_001.svg?v=2",
+            "icon": "💻",
+            "color": "#1e3c72",
+            "order": 1,
+            "isActive": true
+      },
+      {
+            "id": "cat_012",
+            "name": "نساء",
+            "image": "assets/images/categories/cat_012.svg?v=2",
+            "icon": "👗",
+            "color": "#e91e63",
+            "order": 2,
+            "isActive": true
+      },
+      {
+            "id": "cat_018",
+            "name": "فساتين",
+            "image": "assets/images/categories/cat_018.svg?v=1",
+            "icon": "💃",
+            "color": "#f43f5e",
+            "order": 3,
+            "isActive": true
+      },
+      {
+            "id": "cat_019",
+            "name": "ملابس النوم",
+            "image": "assets/images/categories/cat_019.svg?v=1",
+            "icon": "🌙",
+            "color": "#8b5cf6",
+            "order": 4,
+            "isActive": true
+      },
+      {
+            "id": "cat_020",
+            "name": "ملابس داخلية",
+            "image": "assets/images/categories/cat_020.svg?v=1",
+            "icon": "🩲",
+            "color": "#ec4899",
+            "order": 5,
+            "isActive": true
+      },
+      {
+            "id": "cat_021",
+            "name": "أحذية",
+            "image": "assets/images/categories/cat_021.svg?v=1",
+            "icon": "👠",
+            "color": "#0ea5e9",
+            "order": 6,
+            "isActive": true
+      },
+      {
+            "id": "cat_022",
+            "name": "حقائب وأمتعة",
+            "image": "assets/images/categories/cat_022.svg?v=1",
+            "icon": "👜",
+            "color": "#d97706",
+            "order": 7,
+            "isActive": true
+      },
+      {
+            "id": "cat_023",
+            "name": "العطور",
+            "image": "assets/images/categories/cat_023.svg?v=1",
+            "icon": "🌸",
+            "color": "#a855f7",
+            "order": 8,
+            "isActive": true
+      },
+      {
+            "id": "cat_011",
+            "name": "ملابس رجالي",
+            "image": "assets/images/categories/cat_011.svg?v=2",
+            "icon": "👔",
+            "color": "#1e3c72",
+            "order": 9,
+            "isActive": true
+      },
+      {
+            "id": "cat_013",
+            "name": "ملابس أولاد",
+            "image": "assets/images/categories/cat_013.svg?v=2",
+            "icon": "👦",
+            "color": "#0284c7",
+            "order": 10,
+            "isActive": true
+      },
+      {
+            "id": "cat_014",
+            "name": "ملابس بنات",
+            "image": "assets/images/categories/cat_014.svg?v=2",
+            "icon": "👧",
+            "color": "#f43f5e",
+            "order": 11,
+            "isActive": true
+      },
+      {
+            "id": "cat_015",
+            "name": "ملابس مواليد",
+            "image": "assets/images/categories/cat_015.svg?v=2",
+            "icon": "👶",
+            "color": "#06b6d4",
+            "order": 12,
+            "isActive": true
+      },
+      {
+            "id": "cat_003",
+            "name": "المنزل والمطبخ",
+            "image": "assets/images/categories/cat_003.svg?v=2",
+            "icon": "🏠",
+            "color": "#10b981",
+            "order": 13,
+            "isActive": true
+      },
+      {
+            "id": "cat_004",
+            "name": "الجمال والعناية",
+            "image": "assets/images/categories/cat_004.svg?v=2",
+            "icon": "💄",
+            "color": "#ec4899",
+            "order": 14,
+            "isActive": true
+      },
+      {
+            "id": "cat_005",
+            "name": "الرياضة واللياقة",
+            "image": "assets/images/categories/cat_005.svg?v=2",
+            "icon": "⚽",
+            "color": "#0284c7",
+            "order": 15,
+            "isActive": true
+      },
+      {
+            "id": "cat_006",
+            "name": "الأطفال والرضع",
+            "image": "assets/images/categories/cat_006.svg?v=2",
+            "icon": "🧸",
+            "color": "#06b6d4",
+            "order": 16,
+            "isActive": true
+      },
+      {
+            "id": "cat_007",
+            "name": "الساعات والمجوهرات",
+            "image": "assets/images/categories/cat_007.svg?v=2",
+            "icon": "⌚",
+            "color": "#795548",
+            "order": 17,
+            "isActive": true
+      },
+      {
+            "id": "cat_008",
+            "name": "الصحة والعناية الشخصية",
+            "image": "assets/images/categories/cat_008.svg?v=2",
+            "icon": "🧴",
+            "color": "#14b8a6",
+            "order": 18,
+            "isActive": true
+      },
+      {
+            "id": "cat_009",
+            "name": "السفر والرحلات",
+            "image": "assets/images/categories/cat_009.svg?v=2",
+            "icon": "🧳",
+            "color": "#f59e0b",
+            "order": 19,
+            "isActive": true
+      },
+      {
+            "id": "cat_016",
+            "name": "عدد وأدوات",
+            "image": "assets/images/categories/cat_016.svg?v=2",
+            "icon": "🛠️",
+            "color": "#f59e0b",
+            "order": 20,
+            "isActive": true
+      },
+      {
+            "id": "cat_017",
+            "name": "إكسسوارات سيارات",
+            "image": "assets/images/categories/cat_017.svg?v=2",
+            "icon": "🚗",
+            "color": "#6366f1",
+            "order": 21,
+            "isActive": true
+      },
+      {
+            "id": "cat_010",
+            "name": "المزيد",
+            "image": "assets/images/categories/cat_010.svg?v=2",
+            "icon": "🎮",
+            "color": "#8b5cf6",
+            "order": 22,
+            "isActive": true
+      }
+];
 
     // مزامنة الفئات لضمان اعتماد التصنيفات العشرة وصورها
-    const needsSync = !this.data.categories.length || this.data.categories.length !== 17 || this.data.categories[0].name !== 'الإلكترونيات';
+    const needsSync = !this.data.categories.length || this.data.categories.length !== 22 || this.data.categories[0].name !== 'الإلكترونيات';
     if (needsSync) {
       this.data.categories = officialCats;
       this.save();
