@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_131",
+      "name": "منظم سفر 7 قطع لحقائب اليد حقائب تنظيم ضغط متعددة الوظائف حزم فرز الملابس حقائب التعبئة للسفر الأساسية للرجال والنساء - أخضر",
+      "description": "عرض نون في قسم السفر والرحلات بسعر 39.60 ريال.",
+      "originalPrice": 67.5,
+      "currentPrice": 39.6,
+      "discount": 41,
+      "category": "cat_009",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/travel-organizer-7pcs-for-carry-on-luggage-multi-functional-compression-organizer-bags-clothing-sorting-packages-travel-packing-pouches-for-man-women-travel-essentials-green/ZA54D798685134885669CZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA54D798685134885669CZ/45/1744161420/e5b10826-6fa8-40b6-aca9-888eba077cfb.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_130",
       "name": "مجموعة هدايا للاطفال حديثي الولادة، مجموعة مستلزمات استحمام للاطفال حديثي الولادة مع بطانية اطفال خشخيشة، هدية للبنات حديثي الولادة وهدايا للاولاد الرضع لحفلات استقبال المولود الجديد، وردي",
       "description": "عرض نون في قسم الأطفال والرضع بسعر 79.95 ريال.",
