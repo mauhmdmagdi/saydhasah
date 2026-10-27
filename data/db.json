@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_179",
+      "name": "طقم مفكات وعدد يدوية متعدد الاستخدامات 24 في 1 للصيانة المنزلية",
+      "description": "علبة أدوات دقيقة ومتكاملة تحتوي على رؤوس مفكات مغناطيسية متنوعة لإصلاح الأجهزة الإلكترونية والنظارات والأعمال المنزلية الخفيفة.",
+      "originalPrice": 70.0,
+      "currentPrice": 34.0,
+      "discount": 51,
+      "category": "cat_016",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Tools-Home-Improvement-c-4327.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abc/2026/05/26/2b/17797354439b3d8ab66c63f0148b7d60f7d1d8cd0a_thumbnail_240x.png",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_178",
       "name": "حامل جوال مغناطيسي للسيارة مع شاحن لاسلكي سريع وثبات قوي",
       "description": "ملحق سيارة عملي ومبتكر يثبت بقوة على فتحات مكيف السيارة ويوفر دوران 360 درجة لسهولة متابعة الخرائط والقيادة بأمان.",
