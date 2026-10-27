@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_116",
+      "name": "لعبة لوحية تفاعلية، لعبة شطرنج فروت فليب، ألعاب لوحية للمطابقة والألغاز، لعبة شطرنج كرتونية قابلة للقلب، لعبة ذاكرة، هدايا للأطفال والصبيان والبنات",
+      "description": "عرض علي إكسبريس المميز بخصم 78% — السعر الحالي 14.91 ريال بدلاً من 66.33 ريال.",
+      "originalPrice": 66.33,
+      "currentPrice": 14.91,
+      "discount": 78,
+      "category": "cat_006",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010332273822.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc852d347146342b3a72d3f3cec978aeal.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_115",
       "name": "2PC Cute Animal Pencil Sharpener with Shavings Container | Manual Pencil Sharpener for Kids",
       "description": "المبيعات: 6 sold",
