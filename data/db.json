@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_208",
+      "name": "قميص نوم نسائي بمقاسات كبيرة، تصميم فضفاض، ياقة مربعة، فستان نوم بأكمام قصيرة، مع رباط، ملابس منزلية مريحة.",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 44.41 ريال بدلاً من 44.41 ريال.",
+      "originalPrice": 44.41,
+      "currentPrice": 44.41,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013177213116.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S30ba5f616bdd4cd8b0faea7e13ac7e32P.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_207",
       "name": "فستان طويل نسائي من الدنيم بأكمام طويلة وياقة مقلوبة وأزرار أنيقة مع شق خلفي بتصميم Y2k للشارع والعمل والاستخدام اليومي 2026",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 83.39 ريال بدلاً من 83.39 ريال.",
