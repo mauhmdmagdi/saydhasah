@@ -320,7 +320,10 @@ function renderCategoriesGrid() {
     const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=2`;
     return `
       <button class="category-card" type="button" data-category-id="${escapeHtml(category.id)}" title="${escapeHtml(category.name)}" aria-label="${escapeHtml(category.name)}">
-        <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
+        <div class="category-card-img-wrap">
+          <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
+        </div>
+        <span class="category-card-name">${escapeHtml(category.name)}</span>
       </button>
     `;
   }).join('');
