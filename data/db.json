@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_234",
+      "name": "حقيبة نسائية صغيرة جديدة، حقيبة كتف متعددة الاستخدامات ذات لون موحد وعالية الجودة، حقيبة كروس بودي، حقيبة يد مناسبة للاستخدام اليومي والتنقل.",
+      "description": "عرض علي إكسبريس المميز بخصم 54% — السعر الحالي 39.94 ريال بدلاً من 87.58 ريال.",
+      "originalPrice": 87.58,
+      "currentPrice": 39.94,
+      "discount": 54,
+      "category": "cat_009",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012049581855.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc27e39a4fe9c41de8d8a3b6dbd1655fes.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_233",
       "name": "زيت عطر رول أون للنساء، رائحة غورماند تدوم طويلاً، عطر بحجم مناسب للسفر للسيدات، عطر الكوكيز بالحليب والمسك",
       "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 114.31 ريال بدلاً من 251.4 ريال.",
