@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_126",
+      "name": "Tic Tac Toe Board Game, Tic Tac Toe Family Game, Classical Family Board Game, Wooden tic-tac-toe game, Christmas and Halloween gifts",
+      "description": "المبيعات: 150K+ sold — تقييم المنتج: 4.7",
+      "originalPrice": 51.0,
+      "currentPrice": 9.86,
+      "discount": 81,
+      "category": "cat_010",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-601101920237436.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/d966acc8-2eab-4777-b32a-47c81ba13886.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_125",
       "name": "1pc Fashionably Simple Black Stainless Steel Snake Chain Necklace, Both Men's and Women's Simple Chain Necklaces, Hypoallergenic Waterproof Layering Jewelry, Summer Beach Gift for Him Her",
       "description": "المبيعات: 4.2K+ sold — تقييم المنتج: 4.8",
