@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_202",
+      "name": "حقيبة مكياج سوداء سعة قماش للسفر حقيبة أدوات الزينة منظم فرش المكياج والإكسسوارات الجمالية حقيبة تخزين للنساء",
+      "description": "عرض نون في قسم حقائب وأمتعة بسعر 23.75 ريال.",
+      "originalPrice": 29.22,
+      "currentPrice": 23.75,
+      "discount": 19,
+      "category": "cat_022",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/black-makeup-bag-capacity-canvas-travel-toiletry-bag-organizer-makeup-brushes-aesthetic-accessories-storage-bag-for-women/Z1BE981C98A0903647098Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z1BE981C98A0903647098Z/45/1745302588/8e2057ae-4e03-45cd-a3c5-3c3efea3d24c.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_201",
       "name": "رن بليز إم",
       "description": "عرض نون في قسم أحذية بسعر 160.00 ريال.",
