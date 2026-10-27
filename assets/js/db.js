@@ -119,11 +119,18 @@ class StoreDB {
       { id: "cat_007", name: "الساعات والمجوهرات", image: "assets/images/categories/cat_007.svg?v=2", icon: "⌚", color: "#795548", order: 7, isActive: true },
       { id: "cat_008", name: "الصحة والعناية الشخصية", image: "assets/images/categories/cat_008.svg?v=2", icon: "🧴", color: "#14b8a6", order: 8, isActive: true },
       { id: "cat_009", name: "السفر والرحلات", image: "assets/images/categories/cat_009.svg?v=2", icon: "🧳", color: "#f59e0b", order: 9, isActive: true },
-      { id: "cat_010", name: "المزيد", image: "assets/images/categories/cat_010.svg?v=2", icon: "🎮", color: "#8b5cf6", order: 10, isActive: true }
+      { id: "cat_011", name: "ملابس رجالي", image: "assets/images/categories/cat_011.svg?v=1", icon: "👔", color: "#1e3c72", order: 10, isActive: true },
+      { id: "cat_012", name: "ملابس حريمي", image: "assets/images/categories/cat_012.svg?v=1", icon: "👗", color: "#e91e63", order: 11, isActive: true },
+      { id: "cat_013", name: "ملابس أولاد", image: "assets/images/categories/cat_013.svg?v=1", icon: "👦", color: "#0284c7", order: 12, isActive: true },
+      { id: "cat_014", name: "ملابس بنات", image: "assets/images/categories/cat_014.svg?v=1", icon: "👧", color: "#f43f5e", order: 13, isActive: true },
+      { id: "cat_015", name: "ملابس مواليد", image: "assets/images/categories/cat_015.svg?v=1", icon: "👶", color: "#06b6d4", order: 14, isActive: true },
+      { id: "cat_016", name: "عدد وأدوات", image: "assets/images/categories/cat_016.svg?v=1", icon: "🛠️", color: "#f59e0b", order: 15, isActive: true },
+      { id: "cat_017", name: "إكسسوارات سيارات", image: "assets/images/categories/cat_017.svg?v=1", icon: "🚗", color: "#6366f1", order: 16, isActive: true },
+      { id: "cat_010", name: "المزيد", image: "assets/images/categories/cat_010.svg?v=2", icon: "🎮", color: "#8b5cf6", order: 17, isActive: true }
     ];
 
     // مزامنة الفئات لضمان اعتماد التصنيفات العشرة وصورها
-    const needsSync = !this.data.categories.length || this.data.categories.length !== 10 || this.data.categories[0].name !== 'الإلكترونيات';
+    const needsSync = !this.data.categories.length || this.data.categories.length !== 17 || this.data.categories[0].name !== 'الإلكترونيات';
     if (needsSync) {
       this.data.categories = officialCats;
       this.save();
