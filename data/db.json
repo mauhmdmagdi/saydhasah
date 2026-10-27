@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_132",
+      "name": "بيجاما للرجال للنوم ليلا ناعمة وعائلية، قميص نوم جيد التهوية، مناسبة للمنزل في الصيف وفترات الراحة والاستشفاء من ويموكي",
+      "description": "عرض أمازون السعودية في قسم ملابس رجالي بخصم 69% — السعر الحالي 27.99 ريال بدلاً من 89.99 ريال.",
+      "originalPrice": 89.99,
+      "currentPrice": 27.99,
+      "discount": 69,
+      "category": "cat_011",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0GG9TQNK9?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61EuoiIindL._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_131",
       "name": "منظم سفر 7 قطع لحقائب اليد حقائب تنظيم ضغط متعددة الوظائف حزم فرز الملابس حقائب التعبئة للسفر الأساسية للرجال والنساء - أخضر",
       "description": "عرض نون في قسم السفر والرحلات بسعر 39.60 ريال.",
