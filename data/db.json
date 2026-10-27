@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_194",
+      "name": "ساعة كوارتز متعددة الوظائف للرجال مع مينا فرعية من السيليكون لليوم والتاريخ، مقاومة للماء حتى عمق 5 ايه تي ام",
+      "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 53% — السعر الحالي 395.00 ريال بدلاً من 840.00 ريال.",
+      "originalPrice": 840.0,
+      "currentPrice": 395.0,
+      "discount": 53,
+      "category": "cat_007",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B079QQ34RL?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/615P3mqkgSL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_193",
       "name": "او دي بارفان غوتشي بلوم للنساء من غوتشي، 100مل",
       "description": "عرض أمازون السعودية في قسم العطور بخصم 62% — السعر الحالي 235.10 ريال بدلاً من 626.75 ريال.",
