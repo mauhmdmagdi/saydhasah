@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_180",
+      "name": "حقيبة ظهر للسفر متعددة الجيوب ومقاومة للماء مع منفذ شحن USB",
+      "description": "حقيبة ظهر عملية وخفيفة الوزن بمساحات تخزين واسعة لحمل اللابتوب والملابس أثناء السفر والرحلات القصيرة بتصميم مريح للأكتاف.",
+      "originalPrice": 140.0,
+      "currentPrice": 65.0,
+      "discount": 54,
+      "category": "cat_009",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Bags-Luggage-c-3637.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abccv/2026/04/21/c1/17767377137e7f63d666c369e53b445d5837f12a54_thumbnail_240x.png",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_179",
       "name": "طقم مفكات وعدد يدوية متعدد الاستخدامات 24 في 1 للصيانة المنزلية",
       "description": "علبة أدوات دقيقة ومتكاملة تحتوي على رؤوس مفكات مغناطيسية متنوعة لإصلاح الأجهزة الإلكترونية والنظارات والأعمال المنزلية الخفيفة.",
