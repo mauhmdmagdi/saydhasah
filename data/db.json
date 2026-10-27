@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_236",
+      "name": "مجموعة أدوات إصلاح السيارات المكونة من 46 قطعة، تتضمن مفتاح ربط بقطر 1/4 بوصة، ومجموعة مفاتيح ربط ومقبس ومجموعة رؤوس مفكات، وأدوات صيانة السيارات، للاستخدام في صيانة السيارات.",
+      "description": "عرض علي إكسبريس المميز بخصم 58% — السعر الحالي 26.34 ريال بدلاً من 62.91 ريال.",
+      "originalPrice": 62.91,
+      "currentPrice": 26.34,
+      "discount": 58,
+      "category": "cat_016",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013333912783.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa958e3ce29574718915a39c0b0d95bec6.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_235",
       "name": "WORKPRO 4-Piece Adjustable Wrench Set, 150/200/250/300 mm",
       "description": "عرض أمازون السعودية في قسم عدد وأدوات بخصم 30% — السعر الحالي 52.49 ريال بدلاً من 74.99 ريال.",
