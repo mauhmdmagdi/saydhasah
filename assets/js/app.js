@@ -263,9 +263,6 @@ function renderStoreBadges() {
             <div class="stores-marquee-group" aria-hidden="true">
               ${itemsHTML.repeat(3)}
             </div>
-            <div class="stores-marquee-group" aria-hidden="true">
-              ${itemsHTML.repeat(3)}
-            </div>
           </div>
         </div>
       </div>
