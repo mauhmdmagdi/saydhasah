@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_160",
+      "name": "العاب سيارات اطفال بالتحكم عن بعد باللون الاسود",
+      "description": "عرض نون في قسم إكسسوارات سيارات بسعر 62.89 ريال.",
+      "originalPrice": 62.89,
+      "currentPrice": 62.89,
+      "discount": 0,
+      "category": "cat_017",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/remote-control-car-kids-toys-black/N52420571A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z2B7611A0CCA47BF1EE24Z/45/_/1779704379/766f7827-9140-4de5-a826-a554815c9bd7.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_159",
       "name": "قميص رجالي جديد من نسيج البوليستر مريح وقابل للتنفس برقبة مستديرة مع نمط مطبوع عليه كلمة باريس، مناسب للارتداء الخارجي والكاجوال",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 28.49 ريال بدلاً من 28.49 ريال.",
