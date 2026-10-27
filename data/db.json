@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_227",
+      "name": "مجموعات ملابس الصيف للفتيات ، قمم بروتيل وبنطلون فضفاض ، ملابس طفلة ، الترفيه والعصرية ، هدية عيد ميلاد",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 13.71 ريال بدلاً من 13.71 ريال.",
+      "originalPrice": 13.71,
+      "currentPrice": 13.71,
+      "discount": 0,
+      "category": "cat_014",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007081945159.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S98ac1fa73cca4ae19537d74a78801cd2e.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_226",
       "name": "طقم بناتي قطعتين بلوزة بطبعة زهور وبنطلون برميل - وردي فاتح ووردي",
       "description": "عرض نون في قسم ملابس بنات بسعر 91.99 ريال.",
