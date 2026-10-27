@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_163",
+      "name": "حقيقية XINEW العلامة التجارية الرجال الساعات الطلاب أزياء عارضة كامل سوار فولاذي غير قابل للصدأ تاريخ بسيط كوارتز المعصم خمر ووتش الفضة",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 16.25 ريال بدلاً من 16.25 ريال.",
+      "originalPrice": 16.25,
+      "currentPrice": 16.25,
+      "discount": 0,
+      "category": "cat_007",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005009096691918.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa793dc5a1d984ddeaee3411719221af23.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_162",
       "name": "لعبة بامبل بي المغناطيسية الممتعة، ألعاب لوحية عائلية تفاعلية مونتيسوري لصيد الأسماك والفرز للأطفال والكبار، مناسبة لـ 2-4 لاعبين",
       "description": "عرض علي إكسبريس المميز بخصم 41% — السعر الحالي 18.69 ريال بدلاً من 31.68 ريال.",
