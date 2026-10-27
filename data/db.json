@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_130",
+      "name": "مجموعة هدايا للاطفال حديثي الولادة، مجموعة مستلزمات استحمام للاطفال حديثي الولادة مع بطانية اطفال خشخيشة، هدية للبنات حديثي الولادة وهدايا للاولاد الرضع لحفلات استقبال المولود الجديد، وردي",
+      "description": "عرض نون في قسم الأطفال والرضع بسعر 79.95 ريال.",
+      "originalPrice": 84.21,
+      "currentPrice": 79.95,
+      "discount": 5,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/8-pcs-baby-gift-set-new-mom-gifts-with-muslin-blanket-bib-bunny-rattle-toy-pacifier-silicone-pacifier-case-wooden-brush-milestone-cards-baby-gift-basket-great-for-expecting-parents-to-be-gender-reveal-baby-shower-pink/Z8F3B7FAD9807717BC641Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z8F3B7FAD9807717BC641Z/45/_/1736698533/3f01beac-fd1c-472a-8ce7-d46ee5e585dd.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_129",
       "name": "بكرة لتمارين اللياقة البدنية المنزلية",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 25.00 ريال.",
