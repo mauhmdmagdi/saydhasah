@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_249",
+      "name": "روب نسائي من الساتان مع حواف دانتيل وأكمام قصيرة وحزام، ملابس نوم خفيفة وحريرية للمنزل وللعرائس",
+      "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 17.92 ريال بدلاً من 55.11 ريال.",
+      "originalPrice": 55.11,
+      "currentPrice": 17.92,
+      "discount": 67,
+      "category": "cat_019",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012765770022.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5029f4a714af49f49bb83d0eb62a985by.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_248",
       "name": "فستان ميدي بوهيمي أنيق بياقة على شكل V وتصميم زهور عصرية، فساتين صيفية أنيقة بقصة واسعة للشاطئ والحفلات، ملابس نسائية مرنة ملونة للشباب",
       "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 27.61 ريال بدلاً من 84.58 ريال.",
