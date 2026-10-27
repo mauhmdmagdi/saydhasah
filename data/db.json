@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_155",
+      "name": "مجموعة دمبل قابلة للتعديل بوزن 20 كجم قابلة للتحويل إلى أثقال، زوج من الوزن الخفيف لصالة الألعاب الرياضية المنزلية ومعدات النساء والرجال",
+      "description": "عرض نون في قسم الرياضة واللياقة بسعر 157.99 ريال.",
+      "originalPrice": 399.0,
+      "currentPrice": 157.99,
+      "discount": 60,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/adjustable-weight-dumbbells-set-20-kg-convertible-to-barbell-a-pair-of-lightweight-for-home-gym-women-and-men-equipment/Z8769D22E951348AA6367Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z8769D22E951348AA6367Z/45/_/1786438616/d5706ec0-1967-4aec-bbd3-8c867f59a92e.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_154",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم الأزياء والموضة بسعر 159.00 ريال.",
