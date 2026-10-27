@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_174",
+      "name": "طقم بربتوز وأفرول مواليد قطني ناعم بأزرار سفلية لسهولة الارتداء",
+      "description": "أفرول قطني فائق النعومة لحديثي الولادة من شي إن مصمم بحب من القطن النقي لحماية بشرة الرضيع الحساسة وتوفير الدفء والراحة.",
+      "originalPrice": 65.0,
+      "currentPrice": 29.0,
+      "discount": 55,
+      "category": "cat_015",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/RecommendSelection/Baby-Maternity-sc-017172967.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abc/2026/10/15/33/1792045315a0a1166ea04841745a7fb5d33529091f_thumbnail_240x.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_173",
       "name": "طقم صيفي ولادي كاجوال قطعتين تيشيرت وشورت مريح للأطفال",
       "description": "طقم ولادي مبهج وعصري من شي إن مكون من قطعتين بألوان حيوية وقماش قطني ناعم ومريح يمنح حرية الحركة طوال اليوم.",
