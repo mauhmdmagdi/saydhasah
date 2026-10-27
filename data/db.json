@@ -22,18 +22,106 @@
       "icon": "💻",
       "color": "#1e3c72",
       "order": 1,
-      "isActive": true,
-      "count": 0
+      "isActive": true
     },
     {
-      "id": "cat_002",
-      "name": "الأزياء والموضة",
-      "image": "assets/images/categories/cat_002.svg?v=2",
+      "id": "cat_012",
+      "name": "نساء",
+      "image": "assets/images/categories/cat_012.svg?v=2",
       "icon": "👗",
       "color": "#e91e63",
       "order": 2,
-      "isActive": true,
-      "count": 0
+      "isActive": true
+    },
+    {
+      "id": "cat_018",
+      "name": "فساتين",
+      "image": "assets/images/categories/cat_018.svg?v=1",
+      "icon": "💃",
+      "color": "#f43f5e",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat_019",
+      "name": "ملابس النوم",
+      "image": "assets/images/categories/cat_019.svg?v=1",
+      "icon": "🌙",
+      "color": "#8b5cf6",
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat_020",
+      "name": "ملابس داخلية",
+      "image": "assets/images/categories/cat_020.svg?v=1",
+      "icon": "🩲",
+      "color": "#ec4899",
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat_021",
+      "name": "أحذية",
+      "image": "assets/images/categories/cat_021.svg?v=1",
+      "icon": "👠",
+      "color": "#0ea5e9",
+      "order": 6,
+      "isActive": true
+    },
+    {
+      "id": "cat_022",
+      "name": "حقائب وأمتعة",
+      "image": "assets/images/categories/cat_022.svg?v=1",
+      "icon": "👜",
+      "color": "#d97706",
+      "order": 7,
+      "isActive": true
+    },
+    {
+      "id": "cat_023",
+      "name": "العطور",
+      "image": "assets/images/categories/cat_023.svg?v=1",
+      "icon": "🌸",
+      "color": "#a855f7",
+      "order": 8,
+      "isActive": true
+    },
+    {
+      "id": "cat_011",
+      "name": "ملابس رجالي",
+      "image": "assets/images/categories/cat_011.svg?v=2",
+      "icon": "👔",
+      "color": "#1e3c72",
+      "order": 9,
+      "isActive": true
+    },
+    {
+      "id": "cat_013",
+      "name": "ملابس أولاد",
+      "image": "assets/images/categories/cat_013.svg?v=2",
+      "icon": "👦",
+      "color": "#0284c7",
+      "order": 10,
+      "isActive": true
+    },
+    {
+      "id": "cat_014",
+      "name": "ملابس بنات",
+      "image": "assets/images/categories/cat_014.svg?v=2",
+      "icon": "👧",
+      "color": "#f43f5e",
+      "order": 11,
+      "isActive": true
+    },
+    {
+      "id": "cat_015",
+      "name": "ملابس مواليد",
+      "image": "assets/images/categories/cat_015.svg?v=2",
+      "icon": "👶",
+      "color": "#06b6d4",
+      "order": 12,
+      "isActive": true
     },
     {
       "id": "cat_003",
@@ -41,9 +129,8 @@
       "image": "assets/images/categories/cat_003.svg?v=2",
       "icon": "🏠",
       "color": "#10b981",
-      "order": 3,
-      "isActive": true,
-      "count": 0
+      "order": 13,
+      "isActive": true
     },
     {
       "id": "cat_004",
@@ -51,9 +138,8 @@
       "image": "assets/images/categories/cat_004.svg?v=2",
       "icon": "💄",
       "color": "#ec4899",
-      "order": 4,
-      "isActive": true,
-      "count": 0
+      "order": 14,
+      "isActive": true
     },
     {
       "id": "cat_005",
@@ -61,9 +147,8 @@
       "image": "assets/images/categories/cat_005.svg?v=2",
       "icon": "⚽",
       "color": "#0284c7",
-      "order": 5,
-      "isActive": true,
-      "count": 0
+      "order": 15,
+      "isActive": true
     },
     {
       "id": "cat_006",
@@ -71,9 +156,8 @@
       "image": "assets/images/categories/cat_006.svg?v=2",
       "icon": "🧸",
       "color": "#06b6d4",
-      "order": 6,
-      "isActive": true,
-      "count": 0
+      "order": 16,
+      "isActive": true
     },
     {
       "id": "cat_007",
@@ -81,9 +165,8 @@
       "image": "assets/images/categories/cat_007.svg?v=2",
       "icon": "⌚",
       "color": "#795548",
-      "order": 7,
-      "isActive": true,
-      "count": 0
+      "order": 17,
+      "isActive": true
     },
     {
       "id": "cat_008",
@@ -91,9 +174,8 @@
       "image": "assets/images/categories/cat_008.svg?v=2",
       "icon": "🧴",
       "color": "#14b8a6",
-      "order": 8,
-      "isActive": true,
-      "count": 0
+      "order": 18,
+      "isActive": true
     },
     {
       "id": "cat_009",
@@ -101,79 +183,26 @@
       "image": "assets/images/categories/cat_009.svg?v=2",
       "icon": "🧳",
       "color": "#f59e0b",
-      "order": 9,
-      "isActive": true,
-      "count": 0
-    },
-    {
-      "id": "cat_011",
-      "name": "ملابس رجالي",
-      "image": "assets/images/categories/cat_011.svg?v=1",
-      "icon": "👔",
-      "color": "#1e3c72",
-      "order": 10,
-      "isActive": true,
-      "count": 0
-    },
-    {
-      "id": "cat_012",
-      "name": "ملابس حريمي",
-      "image": "assets/images/categories/cat_012.svg?v=1",
-      "icon": "👗",
-      "color": "#e91e63",
-      "order": 11,
-      "isActive": true,
-      "count": 0
-    },
-    {
-      "id": "cat_013",
-      "name": "ملابس أولاد",
-      "image": "assets/images/categories/cat_013.svg?v=1",
-      "icon": "👦",
-      "color": "#0284c7",
-      "order": 12,
-      "isActive": true,
-      "count": 0
-    },
-    {
-      "id": "cat_014",
-      "name": "ملابس بنات",
-      "image": "assets/images/categories/cat_014.svg?v=1",
-      "icon": "👧",
-      "color": "#f43f5e",
-      "order": 13,
-      "isActive": true,
-      "count": 0
-    },
-    {
-      "id": "cat_015",
-      "name": "ملابس مواليد",
-      "image": "assets/images/categories/cat_015.svg?v=1",
-      "icon": "👶",
-      "color": "#06b6d4",
-      "order": 14,
-      "isActive": true,
-      "count": 0
+      "order": 19,
+      "isActive": true
     },
     {
       "id": "cat_016",
       "name": "عدد وأدوات",
-      "image": "assets/images/categories/cat_016.svg?v=1",
+      "image": "assets/images/categories/cat_016.svg?v=2",
       "icon": "🛠️",
       "color": "#f59e0b",
-      "order": 15,
-      "isActive": true,
-      "count": 0
+      "order": 20,
+      "isActive": true
     },
     {
       "id": "cat_017",
       "name": "إكسسوارات سيارات",
-      "image": "assets/images/categories/cat_017.svg?v=1",
+      "image": "assets/images/categories/cat_017.svg?v=2",
       "icon": "🚗",
       "color": "#6366f1",
-      "order": 16,
-      "isActive": true,
-      "count": 0
+      "order": 21,
+      "isActive": true
     },
     {
       "id": "cat_010",
@@ -181,9 +210,8 @@
       "image": "assets/images/categories/cat_010.svg?v=2",
       "icon": "🎮",
       "color": "#8b5cf6",
-      "order": 18,
-      "isActive": true,
-      "count": 0
+      "order": 22,
+      "isActive": true
     }
   ],
   "products": [
@@ -194,7 +222,7 @@
       "originalPrice": 120.0,
       "currentPrice": 58.0,
       "discount": 52,
-      "category": "cat_002",
+      "category": "cat_021",
       "store": "shein",
       "storeLink": "https://ar.shein.com/Shoes-c-3636.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
       "image": "https://img.ltwebstatic.com/v4/p/abccv/2026/04/17/03/1776415811e0ff0b6010f4e65dec91f0624d16ef1c_thumbnail_240x.png",
@@ -562,7 +590,7 @@
       "originalPrice": 28.49,
       "currentPrice": 28.49,
       "discount": 0,
-      "category": "cat_002",
+      "category": "cat_012",
       "store": "aliexpress",
       "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012227384668.html",
       "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6a019b429cb4db7910b9aecde669149i.jpg",
@@ -642,7 +670,7 @@
       "originalPrice": 159.0,
       "currentPrice": 159.0,
       "discount": 0,
-      "category": "cat_002",
+      "category": "cat_018",
       "store": "noon",
       "storeLink": "https://www.noon.com/saudi-ar/ruched-detail-dress/ZEA5C9D116BF087FCB403Z/p/?coupon=saydha&project=PRJ639948",
       "image": "https://f.nooncdn.com/p/pzsku/ZEA5C9D116BF087FCB403Z/45/_/1706559758/d01dede8-24ee-4ac7-adff-e6e0ef47485f.jpg",
@@ -1074,7 +1102,7 @@
       "originalPrice": 56.99,
       "currentPrice": 8.64,
       "discount": 85,
-      "category": "cat_002",
+      "category": "cat_012",
       "store": "temu",
       "storeLink": "https://www.temu.com/g-606803429580701.html?_app_share_pid=alt065258&referral_code=alt065258",
       "image": "https://img.kwcdn.com/product/open/2024-06-26/1719407428044-e135d7e404e44bd7899f65a610723b6f-goods.jpeg",
@@ -1298,7 +1326,7 @@
       "originalPrice": 88.49,
       "currentPrice": 27.68,
       "discount": 69,
-      "category": "cat_002",
+      "category": "cat_012",
       "store": "aliexpress",
       "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013296596911.html",
       "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a90dfb2be0d46f685ca2a959b911cddq.jpg",
@@ -1474,7 +1502,7 @@
       "originalPrice": 79.41,
       "currentPrice": 13.51,
       "discount": 83,
-      "category": "cat_002",
+      "category": "cat_018",
       "store": "amazon",
       "storeLink": "https://www.amazon.sa/dp/B0DS842LMM?tag=amazon0137a1-21",
       "image": "https://m.media-amazon.com/images/I/71lFzYzwtxL._AC_SL500_.jpg",
@@ -1890,7 +1918,7 @@
       "originalPrice": 79.0,
       "currentPrice": 26.42,
       "discount": 67,
-      "category": "cat_002",
+      "category": "cat_018",
       "store": "amazon",
       "storeLink": "https://www.amazon.sa/dp/B0C7831S1L?tag=amazon0137a1-21",
       "image": "https://m.media-amazon.com/images/I/51X3LDbREHL._AC_SL500_.jpg",
@@ -2018,7 +2046,7 @@
       "originalPrice": 299.0,
       "currentPrice": 207.0,
       "discount": 31,
-      "category": "cat_002",
+      "category": "cat_021",
       "store": "amazon",
       "storeLink": "https://www.amazon.sa/dp/B0CKXQYTGZ?tag=amazon0137a1-21",
       "image": "https://m.media-amazon.com/images/I/51I5FF+cEmL._AC_UL600_.jpg",
@@ -2066,7 +2094,7 @@
       "originalPrice": 197.8,
       "currentPrice": 65.0,
       "discount": 67,
-      "category": "cat_004",
+      "category": "cat_023",
       "store": "amazon",
       "storeLink": "https://www.amazon.sa/dp/B09WJ7D9SP?tag=amazon0137a1-21",
       "image": "https://m.media-amazon.com/images/I/61aKeAoPpaL._AC_UL600_.jpg",
@@ -2082,7 +2110,7 @@
       "originalPrice": 314.55,
       "currentPrice": 192.75,
       "discount": 39,
-      "category": "cat_004",
+      "category": "cat_023",
       "store": "amazon",
       "storeLink": "https://www.amazon.sa/dp/B075PNXQ6F?tag=amazon0137a1-21",
       "image": "https://m.media-amazon.com/images/I/51bucJqzoTL._AC_UL600_.jpg",
