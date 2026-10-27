@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_169",
+      "name": "تيشيرت بولو بيرفورمانس",
+      "description": "عرض نون في قسم ملابس رجالي بسعر 93.60 ريال.",
+      "originalPrice": 209.0,
+      "currentPrice": 93.6,
+      "discount": 55,
+      "category": "cat_011",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/performance-polo/Z7AF85D30EF14E9661CFFZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z7AF85D30EF14E9661CFFZ/45/_/1773138575/6a4f42ab-2b60-4c85-a4b9-a5d69c34773b.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_168",
       "name": "قميص بولو بأكمام قصيرة للرجال مناسب للإطلالات العملية غير الرسمية والارتداء اليومي والمكتب والمناسبات والفعاليات مريح وجيد التهوية ومتعدد الاستخدامات بتصميم كلاسيكي عصري مع أزرار وسهل العناية به",
       "description": "عرض أمازون السعودية في قسم ملابس رجالي بخصم 64% — السعر الحالي 39.99 ريال بدلاً من 109.99 ريال.",
