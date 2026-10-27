@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_172",
+      "name": "تيشيرت بولو كاجوال رجالي بأكمام قصيرة بتصميم عصري مريح",
+      "description": "تيشيرت بولو رجالي عالي الجودة من شي إن بخامة قطنية ناعمة وجيدة التهوية مع ياقة أنيقة مناسبة للارتداء اليومي والإطلالات الكاجوال.",
+      "originalPrice": 88.0,
+      "currentPrice": 42.0,
+      "discount": 52,
+      "category": "cat_011",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Men-c-2026.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abccv/2026/04/16/74/1776345527f332ef077a2fdf6dc11aa1442da0868b_thumbnail_240x.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_171",
       "name": "بلوزة نسائية كاجوال أنيقة بأكمام طويلة وتفاصيل أزرار أمامية",
       "description": "بلوزة نسائية عصرية من شي إن (SHEIN) بقصة راقية وياقة كلاسيكية مناسبة للدوام والمناسبات اليومية بخامة عالية الجودة وسهلة العناية.",
