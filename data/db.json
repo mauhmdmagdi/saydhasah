@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_252",
+      "name": "حقيبة سفر كبيرة السعة بإطار ألومنيوم وعجلات متعددة الاتجاهات للسفر، موديل 2026 الجديد للسيدات، بعجلات صامتة",
+      "description": "عرض علي إكسبريس المميز بخصم 57% — السعر الحالي 90.52 ريال بدلاً من 210.48 ريال.",
+      "originalPrice": 210.48,
+      "currentPrice": 90.52,
+      "discount": 57,
+      "category": "cat_022",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013438001783.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8750c13c601438fa27511b22d4197feP.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_251",
       "name": "شباشب رجالية للتدليك للصيف، صنادل داخلية وخارجية، أحذية رجالية كاجوال للشاطئ، شباشب ناعمة، صنادل قلابة للرجال والنساء، شباشب منزلية",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 28.71 ريال بدلاً من 28.71 ريال.",
