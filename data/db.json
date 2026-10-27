@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_228",
+      "name": "بدلة أطفال بأكمام طويلة، قطن خالص، بيجامة للمواليد الجدد، ملابس للبنات الرضع، بدلة تغطي القدمين، للربيع والصيف",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 40.48 ريال بدلاً من 40.48 ريال.",
+      "originalPrice": 40.48,
+      "currentPrice": 40.48,
+      "discount": 0,
+      "category": "cat_015",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007391819948.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S32ce46f49f8a401a813f60e973a263344.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_227",
       "name": "مجموعات ملابس الصيف للفتيات ، قمم بروتيل وبنطلون فضفاض ، ملابس طفلة ، الترفيه والعصرية ، هدية عيد ميلاد",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 13.71 ريال بدلاً من 13.71 ريال.",
