@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_176",
+      "name": "طقم فرش مكياج احترافية متكاملة 14 قطعة مع حقيبة تخزين أنيقة",
+      "description": "مجموعة فرش تجميل عالية الكثافة بشعيرات ناعمة ولطيفة على البشرة لتوزيع متجانس للفاونديشن وظلال العيون والبودرة باحترافية.",
+      "originalPrice": 89.0,
+      "currentPrice": 38.0,
+      "discount": 57,
+      "category": "cat_004",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Beauty-Health-c-1864.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abc/2026/05/25/e4/17796845646659de028d2b8e578b3b3e88f084df6b_thumbnail_240x.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_175",
       "name": "طقم إكسسوارات ومجوهرات نسائي فاخر مطلي بالذهب عقد وأقراط أنيقة",
       "description": "طقم مجوهرات نسائي راقي بتشطيب ذهبي لامع وتفاصيل كريستالية براقة تضفي لمسة فخامة على إطلالتك في السهرات والمناسبات.",
