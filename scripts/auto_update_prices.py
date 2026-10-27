@@ -157,16 +157,20 @@ def main():
                         print(f"  ✨ تحديث السعر لـ ({prod_id}): {old_curr} ⬅️ {curr_price} ريال")
                         prod["currentPrice"] = round(curr_price, 2)
                         
-                        if orig_price and orig_price >= curr_price:
+                        # التحقق هل انتهى عرض السعر
+                        if (orig_price and curr_price >= orig_price) or (old_orig and curr_price >= old_orig):
+                            print(f"  🗑️ انتهى عرض السعر لـ ({prod_id}): عاد السعر إلى {curr_price} ريال بدون خصم — حذف تلقائي.")
+                            prod["discount"] = 0
+                        elif orig_price and orig_price > curr_price:
                             prod["originalPrice"] = round(orig_price, 2)
                             prod["discount"] = round((1 - curr_price / orig_price) * 100)
+                            updated_count += 1
                         elif old_orig > curr_price:
                             prod["discount"] = round((1 - curr_price / old_orig) * 100)
+                            updated_count += 1
                         else:
                             prod["originalPrice"] = round(curr_price, 2)
                             prod["discount"] = 0
-                        
-                        updated_count += 1
                     else:
                         print(f"  ✔️ السعر الحالي مطابق: {curr_price} ريال")
                 else:
@@ -177,18 +181,36 @@ def main():
             # تأخير خفيف بين الطلبات لتجنب الضغط
             time.sleep(1.0)
 
+    # فحص وحذف أي منتجات انتهت عروض أسعارها أو تخفيضاتها تلقائياً
+    expired_products = []
+    for prod in products:
+        c_p = float(prod.get("currentPrice", 0) or 0)
+        o_p = float(prod.get("originalPrice", 0) or 0)
+        disc = int(prod.get("discount", 0) or 0)
+        is_act = prod.get("isActive", True)
+        if not is_act or disc <= 0 or (o_p > 0 and c_p >= o_p):
+            expired_products.append(prod)
+
+    if expired_products:
+        expired_ids = {p.get("id") for p in expired_products}
+        products = [p for p in products if p.get("id") not in expired_ids]
+        db_data["products"] = products
+        print(f"🗑️ تم حذف {len(expired_products)} صنف انتهت عروض أسعارها تلقائياً.")
+
     print("\n" + "=" * 50)
     print(f"📊 ملخص الفحص:")
     print(f"  - تم فحص: {scanned_count} منتج")
     print(f"  - تم تحديث أسعار: {updated_count} منتج")
+    print(f"  - تم حذف أصناف منتهية: {len(expired_products)} منتج")
+    print(f"  - الأصناف المتبقية النشطة: {len(products)} منتج")
     print("=" * 50)
 
-    if updated_count > 0:
+    if updated_count > 0 or len(expired_products) > 0:
         with open(db_path, "w", encoding="utf-8") as f:
             json.dump(db_data, f, ensure_ascii=False, indent=2)
-        print("💾 تم حفظ التحديثات بنجاح في data/db.json!")
+        print("💾 تم حفظ التحديثات وحذف الأصناف المنتهية بنجاح في data/db.json!")
     else:
-        print("👌 جميع الأسعار محدثة، لا توجد تغييرات جديدة.")
+        print("👌 جميع الأسعار محدثة والعروض نشطة، لا توجد تغييرات جديدة.")
 
 if __name__ == "__main__":
     main()
