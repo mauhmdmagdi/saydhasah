@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_212",
+      "name": "عطر عربي صلب محمول للرجال برائحة خشبية شرقية طويلة الأمد، عطر جامد للجيب، بلسم عطري للجسم للرجال",
+      "description": "عرض علي إكسبريس المميز بخصم 84% — السعر الحالي 6.61 ريال بدلاً من 40.83 ريال.",
+      "originalPrice": 40.83,
+      "currentPrice": 6.61,
+      "discount": 84,
+      "category": "cat_023",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013003356732.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S770cf57165e248c3881b3431bdf988ceE.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_211",
       "name": "مجموعة حقائب سفر خفيفة الوزن مكونة من 4 قطع، حقائب مقصورة فاخرة بتصميم بسيط، حقائب عصرية للجنسين بلون واحد مع عجلات",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 164.79 ريال بدلاً من 164.79 ريال.",
