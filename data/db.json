@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_231",
+      "name": "لعبة طوب-وحدة تحكم ألعاب محمولة صغيرة ، ألعاب جيب حنين ، مشغلات محمولة ، تعليمية ، كلاسيكية ، هدايا لكبار السن ، هدايا طفولة ، 4 ألوان",
+      "description": "عرض علي إكسبريس المميز بخصم 82% — السعر الحالي 7.91 ريال بدلاً من 44.95 ريال.",
+      "originalPrice": 44.95,
+      "currentPrice": 7.91,
+      "discount": 82,
+      "category": "cat_006",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006994038684.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S19f81d46412746a88a9b95ddbb65ad16M.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_230",
       "name": "9 مستويات قلم بلازما بالليزر النمش إزالة القلم ثؤلول مزيل الوشم أدوات إزالة علامات الجلد بقعة أداة العناية بالجمال",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 144.66 ريال بدلاً من 144.66 ريال.",
