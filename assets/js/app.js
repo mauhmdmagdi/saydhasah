@@ -337,54 +337,237 @@ window.filterByCategory = function (catId, catName) {
 // ----------------------------------------------------
 // 6. عرض أقسام المنتجات المتنوعة
 // ----------------------------------------------------
+// تخزين مؤقت للمجموعات لدعم التدوير والتحديث التفاعلي السريع
+window._dealsRotator = {
+  newArrivalsIndex: 0,
+  todayDealsIndex: 0,
+  bestSellersIndex: 0,
+};
+
 function renderAllProductSections() {
   const allProds = window.db.getProducts({ onlyActive: true });
+  if (!allProds || allProds.length === 0) return;
 
-  // 1. عروض اليوم
-  const todayDeals = allProds.filter(p => p.tag === 'today_deal');
-  renderProductGrid('todayDealsGrid', todayDeals.length > 0 ? todayDeals : allProds.slice(0, 4));
+  // 1. وصل حديثاً (عرض 12 صنفاً من أحدث ما تم إضافته للموقع مع التدوير الديناميكي)
+  const newArrivals = allProds.filter(p => p.tag === 'new_arrival');
+  const recentList = [...allProds].reverse();
+  const allNewArrivals = [...new Set([...newArrivals, ...recentList])];
+  window._newArrivalsPool = allNewArrivals;
+  renderProductGrid('newArrivalsGrid', allNewArrivals.slice(0, 12));
 
-  // 2. أقل من 50 ريال
+  // 2. عروض اليوم الحصرية (أقوى الخصومات من كافة الأقسام والـ 135 صنفاً)
+  const todayTagged = allProds.filter(p => p.tag === 'today_deal');
+  const highDiscounts = allProds.filter(p => (Number(p.discount) || 0) >= 40);
+  const allTodayDeals = [...new Set([...todayTagged, ...highDiscounts])].sort((a, b) => (Number(b.discount) || 0) - (Number(a.discount) || 0));
+  window._todayDealsPool = allTodayDeals;
+  renderProductGrid('todayDealsGrid', allTodayDeals.slice(0, 12));
+
+  // 3. الأكثر طلباً (12 صنفاً مميزاً من الأعلى وفراً وتقييماً)
+  const bestSellers = allProds.filter(p => p.tag === 'best_seller');
+  const highSavings = [...allProds].sort((a, b) => ((b.originalPrice - b.currentPrice) - (a.originalPrice - a.currentPrice)));
+  const allBestSellers = [...new Set([...bestSellers, ...highSavings])];
+  window._bestSellersPool = allBestSellers;
+  renderProductGrid('bestSellersGrid', allBestSellers.slice(0, 12));
+
+  // 4. الأقسام السعرية مع دعم عرض المزيد لتصفح كافة الـ 135 صنفاً بسهولة
   const under50 = allProds.filter(p => p.tag === 'under50' || p.currentPrice < 50);
-  renderProductGrid('under50Grid', under50);
+  renderExpandableProductGrid('under50Grid', under50, 8);
 
-  // 3. من 50 إلى 100 ريال
   const range50_100 = allProds.filter(p => p.tag === 'range50_100' || (p.currentPrice >= 50 && p.currentPrice <= 100));
-  renderProductGrid('range50to100Grid', range50_100);
+  renderExpandableProductGrid('range50to100Grid', range50_100, 8);
 
-  // 4. من 100 إلى 200 ريال
   const priceInRange = (p, min, max) => {
     const price = Number(p.currentPrice) || 0;
     return price > min && price <= max;
   };
   const range100_200 = allProds.filter(p => priceInRange(p, 100, 200));
-  renderProductGrid('range100to200Grid', range100_200);
+  renderExpandableProductGrid('range100to200Grid', range100_200, 8);
 
-  // 5. من 200 إلى 500 ريال
   const range200_500 = allProds.filter(p => priceInRange(p, 200, 500));
-  renderProductGrid('range100to500Grid', range200_500);
+  renderExpandableProductGrid('range100to500Grid', range200_500, 8);
 
-  // 6. من 500 إلى 1000 ريال - أجهزة وإلكترونيات فاخرة حصراً
   const range500_1000 = allProds.filter(p => {
     const isElectronics = p.category === 'cat_001' || p.category === 'cat_007';
-    const isFashionOrBag = p.category === 'cat_002' || (p.name && /حقيبة|شنطة|فستان|حذاء|قميص|عطر|سيروم/i.test(p.name));
+    const isFashionOrBag = (p.name && /حقيبة|شنطة|فستان|حذاء|قميص|عطر|سيروم/i.test(p.name));
     if (isFashionOrBag) return false;
     return isElectronics && (p.tag === 'range500_1000' || (p.currentPrice >= 500 && p.currentPrice <= 1000));
   });
-  renderProductGrid('range500to1000Grid', range500_1000);
+  renderExpandableProductGrid('range500to1000Grid', range500_1000, 8);
 
-  // 7. من 1000 إلى أكثر
   const range1000_plus = allProds.filter(p => p.tag === 'range1000_plus' || p.currentPrice > 1000);
-  renderProductGrid('range1000PlusGrid', range1000_plus);
+  renderExpandableProductGrid('range1000PlusGrid', range1000_plus, 8);
 
-  // 8. الأكثر طلباً
-  const bestSellers = allProds.filter(p => p.tag === 'best_seller');
-  renderProductGrid('bestSellersGrid', bestSellers.length > 0 ? bestSellers : allProds.filter(p => p.discount >= 60).slice(0, 4));
+  // تشغيل شريط الصفقات الحية السريع
+  initLiveDealsTicker(allProds);
 
-  // 9. وصل حديثاً
-  const newArrivals = allProds.filter(p => p.tag === 'new_arrival');
-  renderProductGrid('newArrivalsGrid', newArrivals.length > 0 ? newArrivals : [...allProds].reverse().slice(0, 4));
+  // تشغيل إشعار نشاط الصفقات والمبيعات الحية التفاعلي
+  initLiveSalesToast(allProds);
+
+  // تدوير دوري سلس لعروض اليوم لإضفاء الحيوية والحركة
+  initAutoRotation();
 }
+
+window.rotateSection = function (sectionKey) {
+  const containerIdMap = {
+    newArrivals: { containerId: 'newArrivalsGrid', pool: window._newArrivalsPool || [] },
+    todayDeals: { containerId: 'todayDealsGrid', pool: window._todayDealsPool || [] },
+    bestSellers: { containerId: 'bestSellersGrid', pool: window._bestSellersPool || [] },
+  };
+
+  const item = containerIdMap[sectionKey];
+  if (!item || !item.pool.length) return;
+
+  const pool = item.pool;
+  const indexKey = sectionKey + 'Index';
+  window._dealsRotator[indexKey] = ((window._dealsRotator[indexKey] || 0) + 6) % pool.length;
+
+  const start = window._dealsRotator[indexKey];
+  let batch = pool.slice(start, start + 12);
+  if (batch.length < 12) {
+    batch = batch.concat(pool.slice(0, 12 - batch.length));
+  }
+
+  const container = document.getElementById(item.containerId);
+  if (!container) return;
+
+  container.style.opacity = '0.35';
+  container.style.transform = 'translateY(6px)';
+  setTimeout(() => {
+    container.innerHTML = batch.map(p => createProductCardHTML(p)).join('');
+    container.style.transition = 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+    container.style.opacity = '1';
+    container.style.transform = 'translateY(0)';
+  }, 140);
+};
+
+function renderExpandableProductGrid(containerId, products, initialLimit = 8) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  if (!products || products.length === 0) {
+    container.innerHTML = `
+      <div style="grid-column: 1 / -1; text-align: center; padding: 24px; color: #94a3b8; font-size: 0.9rem;">
+        لا توجد منتجات متوفرة في هذا القسم حالياً
+      </div>
+    `;
+    return;
+  }
+
+  const isExpanded = container.dataset.expanded === 'true';
+  const displayed = isExpanded ? products : products.slice(0, initialLimit);
+  const remaining = products.length - initialLimit;
+
+  let html = displayed.map(p => createProductCardHTML(p)).join('');
+
+  if (remaining > 0) {
+    html += `
+      <div class="expand-grid-action-wrap" style="grid-column: 1 / -1; text-align: center; margin-top: 14px;">
+        <button type="button" class="btn-expand-section" onclick="toggleExpandGrid('${containerId}')">
+          ${isExpanded ? '▲ إخفاء العروض الإضافية' : `▼ استعراض بقية العروض (+${remaining} صنف إضافي) 🔥`}
+        </button>
+      </div>
+    `;
+  }
+
+  container.innerHTML = html;
+}
+
+window.toggleExpandGrid = function (containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const isExpanded = container.dataset.expanded === 'true';
+  container.dataset.expanded = isExpanded ? 'false' : 'true';
+  renderAllProductSections();
+};
+
+function initLiveDealsTicker(allProds) {
+  const track = document.getElementById('liveDealsTickerTrack');
+  if (!track || !allProds || allProds.length === 0) return;
+  if (track.children.length > 0) return;
+
+  const topDeals = allProds
+    .filter(p => (Number(p.discount) || 0) >= 35)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 16);
+
+  const chips = topDeals.map(p => `
+    <div class="ticker-deal-chip" onclick="openProductDetailModal('${p.id}')">
+      <span class="ticker-chip-fire">🔥</span>
+      <span class="ticker-chip-name">${escapeHtml(p.name.slice(0, 32))}</span>
+      <span class="ticker-chip-disc">خصم ${p.discount}%</span>
+      <span class="ticker-chip-price">${p.currentPrice} ريال</span>
+    </div>
+  `).join('');
+
+  track.innerHTML = chips + chips;
+}
+
+function initLiveSalesToast(allProds) {
+  if (window._toastTimerInitialized) return;
+  window._toastTimerInitialized = true;
+
+  const toastContainer = document.getElementById('liveActivityToast');
+  if (!toastContainer || !allProds || allProds.length === 0) return;
+
+  const CITIES = ['الرياض', 'جدة', 'الدمام', 'مكة المكرمة', 'المدينة المنورة', 'الخبر', 'أبها', 'تبوك', 'الطائف'];
+  const TIMES = ['منذ دقيقة واحدة', 'منذ دقيقتين', 'الآن', 'منذ 3 دقائق', 'منذ لحظات'];
+
+  function showNextToast() {
+    const p = allProds[Math.floor(Math.random() * allProds.length)];
+    const city = CITIES[Math.floor(Math.random() * CITIES.length)];
+    const timeText = TIMES[Math.floor(Math.random() * TIMES.length)];
+    const saved = Math.max(0, p.originalPrice - p.currentPrice);
+
+    toastContainer.innerHTML = `
+      <div class="toast-card-inner" onclick="openProductDetailModal('${p.id}')">
+        <button class="toast-close" onclick="event.stopPropagation(); document.getElementById('liveActivityToast').classList.remove('active');">&times;</button>
+        <img src="${p.image}" class="toast-img" alt="${escapeHtml(p.name)}" onerror="this.src='assets/images/logos/favicon.svg';">
+        <div class="toast-body">
+          <div class="toast-header-line">
+            <span class="toast-badge-live">⚡ متسوق في ${city}</span>
+            <span class="toast-time">${timeText}</span>
+          </div>
+          <div class="toast-name">${escapeHtml(p.name.slice(0, 42))}...</div>
+          <div class="toast-price-row">
+            <span class="toast-curr">${p.currentPrice} ريال</span>
+            ${saved > 0 ? `<span class="toast-saved">وفر ${saved} ريال</span>` : ''}
+          </div>
+        </div>
+      </div>
+    `;
+
+    toastContainer.classList.add('active');
+
+    setTimeout(() => {
+      toastContainer.classList.remove('active');
+    }, 4200);
+  }
+
+  setTimeout(() => {
+    showNextToast();
+    setInterval(showNextToast, 9500);
+  }, 4000);
+}
+
+function initAutoRotation() {
+  if (window._autoRotatorInitialized) return;
+  window._autoRotatorInitialized = true;
+
+  let turn = 0;
+  setInterval(() => {
+    const searchVal = document.getElementById('headerSearchInput')?.value;
+    if (searchVal && searchVal.trim()) return;
+
+    if (turn === 0) {
+      window.rotateSection('todayDeals');
+      turn = 1;
+    } else {
+      window.rotateSection('newArrivals');
+      turn = 0;
+    }
+  }, 12000);
+}
+
 
 function renderProductGrid(containerId, products) {
   const container = document.getElementById(containerId);
