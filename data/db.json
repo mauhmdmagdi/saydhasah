@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_143",
+      "name": "مجموعة من بنطال بأرجل واسعة وبلوزة بتفاصيل كشكش بناتي",
+      "description": "عرض نون في قسم ملابس بنات بسعر 56.00 ريال.",
+      "originalPrice": 66.0,
+      "currentPrice": 56.0,
+      "discount": 15,
+      "category": "cat_014",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/styli-girls-pink-ruffle-trim-top-and-wide-leg-pants-set/ZACBE25BA8BAA8D72B1F8Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZACBE25BA8BAA8D72B1F8Z/45/_/1784555773/2b249964-96fa-4dc1-bce2-df79119320f2.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_142",
       "name": "لبس احرام العمرة ولادي 6-11 سنوات اطفال مطاط تنورة مطور بتقنية النانو مغاط احرام التنورة مريح لباس سهل بمطاط احرام للاولاد احرام ولادي ، مطاط ، احرامات للاولاد احرامات العمرة عمرة حج طواف مكة ملابس الاحرام ، إحرام الحج و",
       "description": "عرض نون في قسم ملابس أولاد بسعر 72.67 ريال.",
