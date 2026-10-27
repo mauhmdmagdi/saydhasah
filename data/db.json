@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_152",
+      "name": "ألعاب كرات المحيط البلاستيكية الناعمة - مجموعة مكونة 50 قطعة",
+      "description": "عرض أمازون السعودية في قسم الأطفال والرضع بخصم 64% — السعر الحالي 12.99 ريال بدلاً من 35.90 ريال.",
+      "originalPrice": 35.9,
+      "currentPrice": 12.99,
+      "discount": 64,
+      "category": "cat_006",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0839Q3QY4?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71-6alXOg6L._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_151",
       "name": "ميزان ذكي A1 مع بلوتوث، 12 قياس، وزن/دهون الجسم/BMI - أسود T9120K11",
       "description": "عرض نون في قسم الصحة والعناية الشخصية بسعر 74.65 ريال.",
