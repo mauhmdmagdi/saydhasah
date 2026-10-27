@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_225",
+      "name": "تي شيرت رجالي أمريكي صيفي بطبعة زهور الكرز وحروف بروكلين، مريح وقابل للتنفس، برقبة دائرية، مناسب للارتداء في الهواء الطلق.",
+      "description": "عرض علي إكسبريس المميز بخصم 52% — السعر الحالي 36.39 ريال بدلاً من 75.81 ريال.",
+      "originalPrice": 75.81,
+      "currentPrice": 36.39,
+      "discount": 52,
+      "category": "cat_011",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012590444464.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5c4c7abb53104b6ca2c4e2fcc33203bfh.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_224",
       "name": "مجموعة حقائب سفر خفيفة الوزن مكونة من 4 قطع، حقائب مقصورة فاخرة بتصميم بسيط، حقائب عصرية للجنسين بلون واحد مع عجلات",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 164.79 ريال بدلاً من 164.79 ريال.",
