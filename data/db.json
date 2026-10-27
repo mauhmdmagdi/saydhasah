@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_223",
+      "name": "شنطة كتف نويل بسحاب علوي للنساء من جيس.",
+      "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 46% — السعر الحالي 324.00 ريال بدلاً من 600.00 ريال.",
+      "originalPrice": 600.0,
+      "currentPrice": 324.0,
+      "discount": 46,
+      "category": "cat_022",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0F63SXZZB?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61l4S4Ia8kL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_222",
       "name": "أحذية رياضية رجالية شبكية قابلة للتنفس ذات قاعدة سميكة، أحذية صيفية عصرية للخارج، أحذية أنيقة على طراز الأب، أحذية رياضية صيف...",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 139.05 ريال بدلاً من 139.05 ريال.",
