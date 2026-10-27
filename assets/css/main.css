@@ -672,10 +672,12 @@ ul { list-style: none; }
 /* قسم المتاجر يمتد بعرض الصفحة بدون فراغات وبارتفاع مخفف إلى النصف */
 #stores.section {
   max-width: 100%;
-  padding-top: 8px;
-  padding-bottom: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 0;
   padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   overflow: hidden;
 }
 
@@ -699,8 +701,10 @@ ul { list-style: none; }
   width: 100%;
   overflow: hidden;
   position: relative;
-  padding: 4px 0;
-  min-height: 164px;
+  padding: 0;
+  min-height: auto;
+  display: flex;
+  align-items: center;
 }
 
 .stores-heading {
@@ -708,9 +712,9 @@ ul { list-style: none; }
   z-index: 2;
   right: 28px;
   top: 50%;
-  width: clamp(190px, 16vw, 228px);
-  min-height: 112px;
-  padding: 12px 0;
+  width: clamp(180px, 15vw, 215px);
+  min-height: auto;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -768,10 +772,10 @@ ul { list-style: none; }
 
 @keyframes storesScrollRTL {
   0% {
-    transform: translateX(50%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(50%);
   }
 }
 
@@ -832,8 +836,8 @@ ul { list-style: none; }
 
 /* أيقونة المتجر ثلاثية الأبعاد تطفو مباشرة على خلفية الموقع الطبيعية بدون أي خلفية سوداء */
 .store-badge-card {
-  width: clamp(108px, 7.8vw, 128px);
-  height: clamp(108px, 7.8vw, 128px);
+  width: clamp(84px, 6vw, 98px);
+  height: clamp(84px, 6vw, 98px);
   background: transparent !important;
   box-shadow: none !important;
   display: flex;
@@ -1547,14 +1551,29 @@ ul { list-style: none; }
     font-size: 0.72rem;
   }
   .stores-marquee-row {
-    min-height: 136px;
-  }
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+}
   .stores-heading {
-    right: 12px;
-    width: 176px;
-    min-height: 88px;
-    padding: 8px;
-  }
+  position: absolute;
+  z-index: 2;
+  right: 28px;
+  top: 50%;
+  width: clamp(180px, 15vw, 215px);
+  min-height: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-50%);
+  background: var(--light-bg);
+  text-align: right;
+}
   .stores-heading .section-title {
     font-size: 0.95rem;
     line-height: 1.35;
@@ -1564,12 +1583,18 @@ ul { list-style: none; }
     margin-right: 196px;
   }
   .store-badge-card {
-    width: 90px;
-    height: 90px;
-    background: transparent !important;
-    box-shadow: none !important;
-    padding: 0;
-  }
+  width: clamp(84px, 6vw, 98px);
+  height: clamp(84px, 6vw, 98px);
+  background: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: visible;
+  border: none !important;
+}
   .stores-marquee-group {
     gap: 12px;
   }
