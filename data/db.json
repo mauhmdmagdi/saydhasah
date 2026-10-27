@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_245",
+      "name": "Fashionable and Minimalist 8mm Random 1pc Beaded Bracelet for Women, Glass Glaze Bead Strand, Student Jewelry",
+      "description": "المبيعات: 19 sold",
+      "originalPrice": 31.49,
+      "currentPrice": 9.85,
+      "discount": 69,
+      "category": "cat_007",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-607010762387314.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/open/6f92997d2c1b4b4b952df734a45b7034-goods.jpeg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_244",
       "name": "Valentine'S Day Mother'S Day Gift European And American High-End Love Heart Ring Electroplated Three-Dimensional Adjustable Opening Women'S Easy Versatile Alloy Couple Ring Wholesale",
       "description": "المبيعات: 19K+ sold — تقييم المنتج: 4.7",
