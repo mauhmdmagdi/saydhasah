@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_189",
+      "name": "طقم بيجامة كلاسيكي للرجال من سانرافليك",
+      "description": "عرض أمازون السعودية في قسم ملابس النوم بخصم 34% — السعر الحالي 99.56 ريال بدلاً من 150.00 ريال.",
+      "originalPrice": 150.0,
+      "currentPrice": 99.56,
+      "discount": 34,
+      "category": "cat_019",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B07PGGDZMP?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61ua61GapRL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_188",
       "name": "سجاد أرضية السيارة، سجاد أرضية السيارة بتصميم قطة سوداء لطيفة، سجاد أرضية السيارة بتصميم قطة ساحرة مضادة للانزلاق بعيون كبيرة، سجاد أرضية السيارة عالمي الاستخدام",
       "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 18.21 ريال بدلاً من 55.08 ريال.",
