@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_248",
+      "name": "فستان ميدي بوهيمي أنيق بياقة على شكل V وتصميم زهور عصرية، فساتين صيفية أنيقة بقصة واسعة للشاطئ والحفلات، ملابس نسائية مرنة ملونة للشباب",
+      "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 27.61 ريال بدلاً من 84.58 ريال.",
+      "originalPrice": 84.58,
+      "currentPrice": 27.61,
+      "discount": 67,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012699719661.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S10cb3d1710d64b5486bdd64ffde29379a.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_247",
       "name": "مشغل MP3 مع مكبر للصوت ولوحة فك التشفير ، V5.0 ، وحدة بلوتوث ، FM ، AUX ، تسجيل راديو للمكبرات ، DC 8V-24V ، 2*60W ، W",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 22.68 ريال بدلاً من 22.68 ريال.",
