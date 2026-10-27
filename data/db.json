@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_230",
+      "name": "9 مستويات قلم بلازما بالليزر النمش إزالة القلم ثؤلول مزيل الوشم أدوات إزالة علامات الجلد بقعة أداة العناية بالجمال",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 144.66 ريال بدلاً من 144.66 ريال.",
+      "originalPrice": 144.66,
+      "currentPrice": 144.66,
+      "discount": 0,
+      "category": "cat_004",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005008660453144.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbb6f67a8f9424aa9bd6ca0b5ec9d33dbk.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_229",
       "name": "2D [Flat] Acrylic Butterfly And Little Sheep - No Drilling, No Trace Door And Bathroom Hooks, Easy Installation, Fashionable Design for Kitchen, Bathroom, Living Room Decor, Hanging Storage - Decorative Wall Hooks | Room",
       "description": "منتج حقيقي من تيمو ضمن قسم المنزل والمطبخ.",
