@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_254",
+      "name": "سماعات أذن لاسلكية فوق الأذن بلوتوث Q11i من أنكر، صوت عميق، 60 ساعة من وقت التشغيل، صوت عالي الدقة، وسادات أذن قابلة للفصل، اتصال متعدد النقاط",
+      "description": "عرض نون في قسم الإلكترونيات بسعر 89.00 ريال.",
+      "originalPrice": 199.0,
+      "currentPrice": 89.0,
+      "discount": 55,
+      "category": "cat_001",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/q11i-wireless-over-ear-bluetooth-headphones-by-anker-deep-bass-60h-playtime-hi-res-audio-detachable-ear-cushions-multipoint-connection-grey-1/N70139123V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZF4C471EBAEC571F13777Z/45/_/1780466818/c2d8f7f8-dc05-4b74-a072-5d7eee2fc9ea.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_253",
       "name": "ملابس أطفال عصرية غير رسمية، بدلة رياضية بأكمام قصيرة، تي شيرت + شورت، طقم من قطعتين، ملابس خارجية للأولاد، تي شيرت فضفاض وشورت",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 7.54 ريال بدلاً من 7.54 ريال.",
