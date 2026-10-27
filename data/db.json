@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_170",
+      "name": "فستان ماكسي نسائي كاجوال بطيات ناعمة وتصميم عصري أنيق",
+      "description": "فستان نسائي أنيق من شي إن (SHEIN) بتصميم كاجوال ناعم يناسب جميع الإطلالات اليومية والزيارات مع قماش صيفي مريح وفضفاض.",
+      "originalPrice": 129.0,
+      "currentPrice": 59.0,
+      "discount": 54,
+      "category": "cat_012",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Dresses-c-12472.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/dps/sbc-cutout-task/sz260618115500283314297/3fc802058b0a95e3736ee5fcf5892db1_square_thumbnail_240x.png",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_169",
       "name": "تيشيرت بولو بيرفورمانس",
       "description": "عرض نون في قسم ملابس رجالي بسعر 93.60 ريال.",
