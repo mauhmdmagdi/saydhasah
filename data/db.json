@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_144",
+      "name": "سلة هدايا للأطفال، مجموعة هدايا لحديثي الولادة مع خشخيشة للأطفال، مجموعة هدايا للأطفال حديثي الولادة، هدايا للأطفال حديثي الولادة، مجموعة سلة هدايا للأطفال متوسطة الحجم للأمهات المتوقعات (أزرق)...",
+      "description": "عرض نون في قسم ملابس مواليد بسعر 89.95 ريال.",
+      "originalPrice": 119.99,
+      "currentPrice": 89.95,
+      "discount": 25,
+      "category": "cat_015",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/baby-gift-basket-newborn-gift-set-with-baby-rattle-newborn-baby-gift-set-newborn-baby-gifts-medium-baby-gift-basket-kit-for-expecting-moms-blue/Z62CD8B6BBCE5DDE4CF55Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z62CD8B6BBCE5DDE4CF55Z/45/1764138142/42893a57-22d3-4c2c-8207-e8b938776195.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_143",
       "name": "مجموعة من بنطال بأرجل واسعة وبلوزة بتفاصيل كشكش بناتي",
       "description": "عرض نون في قسم ملابس بنات بسعر 56.00 ريال.",
