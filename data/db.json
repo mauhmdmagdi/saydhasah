@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_206",
+      "name": "أحذية نسائية شتوية دافئة مبطنة بالصوف، أحذية قصيرة بنعل سميك ومقدمة مستديرة وكعب منخفض بلون موحد",
+      "description": "عرض علي إكسبريس المميز بخصم 5% — السعر الحالي 67.44 ريال بدلاً من 71.33 ريال.",
+      "originalPrice": 71.33,
+      "currentPrice": 67.44,
+      "discount": 5,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010538352414.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb97a6e611ec6481087c27f7ea290c60bs.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_205",
       "name": "Smartwatch الرجال النساء ساعات المعصم ساعة ذكية رسالة مراقبة اللياقة البدنية سوار هدية عيد ميلاد ساعة إلكترونية لنظام أندرويد IOS",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 4.24 ريال بدلاً من 4.24 ريال.",
