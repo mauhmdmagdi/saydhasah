@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_211",
+      "name": "مجموعة حقائب سفر خفيفة الوزن مكونة من 4 قطع، حقائب مقصورة فاخرة بتصميم بسيط، حقائب عصرية للجنسين بلون واحد مع عجلات",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 164.79 ريال بدلاً من 164.79 ريال.",
+      "originalPrice": 164.79,
+      "currentPrice": 164.79,
+      "discount": 0,
+      "category": "cat_022",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013438333743.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saedf9d20bd4548eea52ace8e73546b497.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_210",
       "name": "أحذية رجالية صيفية 2026 شبكية للجري، أحذية رياضية كاجوال مسامية خفيفة الوزن لملابس الشارع",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 37.69 ريال بدلاً من 37.69 ريال.",
