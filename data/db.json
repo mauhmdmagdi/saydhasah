@@ -106,12 +106,82 @@
       "count": 0
     },
     {
+      "id": "cat_011",
+      "name": "ملابس رجالي",
+      "image": "assets/images/categories/cat_011.svg?v=1",
+      "icon": "👔",
+      "color": "#1e3c72",
+      "order": 10,
+      "isActive": true,
+      "count": 0
+    },
+    {
+      "id": "cat_012",
+      "name": "ملابس حريمي",
+      "image": "assets/images/categories/cat_012.svg?v=1",
+      "icon": "👗",
+      "color": "#e91e63",
+      "order": 11,
+      "isActive": true,
+      "count": 0
+    },
+    {
+      "id": "cat_013",
+      "name": "ملابس أولاد",
+      "image": "assets/images/categories/cat_013.svg?v=1",
+      "icon": "👦",
+      "color": "#0284c7",
+      "order": 12,
+      "isActive": true,
+      "count": 0
+    },
+    {
+      "id": "cat_014",
+      "name": "ملابس بنات",
+      "image": "assets/images/categories/cat_014.svg?v=1",
+      "icon": "👧",
+      "color": "#f43f5e",
+      "order": 13,
+      "isActive": true,
+      "count": 0
+    },
+    {
+      "id": "cat_015",
+      "name": "ملابس مواليد",
+      "image": "assets/images/categories/cat_015.svg?v=1",
+      "icon": "👶",
+      "color": "#06b6d4",
+      "order": 14,
+      "isActive": true,
+      "count": 0
+    },
+    {
+      "id": "cat_016",
+      "name": "عدد وأدوات",
+      "image": "assets/images/categories/cat_016.svg?v=1",
+      "icon": "🛠️",
+      "color": "#f59e0b",
+      "order": 15,
+      "isActive": true,
+      "count": 0
+    },
+    {
+      "id": "cat_017",
+      "name": "إكسسوارات سيارات",
+      "image": "assets/images/categories/cat_017.svg?v=1",
+      "icon": "🚗",
+      "color": "#6366f1",
+      "order": 16,
+      "isActive": true,
+      "count": 0
+    },
+    {
       "id": "cat_010",
       "name": "المزيد",
       "image": "assets/images/categories/cat_010.svg?v=2",
       "icon": "🎮",
       "color": "#8b5cf6",
-      "order": 10,
+      "order": 18,
       "isActive": true,
       "count": 0
     }
