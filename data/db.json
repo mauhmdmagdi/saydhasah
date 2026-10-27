@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_178",
+      "name": "حامل جوال مغناطيسي للسيارة مع شاحن لاسلكي سريع وثبات قوي",
+      "description": "ملحق سيارة عملي ومبتكر يثبت بقوة على فتحات مكيف السيارة ويوفر دوران 360 درجة لسهولة متابعة الخرائط والقيادة بأمان.",
+      "originalPrice": 99.0,
+      "currentPrice": 45.0,
+      "discount": 55,
+      "category": "cat_017",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Automotive-c-3657.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/pics1/2026/04/16/c5/177634981203dc5edf81adbf34ec1d3b762a9bb2e7_thumbnail_240x.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_177",
       "name": "منظم أرفف ديكور متعدد الاستخدامات للمنزل والمطبخ بتصميم أنيق",
       "description": "حل ذكي وعملي لترتيب وتنظيم الأواني والإكسسوارات في المنزل والمطبخ بخامات متينة ومقاومة وسهلة التنظيف والتركيب.",
