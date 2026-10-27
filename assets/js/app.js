@@ -373,7 +373,7 @@ function createProductCardHTML(p) {
       </div>
 
       <div class="product-image-wrap" onclick="openProductDetailModal('${p.id}')">
-        <img src="${p.image}" alt="${escapeHtml(p.name)}" loading="lazy" decoding="async" onerror="this.src='https://via.placeholder.com/300x300?text=منتج'">
+        <img src="${p.image}" alt="${escapeHtml(p.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.onerror=null; this.src='assets/images/logos/favicon.svg';">
       </div>
 
       <div class="product-info">
@@ -599,7 +599,7 @@ window.openProductDetailModal = function (prodId) {
       </div>
       <div class="admin-modal-body" style="padding: 24px; text-align: center;">
         <div style="height: 240px; margin-bottom: 20px; display:flex; align-items:center; justify-content:center;">
-          <img src="${p.image}" alt="${escapeHtml(p.name)}" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 12px;">
+          <img src="${p.image}" alt="${escapeHtml(p.name)}" referrerpolicy="no-referrer" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 12px;">
         </div>
 
         <h2 style="font-size: 1.3rem; font-weight: 800; color: var(--primary); margin-bottom: 12px; line-height: 1.4;">
