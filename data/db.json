@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_232",
+      "name": "ساعة رقمية LED مربعة الشكل للنساء والرجال، ساعة إلكترونية رياضية للطلاب، ساعات للأزواج 2024",
+      "description": "عرض علي إكسبريس المميز بخصم 75% — السعر الحالي 3.75 ريال بدلاً من 15.02 ريال.",
+      "originalPrice": 15.02,
+      "currentPrice": 3.75,
+      "discount": 75,
+      "category": "cat_007",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007975772418.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S28228d94605248a58755bf08313004a0Y.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_231",
       "name": "لعبة طوب-وحدة تحكم ألعاب محمولة صغيرة ، ألعاب جيب حنين ، مشغلات محمولة ، تعليمية ، كلاسيكية ، هدايا لكبار السن ، هدايا طفولة ، 4 ألوان",
       "description": "عرض علي إكسبريس المميز بخصم 82% — السعر الحالي 7.91 ريال بدلاً من 44.95 ريال.",
