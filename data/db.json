@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_205",
+      "name": "Smartwatch الرجال النساء ساعات المعصم ساعة ذكية رسالة مراقبة اللياقة البدنية سوار هدية عيد ميلاد ساعة إلكترونية لنظام أندرويد IOS",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 4.24 ريال بدلاً من 4.24 ريال.",
+      "originalPrice": 4.24,
+      "currentPrice": 4.24,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007517165983.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0dca4f85065b4641b45702880d1a32723.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_204",
       "name": "العاب سيارات اطفال بالتحكم عن بعد باللون الاسود",
       "description": "عرض نون في قسم إكسسوارات سيارات بسعر 62.89 ريال.",
