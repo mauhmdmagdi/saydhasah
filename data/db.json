@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_246",
+      "name": "قبعة القط الأساسية",
+      "description": "عرض نون في قسم ملابس رجالي بسعر 75.00 ريال.",
+      "originalPrice": 75.0,
+      "currentPrice": 75.0,
+      "discount": 0,
+      "category": "cat_011",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/essentials-baseball-cap/Z97ACFFBE54AD205C8B4AZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z97ACFFBE54AD205C8B4AZ/45/_/1773474876/e2df7ec2-710c-451b-a7e9-5d88f96083ab.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_245",
       "name": "Fashionable and Minimalist 8mm Random 1pc Beaded Bracelet for Women, Glass Glaze Bead Strand, Student Jewelry",
       "description": "المبيعات: 19 sold",
