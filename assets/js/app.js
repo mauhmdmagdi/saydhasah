@@ -225,10 +225,10 @@ function renderStoreBadges() {
         <div class="stores-marquee-window">
           <div class="stores-marquee-track">
             <div class="stores-marquee-group">
-              ${itemsHTML}
+              ${itemsHTML.repeat(3)}
             </div>
             <div class="stores-marquee-group" aria-hidden="true">
-              ${itemsHTML}
+              ${itemsHTML.repeat(3)}
             </div>
           </div>
         </div>
