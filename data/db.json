@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_253",
+      "name": "ملابس أطفال عصرية غير رسمية، بدلة رياضية بأكمام قصيرة، تي شيرت + شورت، طقم من قطعتين، ملابس خارجية للأولاد، تي شيرت فضفاض وشورت",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 7.54 ريال بدلاً من 7.54 ريال.",
+      "originalPrice": 7.54,
+      "currentPrice": 7.54,
+      "discount": 0,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012705935569.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S991068c218c442e5b887b11c27cb0bc4K.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_252",
       "name": "حقيبة سفر كبيرة السعة بإطار ألومنيوم وعجلات متعددة الاتجاهات للسفر، موديل 2026 الجديد للسيدات، بعجلات صامتة",
       "description": "عرض علي إكسبريس المميز بخصم 57% — السعر الحالي 90.52 ريال بدلاً من 210.48 ريال.",
