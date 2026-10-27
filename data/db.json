@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_129",
+      "name": "بكرة لتمارين اللياقة البدنية المنزلية",
+      "description": "عرض نون في قسم الرياضة واللياقة بسعر 25.00 ريال.",
+      "originalPrice": 40.17,
+      "currentPrice": 25.0,
+      "discount": 38,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/household-fitness-power-roller/N34152564A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1580644599/N34152564A_1.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_128",
       "name": "مجموعة مطبخ لعب صغير للأطفال 59 قطعة، ألعاب تمثيل أدوار الطبخ التظاهرية مع فواكه وخضروات قابلة للتقطيع وأدوات مطبخ، لعبة بيت خيالية تعليمية هدية مثالية للأولاد والبنات الصغار",
       "description": "عرض نون في قسم المنزل والمطبخ بسعر 65.28 ريال.",
