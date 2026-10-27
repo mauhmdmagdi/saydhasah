@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_235",
+      "name": "WORKPRO 4-Piece Adjustable Wrench Set, 150/200/250/300 mm",
+      "description": "عرض أمازون السعودية في قسم عدد وأدوات بخصم 30% — السعر الحالي 52.49 ريال بدلاً من 74.99 ريال.",
+      "originalPrice": 74.99,
+      "currentPrice": 52.49,
+      "discount": 30,
+      "category": "cat_016",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0105X2KF4?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/710fbEkpBwL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_234",
       "name": "حقيبة نسائية صغيرة جديدة، حقيبة كتف متعددة الاستخدامات ذات لون موحد وعالية الجودة، حقيبة كروس بودي، حقيبة يد مناسبة للاستخدام اليومي والتنقل.",
       "description": "عرض علي إكسبريس المميز بخصم 54% — السعر الحالي 39.94 ريال بدلاً من 87.58 ريال.",
