@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_218",
+      "name": "ساعة إسلامية نسائية مقاومة للصدأ تعرض مواقيت الأذان وإتجاه القبلة بلونين ذهبي وفضي",
+      "description": "عرض نون في قسم نساء بسعر 99.00 ريال.",
+      "originalPrice": 99.0,
+      "currentPrice": 99.0,
+      "discount": 0,
+      "category": "cat_012",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/women-s-stainless-steel-islamic-watch-displaying-azan-times-and-qibla-direction-in-gold-and-silver-colors/Z76B6C3346346C9C30F36Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z76B6C3346346C9C30F36Z/45/_/1726783990/08200459-820f-4e33-baf1-eab5b12973f9.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_217",
       "name": "Eid Al-Fitr Women'S Day, Mother'S Day Father'S Day Day Selected Gifts Incense Holder Three-Legged Kirin Incense Holder Creative Alloy Furnace Tea Ceremony Office Ornaments Agarwood Sandalwood Furnace",
       "description": "المبيعات: 2K+ sold — تقييم المنتج: 4.8",
