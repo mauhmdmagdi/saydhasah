@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_192",
+      "name": "شنطة يد كبيرة من كاستويف للبالغين مصنوعة من سويدي صناعي، بني، مقاس كبير",
+      "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 49% — السعر الحالي 51.29 ريال بدلاً من 99.99 ريال.",
+      "originalPrice": 99.99,
+      "currentPrice": 51.29,
+      "discount": 49,
+      "category": "cat_022",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0FZ7K9G9Y?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61KeYdGiZBL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_191",
       "name": "حذاء ديبورتيفو II للملاعب العشبية للأولاد من اديداس",
       "description": "عرض أمازون السعودية في قسم أحذية بخصم 71% — السعر الحالي 58.00 ريال بدلاً من 199.00 ريال.",
