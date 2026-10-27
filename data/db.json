@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_215",
+      "name": "2D Flat- Fashion Glittering Purple Butterfly Acrylic Retractable Phone Stand, Phone Stand, 2D Flat",
+      "description": "منتج حقيقي من تيمو ضمن قسم الإلكترونيات.",
+      "originalPrice": 7.54,
+      "currentPrice": 7.42,
+      "discount": 2,
+      "category": "cat_001",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-607639304000930.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/e96ab156-6683-4c6f-960f-d205513a5735.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_214",
       "name": "ملابس خارجية بلون سادة للأولاد والبنات نمط جديد معاطف قطيفة غير رسمية ملابس عصرية بسيطة سترة خريف وشتاء غير رسمية للأطفال",
       "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 20.94 ريال بدلاً من 63.05 ريال.",
