@@ -20,6 +20,7 @@ function initStoreApp() {
   initSearch();
   initFavoritesSystem();
   updateFavoritesBadge();
+  initProductCountBanner();
   initAdminTrigger();
 }
 
@@ -71,9 +72,40 @@ function formatHeroTitle(title) {
 }
 
 // ----------------------------------------------------
-// 2. شريط الإعلانات الترويجي
+// 2. عدّاد إجمالي المنتجات في الشريط الأخضر العلوي
 // ----------------------------------------------------
-function initAnnouncementTicker() {
+function updateProductCountBanner() {
+  const valueEl = document.getElementById('productCountValue');
+  if (!valueEl || !window.db) return;
+
+  let total = 0;
+  try {
+    total = window.db.getProducts().length;
+  } catch (err) {
+    return;
+  }
+
+  const formatted = total.toLocaleString('en-US');
+  if (valueEl.textContent !== formatted) {
+    valueEl.textContent = formatted;
+  }
+}
+
+function initProductCountBanner() {
+  updateProductCountBanner();
+  // يُحدَّث تلقائيًا دون الحاجة لإعادة تحميل الصفحة
+  setInterval(updateProductCountBanner, 60000);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) updateProductCountBanner();
+  });
+  window.addEventListener('storage', updateProductCountBanner);
+}
+
+window.refreshProductCount = updateProductCountBanner;
+
+// ----------------------------------------------------
+// 3. شريط الإعلانات الترويجي
+// ----------------------------------------------------function initAnnouncementTicker() {
   const settings = window.db.getSettings();
   const tickerContainer = document.getElementById('announcementTicker');
   if (!tickerContainer) return;
