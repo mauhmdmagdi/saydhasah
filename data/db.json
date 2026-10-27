@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_159",
+      "name": "قميص رجالي جديد من نسيج البوليستر مريح وقابل للتنفس برقبة مستديرة مع نمط مطبوع عليه كلمة باريس، مناسب للارتداء الخارجي والكاجوال",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 28.49 ريال بدلاً من 28.49 ريال.",
+      "originalPrice": 28.49,
+      "currentPrice": 28.49,
+      "discount": 0,
+      "category": "cat_002",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012227384668.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6a019b429cb4db7910b9aecde669149i.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_158",
       "name": "ساعة إسلامية نسائية مقاومة للصدأ تعرض مواقيت الأذان وإتجاه القبلة بلونين ذهبي وفضي",
       "description": "عرض نون في قسم ملابس حريمي بسعر 99.00 ريال.",
