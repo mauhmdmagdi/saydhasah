@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_222",
+      "name": "أحذية رياضية رجالية شبكية قابلة للتنفس ذات قاعدة سميكة، أحذية صيفية عصرية للخارج، أحذية أنيقة على طراز الأب، أحذية رياضية صيف...",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 139.05 ريال بدلاً من 139.05 ريال.",
+      "originalPrice": 139.05,
+      "currentPrice": 139.05,
+      "discount": 0,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005009524955020.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa063cd785c454399ad650155b02e0a080.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_221",
       "name": "بيجامة رجالية كبيرة الحجم من القطن الخالص، ملابس نوم للربيع والخريف بأكمام طويلة، تصميم بسيط باللون الأسود، ملابس منزلية، طقم بيجامة للشباب",
       "description": "عرض علي إكسبريس المميز بخصم 53% — السعر الحالي 59.33 ريال بدلاً من 126.23 ريال.",
