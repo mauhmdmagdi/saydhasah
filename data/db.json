@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_216",
+      "name": "Smartwatch الرجال النساء ساعات المعصم ساعة ذكية رسالة مراقبة اللياقة البدنية سوار هدية عيد ميلاد ساعة إلكترونية لنظام أندرويد IOS",
+      "description": "عرض علي إكسبريس المميز بخصم 78% — السعر الحالي 12.0 ريال بدلاً من 55.31 ريال.",
+      "originalPrice": 55.31,
+      "currentPrice": 12.0,
+      "discount": 78,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007517165983.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0dca4f85065b4641b45702880d1a32723.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_215",
       "name": "2D Flat- Fashion Glittering Purple Butterfly Acrylic Retractable Phone Stand, Phone Stand, 2D Flat",
       "description": "منتج حقيقي من تيمو ضمن قسم الإلكترونيات.",
