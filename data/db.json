@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_119",
+      "name": "سماعات أذن لاسلكية J18 TWS، 5.3 سماعات بلوتوث وقت تشغيل طويل، إلغاء الضوضاء للمكالمات الصوتية، للألعاب والأعمال والرياضة",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 25.3 ريال بدلاً من 25.3 ريال.",
+      "originalPrice": 25.3,
+      "currentPrice": 25.3,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007476777459.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S04f77c04d2a045c882c30cb05c710c47y.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_118",
       "name": "سماعات أذن FreeBuds SE 2، بلوتوث لاسلكية 5.3، عمر بطارية يصل إلى 40 ساعة، تشغيل الموسيقى لمدة 3 ساعات بعد شحن لمدة 10 دقائق، مدمجة ومريحة، مقاومة للغبار والرذاذ بمعيار IP54،  سيراميكي",
       "description": "عرض نون في قسم الإلكترونيات بسعر 75.00 ريال.",
