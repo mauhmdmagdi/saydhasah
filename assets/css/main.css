@@ -736,22 +736,22 @@ ul { list-style: none; }
   padding: 0;
   min-height: auto;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 12px;
+  align-items: center;
 }
 
 .stores-heading {
-  position: static;
+  position: absolute;
   z-index: 2;
-  width: 100%;
+  right: 28px;
+  top: 50%;
+  width: clamp(180px, 15vw, 215px);
   min-height: auto;
-  padding: 0 clamp(14px, 2vw, 28px);
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: none;
-  background: transparent;
+  transform: translateY(-50%);
+  background: var(--light-bg);
   text-align: right;
 }
 
@@ -774,9 +774,8 @@ ul { list-style: none; }
 }
 
 .stores-marquee-window {
-  width: 100%;
-  margin-right: 0;
-  padding-bottom: 6px;
+  width: calc(100% - clamp(220px, calc(16vw + 32px), 260px));
+  margin-right: clamp(220px, calc(16vw + 32px), 260px);
   overflow: hidden;
 }
 
@@ -805,10 +804,10 @@ ul { list-style: none; }
 
 @keyframes storesScrollRTL {
   0% {
-    transform: translateX(33.3333%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(50%);
   }
 }
 
@@ -1584,19 +1583,36 @@ ul { list-style: none; }
     font-size: 0.72rem;
   }
   .stores-marquee-row {
-  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  min-height: auto;
+  display: flex;
+  align-items: center;
 }
   .stores-heading {
-  position: static;
-  padding: 0 14px;
+  position: absolute;
+  z-index: 2;
+  right: 28px;
+  top: 50%;
+  width: clamp(180px, 15vw, 215px);
+  min-height: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-50%);
+  background: var(--light-bg);
+  text-align: right;
 }
   .stores-heading .section-title {
     font-size: 0.95rem;
     line-height: 1.35;
   }
   .stores-marquee-window {
-    width: 100%;
-    margin-right: 0;
+    width: calc(100% - 196px);
+    margin-right: 196px;
   }
   .banner-product-count {
     left: 2.2%;
