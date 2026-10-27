@@ -263,6 +263,9 @@ function renderStoreBadges() {
             <div class="stores-marquee-group" aria-hidden="true">
               ${itemsHTML.repeat(3)}
             </div>
+            <div class="stores-marquee-group" aria-hidden="true">
+              ${itemsHTML.repeat(3)}
+            </div>
           </div>
         </div>
       </div>
@@ -320,10 +323,7 @@ function renderCategoriesGrid() {
     const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=2`;
     return `
       <button class="category-card" type="button" data-category-id="${escapeHtml(category.id)}" title="${escapeHtml(category.name)}" aria-label="${escapeHtml(category.name)}">
-        <div class="category-card-img-wrap">
-          <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
-        </div>
-        <span class="category-card-name">${escapeHtml(category.name)}</span>
+        <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
       </button>
     `;
   }).join('');
