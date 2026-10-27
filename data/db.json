@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_120",
+      "name": "قناع كريمي لإزالة الرؤوس السوداء من الوجه، قناع للتحكم في الزيوت وتنظيف عميق للأنف، أداة للعناية بالبشرة للنساء",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 17.41 ريال بدلاً من 17.41 ريال.",
+      "originalPrice": 17.41,
+      "currentPrice": 17.41,
+      "discount": 0,
+      "category": "cat_004",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012194376297.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3ab81153b2294d62a8bd00fe1f6b2fb92.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_119",
       "name": "سماعات أذن لاسلكية J18 TWS، 5.3 سماعات بلوتوث وقت تشغيل طويل، إلغاء الضوضاء للمكالمات الصوتية، للألعاب والأعمال والرياضة",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 25.3 ريال بدلاً من 25.3 ريال.",
