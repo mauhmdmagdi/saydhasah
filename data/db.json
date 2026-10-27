@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_255",
+      "name": "قميص نوم بياقة على شكل حرف  مزين بالدانتيل بفتحة جانبية - ميدي",
+      "description": "عرض نون في قسم ملابس النوم بسعر 38.00 ريال.",
+      "originalPrice": 49.0,
+      "currentPrice": 38.0,
+      "discount": 22,
+      "category": "cat_019",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/lace-trim-v-neck-side-slit-nightdress/Z3719A4B1654F2BF94C25Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z3719A4B1654F2BF94C25Z/45/1746236049/9921e72c-8b36-4b01-ac00-3081e6bf8843.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_254",
       "name": "سماعات أذن لاسلكية فوق الأذن بلوتوث Q11i من أنكر، صوت عميق، 60 ساعة من وقت التشغيل، صوت عالي الدقة، وسادات أذن قابلة للفصل، اتصال متعدد النقاط",
       "description": "عرض نون في قسم الإلكترونيات بسعر 89.00 ريال.",
