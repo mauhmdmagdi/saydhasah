@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_242",
+      "name": "A Pair of Warming Leg Sleeves for Men and Women, Keeping Knees Warm, Thickened for Autumn and Winter",
+      "description": "المبيعات: 54K+ sold — تقييم المنتج: 4.7",
+      "originalPrice": 44.0,
+      "currentPrice": 8.82,
+      "discount": 80,
+      "category": "cat_012",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-606209818094149.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/cc509bba-f884-43b9-ac02-2063aece0e9c.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_241",
       "name": "ساعات ذكية للرجال والنساء، جهاز تتبع اللياقة البدنية مزود بمراقبة معدل ضربات القلب والنوم، هدية للأب والأم والأزواج، معيار IP68، متوافقة مع أنظمة أندرويد وiOS",
       "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 59% — السعر الحالي 149.99 ريال بدلاً من 369.99 ريال.",
