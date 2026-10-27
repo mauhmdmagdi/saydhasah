@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_203",
+      "name": "عطر كاندي مسك 150 مل",
+      "description": "عرض نون في قسم العطور بسعر 109.00 ريال.",
+      "originalPrice": 218.0,
+      "currentPrice": 109.0,
+      "discount": 50,
+      "category": "cat_023",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/candy-musk-from-classic-collection-150ml-edt/ZBF6A81215C2462E1F757Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBF6A81215C2462E1F757Z/45/_/1786966767/fbae89dc-e3ee-434d-97b6-079caf94b539.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_202",
       "name": "حقيبة مكياج سوداء سعة قماش للسفر حقيبة أدوات الزينة منظم فرش المكياج والإكسسوارات الجمالية حقيبة تخزين للنساء",
       "description": "عرض نون في قسم حقائب وأمتعة بسعر 23.75 ريال.",
