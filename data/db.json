@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_122",
+      "name": "ساعة رجالية من ماركة XINEW للطلاب، ساعات رجالية وشبابية أنيقة بحزام من الفولاذ المقاوم للصدأ، ساعة كوارتز مع تاريخ، ريلوجيو ماسكولينو، ريلوج هومبر",
+      "description": "عرض علي إكسبريس المميز بخصم 63% — السعر الحالي 26.46 ريال بدلاً من 72.19 ريال.",
+      "originalPrice": 72.19,
+      "currentPrice": 26.46,
+      "discount": 63,
+      "category": "cat_007",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012611698444.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0c35dbdc8a724776b6b3d24bf71130b5e.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_121",
       "name": "10/20/30 قطعة من قطع الألعاب الملونة المصنوعة من الحجر، مناسبة لألعاب الطاولة العائلية، وألعاب الحفلات الجماعية، وهدايا تجمعات العائلة، وألعاب الألغاز التنافسية بين الوالدين والأطفال.",
       "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 23.49 ريال بدلاً من 52.2 ريال.",
