@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_182",
+      "name": "حذاء سنيكرز كاجوال عصري وخفيف الوزن للمشي اليومي المريح",
+      "description": "سنيكرز مريح بنعل مبطن يوفر راحة فائقة طوال اليوم وتصميم أنيق يتماشى مع مختلف الملابس الكاجوال والرياضية.",
+      "originalPrice": 120.0,
+      "currentPrice": 58.0,
+      "discount": 52,
+      "category": "cat_002",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Shoes-c-3636.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abccv/2026/04/17/03/1776415811e0ff0b6010f4e65dec91f0624d16ef1c_thumbnail_240x.png",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_181",
       "name": "طقم رياضي نسائي مرن ومريح لتمارين اللياقة واليوغا قطعتين",
       "description": "ملابس رياضية عالية المرونة وخفيفة توفر دعماً ممتازاً وحرية حركة أثناء أداء التمارين الرياضية أو المشي بخامة سريعة الجفاف.",
