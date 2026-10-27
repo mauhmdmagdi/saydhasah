@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_161",
+      "name": "كاميرا أمان واي فاي بدقة 8 ميجابكسل، تردد 2.4 جيجاهرتز، للمراقبة المنزلية، مع خاصية التحكم في الزاوية والإمالة (PTZ)، ورؤية ليلية بالأشعة تحت الحمراء، وكشف الحركة، ومراقبة الأطفال، مع هوائيين.",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 123.49 ريال بدلاً من 123.49 ريال.",
+      "originalPrice": 123.49,
+      "currentPrice": 123.49,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013274219582.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35be91157dfd4fe585e1e592501a105do.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_160",
       "name": "العاب سيارات اطفال بالتحكم عن بعد باللون الاسود",
       "description": "عرض نون في قسم إكسسوارات سيارات بسعر 62.89 ريال.",
