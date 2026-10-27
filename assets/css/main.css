@@ -704,22 +704,22 @@ ul { list-style: none; }
   padding: 0;
   min-height: auto;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
 }
 
 .stores-heading {
-  position: absolute;
+  position: static;
   z-index: 2;
-  right: 28px;
-  top: 50%;
-  width: clamp(180px, 15vw, 215px);
+  width: 100%;
   min-height: auto;
-  padding: 0;
+  padding: 0 clamp(14px, 2vw, 28px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(-50%);
-  background: var(--light-bg);
+  transform: none;
+  background: transparent;
   text-align: right;
 }
 
@@ -742,8 +742,9 @@ ul { list-style: none; }
 }
 
 .stores-marquee-window {
-  width: calc(100% - clamp(220px, calc(16vw + 32px), 260px));
-  margin-right: clamp(220px, calc(16vw + 32px), 260px);
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 6px;
   overflow: hidden;
 }
 
@@ -772,10 +773,10 @@ ul { list-style: none; }
 
 @keyframes storesScrollRTL {
   0% {
-    transform: translateX(0);
+    transform: translateX(33.3333%);
   }
   100% {
-    transform: translateX(50%);
+    transform: translateX(0);
   }
 }
 
@@ -1551,36 +1552,19 @@ ul { list-style: none; }
     font-size: 0.72rem;
   }
   .stores-marquee-row {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  padding: 0;
-  min-height: auto;
-  display: flex;
-  align-items: center;
+  gap: 10px;
 }
   .stores-heading {
-  position: absolute;
-  z-index: 2;
-  right: 28px;
-  top: 50%;
-  width: clamp(180px, 15vw, 215px);
-  min-height: auto;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transform: translateY(-50%);
-  background: var(--light-bg);
-  text-align: right;
+  position: static;
+  padding: 0 14px;
 }
   .stores-heading .section-title {
     font-size: 0.95rem;
     line-height: 1.35;
   }
   .stores-marquee-window {
-    width: calc(100% - 196px);
-    margin-right: 196px;
+    width: 100%;
+    margin-right: 0;
   }
   .store-badge-card {
   width: clamp(84px, 6vw, 98px);
