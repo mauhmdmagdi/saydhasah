@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_185",
+      "name": "سيارة شاص مع جهاز التحكم عن بعد للاطفال من موديل كار",
+      "description": "عرض نون في قسم إكسسوارات سيارات بسعر 40.00 ريال.",
+      "originalPrice": 40.0,
+      "currentPrice": 40.0,
+      "discount": 0,
+      "category": "cat_017",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/car-toy-with-remote-control-for-children/N24404835A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1556089489/N24404835A_1.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_184",
       "name": "مجسم سيارة لكزس 570 دفع رباعي 24/1 فاخرة مصنوعة من خليط معدني من الزنك للطرق الوعرة مزودة بخطاف سحب خلفي وصوت وإضاءة تمثل هدية رائعة للاطفال من الجنسين من بي دي تي سي تي كيه (ازرق)",
       "description": "عرض أمازون السعودية في قسم إكسسوارات سيارات بخصم 53% — السعر الحالي 79.90 ريال بدلاً من 169.00 ريال.",
