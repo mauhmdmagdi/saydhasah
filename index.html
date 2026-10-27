@@ -8,7 +8,7 @@
   <title> صيدها صح | قبل لا تروح عليك </title>
   <meta name="description"
     content="منصة صيدها صح تجمع لك أفضل العروض والتخفيضات المختارة من أمازون السعودية — أسعار محدّثة وروابط مباشرة لكل منتج.">
-  <link rel="stylesheet" href="assets/css/main.css?v=20261027v7">
+  <link rel="stylesheet" href="assets/css/main.css?v=20261027v8">
   <link rel="icon" type="image/svg+xml" href="assets/images/logos/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logos/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="192x192" href="assets/images/logos/favicon-192x192.png">
@@ -65,7 +65,7 @@
 
   <!-- الهيدر الرئيسي -->
   <header class="site-header">
-    <img src="assets/images/logos/02.svg?v=20261027v7" alt="صيداها صح — كل ما تدور عليه في مكان واحد">
+    <img src="assets/images/logos/02.svg?v=20261027v8" alt="صيداها صح — كل ما تدور عليه في مكان واحد">
     <div class="banner-product-count" id="bannerProductCount" role="status" aria-live="polite">
       إجمالي المنتجات: <b id="productCountValue">0</b>
     </div>
@@ -88,6 +88,17 @@
     </nav>
   </header>
 
+  <!-- شريط العروض المباشرة المتحرك السريع -->
+  <div class="live-deals-ticker-bar" id="liveDealsTickerBar">
+    <div class="ticker-badge">⚡ صفقات حية</div>
+    <div class="ticker-track-wrap">
+      <div class="ticker-track" id="liveDealsTickerTrack">
+        <!-- يتم تعبئتها حركياً من كافة الأصناف -->
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- مسار هبوط النتائج عند البحث أو الفلترة -->
   <div id="mainContentAnchor"></div>
@@ -99,6 +110,9 @@
       <div class="price-range-text">
         <h3>وصل حديثاً</h3>
         <p>أحدث المنتجات والعروض المنضمة حديثاً بأفضل التخفيضات</p>
+      </div>
+      <div class="section-actions-inline">
+        <button type="button" class="btn-rotate-section" onclick="rotateSection('newArrivals')" title="اكتشف عروضاً أخرى">🔄 تدوير العروض</button>
       </div>
     </div>
 
@@ -115,6 +129,9 @@
       <div class="deal-banner-text">
         <h2>🔥 عروض اليوم الحصرية</h2>
         <p>خصومات جنونية تنتهي قريباً — لا تفوّت فرصة التوفير القصوى!</p>
+      </div>
+      <div class="section-actions-inline">
+        <button type="button" class="btn-rotate-section" onclick="rotateSection('todayDeals')" title="اكتشف صفقات أخرى">🔄 صفقات أخرى</button>
       </div>
     </div>
 
@@ -352,8 +369,10 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="assets/js/db.js?v=20261027v7"></script>
-  <script src="assets/js/app.js?v=20261027v7"></script>
+  <script src="assets/js/db.js?v=20261027v8"></script>
+  <script src="assets/js/app.js?v=20261027v8"></script>
+  <!-- توست حركة الصفقات التفاعلي المباشر -->
+  <div class="live-activity-toast" id="liveActivityToast" aria-live="polite"></div>
 </body>
 
 </html>
