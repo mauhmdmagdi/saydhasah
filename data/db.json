@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_149",
+      "name": "تيشيرت رياضي بأكمام قصيرة مزين بلوجو على الصدر الأيسر للأولاد من اندر ارمور",
+      "description": "عرض أمازون السعودية في قسم ملابس أولاد بخصم 59% — السعر الحالي 36.32 ريال بدلاً من 89.00 ريال.",
+      "originalPrice": 89.0,
+      "currentPrice": 36.32,
+      "discount": 59,
+      "category": "cat_013",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0D1636XKZ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61ZOCsEEB1L._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_148",
       "name": "مضخة هواء محمولة منفاخ للكرات الرياضية مزودة بـ 7 ابر، محول صمام واحد، خرطوم واحد لنفخ كرة القدم، السلة، الطائرة، الركبي والبالونات وأي نوع آخر الكرات لون ازرق، ستانلس ستيل",
       "description": "عرض نون في قسم المزيد بسعر 24.99 ريال.",
