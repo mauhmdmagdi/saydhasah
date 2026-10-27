@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_200",
+      "name": "سراويل داخلية بكيني قطنية من 7 قطع من Zeemey تسمح بمرور الهواء بخصر منخفض ملابس داخلية أنيقة للسيدات جذابة",
+      "description": "عرض نون في قسم ملابس داخلية بسعر 49.00 ريال.",
+      "originalPrice": 59.0,
+      "currentPrice": 49.0,
+      "discount": 17,
+      "category": "cat_020",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/zeemey-7-piece-cotton-bikini-breathable-panties-low-waist-fashionable-ladies-panties/ZF43B240BA1293A8F5B5AZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZF43B240BA1293A8F5B5AZ/45/1746674581/976da21d-6997-4442-9e2f-8934d48c27a4.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_199",
       "name": "قميص نوم بشريط دانتيل مزخرف",
       "description": "عرض نون في قسم ملابس النوم بسعر 62.00 ريال.",
