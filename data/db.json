@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_209",
+      "name": "5 قطع من الملابس الداخلية الرياضية الطويلة للرجال المضادة للاحتكاك، سراويل كابرييل، سراويل طويلة للجري سريعة الجفاف بأربعة أربطة.",
+      "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 79.52 ريال بدلاً من 177.38 ريال.",
+      "originalPrice": 177.38,
+      "currentPrice": 79.52,
+      "discount": 55,
+      "category": "cat_020",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005011735557223.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S45788391fe1d4e9b845909e739ad3a9el.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_208",
       "name": "قميص نوم نسائي بمقاسات كبيرة، تصميم فضفاض، ياقة مربعة، فستان نوم بأكمام قصيرة، مع رباط، ملابس منزلية مريحة.",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 44.41 ريال بدلاً من 44.41 ريال.",
