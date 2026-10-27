@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_146",
+      "name": "الروحاني وحكايات اخرى",
+      "description": "عرض أمازون السعودية في قسم المزيد بخصم 63% — السعر الحالي 15.41 ريال بدلاً من 42.00 ريال.",
+      "originalPrice": 42.0,
+      "currentPrice": 15.41,
+      "discount": 63,
+      "category": "cat_010",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/977851562X?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/81UGbqMoJnL._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_145",
       "name": "فلاتر قهوة v60 عدد 100 فلتر مقاس 02 حجم كبير ابيض",
       "description": "عرض نون في قسم عدد وأدوات بسعر 22.95 ريال.",
