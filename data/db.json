@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_251",
+      "name": "شباشب رجالية للتدليك للصيف، صنادل داخلية وخارجية، أحذية رجالية كاجوال للشاطئ، شباشب ناعمة، صنادل قلابة للرجال والنساء، شباشب منزلية",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 28.71 ريال بدلاً من 28.71 ريال.",
+      "originalPrice": 28.71,
+      "currentPrice": 28.71,
+      "discount": 0,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012650005791.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acb91c4c9c74186a0b561b1e0d63af8Q.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_250",
       "name": "الفاخرة الرجال السروال رجل القطن تنفس مريحة الملاكم بيع السراويل الرجال سراويل حجم كبير سراويل داخلية هدية",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 22.47 ريال بدلاً من 22.47 ريال.",
