@@ -118,6 +118,22 @@
   ],
   "products": [
     {
+      "id": "prod_118",
+      "name": "سماعات أذن FreeBuds SE 2، بلوتوث لاسلكية 5.3، عمر بطارية يصل إلى 40 ساعة، تشغيل الموسيقى لمدة 3 ساعات بعد شحن لمدة 10 دقائق، مدمجة ومريحة، مقاومة للغبار والرذاذ بمعيار IP54،  سيراميكي",
+      "description": "عرض نون في قسم الإلكترونيات بسعر 75.00 ريال.",
+      "originalPrice": 189.0,
+      "currentPrice": 75.0,
+      "discount": 60,
+      "category": "cat_001",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/freebuds-se-2-in-ear-earphones-true-wireless-earbuds-40-hour-battery-life-ip54-water-and-dust-proof-compact-and-comfortable-ceramic-white/N53425582A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z3D52C86FE47F7A79AF5FZ/45/_/1780572184/ba524d31-e266-4b88-a662-c6fc8a1681ac.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_117",
       "name": "Gradient Motivational English Slogan Vinyl Sticker, 7.62 cm, Suitable for Laptops, Tablets, Journals, Motorcycles, Luggage, and Computer Decoration, Colorful Handwritten Cursive Font with Heart, Star, and Glitter Element",
       "description": "المبيعات: 563 sold — تقييم المنتج: 5",
