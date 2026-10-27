@@ -105,7 +105,8 @@ window.refreshProductCount = updateProductCountBanner;
 
 // ----------------------------------------------------
 // 3. شريط الإعلانات الترويجي
-// ----------------------------------------------------function initAnnouncementTicker() {
+// ----------------------------------------------------
+function initAnnouncementTicker() {
   const settings = window.db.getSettings();
   const tickerContainer = document.getElementById('announcementTicker');
   if (!tickerContainer) return;
