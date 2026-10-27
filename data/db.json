@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_133",
+      "name": "طقم كوورد للنساء LF-W2012&SH258 من ليريا فاشن (2 في العبوة)",
+      "description": "عرض أمازون السعودية في قسم ملابس حريمي بخصم 70% — السعر الحالي 27.00 ريال بدلاً من 89.00 ريال.",
+      "originalPrice": 89.0,
+      "currentPrice": 27.0,
+      "discount": 70,
+      "category": "cat_012",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0D7N4Q2SZ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71Bvq7V0CjL._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_132",
       "name": "بيجاما للرجال للنوم ليلا ناعمة وعائلية، قميص نوم جيد التهوية، مناسبة للمنزل في الصيف وفترات الراحة والاستشفاء من ويموكي",
       "description": "عرض أمازون السعودية في قسم ملابس رجالي بخصم 69% — السعر الحالي 27.99 ريال بدلاً من 89.99 ريال.",
