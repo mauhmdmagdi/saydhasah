@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_188",
+      "name": "سجاد أرضية السيارة، سجاد أرضية السيارة بتصميم قطة سوداء لطيفة، سجاد أرضية السيارة بتصميم قطة ساحرة مضادة للانزلاق بعيون كبيرة، سجاد أرضية السيارة عالمي الاستخدام",
+      "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 18.21 ريال بدلاً من 55.08 ريال.",
+      "originalPrice": 55.08,
+      "currentPrice": 18.21,
+      "discount": 67,
+      "category": "cat_010",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010464277328.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S93312efa4fae41c6b7046c4e72bc0343G.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_187",
       "name": "قفل باب ذكي **ALink** مع واي فاي والتحكم عن بعد عبر تطبيق **Tuya** | خمس طرق لفتح القفل (بصمة الإصبع / كلمة المرور / البطاقة / التطبيق / المفتاح) | يدعم اللغة العربية و8 لغات أخرى | يشمل جسم قفل 4585، و5 بطاقات IC، و4 بط",
       "description": "عرض نون في قسم المزيد بسعر 169.99 ريال.",
