@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_226",
+      "name": "طقم بناتي قطعتين بلوزة بطبعة زهور وبنطلون برميل - وردي فاتح ووردي",
+      "description": "عرض نون في قسم ملابس بنات بسعر 91.99 ريال.",
+      "originalPrice": 132.0,
+      "currentPrice": 91.99,
+      "discount": 30,
+      "category": "cat_014",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/girls-2-pc-set-floral-print-top-barrel-pants-set-light-pink-pink/Z4007A8D06B0011E49C3BZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/78558d8d0d5354ab8bce31a7142533c6|pzsku/Z4007A8D06B0011E49C3BZ/45/1769499664/f7666b34-1b37-47ab-b23a-6325f7afa2bb.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_225",
       "name": "تي شيرت رجالي أمريكي صيفي بطبعة زهور الكرز وحروف بروكلين، مريح وقابل للتنفس، برقبة دائرية، مناسب للارتداء في الهواء الطلق.",
       "description": "عرض علي إكسبريس المميز بخصم 52% — السعر الحالي 36.39 ريال بدلاً من 75.81 ريال.",
