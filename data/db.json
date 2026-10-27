@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_175",
+      "name": "طقم إكسسوارات ومجوهرات نسائي فاخر مطلي بالذهب عقد وأقراط أنيقة",
+      "description": "طقم مجوهرات نسائي راقي بتشطيب ذهبي لامع وتفاصيل كريستالية براقة تضفي لمسة فخامة على إطلالتك في السهرات والمناسبات.",
+      "originalPrice": 79.0,
+      "currentPrice": 32.0,
+      "discount": 59,
+      "category": "cat_007",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/RecommendSelection/Jewelry-Accessories-sc-017291431.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/abccv/2026/04/17/3f/17764123305b61ce9691759d213e5da76dc51a35be_thumbnail_240x.png",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_174",
       "name": "طقم بربتوز وأفرول مواليد قطني ناعم بأزرار سفلية لسهولة الارتداء",
       "description": "أفرول قطني فائق النعومة لحديثي الولادة من شي إن مصمم بحب من القطن النقي لحماية بشرة الرضيع الحساسة وتوفير الدفء والراحة.",
