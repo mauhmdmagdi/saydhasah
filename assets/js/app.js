@@ -349,11 +349,19 @@ function renderAllProductSections() {
   const range50_100 = allProds.filter(p => p.tag === 'range50_100' || (p.currentPrice >= 50 && p.currentPrice <= 100));
   renderProductGrid('range50to100Grid', range50_100);
 
-  // 4. من 100 إلى 500 ريال
-  const range100_500 = allProds.filter(p => p.tag === 'range100_500' || (p.currentPrice > 100 && p.currentPrice <= 500));
-  renderProductGrid('range100to500Grid', range100_500);
+  // 4. من 100 إلى 200 ريال
+  const priceInRange = (p, min, max) => {
+    const price = Number(p.currentPrice) || 0;
+    return price > min && price <= max;
+  };
+  const range100_200 = allProds.filter(p => priceInRange(p, 100, 200));
+  renderProductGrid('range100to200Grid', range100_200);
 
-  // 5. من 500 إلى 1000 ريال - أجهزة وإلكترونيات فاخرة حصراً
+  // 5. من 200 إلى 500 ريال
+  const range200_500 = allProds.filter(p => priceInRange(p, 200, 500));
+  renderProductGrid('range100to500Grid', range200_500);
+
+  // 6. من 500 إلى 1000 ريال - أجهزة وإلكترونيات فاخرة حصراً
   const range500_1000 = allProds.filter(p => {
     const isElectronics = p.category === 'cat_001' || p.category === 'cat_007';
     const isFashionOrBag = p.category === 'cat_002' || (p.name && /حقيبة|شنطة|فستان|حذاء|قميص|عطر|سيروم/i.test(p.name));
@@ -362,15 +370,15 @@ function renderAllProductSections() {
   });
   renderProductGrid('range500to1000Grid', range500_1000);
 
-  // 6. من 1000 إلى أكثر
+  // 7. من 1000 إلى أكثر
   const range1000_plus = allProds.filter(p => p.tag === 'range1000_plus' || p.currentPrice > 1000);
   renderProductGrid('range1000PlusGrid', range1000_plus);
 
-  // 7. الأكثر طلباً
+  // 8. الأكثر طلباً
   const bestSellers = allProds.filter(p => p.tag === 'best_seller');
   renderProductGrid('bestSellersGrid', bestSellers.length > 0 ? bestSellers : allProds.filter(p => p.discount >= 60).slice(0, 4));
 
-  // 8. وصل حديثاً
+  // 9. وصل حديثاً
   const newArrivals = allProds.filter(p => p.tag === 'new_arrival');
   renderProductGrid('newArrivalsGrid', newArrivals.length > 0 ? newArrivals : [...allProds].reverse().slice(0, 4));
 }
