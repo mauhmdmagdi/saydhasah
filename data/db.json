@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_210",
+      "name": "أحذية رجالية صيفية 2026 شبكية للجري، أحذية رياضية كاجوال مسامية خفيفة الوزن لملابس الشارع",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 37.69 ريال بدلاً من 37.69 ريال.",
+      "originalPrice": 37.69,
+      "currentPrice": 37.69,
+      "discount": 0,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012405262993.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0828cf1ca1545828b2297623235517ey.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_209",
       "name": "5 قطع من الملابس الداخلية الرياضية الطويلة للرجال المضادة للاحتكاك، سراويل كابرييل، سراويل طويلة للجري سريعة الجفاف بأربعة أربطة.",
       "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 79.52 ريال بدلاً من 177.38 ريال.",
