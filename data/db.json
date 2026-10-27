@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_213",
+      "name": "شورت كارجو رجالي صيفي بخصر مطاطي وقصة مستقيمة بلون واحد، سروال قصير كاجوال للشاطئ والسفر والأنشطة الخارجية",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 39.5 ريال بدلاً من 39.5 ريال.",
+      "originalPrice": 39.5,
+      "currentPrice": 39.5,
+      "discount": 0,
+      "category": "cat_011",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012740647086.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa41434107cac412083e43e2c9f2e61f4A.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_212",
       "name": "عطر عربي صلب محمول للرجال برائحة خشبية شرقية طويلة الأمد، عطر جامد للجيب، بلسم عطري للجسم للرجال",
       "description": "عرض علي إكسبريس المميز بخصم 84% — السعر الحالي 6.61 ريال بدلاً من 40.83 ريال.",
