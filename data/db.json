@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_151",
+      "name": "ميزان ذكي A1 مع بلوتوث، 12 قياس، وزن/دهون الجسم/BMI - أسود T9120K11",
+      "description": "عرض نون في قسم الصحة والعناية الشخصية بسعر 74.65 ريال.",
+      "originalPrice": 74.65,
+      "currentPrice": 74.65,
+      "discount": 0,
+      "category": "cat_008",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/smart-scale-a1-with-blutooth-12-measurements-weight-body-fat-bmi-t9120k11-black/N70063592V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z30473B6CB65353F4CC8AZ/45/_/1779873418/db71f902-cd9b-4179-820c-8d7ac8f48669.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_150",
       "name": "لبس احرام مواليد 8 اشهر الى 24 شهر طفل العمرة اطفال  احرام مطاط تنورة و بطقطق مريح طفل رضيع صغير مواليد ولادي مطور بتقنية النانو مغاط احرام التنورة لباس سهل بمطاط ، لبس العمرة للاطفال ، احرام للصغار ، احرامات للاطفال للا",
       "description": "عرض نون في قسم ملابس أولاد بسعر 78.85 ريال.",
