@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_153",
+      "name": "مشاية اطفال - طاولة تغذية - مع لعبة، حاجب شمسي - ارتفاع قابل للتعديل - مساعدة الطفل على المشي - بيبي كار",
+      "description": "عرض نون في قسم الأطفال والرضع بسعر 308.99 ريال.",
+      "originalPrice": 599.0,
+      "currentPrice": 308.99,
+      "discount": 48,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/baby-walker-feeding-table-with-toy-sun-visor-adjustable-height-help-baby-walk-baby-car/ZF2BD8675804651108E23Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZF2BD8675804651108E23Z/45/_/1694507234/49135bd0-515b-4358-98b5-25949b041d8e.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_152",
       "name": "ألعاب كرات المحيط البلاستيكية الناعمة - مجموعة مكونة 50 قطعة",
       "description": "عرض أمازون السعودية في قسم الأطفال والرضع بخصم 64% — السعر الحالي 12.99 ريال بدلاً من 35.90 ريال.",
