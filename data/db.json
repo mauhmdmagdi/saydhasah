@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_247",
+      "name": "مشغل MP3 مع مكبر للصوت ولوحة فك التشفير ، V5.0 ، وحدة بلوتوث ، FM ، AUX ، تسجيل راديو للمكبرات ، DC 8V-24V ، 2*60W ، W",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 22.68 ريال بدلاً من 22.68 ريال.",
+      "originalPrice": 22.68,
+      "currentPrice": 22.68,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005008144962229.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd48b83b426ba4843b5e8dae419a796e9r.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_246",
       "name": "قبعة القط الأساسية",
       "description": "عرض نون في قسم ملابس رجالي بسعر 75.00 ريال.",
