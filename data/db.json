@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_250",
+      "name": "الفاخرة الرجال السروال رجل القطن تنفس مريحة الملاكم بيع السراويل الرجال سراويل حجم كبير سراويل داخلية هدية",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 22.47 ريال بدلاً من 22.47 ريال.",
+      "originalPrice": 22.47,
+      "currentPrice": 22.47,
+      "discount": 0,
+      "category": "cat_020",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006622052725.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1dcecc48e0bb4caeb297ddd2225ad39d6.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_249",
       "name": "روب نسائي من الساتان مع حواف دانتيل وأكمام قصيرة وحزام، ملابس نوم خفيفة وحريرية للمنزل وللعرائس",
       "description": "عرض علي إكسبريس المميز بخصم 67% — السعر الحالي 17.92 ريال بدلاً من 55.11 ريال.",
