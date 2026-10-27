@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_199",
+      "name": "قميص نوم بشريط دانتيل مزخرف",
+      "description": "عرض نون في قسم ملابس النوم بسعر 62.00 ريال.",
+      "originalPrice": 78.0,
+      "currentPrice": 62.0,
+      "discount": 21,
+      "category": "cat_019",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/galloon-lace-trim-strap-overlay-nightdress/Z00E8880AB39B97FA192EZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z00E8880AB39B97FA192EZ/45/1742560761/49cf4801-e971-445d-ba10-dfd171b264d1.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_198",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
