@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_166",
+      "name": "سحابة مطوي حقائب اليد مصمم حقيبة يد المرأة واحدة Crossbody زلابية حمل الإبط حقيبة التسوق حقائب كتف حقيبة تحت الإبط",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 47.94 ريال بدلاً من 47.94 ريال.",
+      "originalPrice": 47.94,
+      "currentPrice": 47.94,
+      "discount": 0,
+      "category": "cat_009",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005009185802416.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc3c6f38643dc46ef9adb421df64a20aco.png",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_165",
       "name": "25L/50L التكتيكية على ظهره مول حقيبة أكياس في الهواء الطلق على ظهره للمشي التخييم الرحلات الصيد الصيد حقائب الصالة الرياضية حقائب الظهر",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 131.25 ريال بدلاً من 131.25 ريال.",
