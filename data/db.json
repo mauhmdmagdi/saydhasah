@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_162",
+      "name": "لعبة بامبل بي المغناطيسية الممتعة، ألعاب لوحية عائلية تفاعلية مونتيسوري لصيد الأسماك والفرز للأطفال والكبار، مناسبة لـ 2-4 لاعبين",
+      "description": "عرض علي إكسبريس المميز بخصم 41% — السعر الحالي 18.69 ريال بدلاً من 31.68 ريال.",
+      "originalPrice": 31.68,
+      "currentPrice": 18.69,
+      "discount": 41,
+      "category": "cat_006",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010506611502.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S89bfc7511eb7481184c8cf1be4f365d5o.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_161",
       "name": "كاميرا أمان واي فاي بدقة 8 ميجابكسل، تردد 2.4 جيجاهرتز، للمراقبة المنزلية، مع خاصية التحكم في الزاوية والإمالة (PTZ)، ورؤية ليلية بالأشعة تحت الحمراء، وكشف الحركة، ومراقبة الأطفال، مع هوائيين.",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 123.49 ريال بدلاً من 123.49 ريال.",
