@@ -188,6 +188,22 @@
   ],
   "products": [
     {
+      "id": "prod_145",
+      "name": "فلاتر قهوة v60 عدد 100 فلتر مقاس 02 حجم كبير ابيض",
+      "description": "عرض نون في قسم عدد وأدوات بسعر 22.95 ريال.",
+      "originalPrice": 39.0,
+      "currentPrice": 22.95,
+      "discount": 41,
+      "category": "cat_016",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/100-piece-coffee-paper-filter-v60-size-02-white/Z3EC3D1BBACE7FA40CEA8Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z3EC3D1BBACE7FA40CEA8Z/45/_/1778921641/2f0bce1a-2d75-440e-882f-15383f4ca88c.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-27",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_144",
       "name": "سلة هدايا للأطفال، مجموعة هدايا لحديثي الولادة مع خشخيشة للأطفال، مجموعة هدايا للأطفال حديثي الولادة، هدايا للأطفال حديثي الولادة، مجموعة سلة هدايا للأطفال متوسطة الحجم للأمهات المتوقعات (أزرق)...",
       "description": "عرض نون في قسم ملابس مواليد بسعر 89.95 ريال.",
