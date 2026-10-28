@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_285",
+      "name": "شنطة يد نويل ساتشيل للنساء من جيس",
+      "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 64% — السعر الحالي 277.43 ريال بدلاً من 765.00 ريال.",
+      "originalPrice": 765.0,
+      "currentPrice": 277.43,
+      "discount": 64,
+      "category": "cat_022",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0F63V52SD?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71wsYayve9L._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_284",
       "name": "شباشب رجالية للتدليك للصيف، صنادل داخلية وخارجية، أحذية رجالية كاجوال للشاطئ، شباشب ناعمة، صنادل قلابة للرجال والنساء، شباشب منزلية",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 15.17 ريال بدلاً من 15.17 ريال.",
