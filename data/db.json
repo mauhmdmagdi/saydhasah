@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_302",
+      "name": "عدم الانزلاق سيليكون غطاء عجلة القيادة الصيف تنفس مطاطا العالمي صالح 38 سنتيمتر عجلة توجيه سيارة حامي التبعي",
+      "description": "عرض علي إكسبريس المميز بخصم 56% — السعر الحالي 13.08 ريال بدلاً من 29.73 ريال.",
+      "originalPrice": 29.73,
+      "currentPrice": 13.08,
+      "discount": 56,
+      "category": "cat_017",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010311442467.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S12f97c3031d843b090ba1c8e4851140aW.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_301",
       "name": "العاب سيارات اطفال بالتحكم عن بعد باللون الاسود",
       "description": "عرض نون في قسم إكسسوارات سيارات بسعر 62.89 ريال.",
