@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_284",
+      "name": "شباشب رجالية للتدليك للصيف، صنادل داخلية وخارجية، أحذية رجالية كاجوال للشاطئ، شباشب ناعمة، صنادل قلابة للرجال والنساء، شباشب منزلية",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 15.17 ريال بدلاً من 15.17 ريال.",
+      "originalPrice": 15.17,
+      "currentPrice": 15.17,
+      "discount": 0,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012293989052.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acb91c4c9c74186a0b561b1e0d63af8Q.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_283",
       "name": "4 عبوات من الملابس الداخلية للرجال، ناعمة، قابلة للتنفس، مريحة وفضفاضة، عصرية وعصرية ومرنة للغاية للأولاد",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 26.55 ريال بدلاً من 26.55 ريال.",
