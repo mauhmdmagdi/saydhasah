@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_300",
+      "name": "مجموعة مفاتيح ربط 46 قطعة من فولاذ S2 و CR-V، طقم مفاتيح ربط بسقاطة ورؤوس مفكات، مجموعة أدوات يدوية لإصلاح السيارات مع حقيبة تخزين",
+      "description": "عرض علي إكسبريس المميز بخصم 57% — السعر الحالي 37.79 ريال بدلاً من 86.89 ريال.",
+      "originalPrice": 86.89,
+      "currentPrice": 37.79,
+      "discount": 57,
+      "category": "cat_016",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013478272026.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf23cbb1989bf4974ac8a0abed518b699F.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_299",
       "name": "WORKPRO 250 mm Water Pump Pliers, Fast Adjustable Pliers with Push-Button",
       "description": "عرض أمازون السعودية في قسم عدد وأدوات بخصم 29% — السعر الحالي 31.97 ريال بدلاً من 44.99 ريال.",
