@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_265",
+      "name": "مشاية أطفال 3 في 1 - رف بيانو للياقة البدنية - موسيقى مدمجة، ضوء - ارتفاع قابل للتعديل - مساعدة الطفل على المشي - سيارة أطفال - صالة ألعاب رياضية للأطفال",
+      "description": "عرض نون في قسم الأطفال والرضع بسعر 168.65 ريال.",
+      "originalPrice": 329.0,
+      "currentPrice": 168.65,
+      "discount": 49,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/3-in-1-baby-walker-piano-fitness-rack-built-in-music-light-adjustable-height-help-baby-walk-baby-car-baby-gym/Z657AADDC1F7EBB961AB3Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z657AADDC1F7EBB961AB3Z/45/_/1694514000/fc1c4cde-a8eb-43f6-86e7-c914d11946f3.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_264",
       "name": "عقلة باب بدون مسامير لتمارين السحب والعقلة بطول قابل للتعديل 90 سم الى 120 سم وقدرة تحمل 150 كيلو",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 109.00 ريال.",
