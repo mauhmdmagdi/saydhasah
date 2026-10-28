@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_276",
+      "name": "سترة صوفية للأطفال بسحاب، ناعمة ودافئة، قميص حراري للأولاد والبنات، باللون البرتقالي والأزرق والأبيض، مناسبة للخريف والشتاء، للاستخدام الخارجي، بتصميم كاجوال مع تفاصيل مخيطة.",
+      "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 56.26 ريال بدلاً من 125.22 ريال.",
+      "originalPrice": 125.22,
+      "currentPrice": 56.26,
+      "discount": 55,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013182126742.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a6a4804552f4607ad6acbce82250362m.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_275",
       "name": "عطر ماركة 10 قطع عينات عشوائية 3 مل عطر نسائي ورجال بالفيرومونات رائحة طويلة الأمد هدية فيرومون جذابة",
       "description": "عرض علي إكسبريس المميز بخصم 72% — السعر الحالي 26.29 ريال بدلاً من 93.89 ريال.",
