@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_275",
+      "name": "عطر ماركة 10 قطع عينات عشوائية 3 مل عطر نسائي ورجال بالفيرومونات رائحة طويلة الأمد هدية فيرومون جذابة",
+      "description": "عرض علي إكسبريس المميز بخصم 72% — السعر الحالي 26.29 ريال بدلاً من 93.89 ريال.",
+      "originalPrice": 93.89,
+      "currentPrice": 26.29,
+      "discount": 72,
+      "category": "cat_023",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005011654643023.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1b8341f8e104464381bbecefb440b41cD.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_274",
       "name": "شباشب منزلية للنساء، شرائح شاطئ بلون سادة للرجال، نعل سميك، أحذية داخلية مضادة للانزلاق، صنادل صيفية للزوجين",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 49.54 ريال بدلاً من 49.54 ريال.",
