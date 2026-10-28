@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_269",
+      "name": "جهاز استقبال بلوتوث 4.2 للصوت الاستيريو عبر منفذ AUX 3.5 ملم مع ميكروفون، إلكترونيات استهلاكية، ملحقات سيارات، محول سيارة",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 12.21 ريال بدلاً من 12.21 ريال.",
+      "originalPrice": 12.21,
+      "currentPrice": 12.21,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012655925523.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2327c19965df46f99167b7a4512eab22h.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_268",
       "name": "قفل باب ذكي **ALink** مع واي فاي والتحكم عن بعد عبر تطبيق **Tuya** | خمس طرق لفتح القفل (بصمة الإصبع / كلمة المرور / البطاقة / التطبيق / المفتاح) | يدعم اللغة العربية و8 لغات أخرى | يشمل جسم قفل 4585، و5 بطاقات IC، و4 بط",
       "description": "عرض نون في قسم المزيد بسعر 169.99 ريال.",
