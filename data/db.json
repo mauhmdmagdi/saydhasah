@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_273",
+      "name": "5 قطع من سراويل الرجال الداخلية المصنوعة من ألياف الخيزران، مقاسات كبيرة من S إلى 2XL، ملابس داخلية رجالية، شورتات رياضية قصيرة، سراويل داخلية سوداء، هدايا",
+      "description": "عرض علي إكسبريس المميز بخصم 54% — السعر الحالي 54.45 ريال بدلاً من 119.19 ريال.",
+      "originalPrice": 119.19,
+      "currentPrice": 54.45,
+      "discount": 54,
+      "category": "cat_020",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012262970674.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdf904c4a2f9342428d4ed474ce6d228ez.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_272",
       "name": "بيجامة نسائية صيفية رقيقة بفيونكة ونقشة مخططة، شورت بأكمام قصيرة، حلوة ولطيفة، مناسبة للارتداء خارج المنزل في الصيف، طقم ملابس منزلية من قطعتين",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 39.31 ريال بدلاً من 39.31 ريال.",
