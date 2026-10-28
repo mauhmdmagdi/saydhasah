@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_259",
+      "name": "Gege Bear Lipstick Powder Cream Velvet Matte Matte Student Affordable Plain Lipstick",
+      "description": "المبيعات: 40K+ sold — تقييم المنتج: 4.7",
+      "originalPrice": 43.49,
+      "currentPrice": 7.09,
+      "discount": 84,
+      "category": "cat_004",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-601100084767047.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/e3d35fb7-3aff-42a3-b905-8dde677b458f.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_258",
       "name": "5pcs/2pcs 5ml Marble Pattern Refillable Perfume Atomizer - Portable Mini Spray Bottle for Travel, Empty Cosmetic Scent Pump Case, Travel Essentials",
       "description": "المبيعات: 2.5K+ sold — تقييم المنتج: 4.8",
