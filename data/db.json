@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_281",
+      "name": "فساتين سهرة طويلة مخصصة عالية الجودة من الشارموز المطوي مع نمط مرصع بالترتر، تصميم بدون حمالات على شكل حرف A، مثالية للمناسبات الخاصة",
+      "description": "عرض علي إكسبريس المميز بخصم 39% — السعر الحالي 348.47 ريال بدلاً من 568.25 ريال.",
+      "originalPrice": 568.25,
+      "currentPrice": 348.47,
+      "discount": 39,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012080375700.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83d518d04e264545892ee2053f7800537.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_280",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
