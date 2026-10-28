@@ -677,6 +677,39 @@ function initFavoritesSystem() {
   if (favNavBtn) favNavBtn.addEventListener('click', (e) => { e.preventDefault(); openFavoritesModal(); });
   if (favHeaderBtn) favHeaderBtn.addEventListener('click', (e) => { e.preventDefault(); openFavoritesModal(); });
 
+  const homeBtn = document.getElementById('navItemHome');
+  const catsBtn = document.getElementById('navItemCats');
+  const dealsBtn = document.getElementById('navItemDeals');
+
+  if (homeBtn) {
+    homeBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  window.addEventListener('scroll', () => {
+    const scrollPos = window.scrollY;
+    const dealsElem = document.getElementById('deals');
+    const catsElem = document.getElementById('categories');
+
+    let activeId = 'navItemHome';
+    if (dealsElem && scrollPos >= dealsElem.offsetTop - 250) {
+      activeId = 'navItemDeals';
+    } else if (catsElem && scrollPos >= catsElem.offsetTop - 250) {
+      activeId = 'navItemCats';
+    }
+
+    [homeBtn, catsBtn, dealsBtn].forEach(btn => {
+      if (!btn) return;
+      if (btn.id === activeId) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }, { passive: true });
+
   if (menuToggle && sectionMenu) {
     const closeMenu = () => {
       sectionMenu.hidden = true;
