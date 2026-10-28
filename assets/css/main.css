@@ -1763,12 +1763,14 @@ ul { list-style: none; }
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
 }
 
 .ticker-deal-chip:hover {
   background: rgba(16, 185, 129, 0.25);
   border-color: #10b981;
   transform: translateY(-2px);
+  color: #ffffff;
 }
 
 .ticker-chip-disc {
@@ -1792,28 +1794,57 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-right: auto;
+  order: 3;
 }
 
-.btn-rotate-section {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+.price-range-banner .section-actions-inline {
+  margin: 0;
+  display: inline-flex;
+  order: 3;
+}
+
+.price-range-banner .btn-rotate-section {
+  background: #0f766e;
   color: #ffffff;
-  padding: 6px 14px;
+  border: 1.5px solid #0d9488;
+  padding: 8px 18px;
   border-radius: 999px;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 3px 10px rgba(15, 118, 110, 0.3);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.price-range-banner .btn-rotate-section:hover {
+  background: #115e59;
+  border-color: #14b8a6;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(15, 118, 110, 0.4);
+}
+
+.deal-banner .btn-rotate-section {
+  background: #ffffff;
+  color: #dc2626;
+  border: 1px solid #fee2e2;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 0.85rem;
   font-weight: 800;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 6px;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  backdrop-filter: blur(4px);
 }
 
-.btn-rotate-section:hover {
-  background: rgba(255, 255, 255, 0.35);
-  transform: translateY(-2px) scale(1.04);
+.deal-banner .btn-rotate-section:hover {
+  background: #fef2f2;
+  transform: translateY(-2px);
 }
 
 .btn-rotate-section:active {
@@ -1848,15 +1879,7 @@ ul { list-style: none; }
    إشعار المبيعات الحية التفاعلي (Live Sales Toast)
    =================================================== */
 .live-activity-toast {
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
-  z-index: 99999;
-  max-width: 350px;
-  pointer-events: none;
-  opacity: 0;
-  transform: translateY(30px) scale(0.94);
-  transition: all 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+  display: none !important;
 }
 
 .live-activity-toast.active {
