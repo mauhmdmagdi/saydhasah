@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_272",
+      "name": "بيجامة نسائية صيفية رقيقة بفيونكة ونقشة مخططة، شورت بأكمام قصيرة، حلوة ولطيفة، مناسبة للارتداء خارج المنزل في الصيف، طقم ملابس منزلية من قطعتين",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 39.31 ريال بدلاً من 39.31 ريال.",
+      "originalPrice": 39.31,
+      "currentPrice": 39.31,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012743525005.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa6766d168ae54e988a63810078bccfb81.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_271",
       "name": "فستان طويل نسائي من الدنيم بأكمام طويلة وياقة مقلوبة وأزرار أنيقة مع شق خلفي بتصميم Y2k للشارع والعمل والاستخدام اليومي 2026",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 83.42 ريال بدلاً من 83.42 ريال.",
