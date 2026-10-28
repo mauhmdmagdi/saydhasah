@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_292",
+      "name": "جهاز إزالة الشعر IPL للنساء غير مؤلم دائم كامل الجسم الوجه العلوي الشفاه بيكيني الساقين الأسلحة الوجه الجسم الليزر ماكينة حلاقة نسائية",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 91.68 ريال بدلاً من 91.68 ريال.",
+      "originalPrice": 91.68,
+      "currentPrice": 91.68,
+      "discount": 0,
+      "category": "cat_004",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006900982945.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S669e55a8100542bfa635c096f6e55977n.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_291",
       "name": "رغوة الحليب الكهربائية الساخنة + خافق البيض اللاسلكية نوع-C شحن 3 سرعات صانع رغوة صغير محمول القهوة خفقت أدوات الطبخ",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 4.24 ريال بدلاً من 4.24 ريال.",
