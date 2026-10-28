@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_286",
+      "name": "عطور زيتية EUQEE بحجم 10 مل للنساء - روائح جوز الهند والفانيليا والمسك الأبيض وزهر البرتقال والبنفسج - عطر طويل الأمد",
+      "description": "عرض علي إكسبريس المميز بخصم 87% — السعر الحالي 4.24 ريال بدلاً من 32.19 ريال.",
+      "originalPrice": 32.19,
+      "currentPrice": 4.24,
+      "discount": 87,
+      "category": "cat_023",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012959213773.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S54dfe8abac6844a781291546d7fded3a5.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_285",
       "name": "شنطة يد نويل ساتشيل للنساء من جيس",
       "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 64% — السعر الحالي 277.43 ريال بدلاً من 765.00 ريال.",
