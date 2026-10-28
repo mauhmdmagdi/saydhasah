@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_277",
+      "name": "سماعات أذن لاسلكية HTC NE79 TWS بتقنية البلوتوث 6.0 مع ترجمة ذكية لـ 135 لغة وإلغاء الضوضاء وصوت ستيريو عالي الجودة مع شاشة LED",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 41.01 ريال بدلاً من 41.01 ريال.",
+      "originalPrice": 41.01,
+      "currentPrice": 41.01,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012594430190.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sff7e4be36c804173b8bf2ad0f4a81b0bA.png",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_276",
       "name": "سترة صوفية للأطفال بسحاب، ناعمة ودافئة، قميص حراري للأولاد والبنات، باللون البرتقالي والأزرق والأبيض، مناسبة للخريف والشتاء، للاستخدام الخارجي، بتصميم كاجوال مع تفاصيل مخيطة.",
       "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 56.26 ريال بدلاً من 125.22 ريال.",
