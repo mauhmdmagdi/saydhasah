@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_279",
+      "name": "الوردي أحذية رياضية النساء أحذية امرأة أحذية التنس حذاء قماش الإناث حذاء كاجوال السيدات أحذية رياضية منصة حذاء رياضة الجوف خارج الحذاء",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 35.87 ريال بدلاً من 35.87 ريال.",
+      "originalPrice": 35.87,
+      "currentPrice": 35.87,
+      "discount": 0,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006710941874.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S45814344bf644f6a8e957939c735d346Q.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_278",
       "name": "ساعة إسلامية نسائية مقاومة للصدأ تعرض مواقيت الأذان وإتجاه القبلة بلونين ذهبي وفضي",
       "description": "عرض نون في قسم نساء بسعر 99.00 ريال.",
