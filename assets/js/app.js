@@ -602,6 +602,15 @@ function initSearch() {
   }
 
   if (headerSearch) {
+    const defaultPlaceholder = headerSearch.getAttribute('placeholder') || 'ابحث عن منتج، متجر أو علامة تجارية...';
+    headerSearch.addEventListener('focus', function () {
+      this.placeholder = '';
+    });
+    headerSearch.addEventListener('blur', function () {
+      if (!this.value.trim()) {
+        this.placeholder = defaultPlaceholder;
+      }
+    });
     headerSearch.addEventListener('input', (e) => doSearch(e.target.value));
   }
 
