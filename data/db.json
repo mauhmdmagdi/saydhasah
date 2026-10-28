@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_298",
+      "name": "بخاخ العطر ذو رائحة زهرية خفيفة تدوم طويلاً مع لمسة فاكهية. إنها عطرة للجسم خالية من الكحول.",
+      "description": "عرض علي إكسبريس المميز بخصم 69% — السعر الحالي 24.46 ريال بدلاً من 78.52 ريال.",
+      "originalPrice": 78.52,
+      "currentPrice": 24.46,
+      "discount": 69,
+      "category": "cat_008",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012099790126.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3267a438d0e74af683b7ae6326988bb54.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_297",
       "name": "ساعات عسكرية كاجوال للرجال رياضية كوارتز ساعة يد نايلون باند ساعة رجالية Relogio Masculino (بدون صندوق)",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 8.24 ريال بدلاً من 8.24 ريال.",
