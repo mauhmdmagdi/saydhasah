@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_288",
+      "name": "2025 الأولاد الصيف قصيرة الأكمام تي شيرت الأطفال القطن الخالص غسلها الدنيم زي الكورية أنيق المتفجرة كاوبوي القمم وتتسابق",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 35.41 ريال بدلاً من 35.41 ريال.",
+      "originalPrice": 35.41,
+      "currentPrice": 35.41,
+      "discount": 0,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005008524212584.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S711ad8ba67b8423a86c1ef82c9e1de8aR.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_287",
       "name": "تيشيرت رجالي صيفي جديد لعام 2025 بتصميم عصري كاجوال مطبوع بنقشة رولر، ملابس رجالية شارعية قابلة للتنفس",
       "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 31.42 ريال بدلاً من 70.55 ريال.",
