@@ -1327,51 +1327,79 @@ ul { list-style: none; }
 }
 
 /* ===================================================
-   BOTTOM NAVIGATION (Mobile)
+   FLOATING DOCK NAVIGATION (قائمة عائمة على كامل صفحات الموقع)
    =================================================== */
 .bottom-nav {
-  display: none;
+  display: block; /* ظاهر دائماً على المتصفح والكمبيوتر والجوال */
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: var(--white);
-  border-top: 2px solid var(--border);
-  z-index: 998;
-  padding: 6px 0 env(safe-area-inset-bottom, 6px);
-  box-shadow: 0 -4px 20px rgba(7,84,63,0.1);
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  right: auto;
+  z-index: 99999;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1.5px solid rgba(7, 84, 63, 0.12);
+  border-radius: 999px;
+  padding: 5px 8px;
+  box-shadow: 0 12px 36px rgba(7, 84, 63, 0.16), 0 2px 8px rgba(0, 0, 0, 0.04);
+  width: auto;
+  max-width: calc(100vw - 32px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .bottom-nav-inner {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  gap: 4px;
+  direction: rtl;
 }
 
 .bottom-nav-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 3px;
-  padding: 6px 16px;
-  color: var(--text-light);
-  font-size: 0.7rem;
-  font-weight: 600;
+  padding: 7px 18px;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 700;
   text-decoration: none;
-  transition: var(--transition);
-  border-radius: var(--radius-sm);
-  min-width: 64px;
-  text-align: center;
+  border-radius: 999px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  min-width: 66px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
 }
 
-.bottom-nav-item .nav-icon { font-size: 22px; }
-.bottom-nav-item.active { color: var(--primary); }
-.bottom-nav-item:hover { color: var(--primary); }
+.bottom-nav-item svg {
+  display: block;
+  transition: transform 0.2s ease, stroke 0.2s ease;
+}
 
-.bottom-nav-item.active .nav-icon {
-  background: var(--light-bg);
-  border-radius: 50%;
-  padding: 4px;
+.bottom-nav-item:hover {
+  color: #07543f;
+  background: rgba(7, 84, 63, 0.05);
+  transform: translateY(-2px);
+}
+
+.bottom-nav-item:active {
+  transform: scale(0.94);
+}
+
+.bottom-nav-item.active {
+  color: #07543f;
+  background: rgba(7, 84, 63, 0.1);
+  font-weight: 800;
+}
+
+.bottom-nav-item.active svg {
+  stroke: #07543f;
+  stroke-width: 2.3;
 }
 
 /* ===================================================
