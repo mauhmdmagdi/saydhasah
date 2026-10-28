@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_274",
+      "name": "شباشب منزلية للنساء، شرائح شاطئ بلون سادة للرجال، نعل سميك، أحذية داخلية مضادة للانزلاق، صنادل صيفية للزوجين",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 49.54 ريال بدلاً من 49.54 ريال.",
+      "originalPrice": 49.54,
+      "currentPrice": 49.54,
+      "discount": 0,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005009389850400.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab7405f0c7a74de69731f384854a2681g.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_273",
       "name": "5 قطع من سراويل الرجال الداخلية المصنوعة من ألياف الخيزران، مقاسات كبيرة من S إلى 2XL، ملابس داخلية رجالية، شورتات رياضية قصيرة، سراويل داخلية سوداء، هدايا",
       "description": "عرض علي إكسبريس المميز بخصم 54% — السعر الحالي 54.45 ريال بدلاً من 119.19 ريال.",
