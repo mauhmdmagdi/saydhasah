@@ -1736,7 +1736,7 @@ ul { list-style: none; }
   align-items: center;
   gap: 16px;
   width: max-content;
-  animation: tickerSlide 40s linear infinite;
+  animation: tickerSlide 80s linear infinite;
   will-change: transform;
 }
 
