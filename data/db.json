@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_256",
+      "name": "Nike COURT VISION LO NN womens LACED SHOES",
+      "description": "عرض أمازون السعودية في قسم أحذية بخصم 69% — السعر الحالي 120.98 ريال بدلاً من 385.00 ريال.",
+      "originalPrice": 385.0,
+      "currentPrice": 120.98,
+      "discount": 69,
+      "category": "cat_021",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0983L2N9G?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61oZve9XmvL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_255",
       "name": "قميص نوم بياقة على شكل حرف  مزين بالدانتيل بفتحة جانبية - ميدي",
       "description": "عرض نون في قسم ملابس النوم بسعر 38.00 ريال.",
