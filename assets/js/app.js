@@ -397,11 +397,8 @@ function renderAllProductSections() {
   const range1000_plus = allProds.filter(p => p.tag === 'range1000_plus' || p.currentPrice > 1000);
   renderExpandableProductGrid('range1000PlusGrid', range1000_plus, 8);
 
-  // تشغيل شريط الصفقات الحية السريع
+  // تشغيل شريط الصفقات السريعة
   initLiveDealsTicker(allProds);
-
-  // تشغيل إشعار نشاط الصفقات والمبيعات الحية التفاعلي
-  initLiveSalesToast(allProds);
 
   // تدوير دوري سلس لعروض اليوم لإضفاء الحيوية والحركة
   initAutoRotation();
@@ -490,63 +487,24 @@ function initLiveDealsTicker(allProds) {
     .sort(() => 0.5 - Math.random())
     .slice(0, 16);
 
-  const chips = topDeals.map(p => `
-    <div class="ticker-deal-chip" onclick="openProductDetailModal('${p.id}')">
+  const chips = topDeals.map(p => {
+    const targetUrl = escapeHtml(p.storeLink || p.affiliateUrl || p.url || '#');
+    return `
+    <a class="ticker-deal-chip" href="${targetUrl}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(p.name)}">
       <span class="ticker-chip-fire">🔥</span>
       <span class="ticker-chip-name">${escapeHtml(p.name.slice(0, 32))}</span>
       <span class="ticker-chip-disc">خصم ${p.discount}%</span>
       <span class="ticker-chip-price">${p.currentPrice} ريال</span>
-    </div>
-  `).join('');
+    </a>
+  `;
+  }).join('');
 
   track.innerHTML = chips + chips;
 }
 
 function initLiveSalesToast(allProds) {
-  if (window._toastTimerInitialized) return;
-  window._toastTimerInitialized = true;
-
-  const toastContainer = document.getElementById('liveActivityToast');
-  if (!toastContainer || !allProds || allProds.length === 0) return;
-
-  const CITIES = ['الرياض', 'جدة', 'الدمام', 'مكة المكرمة', 'المدينة المنورة', 'الخبر', 'أبها', 'تبوك', 'الطائف'];
-  const TIMES = ['منذ دقيقة واحدة', 'منذ دقيقتين', 'الآن', 'منذ 3 دقائق', 'منذ لحظات'];
-
-  function showNextToast() {
-    const p = allProds[Math.floor(Math.random() * allProds.length)];
-    const city = CITIES[Math.floor(Math.random() * CITIES.length)];
-    const timeText = TIMES[Math.floor(Math.random() * TIMES.length)];
-    const saved = Math.max(0, p.originalPrice - p.currentPrice);
-
-    toastContainer.innerHTML = `
-      <div class="toast-card-inner" onclick="openProductDetailModal('${p.id}')">
-        <button class="toast-close" onclick="event.stopPropagation(); document.getElementById('liveActivityToast').classList.remove('active');">&times;</button>
-        <img src="${p.image}" class="toast-img" alt="${escapeHtml(p.name)}" onerror="this.src='assets/images/logos/favicon.svg';">
-        <div class="toast-body">
-          <div class="toast-header-line">
-            <span class="toast-badge-live">⚡ متسوق في ${city}</span>
-            <span class="toast-time">${timeText}</span>
-          </div>
-          <div class="toast-name">${escapeHtml(p.name.slice(0, 42))}...</div>
-          <div class="toast-price-row">
-            <span class="toast-curr">${p.currentPrice} ريال</span>
-            ${saved > 0 ? `<span class="toast-saved">وفر ${saved} ريال</span>` : ''}
-          </div>
-        </div>
-      </div>
-    `;
-
-    toastContainer.classList.add('active');
-
-    setTimeout(() => {
-      toastContainer.classList.remove('active');
-    }, 4200);
-  }
-
-  setTimeout(() => {
-    showNextToast();
-    setInterval(showNextToast, 9500);
-  }, 4000);
+  // معطل نهائياً بناءً على رغبة المستخدم
+  return;
 }
 
 function initAutoRotation() {
