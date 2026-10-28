@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_290",
+      "name": "بدلة نوم للأطفال حديثي الولادة من 0 إلى 6 أشهر، مصنوعة من القطن النقي من الدرجة الأولى، مناسبة للربيع والخريف والشتاء، قميص داخلي ناعم للنوم للأطفال الرضع.",
+      "description": "عرض علي إكسبريس المميز بخصم 75% — السعر الحالي 13.04 ريال بدلاً من 53.12 ريال.",
+      "originalPrice": 53.12,
+      "currentPrice": 13.04,
+      "discount": 75,
+      "category": "cat_015",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013043060291.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6401276c8304cd2ad206b908aa41894Y.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_289",
       "name": "طقم بناتي صيفي مكون من قطعتين تي شيرت مطبوع عليه رسوم كرتونية وسراويل أرجل مستقيمة قابلة للتنفس ملابس أطفال غير رسمية موضة الزي",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 53.19 ريال بدلاً من 53.19 ريال.",
