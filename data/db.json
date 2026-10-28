@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_291",
+      "name": "رغوة الحليب الكهربائية الساخنة + خافق البيض اللاسلكية نوع-C شحن 3 سرعات صانع رغوة صغير محمول القهوة خفقت أدوات الطبخ",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 4.24 ريال بدلاً من 4.24 ريال.",
+      "originalPrice": 4.24,
+      "currentPrice": 4.24,
+      "discount": 0,
+      "category": "cat_003",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007037889730.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S33143c84ebdf4e2691ce00096021e94bs.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_290",
       "name": "بدلة نوم للأطفال حديثي الولادة من 0 إلى 6 أشهر، مصنوعة من القطن النقي من الدرجة الأولى، مناسبة للربيع والخريف والشتاء، قميص داخلي ناعم للنوم للأطفال الرضع.",
       "description": "عرض علي إكسبريس المميز بخصم 75% — السعر الحالي 13.04 ريال بدلاً من 53.12 ريال.",
