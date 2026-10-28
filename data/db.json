@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_263",
+      "name": "حذاء ران فالكون  واسع للجري",
+      "description": "عرض نون في قسم أحذية بسعر 205.00 ريال.",
+      "originalPrice": 299.0,
+      "currentPrice": 205.0,
+      "discount": 31,
+      "category": "cat_021",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/runfalcon-5-wide-running-shoes/Z22A4D7A60B013956D9B8Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z22A4D7A60B013956D9B8Z/45/_/1776169253/b4c32daa-6d29-46f3-9bbe-53414bc78001.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_262",
       "name": "طقم فستان نوم و روب بتفاصيل دانتيل مطرزة",
       "description": "عرض نون في قسم ملابس النوم بسعر 140.00 ريال.",
