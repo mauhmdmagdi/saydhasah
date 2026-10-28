@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_270",
+      "name": "المرأة الكاحل الثلوج أحذية الشتاء موضة المنزل منصة منخفضة أعلى النعال غرفة المعيشة البساط الأحذية النسائية في الهواء الطلق الدافئة عدم الانزلاق الأحذية",
+      "description": "عرض علي إكسبريس المميز بخصم 31% — السعر الحالي 32.53 ريال بدلاً من 47.33 ريال.",
+      "originalPrice": 47.33,
+      "currentPrice": 32.53,
+      "discount": 31,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007890740468.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf7849fc131a340cf948a1987ffef0740Z.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_269",
       "name": "جهاز استقبال بلوتوث 4.2 للصوت الاستيريو عبر منفذ AUX 3.5 ملم مع ميكروفون، إلكترونيات استهلاكية، ملحقات سيارات، محول سيارة",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 12.21 ريال بدلاً من 12.21 ريال.",
