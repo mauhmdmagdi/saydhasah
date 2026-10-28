@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_287",
+      "name": "تيشيرت رجالي صيفي جديد لعام 2025 بتصميم عصري كاجوال مطبوع بنقشة رولر، ملابس رجالية شارعية قابلة للتنفس",
+      "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 31.42 ريال بدلاً من 70.55 ريال.",
+      "originalPrice": 70.55,
+      "currentPrice": 31.42,
+      "discount": 55,
+      "category": "cat_011",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010024222659.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se017569712e343b2819e976891516dcdN.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_286",
       "name": "عطور زيتية EUQEE بحجم 10 مل للنساء - روائح جوز الهند والفانيليا والمسك الأبيض وزهر البرتقال والبنفسج - عطر طويل الأمد",
       "description": "عرض علي إكسبريس المميز بخصم 87% — السعر الحالي 4.24 ريال بدلاً من 32.19 ريال.",
