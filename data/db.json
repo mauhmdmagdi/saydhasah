@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_294",
+      "name": "تشغيل تي شيرت الرجال الصيف الحرير الجليد رقيقة أعلى عاكس الطباعة سريعة الجافة قصيرة الأكمام تنفس اللياقة البدنية تي شيرت رياضي 5XL",
+      "description": "عرض علي إكسبريس المميز بخصم 82% — السعر الحالي 10.91 ريال بدلاً من 59.73 ريال.",
+      "originalPrice": 59.73,
+      "currentPrice": 10.91,
+      "discount": 82,
+      "category": "cat_005",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007345442013.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S70bda524366949c685e790c2437ca192v.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_293",
       "name": "عقلة باب بدون مسامير لتمارين السحب والعقلة بطول قابل للتعديل 90 سم الى 120 سم وقدرة تحمل 150 كيلو",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 109.00 ريال.",
