@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_289",
+      "name": "طقم بناتي صيفي مكون من قطعتين تي شيرت مطبوع عليه رسوم كرتونية وسراويل أرجل مستقيمة قابلة للتنفس ملابس أطفال غير رسمية موضة الزي",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 53.19 ريال بدلاً من 53.19 ريال.",
+      "originalPrice": 53.19,
+      "currentPrice": 53.19,
+      "discount": 0,
+      "category": "cat_014",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005009023121168.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbd87789f492f45d59cadd83d55c24097E.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-28",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_288",
       "name": "2025 الأولاد الصيف قصيرة الأكمام تي شيرت الأطفال القطن الخالص غسلها الدنيم زي الكورية أنيق المتفجرة كاوبوي القمم وتتسابق",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 35.41 ريال بدلاً من 35.41 ريال.",
