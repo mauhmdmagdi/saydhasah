@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_341",
+      "name": "بلسم وملمع شفاه SHEGLAM Hydra Jelly Pocket بتركيبة مرطبة ولمعان جذاب",
+      "description": "ملمع وبلسم شفاه أصلي من شيجلام شي إن (SHEGLAM) يمنح الشفاه ترطيباً عميقاً ولوناً طبيعياً مشرقاً.",
+      "originalPrice": 28.0,
+      "currentPrice": 15.96,
+      "discount": 43,
+      "category": "cat_004",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/SHEGLAM-Hydra-Jelly-Pocket-Lip-Jam-Guava-Glow-Lip-Combo-p-57302745.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2025/10/16/aa/1760608194648a6951f944515f1e199b4882bfa3af_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_340",
       "name": "مجموعة كتب ورقية زخرفية فاخرة 3 قطع صناديق ديكور قابلة للتكديس للمكتب والمنزل",
       "description": "صناديق ديكور كتب أنيقة من شي إن (SHEIN) لتزيين طاولة القهوة والمكتب وغرفة المعيشة بتصميم عصري فاخر.",
