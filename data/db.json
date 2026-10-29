@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_324",
+      "name": "شباشب رجالية أنيقة، صنادل شاطئ صلبة، أحذية صيفية خفيفة الوزن وناعمة غير زلقة للجنسين، أحذية منزلية للاستخدام الداخلي والخارجي للنساء",
+      "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 9.91 ريال بدلاً من 57.25 ريال.",
+      "originalPrice": 57.25,
+      "currentPrice": 9.91,
+      "discount": 83,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013158462803.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se4def8df17ba41f8a3fed4260e4f29ddl.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_323",
       "name": "4 عبوات من الملابس الداخلية للرجال، ناعمة، قابلة للتنفس، مريحة وفضفاضة، عصرية وعصرية ومرنة للغاية للأولاد",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 26.59 ريال بدلاً من 26.59 ريال.",
