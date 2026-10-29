@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_313",
+      "name": "فستان بتفاصيل مكشكشة",
+      "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
+      "originalPrice": 159.0,
+      "currentPrice": 159.0,
+      "discount": 0,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/ruched-detail-dress/ZEA5C9D116BF087FCB403Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEA5C9D116BF087FCB403Z/45/_/1706559758/d01dede8-24ee-4ac7-adff-e6e0ef47485f.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_312",
       "name": "مجموعة ساعة نسائية دائرية أنيقة بحزام أبيض من البولي يوريثين مع سلسال وإسوارة فضة متطابقة - تصميم أنيق",
       "description": "عرض نون في قسم نساء بسعر 38.00 ريال.",
