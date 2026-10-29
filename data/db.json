@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_335",
+      "name": "زجاجة عطر وبخاخ معطر للجسم والشعر برائحة زهرية منعشة وثبات طويل الأمد",
+      "description": "معطر جسم وعطر نسائي فاخر من شي إن (SHEIN) بنفحات عطرية جذابة تدوم طوال اليوم مع عبوة أنيقة مناسبة للحقيبة.",
+      "originalPrice": 75.0,
+      "currentPrice": 35.0,
+      "discount": 53,
+      "category": "cat_023",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Luxury-Floral-Body-Mist-Perfume-Spray-p-1200031.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/07/09/e3/17835829627938e0f320ae4cf91f9258c9bf087390_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_334",
       "name": "حقيبة نسائية بلون موحد مبطنة بتصميم عصري وسعة كبيرة بكتف واحد مع إغلاق مغناطيسي",
       "description": "حقيبة توت نسائية أنيقة وكبيرة السعة من شي إن (SHEIN) مناسبة للدوام والجامعة والتسوق والتنقل اليومي.",
