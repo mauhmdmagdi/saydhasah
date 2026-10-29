@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_346",
+      "name": "حقيبة تنظيم مستحضرات وأدوات السفر بسعة كبيرة من قماش أكسفورد المتين مع خطاف تعليق",
+      "description": "حقيبة سفر متعددة الجيوب ومقاومة للماء من شي إن (SHEIN) مثالية لتنظيم المستحضرات والأدوات أثناء السفر والرحلات.",
+      "originalPrice": 28.0,
+      "currentPrice": 14.2,
+      "discount": 49,
+      "category": "cat_009",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/1pc-Large-Capacity-Toiletry-Bag-Made-Of-Durable-Oxford-Cloth-Travel-Essential-Bag-p-48620771.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_spmp/2024/11/22/0e/173226189627f463b608819d211e811d956751b955_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_345",
       "name": "مجموعة العناية بالبشرة والوجه 5 قطع تشمل ربطة رأس ناعمة وإسفنجة وأساور غسيل الوجه",
       "description": "طقم عناية شخصية متكامل من شي إن (SHEIN) لروتين تنظيف البشرة اليومي والعناية بالوجه بخامات قطنية ناعمة.",
