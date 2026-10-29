@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_345",
+      "name": "مجموعة العناية بالبشرة والوجه 5 قطع تشمل ربطة رأس ناعمة وإسفنجة وأساور غسيل الوجه",
+      "description": "طقم عناية شخصية متكامل من شي إن (SHEIN) لروتين تنظيف البشرة اليومي والعناية بالوجه بخامات قطنية ناعمة.",
+      "originalPrice": 24.0,
+      "currentPrice": 11.58,
+      "discount": 52,
+      "category": "cat_008",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/5pcs-Teenage-Multi-Functional-Skincare-Makeup-Set-p-455966842.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/17/02/17764139379f196bf5d3b86abd6505741393af6210_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_344",
       "name": "مجموعة أساور ذهبية نسائية مرصعة بالزركونيا بتصميم فاخر للمناسبات والهدايا",
       "description": "طقم أساور نسائية راقية من شي إن (SHEIN) بتشطيب ذهبي لامع وترصيع زركونيا أنيق يناسب السهرات والإطلالات اليومية.",
