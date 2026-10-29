@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_325",
+      "name": "حقيبة خلفية مقاومة للماء للدراجات النارية، حقيبة سفر خارجية جافة، حقيبة بعجلات بحجم 20/66/100 لتر، حقيبة ظهر للدراجات النارية، حقيبة مقعد للدراجة النارية",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 12.49 ريال بدلاً من 12.49 ريال.",
+      "originalPrice": 12.49,
+      "currentPrice": 12.49,
+      "discount": 0,
+      "category": "cat_022",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013498764322.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se8cfaf9d59aa4419bf5bd06dcb781927O.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_324",
       "name": "شباشب رجالية أنيقة، صنادل شاطئ صلبة، أحذية صيفية خفيفة الوزن وناعمة غير زلقة للجنسين، أحذية منزلية للاستخدام الداخلي والخارجي للنساء",
       "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 9.91 ريال بدلاً من 57.25 ريال.",
