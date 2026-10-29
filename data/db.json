@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_327",
+      "name": "طقم صيفي للأطفال من 3-8 سنوات، ملابس للأولاد، قميص بدون أكمام وشورت، تصميم كوري عصري، ملابس رياضية فضفاضة",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 43.19 ريال بدلاً من 43.19 ريال.",
+      "originalPrice": 43.19,
+      "currentPrice": 43.19,
+      "discount": 0,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010248542723.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sde6c8eca165049529f5f83f0a4c27d60y.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_326",
       "name": "زيت عطر EUQEE 10 مل للرجال برائحة التبغ الحلو والجلد ودم التنين والفانيليا والمسك والشاي الأخضر، عطر طويل الأمد.",
       "description": "عرض علي إكسبريس المميز بخصم 87% — السعر الحالي 4.24 ريال بدلاً من 33.25 ريال.",
