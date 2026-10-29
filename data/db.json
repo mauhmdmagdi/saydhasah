@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_336",
+      "name": "طقم رجالي كاجوال منسق قطعتين قميص وبنطلون مريح للإطلالات اليومية",
+      "description": "طقم ملابس رجالية أنيق من شي إن (SHEIN) بقصة عصرية مريحة وخامة ممتازة مناسبة للخروج والسفر.",
+      "originalPrice": 115.0,
+      "currentPrice": 54.0,
+      "discount": 53,
+      "category": "cat_011",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Men-Casual-Co-ord-Set-Outfit-p-548682945.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/09/19/e4/17897987454e69ac05c5caac3ec1d8fac9ff3ca64e_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_335",
       "name": "زجاجة عطر وبخاخ معطر للجسم والشعر برائحة زهرية منعشة وثبات طويل الأمد",
       "description": "معطر جسم وعطر نسائي فاخر من شي إن (SHEIN) بنفحات عطرية جذابة تدوم طوال اليوم مع عبوة أنيقة مناسبة للحقيبة.",
