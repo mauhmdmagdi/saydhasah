@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_323",
+      "name": "4 عبوات من الملابس الداخلية للرجال، ناعمة، قابلة للتنفس، مريحة وفضفاضة، عصرية وعصرية ومرنة للغاية للأولاد",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 26.59 ريال بدلاً من 26.59 ريال.",
+      "originalPrice": 26.59,
+      "currentPrice": 26.59,
+      "discount": 0,
+      "category": "cat_020",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005008144730997.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S594e447cb1bb4ca182242a4419015435S.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_322",
       "name": "بيجامات نسائية لعيد الحب بنمط قلوب، يمكن ارتداؤها بشكل عادي ومريح، بيجامات نسائية صيفية للنوم.",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 24.8 ريال بدلاً من 24.8 ريال.",
