@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_304",
+      "name": "حقيبة كتف بنمط هوبو للنساء من تشتشديوسا، حقيبة يد بتصميم ريترو كلاسيكي للسهرات، مصنوعة من الجلد النباتي، حقيبة توت كبيرة للكتف، يمكن حملها تحت الإبط",
+      "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 45% — السعر الحالي 110.00 ريال بدلاً من 198.77 ريال.",
+      "originalPrice": 198.77,
+      "currentPrice": 110.0,
+      "discount": 45,
+      "category": "cat_022",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0DPD924BL?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/81Mw4ujdzZL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_303",
       "name": "حذاء كافين 3 برقبة منخفضة للجنسين من بوما",
       "description": "عرض أمازون السعودية في قسم أحذية بخصم 73% — السعر الحالي 95.00 ريال بدلاً من 356.00 ريال.",
