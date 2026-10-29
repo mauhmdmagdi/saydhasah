@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_314",
+      "name": "طقم بيجامة نسائي من تيشيرت محبوك وبنطلون مستقيم بلون عنابي",
+      "description": "عرض نون في قسم ملابس النوم بسعر 52.00 ريال.",
+      "originalPrice": 52.0,
+      "currentPrice": 52.0,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/burgundy-knitted-t-shirt-and-straight-pyjama-set-for-women/ZCD74BAF8FE8BB85A6D6DZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZCD74BAF8FE8BB85A6D6DZ/45/1744378086/cb7cd0f2-5368-4b17-8f4f-caeb49e443d4.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_313",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
