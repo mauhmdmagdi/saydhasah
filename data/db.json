@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_342",
+      "name": "حذاء رياضي خفيف للجري والتمارين والأنشطة الخارجية بنعل ممتص للصدمات",
+      "description": "حذاء رياضي مريح من شي إن (SHEIN) بتهوية ممتازة وتصميم داعم للقدم أثناء الجري والمشي والتمارين.",
+      "originalPrice": 125.0,
+      "currentPrice": 57.0,
+      "discount": 54,
+      "category": "cat_005",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Sports-Outdoor-Running-Shoes-p-66508238.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/04/12/44/174442499648d40e2bd5ff5a9b3064ed81d86ea72d_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_341",
       "name": "بلسم وملمع شفاه SHEGLAM Hydra Jelly Pocket بتركيبة مرطبة ولمعان جذاب",
       "description": "ملمع وبلسم شفاه أصلي من شيجلام شي إن (SHEGLAM) يمنح الشفاه ترطيباً عميقاً ولوناً طبيعياً مشرقاً.",
