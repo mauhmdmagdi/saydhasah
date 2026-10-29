@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_316",
+      "name": "طقم بناتي قطعتين تي شيرت بطبعة ورسومات وشورت مخطط - أبيض وأحمر",
+      "description": "عرض نون في قسم ملابس بنات بسعر 52.80 ريال.",
+      "originalPrice": 106.0,
+      "currentPrice": 52.8,
+      "discount": 50,
+      "category": "cat_014",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/girls-2-pc-set-graphic-print-t-shirt-striped-shorts-set-white-blue/Z6C6BCA2EB2D9C984E7DCZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/78558d8d0d5354ab8bce31a7142533c6|pzsku/Z6C6BCA2EB2D9C984E7DCZ/45/1769501688/67ef91fa-9a9e-4036-a9a5-208a37a7da02.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_315",
       "name": "تي شيرت مزخرف أسود",
       "description": "عرض نون في قسم ملابس رجالي بسعر 209.00 ريال.",
