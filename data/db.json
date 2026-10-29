@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_349",
+      "name": "مجموعة صناديق وأكياس تغليف باقات الزهور والهدايا الأنيقة للمناسبات 5 قطع",
+      "description": "أكياس وصناديق تغليف هدايا مبتكرة من شي إن (SHEIN) بتصميم راقٍ مثالي للمناسبات السعيدة وتنسيق الزهور.",
+      "originalPrice": 28.0,
+      "currentPrice": 12.88,
+      "discount": 54,
+      "category": "cat_010",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/5pcs-Bouquet-Carrying-Packaging-Boxes-Hollow-Flower-Basket-Bags-p-121826421.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/05/4a/175169207671cb23e73675b127a602fcf5635e6029_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_348",
       "name": "حامل جوال مغناطيسي للسيارة مع تثبيت قوي ودوران 360 درجة للقيادة الآمنة",
       "description": "إكسسوار سيارة عملي ومبتكر من شي إن (SHEIN) يثبت الجوال بقوة لسهولة متابعة الخرائط أثناء القيادة.",
