@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_337",
+      "name": "طقم ملابس أولاد كاجوال هودي وبنطلون رياضي مريح للمدرسة والطلعات",
+      "description": "بدلة ولادية أنيقة من شي إن (SHEIN) بخامة قطنية متينة ومريحة للأولاد من سن 4 إلى 12 سنة.",
+      "originalPrice": 84.0,
+      "currentPrice": 39.0,
+      "discount": 54,
+      "category": "cat_013",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Young-Boys-Casual-Tracksuit-Set-p-36820796.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_abc/2024/07/07/46/1720355975edc77fcafd1f05cc984ba961a20de6f1.png",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_336",
       "name": "طقم رجالي كاجوال منسق قطعتين قميص وبنطلون مريح للإطلالات اليومية",
       "description": "طقم ملابس رجالية أنيق من شي إن (SHEIN) بقصة عصرية مريحة وخامة ممتازة مناسبة للخروج والسفر.",
