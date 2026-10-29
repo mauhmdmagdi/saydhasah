@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_303",
+      "name": "حذاء كافين 3 برقبة منخفضة للجنسين من بوما",
+      "description": "عرض أمازون السعودية في قسم أحذية بخصم 73% — السعر الحالي 95.00 ريال بدلاً من 356.00 ريال.",
+      "originalPrice": 356.0,
+      "currentPrice": 95.0,
+      "discount": 73,
+      "category": "cat_021",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0F6334TRQ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61hbhbbNseL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_302",
       "name": "عدم الانزلاق سيليكون غطاء عجلة القيادة الصيف تنفس مطاطا العالمي صالح 38 سنتيمتر عجلة توجيه سيارة حامي التبعي",
       "description": "عرض علي إكسبريس المميز بخصم 56% — السعر الحالي 13.08 ريال بدلاً من 29.73 ريال.",
