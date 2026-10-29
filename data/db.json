@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_309",
+      "name": "10pcs Medicine Pouch Set, Portable Travel Medicine Organizer, Reusable Medicine Bag, Zippered Pill Case Set, Jewelry Organizer, Portable Organizer, Halloween And Christmas Gift Choice",
+      "description": "المبيعات: 23 sold",
+      "originalPrice": 42.49,
+      "currentPrice": 9.96,
+      "discount": 77,
+      "category": "cat_022",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-606856680469305.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/open/881d9b570c9b4b198c287d2adf1bd242-goods.jpeg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_308",
       "name": "Phone Case - Transparent, Magnetic, Four-Corner Drop Resistance, Phone Case for Iphone 12, 13, 14, 15, 16, for Iphone 12, 16Pro, 16Pro Max, Easy, Convenient, Bright Phone Case",
       "description": "المبيعات: 27K+ sold — تقييم المنتج: 4.6",
