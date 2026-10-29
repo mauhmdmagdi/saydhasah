@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_321",
+      "name": "فساتين سهرة MisShow مخصصة باللون الأحمر بتصميم مكشوف الأكتاف، فساتين أنيقة للحفلات بأكمام طويلة وقصة A-Line بطول الأرض مع شراشيب، مناسبة لأعياد الميلاد",
+      "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 1140.49 ريال بدلاً من 2542.98 ريال.",
+      "originalPrice": 2542.98,
+      "currentPrice": 1140.49,
+      "discount": 55,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013389251391.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S90fa4d2c47964296a911bbe17ff2ad40d.jpg",
+      "tag": "range1000_plus",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_320",
       "name": "الوردي أحذية رياضية النساء أحذية امرأة أحذية التنس حذاء قماش الإناث حذاء كاجوال السيدات أحذية رياضية منصة حذاء رياضة الجوف خارج الحذاء",
       "description": "عرض علي إكسبريس المميز بخصم 53% — السعر الحالي 43.2 ريال بدلاً من 91.03 ريال.",
