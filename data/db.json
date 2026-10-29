@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_347",
+      "name": "طقم مفكات وعدد يدوية متعدد الاستخدامات 24 في 1 للصيانة المنزلية والإلكترونيات",
+      "description": "علبة أدوات دقيقة ومتكاملة من شي إن (SHEIN) تحتوي على رؤوس مفكات مغناطيسية متنوعة لإصلاح الأجهزة والأعمال المنزلية.",
+      "originalPrice": 70.0,
+      "currentPrice": 34.0,
+      "discount": 51,
+      "category": "cat_016",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Multi-Function-Precision-Screwdriver-Tools-Set-p-466821496.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/23/ce/17847935462789a48ea04370867e7c3562bc291827_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_346",
       "name": "حقيبة تنظيم مستحضرات وأدوات السفر بسعة كبيرة من قماش أكسفورد المتين مع خطاف تعليق",
       "description": "حقيبة سفر متعددة الجيوب ومقاومة للماء من شي إن (SHEIN) مثالية لتنظيم المستحضرات والأدوات أثناء السفر والرحلات.",
