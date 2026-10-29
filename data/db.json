@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_308",
+      "name": "Phone Case - Transparent, Magnetic, Four-Corner Drop Resistance, Phone Case for Iphone 12, 13, 14, 15, 16, for Iphone 12, 16Pro, 16Pro Max, Easy, Convenient, Bright Phone Case",
+      "description": "المبيعات: 27K+ sold — تقييم المنتج: 4.6",
+      "originalPrice": 50.49,
+      "currentPrice": 9.71,
+      "discount": 81,
+      "category": "cat_001",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-601102950988771.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/open/fb9bad8a02294020ade79b32e3ccb599-goods.jpeg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_307",
       "name": "تيشيرت رياضي رجالي سريع الجفاف للتمارين الرياضية وصالة الألعاب الرياضية برقبة دائرية ضيقة وأكمام قصيرة من زوفلاي - من 3 قطع",
       "description": "عرض أمازون السعودية في قسم الرياضة واللياقة بخصم 41% — السعر الحالي 99.97 ريال بدلاً من 169.99 ريال.",
