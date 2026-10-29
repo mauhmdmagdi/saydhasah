@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_311",
+      "name": "A Pair of High-quality 18K Gold-plated Women's Three-prong Curved Earrings, Featuring a Dazzling and Luxurious Design. with a Unique Style Suitable for Daily Wear, Music Festivals, and Various Occasions, They Make the Pe",
+      "description": "المبيعات: 105 sold",
+      "originalPrice": 34.0,
+      "currentPrice": 8.64,
+      "discount": 75,
+      "category": "cat_007",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-607147664458518.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/3fb1cef5-a5af-4555-ba22-10976ad9a993.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_310",
       "name": "1 Christmas Thank You Card for Colleagues - \"You're the Reason I Don't Punch People at Work,\" Featuring a Humorous Design with Penguins, Coffee, and Gifts. Suitable for Holiday Gifting to Office Colleagues. Blank Inside",
       "description": "المبيعات: 3 sold",
