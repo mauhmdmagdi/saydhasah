@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_331",
+      "name": "طقم بيجامة نوم نسائي قطني ناعم ومريح للمنزل قطعتين بتصميم أنيق",
+      "description": "ملابس نوم ومنزل نسائية من شي إن (SHEIN) بخامة قطنية لطيفة على البشرة تمنحك استرخاءً وراحة طوال الليل.",
+      "originalPrice": 89.0,
+      "currentPrice": 42.0,
+      "discount": 53,
+      "category": "cat_019",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Sleep-Lounge-Pajama-Set-p-43688485.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202610236045/950ac74d6f1cc48686040b4df39a7036987af6738f49462645b840a30e133cb3_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_330",
       "name": "فستان سهرة نسائي طويل بقصة انسيابية وأكمام ناعمة للمناسبات",
       "description": "فستان طويل راقٍ من شي إن (SHEIN) بتفاصيل أنثوية جذابة وخامة فاخرة تمنحك إطلالة متألقة في المناسبات.",
