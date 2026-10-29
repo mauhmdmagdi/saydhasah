@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_343",
+      "name": "حاوية تخزين حليب الأطفال المحمولة وموزع مسحوق الحليب والوجبات الخفيفة بتصميم جذاب",
+      "description": "علبة حفظ وتقسيم حليب الأطفال المحمولة من شي إن (SHEIN) مثالية للأمهات أثناء الخروج والسفر، آمنة ومحكمة الإغلاق.",
+      "originalPrice": 26.0,
+      "currentPrice": 13.86,
+      "discount": 47,
+      "category": "cat_006",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/1pc-Baby-Portable-Formula-Milk-Powder-Dispenser-Snack-Storage-Container-p-37838291.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_pi/2024/08/06/a8/172293931815a9d3fbc1979ed90d1f2361d0232c21_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_342",
       "name": "حذاء رياضي خفيف للجري والتمارين والأنشطة الخارجية بنعل ممتص للصدمات",
       "description": "حذاء رياضي مريح من شي إن (SHEIN) بتهوية ممتازة وتصميم داعم للقدم أثناء الجري والمشي والتمارين.",
