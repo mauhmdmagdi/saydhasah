@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_339",
+      "name": "طقم ملابس مواليد قطني مريح للأولاد والبنات حديثي الولادة",
+      "description": "ملابس مواليد ناعمة ومريحة من شي إن (SHEIN) بخامات لطيفة وتصميم عملي يسهل اللبس والتبديل.",
+      "originalPrice": 58.0,
+      "currentPrice": 26.0,
+      "discount": 55,
+      "category": "cat_015",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Baby-Unisex-Cotton-Bodysuit-Set-p-40878480.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_spmp/2024/08/11/d6/172334659494944384cfecbefb2502cb3c66f8392e_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_338",
       "name": "فستان بناتي صيفي أنيق بطيات ناعمة ونقشات ربيعية جذابة",
       "description": "فستان بناتي جميل من شي إن (SHEIN) بتصميم أميرات ناعم وخامة قطنية خفيفة ومريحة للحفلات والمناسبات.",
