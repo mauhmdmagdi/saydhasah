@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_328",
+      "name": "سماعات أذن لاسلكية بلوتوث بصوت محيطي نقي وعزل ضوضاء للمكالمات والرياضة",
+      "description": "سماعة أذن لاسلكية عالية الأداء من شي إن (SHEIN) ببطارية طويلة العمر وتصميم مريح للأذن مع علبة شحن ذكية.",
+      "originalPrice": 79.0,
+      "currentPrice": 36.0,
+      "discount": 54,
+      "category": "cat_001",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Wireless-Bluetooth-Headset-p-69168911.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/spmp/2026/03/31/a5/177494754535f1f0fb2e06b5d7d8742d2384c1404a_thumbnail_405x552.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_327",
       "name": "طقم صيفي للأطفال من 3-8 سنوات، ملابس للأولاد، قميص بدون أكمام وشورت، تصميم كوري عصري، ملابس رياضية فضفاضة",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 43.19 ريال بدلاً من 43.19 ريال.",
