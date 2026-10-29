@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_307",
+      "name": "تيشيرت رياضي رجالي سريع الجفاف للتمارين الرياضية وصالة الألعاب الرياضية برقبة دائرية ضيقة وأكمام قصيرة من زوفلاي - من 3 قطع",
+      "description": "عرض أمازون السعودية في قسم الرياضة واللياقة بخصم 41% — السعر الحالي 99.97 ريال بدلاً من 169.99 ريال.",
+      "originalPrice": 169.99,
+      "currentPrice": 99.97,
+      "discount": 41,
+      "category": "cat_005",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0DH1QYHBP?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61bpsmsuhnL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_306",
       "name": "كونسيلر فيت مي من ميبيلين نيو يورك - لون 30 كافيه",
       "description": "عرض أمازون السعودية في قسم الجمال والعناية بخصم 60% — السعر الحالي 19.00 ريال بدلاً من 47.74 ريال.",
