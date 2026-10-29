@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_320",
+      "name": "الوردي أحذية رياضية النساء أحذية امرأة أحذية التنس حذاء قماش الإناث حذاء كاجوال السيدات أحذية رياضية منصة حذاء رياضة الجوف خارج الحذاء",
+      "description": "عرض علي إكسبريس المميز بخصم 53% — السعر الحالي 43.2 ريال بدلاً من 91.03 ريال.",
+      "originalPrice": 91.03,
+      "currentPrice": 43.2,
+      "discount": 53,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006710941874.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S45814344bf644f6a8e957939c735d346Q.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_319",
       "name": "نظارات ذكية جديدة 2026 مع ترجمة بالذكاء الاصطناعي وتسجيل المحادثات وتشغيل الموسيقى، نظارات شمسية ذكية للرجال والنساء",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 30.87 ريال بدلاً من 30.87 ريال.",
