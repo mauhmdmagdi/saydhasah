@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_330",
+      "name": "فستان سهرة نسائي طويل بقصة انسيابية وأكمام ناعمة للمناسبات",
+      "description": "فستان طويل راقٍ من شي إن (SHEIN) بتفاصيل أنثوية جذابة وخامة فاخرة تمنحك إطلالة متألقة في المناسبات.",
+      "originalPrice": 145.0,
+      "currentPrice": 68.0,
+      "discount": 53,
+      "category": "cat_018",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Long-Evening-Dress-p-567497586.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202610221215/374f310d43c7c0851761ef63a3ac4b10396592df41428f36a24c4b1e7f3ae74a_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_329",
       "name": "ملابس علوية نسائية كاجوال بلون موحد مكشوفة الكتف بأكمام طويلة للربيع",
       "description": "بلوزة نسائية عصرية من شي إن (SHEIN) بقصة أنيقة وخامة ناعمة مريحة للإطلالات اليومية والمناسبات.",
