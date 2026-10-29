@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_333",
+      "name": "صندل نسائي صيفي أنيق بكعب مريح وتصميم عصري للمناسبات والخروج",
+      "description": "حذاء وصندل نسائي راقٍ من شي إن (SHEIN) بنعل مريح وثبات عالي يناسب الإطلالات الصيفية والسهرات.",
+      "originalPrice": 110.0,
+      "currentPrice": 49.0,
+      "discount": 55,
+      "category": "cat_021",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Elegant-Summer-Sandals-p-530131401.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/07/17/bb/17842574875999aa4cfa86cb069e518b70b649a4d0_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_332",
       "name": "شريط وحمالة صدر خفية بدون أشرطة أو ظهر للنساء لفساتين السهرة والحفلات",
       "description": "حمالة صدر سيليكون خفية ومريحة من شي إن (SHEIN) بتصميم عملي يوفر ثباتاً ممتازاً تحت فساتين السهرة.",
