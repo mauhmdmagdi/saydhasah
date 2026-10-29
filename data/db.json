@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_322",
+      "name": "بيجامات نسائية لعيد الحب بنمط قلوب، يمكن ارتداؤها بشكل عادي ومريح، بيجامات نسائية صيفية للنوم.",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 24.8 ريال بدلاً من 24.8 ريال.",
+      "originalPrice": 24.8,
+      "currentPrice": 24.8,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012066623741.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc7c7fa756bb450184c88f57d39faa76u.png",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_321",
       "name": "فساتين سهرة MisShow مخصصة باللون الأحمر بتصميم مكشوف الأكتاف، فساتين أنيقة للحفلات بأكمام طويلة وقصة A-Line بطول الأرض مع شراشيب، مناسبة لأعياد الميلاد",
       "description": "عرض علي إكسبريس المميز بخصم 55% — السعر الحالي 1140.49 ريال بدلاً من 2542.98 ريال.",
