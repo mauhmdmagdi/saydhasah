@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_329",
+      "name": "ملابس علوية نسائية كاجوال بلون موحد مكشوفة الكتف بأكمام طويلة للربيع",
+      "description": "بلوزة نسائية عصرية من شي إن (SHEIN) بقصة أنيقة وخامة ناعمة مريحة للإطلالات اليومية والمناسبات.",
+      "originalPrice": 42.0,
+      "currentPrice": 18.68,
+      "discount": 56,
+      "category": "cat_012",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Casual-Solid-Color-Off-Shoulder-Long-Sleeve-Top-Black-Spring-Y2K-Aesthetic-p-149772794.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/07/24/73/17533457683e96162810a992859c5ce0d270bd8624_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_328",
       "name": "سماعات أذن لاسلكية بلوتوث بصوت محيطي نقي وعزل ضوضاء للمكالمات والرياضة",
       "description": "سماعة أذن لاسلكية عالية الأداء من شي إن (SHEIN) ببطارية طويلة العمر وتصميم مريح للأذن مع علبة شحن ذكية.",
