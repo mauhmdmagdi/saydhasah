@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_340",
+      "name": "مجموعة كتب ورقية زخرفية فاخرة 3 قطع صناديق ديكور قابلة للتكديس للمكتب والمنزل",
+      "description": "صناديق ديكور كتب أنيقة من شي إن (SHEIN) لتزيين طاولة القهوة والمكتب وغرفة المعيشة بتصميم عصري فاخر.",
+      "originalPrice": 35.0,
+      "currentPrice": 17.77,
+      "discount": 49,
+      "category": "cat_003",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/3pcs-Set-Luxury-Ins-Style-Paper-Decorative-Books-Stackable-Faux-Book-Decor-Boxes-p-471171880.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/08/04/90/1785822437012493cf634d9f54ca0127ed1609225b_square_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_339",
       "name": "طقم ملابس مواليد قطني مريح للأولاد والبنات حديثي الولادة",
       "description": "ملابس مواليد ناعمة ومريحة من شي إن (SHEIN) بخامات لطيفة وتصميم عملي يسهل اللبس والتبديل.",
