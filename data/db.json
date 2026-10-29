@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_312",
+      "name": "مجموعة ساعة نسائية دائرية أنيقة بحزام أبيض من البولي يوريثين مع سلسال وإسوارة فضة متطابقة - تصميم أنيق",
+      "description": "عرض نون في قسم نساء بسعر 38.00 ريال.",
+      "originalPrice": 38.0,
+      "currentPrice": 38.0,
+      "discount": 0,
+      "category": "cat_012",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/ladies-minimalist-round-dial-white-pu-strap-watch-set-with-matching-silver-necklace-bracelet-sleek-design/Z332D433404343EDF6127Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z332D433404343EDF6127Z/45/1756434658/bb09b51f-4fe4-4dd7-ae4e-be134e10ae1d.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_311",
       "name": "A Pair of High-quality 18K Gold-plated Women's Three-prong Curved Earrings, Featuring a Dazzling and Luxurious Design. with a Unique Style Suitable for Daily Wear, Music Festivals, and Various Occasions, They Make the Pe",
       "description": "المبيعات: 105 sold",
