@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_310",
+      "name": "1 Christmas Thank You Card for Colleagues - \"You're the Reason I Don't Punch People at Work,\" Featuring a Humorous Design with Penguins, Coffee, and Gifts. Suitable for Holiday Gifting to Office Colleagues. Blank Inside",
+      "description": "المبيعات: 3 sold",
+      "originalPrice": 33.49,
+      "currentPrice": 8.83,
+      "discount": 74,
+      "category": "cat_011",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-607630848324997.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/open/2a877a771dba4fdea718026eae9569c3-goods.jpeg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_309",
       "name": "10pcs Medicine Pouch Set, Portable Travel Medicine Organizer, Reusable Medicine Bag, Zippered Pill Case Set, Jewelry Organizer, Portable Organizer, Halloween And Christmas Gift Choice",
       "description": "المبيعات: 23 sold",
