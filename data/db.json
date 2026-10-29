@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_326",
+      "name": "زيت عطر EUQEE 10 مل للرجال برائحة التبغ الحلو والجلد ودم التنين والفانيليا والمسك والشاي الأخضر، عطر طويل الأمد.",
+      "description": "عرض علي إكسبريس المميز بخصم 87% — السعر الحالي 4.24 ريال بدلاً من 33.25 ريال.",
+      "originalPrice": 33.25,
+      "currentPrice": 4.24,
+      "discount": 87,
+      "category": "cat_023",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013036739797.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S77b6ee8b891d4afcb6fb21208827ab999.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_325",
       "name": "حقيبة خلفية مقاومة للماء للدراجات النارية، حقيبة سفر خارجية جافة، حقيبة بعجلات بحجم 20/66/100 لتر، حقيبة ظهر للدراجات النارية، حقيبة مقعد للدراجة النارية",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 12.49 ريال بدلاً من 12.49 ريال.",
