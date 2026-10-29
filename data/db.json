@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_319",
+      "name": "نظارات ذكية جديدة 2026 مع ترجمة بالذكاء الاصطناعي وتسجيل المحادثات وتشغيل الموسيقى، نظارات شمسية ذكية للرجال والنساء",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 30.87 ريال بدلاً من 30.87 ريال.",
+      "originalPrice": 30.87,
+      "currentPrice": 30.87,
+      "discount": 0,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012743024624.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saef491078eb647e5bde49bb3713761b1v.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-29",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_318",
       "name": "قفل باب ذكي **ALink** مع واي فاي والتحكم عن بعد عبر تطبيق **Tuya** | خمس طرق لفتح القفل (بصمة الإصبع / كلمة المرور / البطاقة / التطبيق / المفتاح) | يدعم اللغة العربية و8 لغات أخرى | يشمل جسم قفل 4585، و5 بطاقات IC، و4 بط",
       "description": "عرض نون في قسم المزيد بسعر 169.99 ريال.",
