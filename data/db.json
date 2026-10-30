@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_392",
+      "name": "مصباح وكشاف إضاءة LED قابل لإعادة الشحن لأعمال الصيانة والطوارئ والمنزل",
+      "description": "إضاءة ومعدات تحسين المنزل من شي إن (SHEIN) بسطوع عالٍ وتصميم متين موفر للطاقة.",
+      "originalPrice": 68.0,
+      "currentPrice": 31.0,
+      "discount": 54,
+      "category": "cat_016",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Rechargeable-LED-Work-Light-Lamp-p-260428305.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/09/05/c6/178860292377f75c6369d792bcf4184eb0295221ac_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_391",
       "name": "حافظة وغطاء جواز سفر جلدي أنيق بلمسة مطفية لحفظ الوثائق والبطاقات أثناء السفر",
       "description": "منظم ومحفظة جواز سفر خفيفة الوزن وعملية من شي إن (SHEIN) من أساسيات السفر والرحلات لحماية وثائقك.",
