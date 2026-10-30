@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_379",
+      "name": "حقيبة كتف صغيرة جذابة بجلد صناعي فاخر وإغلاق سحاب للاستخدام اليومي",
+      "description": "شنطة كروس بودي أنيقة وخفيفة الوزن من شي إن (SHEIN) بتصميم عصري يناسب جميع المواسم.",
+      "originalPrice": 29.0,
+      "currentPrice": 14.0,
+      "discount": 52,
+      "category": "cat_022",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/1pc-Young-Girls-Cute-Mini-Crossbody-Bag-With-Pu-Leather-Zipper-Closure-p-15815485.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_pi/2023/05/08/16835421608d981e629ae175b02a14dfab0854d629_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_378",
       "name": "شي إن (SHEIN) — أحذية بوت عصرية نسائية بتصميم عصري وخامة عالية الجودة (أحذية)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 50% — السعر الحالي 66.00 ريال بدلاً من 132.80 ريال.",
