@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_395",
+      "name": "قميص نوم من قماش قطني مطبوع للنساء والفتيات",
+      "description": "عرض أمازون السعودية في قسم ملابس النوم بخصم 33% — السعر الحالي 39.99 ريال بدلاً من 59.99 ريال.",
+      "originalPrice": 59.99,
+      "currentPrice": 39.99,
+      "discount": 33,
+      "category": "cat_019",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0F1D2VS2P?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/616ERnVH7aL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_394",
       "name": "مجموعة بالونات زينة الحفلات والمناسبات وأعياد الميلاد برقائق ذهبية ولامعة 20 قطعة",
       "description": "طقم بالونات ديكور فاخر من شي إن (SHEIN) لإضفاء أجواء احتفالية مميزة في حفلات التخرج وأعياد الميلاد واستقبال المواليد.",
