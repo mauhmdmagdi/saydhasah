@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_394",
+      "name": "مجموعة بالونات زينة الحفلات والمناسبات وأعياد الميلاد برقائق ذهبية ولامعة 20 قطعة",
+      "description": "طقم بالونات ديكور فاخر من شي إن (SHEIN) لإضفاء أجواء احتفالية مميزة في حفلات التخرج وأعياد الميلاد واستقبال المواليد.",
+      "originalPrice": 15.0,
+      "currentPrice": 5.51,
+      "discount": 63,
+      "category": "cat_010",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/20pcs-10-Inch-Pomegranate-Red-Latex-Balloons-Party-Decoration-Set-p-457743486.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/29/2f/17774300821713e6313b3102195c7503c8d0a058e5_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_393",
       "name": "منظم مقاعد وصندوق تخزين للسيارة متعدد الجيوب لحفظ الأغراض والمشروبات",
       "description": "منظم داخلي أنيق للسيارة من شي إن (SHEIN) يحافظ على ترتيب المقصورة ويوفر مساحة إضافية سهلة الوصول.",
