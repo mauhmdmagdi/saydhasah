@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_382",
+      "name": "شي إن (SHEIN) — أولاد شباب (من 13 إلى 16 سنة) بتصميم عصري وخامة عالية الجودة (ملابس أولاد)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 51% — السعر الحالي 38.00 ريال بدلاً من 78.20 ريال.",
+      "originalPrice": 78.2,
+      "currentPrice": 38.0,
+      "discount": 51,
+      "category": "cat_013",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Teen-Boys-13-16Yrs-p-30210202.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_abc/2024/03/07/71/170982027240b42f5fae8c54ff80a02f945b52bd2b.png",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_381",
       "name": "شي إن (SHEIN) — ملابس علوية بتصميم عصري وخامة عالية الجودة (ملابس رجالي)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 49% — السعر الحالي 53.00 ريال بدلاً من 104.80 ريال.",
