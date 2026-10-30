@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_368",
+      "name": "سترة ربيعية للنساء موديل HH 2026، كارديجان محبوك فضفاض غير رسمي بياقة وأزرار أمامية وأكمام طويلة، معطف سترة أنيق",
+      "description": "عرض علي إكسبريس المميز بخصم 52% — السعر الحالي 137.52 ريال بدلاً من 288.51 ريال.",
+      "originalPrice": 288.51,
+      "currentPrice": 137.52,
+      "discount": 52,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005011529743116.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd2fcbb8ea53c48f5bcf602e27512ad3cJ.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_367",
       "name": "ساعة ذكية للرجال والنساء 2.01 بوصة مقاومة للماء، ساعة رياضية للياقة البدنية، تجيب على المكالمات، تتتبع النوم والرياضة، عداد الخطوات، تنبيهات المعلومات، ساعة ذكية Ht30",
       "description": "عرض علي إكسبريس المميز بخصم 63% — السعر الحالي 27.85 ريال بدلاً من 74.34 ريال.",
