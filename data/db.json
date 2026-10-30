@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_353",
+      "name": "Johnson's Baby Shampoo 200ml – No More Tears Formula, Gentle on Eyes & Scalp, Cleanses Softly & Leaves Hair Smooth, Shiny & Easy to Manage",
+      "description": "عرض أمازون السعودية في قسم الأطفال والرضع بخصم 65% — السعر الحالي 6.76 ريال بدلاً من 19.55 ريال.",
+      "originalPrice": 19.55,
+      "currentPrice": 6.76,
+      "discount": 65,
+      "category": "cat_006",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B07SZ7CPN5?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71DpQscaNwL._AC_SL500_.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_352",
       "name": "تي شيرت اسنشيال بأكمام قصيرة للأطفال من الجنسين من تومي هيلفيجر، C87 (عبوة من قطعة واحدة)",
       "description": "عرض أمازون السعودية في قسم ملابس أولاد بخصم 58% — السعر الحالي 58.00 ريال بدلاً من 139.00 ريال.",
