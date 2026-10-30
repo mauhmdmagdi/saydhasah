@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_360",
+      "name": "طقم نسائي أنيق من الفولاذ المقاوم للصدأ يتكون من ساعة مقاومة للماء مع مجموعة من الأساور والخواتم والقلائد والأقراط",
+      "description": "عرض نون في قسم نساء بسعر 97.37 ريال.",
+      "originalPrice": 250.0,
+      "currentPrice": 97.37,
+      "discount": 61,
+      "category": "cat_012",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/elegant-women-s-stainless-steel-set-consisting-of-a-waterproof-watch-with-a-set-of-bracelets-rings-necklaces-and-earrings/ZB5275020771DC1F45F49Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZB5275020771DC1F45F49Z/45/1751906687/55dd4ca7-6386-44f5-9b94-19dedb2472e6.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_359",
       "name": "8pcs Summer Power Insoles, Athletic Shoe Pads, Arch Support, Comfortable And Breathable. Anti-Odor Sweat-Absorbing Insoles, Massage Shock-Absorbing Pads, Suitable for Daily Use, Unisex, Black, Spring And Summer, Cuttable",
       "description": "المبيعات: 322 sold — تقييم المنتج: 4.8",
