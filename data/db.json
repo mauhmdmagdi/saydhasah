@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_390",
+      "name": "جهاز وأدوات تدليك وعناية شخصية مريحة للاسترخاء والعناية اليومية بالجسم",
+      "description": "مستلزمات عناية شخصية وصحية عالية الجودة من شي إن (SHEIN) مصممة لراحة الجسم والبشرة.",
+      "originalPrice": 59.0,
+      "currentPrice": 27.0,
+      "discount": 54,
+      "category": "cat_008",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Personal-Care-Health-Massage-Tool-p-41143175.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/09/17/4d/17896129049bc744e88c7fb9f24a85f68a2335cf5d_square_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_389",
       "name": "طقم قلادة وأقراط نسائية مطلية بالذهب بتفاصيل كريستال أنيقة",
       "description": "مجوهرات وإكسسوارات نسائية فاخرة من شي إن (SHEIN) تضفي لمسة تألق وفخامة على إطلالتك في جميع المناسبات.",
