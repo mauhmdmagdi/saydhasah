@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_386",
+      "name": "كونسيلر SHEGLAM Hideaway بتغطية كاملة ومصحح لون مضيء للبشرة",
+      "description": "خافي عيوب وكونسيلر احترافي من شيجلام شي إن (SHEGLAM) بتركيبة خفيفة وتغطية كاملة تدوم طوال اليوم.",
+      "originalPrice": 29.0,
+      "currentPrice": 14.28,
+      "discount": 51,
+      "category": "cat_004",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/SHEGLAM-Hideaway-Full-Coverage-Concealer-Pink-Color-Corrector-p-461898674.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/07/07/4c/1783417170312292b99e39d9b548557ac58bc9755d_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_385",
       "name": "منظم أرفف وأدوات مطبخ وتخزين متعدد الاستخدامات للمنزل العصري",
       "description": "حل ذكي وعملي لترتيب وتنظيم الأواني والإكسسوارات في المنزل والمطبخ من شي إن (SHEIN) بخامات متينة.",
