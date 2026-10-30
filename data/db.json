@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_387",
+      "name": "شي إن (SHEIN) — ملابس رياضية نسائية بتصميم عصري وخامة عالية الجودة (الرياضة واللياقة)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 54% — السعر الحالي 57.00 ريال بدلاً من 123.00 ريال.",
+      "originalPrice": 123.0,
+      "currentPrice": 57.0,
+      "discount": 54,
+      "category": "cat_005",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Activewear-p-538336850.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/07/27/b8/17851455511fe31c7569f56e9dcdf30d8aec83358c_thumbnail_405x552.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_386",
       "name": "كونسيلر SHEGLAM Hideaway بتغطية كاملة ومصحح لون مضيء للبشرة",
       "description": "خافي عيوب وكونسيلر احترافي من شيجلام شي إن (SHEGLAM) بتركيبة خفيفة وتغطية كاملة تدوم طوال اليوم.",
