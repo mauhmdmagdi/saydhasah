@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_376",
+      "name": "روب وقميص نوم نسائي حريري ناعم بتفاصيل دانتيل أنيقة",
+      "description": "طقم ملابس نوم نسائي فاخر من شي إن (SHEIN) بملمس ساتان حريري ناعم وتصميم عصري مريح.",
+      "originalPrice": 96.0,
+      "currentPrice": 45.0,
+      "discount": 53,
+      "category": "cat_019",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Satin-Sleepwear-Set-p-572578275.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/10/06/70/1791301924d9dadee911f592a1e9a4287330f3c258_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_375",
       "name": "Roveilla فستان سهرة حفلات مثير بقصة غير متماثلة عند الكتف وأكمام طويلة وخصر مشدود وتنورة واسعة بتأثير تنحيف، مقاس كبير، جديد لخريف/شتاء، فستان عيد الحب",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 28% — السعر الحالي 94.00 ريال بدلاً من 129.72 ريال.",
