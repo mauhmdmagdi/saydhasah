@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_378",
+      "name": "شي إن (SHEIN) — أحذية بوت عصرية نسائية بتصميم عصري وخامة عالية الجودة (أحذية)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 50% — السعر الحالي 66.00 ريال بدلاً من 132.80 ريال.",
+      "originalPrice": 132.8,
+      "currentPrice": 66.0,
+      "discount": 50,
+      "category": "cat_021",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Fashion-Boots-p-120462208.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/09/11/6a/1757560237b69425f7641845e864e71363d55c2bb5_thumbnail_405x552.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_377",
       "name": "طقم حمالات صدر نسائية قطنية مريحة بدون أسلاك للاستخدام اليومي",
       "description": "ملابس داخلية نسائية ناعمة ومريحة من شي إن (SHEIN) بتصميم داعم وخامة جيدة التهوية.",
