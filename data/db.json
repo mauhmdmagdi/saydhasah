@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_351",
+      "name": "شنطة يد من كالفن كلاين للنساء بلون ديزرت توب مقاس واحد",
+      "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 62% — السعر الحالي 253.00 ريال بدلاً من 669.00 ريال.",
+      "originalPrice": 669.0,
+      "currentPrice": 253.0,
+      "discount": 62,
+      "category": "cat_022",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0F4NV2VMN?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/81V3p1LfMYL._AC_SL500_.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_350",
       "name": "فستان عصري من ليزكسون",
       "description": "عرض أمازون السعودية في قسم فساتين بخصم 78% — السعر الحالي 17.11 ريال بدلاً من 78.00 ريال.",
