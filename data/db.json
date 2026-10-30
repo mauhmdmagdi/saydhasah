@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_381",
+      "name": "شي إن (SHEIN) — ملابس علوية بتصميم عصري وخامة عالية الجودة (ملابس رجالي)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 49% — السعر الحالي 53.00 ريال بدلاً من 104.80 ريال.",
+      "originalPrice": 104.8,
+      "currentPrice": 53.0,
+      "discount": 49,
+      "category": "cat_011",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Tops-p-441595653.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/04/13/1c/17760574929795b926872ec79e60ce724b7e529dbc_thumbnail_405x552.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_380",
       "name": "طقم زجاجات عطر محمولة قابلة لإعادة التعبئة للسفر والحقيبة 3 قطع",
       "description": "مجموعة بخاخات عطور فاخرة من شي إن (SHEIN) بتصميم محكم يمنع التسرب لحمل عطرك المفضل في كل مكان.",
