@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_364",
+      "name": "قبعة بيسبول من نسيج التويل للرجال",
+      "description": "عرض نون في قسم ملابس رجالي بسعر 86.00 ريال.",
+      "originalPrice": 98.0,
+      "currentPrice": 86.0,
+      "discount": 12,
+      "category": "cat_011",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/twill-baseball-cap-for-men-black/N53104614V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1649947818/N53104614V_1.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_363",
       "name": "حقيبة مكياج مزدوجة الطبقات للسفر، حقيبة مستحضرات تجميل شبكية، حقيبة أدوات تواليت كبيرة للنساء، منظم حقيبة المكياج مع مقبض (أسود)",
       "description": "عرض نون في قسم حقائب وأمتعة بسعر 25.00 ريال.",
