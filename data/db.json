@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_363",
+      "name": "حقيبة مكياج مزدوجة الطبقات للسفر، حقيبة مستحضرات تجميل شبكية، حقيبة أدوات تواليت كبيرة للنساء، منظم حقيبة المكياج مع مقبض (أسود)",
+      "description": "عرض نون في قسم حقائب وأمتعة بسعر 25.00 ريال.",
+      "originalPrice": 34.9,
+      "currentPrice": 25.0,
+      "discount": 28,
+      "category": "cat_022",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/double-layer-travel-makeup-bag-mesh-cosmetic-bag-large-toiletry-bag-for-women-makeup-bag-organizer-with-handle-black/ZA2204A4C49BE2A17C8D5Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA2204A4C49BE2A17C8D5Z/45/1759149515/a5adaf60-f9df-447c-8216-58f34f209623.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_362",
       "name": "طقم فستان نوم و روب بتفاصيل دانتيل مطرزة",
       "description": "عرض نون في قسم ملابس النوم بسعر 140.00 ريال.",
