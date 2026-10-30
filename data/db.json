@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_362",
+      "name": "طقم فستان نوم و روب بتفاصيل دانتيل مطرزة",
+      "description": "عرض نون في قسم ملابس النوم بسعر 140.00 ريال.",
+      "originalPrice": 140.0,
+      "currentPrice": 140.0,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/broderie-lace-trim-detail-slipdress-robe-set/Z61FC14EBC9273834F0E1Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z61FC14EBC9273834F0E1Z/45/_/1706085868/57f12cb3-937c-4af9-92d4-8f8910418b17.jpg",
+      "tag": "range100_500",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_361",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
