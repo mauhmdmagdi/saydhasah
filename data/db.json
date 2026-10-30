@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_402",
+      "name": "ملابس داخلية للنساء من كيه-تشوني، سراويل داخلية عالية الخصر من القطن جيدة التهوية بتغطية كاملة، سراويل داخلية في عبوة متنوعة بقصة عادية وكبيرة",
+      "description": "عرض أمازون السعودية في قسم ملابس داخلية بخصم 34% — السعر الحالي 33.00 ريال بدلاً من 49.88 ريال.",
+      "originalPrice": 49.88,
+      "currentPrice": 33.0,
+      "discount": 34,
+      "category": "cat_020",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B08TR9DVYX?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61k1zaB8cLL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_401",
       "name": "22Mm 22Mm Woven Nylon Elastic Strap Suitable for Samsung for Galaxy Watch 7/6/5/4 44Mm 40Mm, Watch 6/4Classic 47Mm 43Mm 46Mm 42Mm Band, Suitable for Huawei Watch GT 5/4/3, Xiaomi S4/S3/S2/S1 Strap, Quick Release Strap",
       "description": "المبيعات: 9.3K+ sold — تقييم المنتج: 4.8",
