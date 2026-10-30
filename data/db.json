@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_399",
+      "name": "فستان بتفاصيل مكشكشة",
+      "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
+      "originalPrice": 159.0,
+      "currentPrice": 159.0,
+      "discount": 0,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/ruched-detail-dress/ZEA5C9D116BF087FCB403Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEA5C9D116BF087FCB403Z/45/_/1706559758/d01dede8-24ee-4ac7-adff-e6e0ef47485f.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_398",
       "name": "ألف باء الصحة النفسية للأبناء",
       "description": "عرض أمازون السعودية في قسم الصحة والعناية الشخصية بخصم 67% — السعر الحالي 18.82 ريال بدلاً من 57.00 ريال.",
