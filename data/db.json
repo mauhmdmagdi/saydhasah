@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_374",
+      "name": "شي إن (SHEIN) — ملابس علوية بتصميم عصري وخامة عالية الجودة (نساء)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 50.00 ريال بدلاً من 104.60 ريال.",
+      "originalPrice": 104.6,
+      "currentPrice": 50.0,
+      "discount": 52,
+      "category": "cat_012",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Tops-p-33026451.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/06/27/cb/17825310988d3a0d7e76e798792d109d341fa0023c_thumbnail_405x552.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_373",
       "name": "مكبر صوت سبيكر بلوتوث محمول بصوت جهير قوي وإضاءة أنيقة للمنزل والرحلات",
       "description": "سبيكر بلوتوث لاسلكي محمول من شي إن (SHEIN) يدعم الاتصال السريع بالهواتف والأجهزة اللوحية بجودة صوت فائقة.",
