@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_401",
+      "name": "مجموعة مكياج خلف الكواليس مجموعة هدايا",
+      "description": "عرض نون في قسم الجمال والعناية بسعر 60.00 ريال.",
+      "originalPrice": 60.0,
+      "currentPrice": 60.0,
+      "discount": 0,
+      "category": "cat_004",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/backstage-makeup-set-gift-set-pink/N70145873V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBEBFA135453D9D52638BZ/45/_/1779707406/994d768b-0008-4fed-8f4f-85d390072f76.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_400",
       "name": "طقم فستان نوم و روب بتفاصيل دانتيل مطرزة",
       "description": "عرض نون في قسم ملابس النوم بسعر 140.00 ريال.",
