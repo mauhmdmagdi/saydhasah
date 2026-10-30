@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_370",
+      "name": "بيجامة نسائية من قماش الكورال فليس بتصميم دب، طقم بيجامة شتوي دافئ وسميك للغاية، ملابس منزلية مريحة، ملابس نوم لطيفة، بنطلون طويل، ملابس منزلية كاجوال.",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 55.36 ريال بدلاً من 55.36 ريال.",
+      "originalPrice": 55.36,
+      "currentPrice": 55.36,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005013380670343.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbdce4048867d42a7af1b6390d2211f02l.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_369",
       "name": "أنيقة شرابة محبوك فستان طويل المرأة فضفاضة الخامس الرقبة كم كامل وشاح فساتين الإناث 2025 الصيف سيدة عطلة الشاطئ الجلباب جديد",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 191.25 ريال بدلاً من 191.25 ريال.",
