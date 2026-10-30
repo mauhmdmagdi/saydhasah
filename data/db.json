@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_385",
+      "name": "منظم أرفف وأدوات مطبخ وتخزين متعدد الاستخدامات للمنزل العصري",
+      "description": "حل ذكي وعملي لترتيب وتنظيم الأواني والإكسسوارات في المنزل والمطبخ من شي إن (SHEIN) بخامات متينة.",
+      "originalPrice": 79.0,
+      "currentPrice": 36.0,
+      "discount": 54,
+      "category": "cat_003",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Home-Kitchen-Storage-Organizer-Rack-p-451751635.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/18/ee/1776493905f82c4b657cf3038ec4128c0267d33092_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_384",
       "name": "شي إن (SHEIN) — أولاد رضع (من 0 إلى 3 سنوات) بتصميم عصري وخامة عالية الجودة (ملابس مواليد)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 35.00 ريال بدلاً من 74.60 ريال.",
