@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_389",
+      "name": "طقم قلادة وأقراط نسائية مطلية بالذهب بتفاصيل كريستال أنيقة",
+      "description": "مجوهرات وإكسسوارات نسائية فاخرة من شي إن (SHEIN) تضفي لمسة تألق وفخامة على إطلالتك في جميع المناسبات.",
+      "originalPrice": 55.0,
+      "currentPrice": 24.0,
+      "discount": 56,
+      "category": "cat_007",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Elegant-Necklace-Earrings-Jewelry-p-408892001.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/02/24/45/1771928305ec3157d5d6f9289a1052e2551473d6d5_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_388",
       "name": "مجموعة ألعاب تعليمية وتفاعلية لتنمية مهارات التفكير والذكاء للأطفال",
       "description": "ألعاب تعليمية آمنة وممتعة للأطفال من شي إن (SHEIN) تساعد على تنمية المهارات الحركية والذهنية بألوان جذابة.",
