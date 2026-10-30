@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_371",
+      "name": "شورت كارجو رجالي صيفي بخصر مطاطي وقصة مستقيمة بلون واحد، سروال قصير كاجوال للشاطئ والسفر والأنشطة الخارجية",
+      "description": "عرض علي إكسبريس المميز بخصم 56% — السعر الحالي 39.59 ريال بدلاً من 90.51 ريال.",
+      "originalPrice": 90.51,
+      "currentPrice": 39.59,
+      "discount": 56,
+      "category": "cat_011",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012740647086.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8106ce21b336493fa8d481a2b78302023.jpg|1350|1800",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_370",
       "name": "بيجامة نسائية من قماش الكورال فليس بتصميم دب، طقم بيجامة شتوي دافئ وسميك للغاية، ملابس منزلية مريحة، ملابس نوم لطيفة، بنطلون طويل، ملابس منزلية كاجوال.",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 55.36 ريال بدلاً من 55.36 ريال.",
