@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_388",
+      "name": "مجموعة ألعاب تعليمية وتفاعلية لتنمية مهارات التفكير والذكاء للأطفال",
+      "description": "ألعاب تعليمية آمنة وممتعة للأطفال من شي إن (SHEIN) تساعد على تنمية المهارات الحركية والذهنية بألوان جذابة.",
+      "originalPrice": 64.0,
+      "currentPrice": 29.0,
+      "discount": 55,
+      "category": "cat_006",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Kids-Educational-Interactive-Toys-Set-p-569644974.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/09/21/15/1789992573326e54f64834e6c7a9d9940c41247118_square_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_387",
       "name": "شي إن (SHEIN) — ملابس رياضية نسائية بتصميم عصري وخامة عالية الجودة (الرياضة واللياقة)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 54% — السعر الحالي 57.00 ريال بدلاً من 123.00 ريال.",
