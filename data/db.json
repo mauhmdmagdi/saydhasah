@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_373",
+      "name": "مكبر صوت سبيكر بلوتوث محمول بصوت جهير قوي وإضاءة أنيقة للمنزل والرحلات",
+      "description": "سبيكر بلوتوث لاسلكي محمول من شي إن (SHEIN) يدعم الاتصال السريع بالهواتف والأجهزة اللوحية بجودة صوت فائقة.",
+      "originalPrice": 89.0,
+      "currentPrice": 42.0,
+      "discount": 53,
+      "category": "cat_001",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Portable-Bluetooth-Speaker-p-42016910.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/08/19/90/1755572260d43d3001b90b05625be95fca7c64bf0a_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_372",
       "name": "الأطفال مجموعات الاطفال ملابس الفتيان الفتيات سترة دعوى الصيف ملابس الأطفال الطفل القطن تي شيرت السراويل تانك الأعلى أكمام",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 4.24 ريال بدلاً من 4.24 ريال.",
