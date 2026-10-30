@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_380",
+      "name": "طقم زجاجات عطر محمولة قابلة لإعادة التعبئة للسفر والحقيبة 3 قطع",
+      "description": "مجموعة بخاخات عطور فاخرة من شي إن (SHEIN) بتصميم محكم يمنع التسرب لحمل عطرك المفضل في كل مكان.",
+      "originalPrice": 45.0,
+      "currentPrice": 19.0,
+      "discount": 58,
+      "category": "cat_023",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Portable-Perfume-Atomizer-Refillable-Bottle-p-576480830.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS2026102223539/4371d75393512d1bb3ba74d090607fddd8a8b2d5c8c01ba0f86ef2ee6631118a_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_379",
       "name": "حقيبة كتف صغيرة جذابة بجلد صناعي فاخر وإغلاق سحاب للاستخدام اليومي",
       "description": "شنطة كروس بودي أنيقة وخفيفة الوزن من شي إن (SHEIN) بتصميم عصري يناسب جميع المواسم.",
