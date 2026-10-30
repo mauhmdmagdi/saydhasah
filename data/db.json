@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_391",
+      "name": "حافظة وغطاء جواز سفر جلدي أنيق بلمسة مطفية لحفظ الوثائق والبطاقات أثناء السفر",
+      "description": "منظم ومحفظة جواز سفر خفيفة الوزن وعملية من شي إن (SHEIN) من أساسيات السفر والرحلات لحماية وثائقك.",
+      "originalPrice": 12.0,
+      "currentPrice": 3.91,
+      "discount": 67,
+      "category": "cat_009",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/1pc-Matte-Finish-Pu-Material-Travel-Passport-Cover-Travel-Essentials-p-21191562.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_spmp/2023/08/22/27/169268680376d4d4fdea92e3ec125292d980afaed8_thumbnail_405x552.jpg",
+      "tag": "best_seller",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_390",
       "name": "جهاز وأدوات تدليك وعناية شخصية مريحة للاسترخاء والعناية اليومية بالجسم",
       "description": "مستلزمات عناية شخصية وصحية عالية الجودة من شي إن (SHEIN) مصممة لراحة الجسم والبشرة.",
