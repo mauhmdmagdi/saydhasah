@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_384",
+      "name": "شي إن (SHEIN) — أولاد رضع (من 0 إلى 3 سنوات) بتصميم عصري وخامة عالية الجودة (ملابس مواليد)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 35.00 ريال بدلاً من 74.60 ريال.",
+      "originalPrice": 74.6,
+      "currentPrice": 35.0,
+      "discount": 53,
+      "category": "cat_015",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Baby-Boys-0-3Yrs-p-52103681.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_pi/2024/12/31/05/1735638437b01dd60e844d6e15bc1fe41553e28e16_thumbnail_405x552.jpg",
+      "tag": "under50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_383",
       "name": "طوق شعر أنيق للبنات بفيونكة بتصميم كلاسيكي ناعم للارتداء اليومي والحفلات",
       "description": "إكسسوار وطوق شعر بناتي أنيق من شي إن (SHEIN) بفيونكة راقية يكمل جمال فساتين البنات في الأعياد والمناسبات.",
