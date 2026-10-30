@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_352",
+      "name": "تي شيرت اسنشيال بأكمام قصيرة للأطفال من الجنسين من تومي هيلفيجر، C87 (عبوة من قطعة واحدة)",
+      "description": "عرض أمازون السعودية في قسم ملابس أولاد بخصم 58% — السعر الحالي 58.00 ريال بدلاً من 139.00 ريال.",
+      "originalPrice": 139.0,
+      "currentPrice": 58.0,
+      "discount": 58,
+      "category": "cat_013",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B08NHPX457?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/817Qazs66PL._AC_SL500_.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_351",
       "name": "شنطة يد من كالفن كلاين للنساء بلون ديزرت توب مقاس واحد",
       "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 62% — السعر الحالي 253.00 ريال بدلاً من 669.00 ريال.",
