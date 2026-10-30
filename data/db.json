@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_372",
+      "name": "الأطفال مجموعات الاطفال ملابس الفتيان الفتيات سترة دعوى الصيف ملابس الأطفال الطفل القطن تي شيرت السراويل تانك الأعلى أكمام",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 4.24 ريال بدلاً من 4.24 ريال.",
+      "originalPrice": 4.24,
+      "currentPrice": 4.24,
+      "discount": 0,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005006982908225.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0d87ade73510415eb464dae6ad2ad2d8t.jpg",
+      "tag": "range10_50",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_371",
       "name": "شورت كارجو رجالي صيفي بخصر مطاطي وقصة مستقيمة بلون واحد، سروال قصير كاجوال للشاطئ والسفر والأنشطة الخارجية",
       "description": "عرض علي إكسبريس المميز بخصم 56% — السعر الحالي 39.59 ريال بدلاً من 90.51 ريال.",
