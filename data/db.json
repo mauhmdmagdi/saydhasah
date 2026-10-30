@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_375",
+      "name": "Roveilla فستان سهرة حفلات مثير بقصة غير متماثلة عند الكتف وأكمام طويلة وخصر مشدود وتنورة واسعة بتأثير تنحيف، مقاس كبير، جديد لخريف/شتاء، فستان عيد الحب",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 28% — السعر الحالي 94.00 ريال بدلاً من 129.72 ريال.",
+      "originalPrice": 129.72,
+      "currentPrice": 94.0,
+      "discount": 28,
+      "category": "cat_018",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/SHEIN-Product-p-570950744.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202610146145/4e62a1552c4e1e93c0e31ac96469ffe8f89091fa9f63a9ffe3517a1ccd18ead4_thumbnail_405x552.jpg",
+      "tag": "range50_100",
+      "isActive": true,
+      "createdAt": "2026-10-30",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_374",
       "name": "شي إن (SHEIN) — ملابس علوية بتصميم عصري وخامة عالية الجودة (نساء)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 50.00 ريال بدلاً من 104.60 ريال.",
