@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_430",
+      "name": "Summer Men's Massage Slippers Indoor Outdoor Sandals Beach Men Casual Shoes Soft Slides Flip-flops Men Women Home Slippers",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 1.09 ريال بدلاً من 1.09 ريال.",
+      "originalPrice": 1.09,
+      "currentPrice": 1.09,
+      "discount": 0,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256812463691039.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acb91c4c9c74186a0b561b1e0d63af8Q.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_429",
       "name": "3/5/7 Pcs/lot Men Plaid Boxer Loose Shorts Underwear Casual Elastic Waistband Button Mens Boxer Underwear Woven Shorts for Home",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 1.09 ريال بدلاً من 1.09 ريال.",
