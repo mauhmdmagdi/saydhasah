@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_004",
+      "name": "بيجاما للرجال للنوم ليلا ناعمة وعائلية، قميص نوم جيد التهوية، مناسبة للمنزل في الصيف وفترات الراحة والاستشفاء من ويموكي",
+      "description": "عرض أمازون السعودية في قسم ملابس النوم بخصم 78% — السعر الحالي 19.99 ريال بدلاً من 89.99 ريال.",
+      "originalPrice": 89.99,
+      "currentPrice": 19.99,
+      "discount": 78,
+      "category": "cat_019",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0GG9VSSN1?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61famXv0oFL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_003",
       "name": "فستان ماكسي بودي كون ضيق كاجوال طويل للنساء من ريليتي بدون أكمام وبرقبة برباط",
       "description": "عرض أمازون السعودية في قسم فساتين بخصم 67% — السعر الحالي 26.42 ريال بدلاً من 79.00 ريال.",
