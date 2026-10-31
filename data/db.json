@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_040",
+      "name": "فلاتر قهوة v60 عدد 100 فلتر مقاس 02 حجم كبير ابيض",
+      "description": "عرض نون في قسم عدد وأدوات بسعر 18.99 ريال.",
+      "originalPrice": 39.0,
+      "currentPrice": 18.99,
+      "discount": 51,
+      "category": "cat_016",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/100-piece-coffee-paper-filter-v60-size-02-white/Z3EC3D1BBACE7FA40CEA8Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z3EC3D1BBACE7FA40CEA8Z/45/_/1778921641/2f0bce1a-2d75-440e-882f-15383f4ca88c.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_039",
       "name": "8 قطع حقائب تنظيم السفر للأمتعة، حقائب سفر مقاومة للماء ومتينة، مكعبات التعبئة للسفر، مكعبات الضغط للحقائب، حقائب السفر للملابس، مستلزمات الحمام، الملابس، الملابس الداخلية",
       "description": "عرض نون في قسم السفر والرحلات بسعر 47.70 ريال.",
