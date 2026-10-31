@@ -125,7 +125,95 @@ function initAnnouncementTicker() {
 // 3. عداد عروض اليوم التنازلي (Countdown Timer)
 // ----------------------------------------------------
 function initCountdownTimer() {
-  // تم إزالة عداد الوقت التنازلي بناءً على طلب المستخدم
+  // SAYDHA_COUNTDOWN_V2
+  // العداد يقيس الوقت المتبقي على نهاية «عروض اليوم» (منتصف الليل بالتوقيت المحلي)،
+  // ويتجدد تلقائياً كل يوم. لا يعرض مدة ثابتة مثل «66 يوم» أبداً.
+  const container = document.getElementById('dealsCountdown');
+  const daysEl = document.getElementById('timerDays');
+  const hoursEl = document.getElementById('timerHours');
+  const minutesEl = document.getElementById('timerMinutes');
+  const secondsEl = document.getElementById('timerSeconds');
+
+  if (!container || !daysEl || !hoursEl || !minutesEl || !secondsEl) return;
+
+  const daysUnit = document.getElementById('timerDaysUnit');
+  const daysSep = document.getElementById('timerDaysSep');
+
+  const settings = (window.db && typeof window.db.getSettings === 'function')
+    ? window.db.getSettings()
+    : {};
+
+  // إمكانية إخفاء العداد من الإعدادات: settings.showCountdown = false
+  if (settings && settings.showCountdown === false) {
+    container.style.display = 'none';
+    return;
+  }
+
+  const MAX_CUSTOM_HOURS = 168; // 7 أيام كحد أقصى لأي حملة مؤقتة
+
+  function endOfToday() {
+    const now = new Date();
+    return new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 999).getTime();
+  }
+
+  function getTargetTime() {
+    const raw = settings && settings.dealEndDate;
+    if (raw) {
+      const custom = new Date(raw).getTime();
+      const hours = (custom - Date.now()) / 3600000;
+      // أي تاريخ بعيد (كما كان يسبب «66 يوم») يُتجاهل ويُستبدل بنهاية اليوم
+      if (Number.isFinite(custom) && hours > 0 && hours <= MAX_CUSTOM_HOURS) {
+        return custom;
+      }
+      if (Number.isFinite(custom) && hours > MAX_CUSTOM_HOURS) {
+        console.warn('[countdown] تم تجاهل dealEndDate البعيد واستخدام نهاية اليوم:', raw);
+      }
+    }
+    return endOfToday();
+  }
+
+  function pad(value) {
+    return String(value).padStart(2, '0');
+  }
+
+  function render() {
+    let target = getTargetTime();
+    let distance = target - Date.now();
+
+    if (distance <= 0) {
+      // انتهى اليوم: انتقل لليوم التالي بدل إظهار أصفار
+      const next = new Date();
+      next.setDate(next.getDate() + 1);
+      target = new Date(next.getFullYear(), next.getMonth(), next.getDate(), 23, 59, 59, 999).getTime();
+      distance = Math.max(target - Date.now(), 1000);
+    }
+
+    const totalSeconds = Math.floor(distance / 1000);
+    const days = Math.floor(totalSeconds / 86400);
+    const hours = Math.floor((totalSeconds % 86400) / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    // العروض اليومية: لا خانة «أيام» ولا فاصل زائد
+    if (daysUnit) daysUnit.style.display = days > 0 ? '' : 'none';
+    if (daysSep) daysSep.style.display = days > 0 ? '' : 'none';
+    daysEl.textContent = pad(days);
+    hoursEl.textContent = pad(hours);
+    minutesEl.textContent = pad(minutes);
+    secondsEl.textContent = pad(seconds);
+  }
+
+  render();
+  let timerId = setInterval(render, 1000);
+
+  // إعادة المزامنة عند العودة للتبويب (المتصفح يبطئ المؤقتات في الخلفية)
+  document.addEventListener('visibilitychange', () => {
+    clearInterval(timerId);
+    if (!document.hidden) {
+      render();
+      timerId = setInterval(render, 1000);
+    }
+  });
 }
 
 // ----------------------------------------------------
