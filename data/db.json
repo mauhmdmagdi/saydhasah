@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_408",
+      "name": "قطعة واحدة، قلادة من الفولاذ المقاوم للصدأ عالية الجودة لا تسبب الحساسية، سلسلة جديلة سميكة 2 مم، عصرية سهلة الارتداء اليومي للحفلات، سلسلة الترقوة للجنسين، مناسبة للمناسبات اليومية والرسمية، اكسسوار شعبي على مدار العام",
+      "description": "المبيعات: 245 sold — تقييم المنتج: 5",
+      "originalPrice": 41.0,
+      "currentPrice": 6.67,
+      "discount": 84,
+      "category": "cat_007",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-606705182177874.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/ce2c46b5-6da5-422b-9367-0fe44d44b522.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_407",
       "name": "حلقة مفتوحة متعددة الطبقات، حلقة إصبع بسيطة مجوفة، إكسسوار يومي متعدد الاستخدامات للنساء، هدية رائعة",
       "description": "منتج حقيقي من تيمو ضمن قسم نساء.",
