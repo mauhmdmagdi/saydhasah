@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_434",
+      "name": "Children Clothing Sets Happy Letter Cactus Sunglasses Printed Boys Girls Hoodies + Sweatpants Suit 3-14Y Spring Warm Fleece",
+      "description": "عرض علي إكسبريس المميز بخصم 73% — السعر الحالي 6.75 ريال بدلاً من 25.46 ريال.",
+      "originalPrice": 25.46,
+      "currentPrice": 6.75,
+      "discount": 73,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813285442078.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3724d46a25054a4ab016ea0a89e4c663m.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_433",
       "name": "Men's and Women's T-shirt, Vintage Tiger Worldwide Graphic Tee, Y2k Insect Unisex Graphic Tees Gothic Grunge Emo Scene Amity Affliction Style Clothes Menswear Womenswear Streetwear",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 1.09 ريال بدلاً من 1.09 ريال.",
