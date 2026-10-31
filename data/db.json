@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_422",
+      "name": "عقلة باب بدون مسامير لتمارين السحب والعقلة بطول قابل للتعديل 90 سم الى 120 سم وقدرة تحمل 150 كيلو",
+      "description": "عرض نون في قسم الرياضة واللياقة بسعر 109.00 ريال.",
+      "originalPrice": 109.0,
+      "currentPrice": 109.0,
+      "discount": 0,
+      "category": "cat_005",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/pull-up-bar-for-upper-body-workout-with-adjustable-width-90-120-cm-and-load-capacity-150-kg/ZFE0F13B47E80E2AAF0AEZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZFE0F13B47E80E2AAF0AEZ/45/1767808034/7a68458d-622e-41fa-a3e9-35b88ab40d8e.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_421",
       "name": "تي شيرت مزخرف أسود",
       "description": "عرض نون في قسم ملابس رجالي بسعر 209.00 ريال.",
