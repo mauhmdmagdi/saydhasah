@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_058",
+      "name": "حذاء سنيكرز كاجوال عصري وخفيف الوزن للمشي اليومي المريح",
+      "description": "سنيكرز مريح بنعل مبطن من شي إن (SHEIN) يوفر راحة فائقة طوال اليوم وتصميم أنيق يتماشى مع مختلف الملابس.",
+      "originalPrice": 120.0,
+      "currentPrice": 58.0,
+      "discount": 52,
+      "category": "cat_021",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Casual-Sneakers-Shoes-p-362996253.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/01/06/5d/176766244115f857b9c157f2943206f3597d7d233b_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_057",
       "name": "شريط وحمالة صدر خفية بدون أشرطة أو ظهر للنساء لفساتين السهرة والحفلات",
       "description": "حمالة صدر سيليكون خفية ومريحة من شي إن (SHEIN) بتصميم عملي يوفر ثباتاً ممتازاً تحت فساتين السهرة.",
