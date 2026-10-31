@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_067",
+      "name": "طقم رياضي نسائي مرن ومريح لتمارين اللياقة واليوغا قطعتين",
+      "description": "ملابس رياضية عالية المرونة وخفيفة من شي إن (SHEIN) توفر دعماً ممتازاً وحرية حركة أثناء التمارين بخامة سريعة الجفاف.",
+      "originalPrice": 115.0,
+      "currentPrice": 52.0,
+      "discount": 55,
+      "category": "cat_005",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Seamless-Yoga-Activewear-Set-p-26548020.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/06/12/45/1781254770cb21b6f0d38b7c150d291833b5ced2e0_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_066",
       "name": "بلسم وملمع شفاه SHEGLAM Hydra Jelly Pocket بتركيبة مرطبة ولمعان جذاب",
       "description": "ملمع وبلسم شفاه أصلي من شيجلام شي إن (SHEGLAM) يمنح الشفاه ترطيباً عميقاً ولوناً طبيعياً مشرقاً.",
