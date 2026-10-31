@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_034",
+      "name": "طقم مكياج فاخر من Fancy Beauty، يحتوي على مجموعة متكاملة من مستحضرات التجميل",
+      "description": "عرض نون في قسم الجمال والعناية بسعر 199.00 ريال.",
+      "originalPrice": 299.0,
+      "currentPrice": 199.0,
+      "discount": 33,
+      "category": "cat_004",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/fancy-beauty-make-up-kit/ZCE5BAF401F910524AF1DZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/1964939d9cff566da4d05ea3d681069e|pzsku/ZCE5BAF401F910524AF1DZ/45/1768667138/efd98dbf-82ef-47f0-a720-a60a66caa6cd.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_033",
       "name": "مجموعة أدوات مطبخ صغيرة مكونة من 22 قطعة، تجربة طهي حقيقية – مجموعة ألعاب طهي صغيرة كاملة مصممة للأطفال والرضع، تجمع بين التعليم والمرح. مناسبة للبنين والبنات على حد سواء، ومثالية للعب الأطفال في المطبخ.",
       "description": "عرض نون في قسم المنزل والمطبخ بسعر 115.55 ريال.",
