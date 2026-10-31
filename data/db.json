@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_440",
+      "name": "Professional 57-Piece Tool Set - Industrial Hand Tools Kit for Home, Automotive, Carpentry, Electrical Repairs - Durable Portable Toolbox Included",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 17.22 ريال بدلاً من 17.22 ريال.",
+      "originalPrice": 17.22,
+      "currentPrice": 17.22,
+      "discount": 0,
+      "category": "cat_016",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813125150434.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8ca10cae1e114dfca9d26e8d6d865f76L.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_439",
       "name": "جلوبال ستار فوط استخدام مرة واحدة 100*50 عدد 50 حبه",
       "description": "عرض نون في قسم عدد وأدوات بسعر 36.86 ريال.",
