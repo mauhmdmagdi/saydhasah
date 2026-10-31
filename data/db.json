@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_022",
+      "name": "طقم نسائي أنيق من الفولاذ المقاوم للصدأ يتكون من ساعة مقاومة للماء مع مجموعة من الأساور والخواتم والقلائد والأقراط",
+      "description": "عرض نون في قسم نساء بسعر 97.37 ريال.",
+      "originalPrice": 250.0,
+      "currentPrice": 97.37,
+      "discount": 61,
+      "category": "cat_012",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/elegant-women-s-stainless-steel-set-consisting-of-a-waterproof-watch-with-a-set-of-bracelets-rings-necklaces-and-earrings/ZB5275020771DC1F45F49Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZB5275020771DC1F45F49Z/45/1751906687/55dd4ca7-6386-44f5-9b94-19dedb2472e6.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_021",
       "name": "سماعات أذن FreeBuds SE 2، بلوتوث لاسلكية 5.3، عمر بطارية يصل إلى 40 ساعة، تشغيل الموسيقى لمدة 3 ساعات بعد شحن لمدة 10 دقائق، مدمجة ومريحة، مقاومة للغبار والرذاذ بمعيار IP54",
       "description": "عرض نون في قسم الإلكترونيات بسعر 75.00 ريال.",
