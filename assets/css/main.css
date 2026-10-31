@@ -1003,7 +1003,7 @@ ul { list-style: none; }
 .categories-marquee-track {
   display: flex;
   width: max-content;
-  direction: ltr; /* اتجاه انسيابي من اليسار لليمين */
+  direction: rtl; /* اتجاه متصل انسيابي من اليسار لليمين */
   animation: categoriesScrollLTR 42s linear infinite;
   will-change: transform;
   transform: translate3d(0, 0, 0);
@@ -1021,7 +1021,7 @@ ul { list-style: none; }
   align-items: center;
   gap: clamp(10px, 1.4vw, 18px);
   flex-shrink: 0;
-  padding-left: clamp(10px, 1.4vw, 18px);
+  padding-right: clamp(10px, 1.4vw, 18px);
 }
 
 .category-card {
@@ -1064,10 +1064,10 @@ ul { list-style: none; }
 /* حركة انسيابية لا نهائية لصور الفئات من اليسار لليمين */
 @keyframes categoriesScrollLTR {
   0% {
-    transform: translate3d(-33.333333%, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(33.333333%, 0, 0);
   }
 }
 
@@ -1772,7 +1772,7 @@ ul { list-style: none; }
   }
   .categories-marquee-group {
     gap: 10px;
-    padding-left: 10px;
+    padding-right: 10px;
   }
   .category-badge-wrap {
     width: 48px;
@@ -1804,7 +1804,7 @@ ul { list-style: none; }
   }
   .categories-marquee-group {
     gap: 8px;
-    padding-left: 8px;
+    padding-right: 8px;
   }
   .category-badge-wrap {
     width: 42px;
