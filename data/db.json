@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_002",
+      "name": "طقم كوورد للنساء LF-W2012&SH258 من ليريا فاشن (2 في العبوة)",
+      "description": "عرض أمازون السعودية في قسم نساء بخصم 56% — السعر الحالي 39.54 ريال بدلاً من 89.00 ريال.",
+      "originalPrice": 89.0,
+      "currentPrice": 39.54,
+      "discount": 56,
+      "category": "cat_012",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0D7N4Q2SZ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71Bvq7V0CjL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_001",
       "name": "سماعات أذن هواوي فري بادز SE 2، سماعات أذن بلوتوث لاسلكية، عمر بطارية 40 ساعة، 3 ساعات من تشغيل الموسيقى بشحنة 10 دقائق، مدمجة ومريحة، لون أبيض",
       "description": "عرض أمازون السعودية في قسم الإلكترونيات بخصم 60% — السعر الحالي 75.00 ريال بدلاً من 189.00 ريال.",
