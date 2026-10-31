@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_439",
+      "name": "جلوبال ستار فوط استخدام مرة واحدة 100*50 عدد 50 حبه",
+      "description": "عرض نون في قسم عدد وأدوات بسعر 36.86 ريال.",
+      "originalPrice": 49.4,
+      "currentPrice": 36.86,
+      "discount": 25,
+      "category": "cat_016",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/globalstar-disposable-towels-100-50-cm-pack-of-50/Z14F3CA7B26E5CF41F6A3Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z14F3CA7B26E5CF41F6A3Z/45/1767809153/97d83380-688f-47bc-a93a-ff0d0f39991c.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_438",
       "name": "SKY-TOUCH 82 Pieces Hand Tool Kit, Home Repair Tools Case, General Household Tool Kit with Solid Carrying Box Carbon Steel Hardware for Daily Home Repair, Ideal for Home or Work Use",
       "description": "عرض أمازون السعودية في قسم عدد وأدوات بخصم 18% — السعر الحالي 89.00 ريال بدلاً من 109.00 ريال.",
