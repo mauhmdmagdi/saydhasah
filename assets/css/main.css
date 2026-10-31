@@ -1029,16 +1029,17 @@ ul { list-style: none; }
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
-  padding: 4px 6px;
+  padding: 4px 10px;
   margin: 0;
   cursor: pointer;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
   flex: 0 0 auto;
-  width: clamp(96px, 7.5vw, 118px);
+  width: max-content;
+  min-width: clamp(92px, 7vw, 115px);
   text-decoration: none;
   touch-action: manipulation;
   outline: none;
@@ -1059,8 +1060,9 @@ ul { list-style: none; }
 }
 
 .category-icon-wrapper {
-  width: clamp(84px, 6vw, 98px);
   height: clamp(84px, 6vw, 98px);
+  width: auto;
+  min-width: clamp(84px, 6vw, 98px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1073,10 +1075,10 @@ ul { list-style: none; }
 }
 
 .category-card-img {
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  height: clamp(84px, 6vw, 98px);
+  width: auto;
+  max-height: clamp(84px, 6vw, 98px);
+  max-width: none;
   object-fit: contain;
   display: block;
   pointer-events: none;
@@ -1087,20 +1089,21 @@ ul { list-style: none; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 3px 12px;
+  padding: 4px 14px;
   background: #ffffff;
   border: 1px solid rgba(7, 84, 63, 0.18);
   color: var(--primary-green, #07543f);
-  font-size: 0.74rem;
+  font-size: clamp(0.75rem, 0.8vw, 0.84rem);
   font-weight: 700;
   border-radius: 999px;
   letter-spacing: -0.2px;
   white-space: nowrap;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
   transition: background-color 0.15s ease-out, color 0.15s ease-out, border-color 0.15s ease-out;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: max-content;
+  max-width: none;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 .category-card:hover .category-card-name {
@@ -1714,9 +1717,7 @@ ul { list-style: none; }
    RESPONSIVE
    =================================================== */
 @media (max-width: 992px) {
-  .category-card {
-    width: clamp(95px, 12vw, 125px);
-  }
+  .category-card { width: max-content; }
 }
 
 @media (max-width: 768px) {
@@ -1816,9 +1817,7 @@ ul { list-style: none; }
   .stores-marquee-wrapper {
     gap: 14px;
   }
-  .category-card {
-    width: clamp(85px, 20vw, 110px);
-  }
+  .category-card { width: max-content; }
   .categories-marquee-group {
     gap: 10px;
     padding-right: 10px;
@@ -1847,9 +1846,7 @@ ul { list-style: none; }
     width: 58px;
     height: 58px;
   }
-  .category-card {
-    width: 78px;
-  }
+  .category-card { width: max-content; }
   .categories-marquee-group {
     gap: 8px;
     padding-right: 8px;
