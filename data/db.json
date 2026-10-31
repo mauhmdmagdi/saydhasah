@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_061",
+      "name": "تيشيرت بولو كاجوال رجالي بأكمام قصيرة بتصميم عصري مريح",
+      "description": "تيشيرت بولو رجالي عالي الجودة من شي إن (SHEIN) بخامة قطنية ناعمة وجيدة التهوية مع ياقة أنيقة للارتداء اليومي.",
+      "originalPrice": 88.0,
+      "currentPrice": 42.0,
+      "discount": 52,
+      "category": "cat_011",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Men-Casual-Polo-Shirt-Top-p-29008910.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202608284094/66a5e7c324b0e5c59621a88e568cde3fa3757d9bda1063bd024d1d4b6a7c6133_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_060",
       "name": "زجاجة عطر وبخاخ معطر للجسم والشعر برائحة زهرية منعشة وثبات طويل الأمد",
       "description": "معطر جسم وعطر نسائي فاخر من شي إن (SHEIN) بنفحات عطرية جذابة تدوم طوال اليوم مع عبوة أنيقة مناسبة للحقيبة.",
