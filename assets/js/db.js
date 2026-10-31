@@ -27,7 +27,7 @@ class StoreDB {
         const res = await fetch(basePath + 'data/db.json?t=' + Date.now());
         if (res.ok) {
           const remoteData = await res.json();
-          if (remoteData && Array.isArray(remoteData.products) && remoteData.products.length > 0) {
+          if (remoteData && Array.isArray(remoteData.products)) {
             this.data = remoteData;
             this.migrateUsers();
             this.migrateCategories();
