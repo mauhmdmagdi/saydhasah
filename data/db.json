@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_055",
+      "name": "فستان ماكسي نسائي كاجوال بطيات ناعمة وتصميم عصري أنيق",
+      "description": "فستان نسائي أنيق من شي إن (SHEIN) بتصميم كاجوال ناعم يناسب جميع الإطلالات اليومية والزيارات مع قماش صيفي مريح.",
+      "originalPrice": 129.0,
+      "currentPrice": 59.0,
+      "discount": 54,
+      "category": "cat_018",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Elegant-Maxi-Dress-p-575747957.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/smartflow/2026/10/16/f4/17921330493472f2b46a3cdb7a16d907a5393eb37d_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_054",
       "name": "ملابس علوية نسائية كاجوال بلون موحد مكشوفة الكتف بأكمام طويلة للربيع",
       "description": "بلوزة نسائية عصرية من شي إن (SHEIN) بقصة أنيقة وخامة ناعمة مريحة للإطلالات اليومية والمناسبات.",
