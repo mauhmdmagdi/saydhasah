@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_436",
+      "name": "رداء للنوم من الحرير مزيّن بنقشة طاووس",
+      "description": "عرض نون في قسم ملابس النوم بسعر 44.65 ريال.",
+      "originalPrice": 44.65,
+      "currentPrice": 44.65,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/peacock-print-silk-nightgown-multicolour/N28977737V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1568208067/N28977737V_1.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_435",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
