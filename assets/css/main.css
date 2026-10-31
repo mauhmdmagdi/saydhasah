@@ -986,20 +986,42 @@ ul { list-style: none; }
 }
 
 .categories-grid {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
   width: 100%;
-  gap: clamp(8px, 1vw, 16px);
-  padding: 6px 0 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 8px 0 14px;
   margin: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
+  display: block;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
 }
 
 .categories-grid::-webkit-scrollbar {
   display: none;
+}
+
+.categories-marquee-track {
+  display: flex;
+  width: max-content;
+  direction: ltr; /* اتجاه انسيابي من اليسار لليمين */
+  animation: categoriesScrollLTR 42s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.categories-marquee-track:hover,
+.categories-marquee-track:active {
+  animation-play-state: paused;
+}
+
+.categories-marquee-group {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.4vw, 18px);
+  flex-shrink: 0;
+  padding-left: clamp(10px, 1.4vw, 18px);
 }
 
 .category-card {
@@ -1011,10 +1033,9 @@ ul { list-style: none; }
   margin: 0;
   cursor: pointer;
   display: inline-flex;
-  flex: 1 1 0;
-  min-width: 90px;
-  max-width: 170px;
-  transition: transform 0.12s ease-out;
+  flex: 0 0 auto;
+  width: clamp(105px, 11vw, 155px);
+  transition: transform 0.18s ease-out;
   touch-action: manipulation;
   outline: none;
   -webkit-tap-highlight-color: transparent;
@@ -1024,7 +1045,7 @@ ul { list-style: none; }
 }
 
 .category-card:hover {
-  transform: translateY(-5px) scale(1.04);
+  transform: translateY(-5px) scale(1.06);
 }
 
 .category-card:active {
@@ -1038,6 +1059,24 @@ ul { list-style: none; }
   display: block;
   pointer-events: none;
   user-select: none;
+}
+
+/* حركة انسيابية لا نهائية لصور الفئات من اليسار لليمين */
+@keyframes categoriesScrollLTR {
+  0% {
+    transform: translate3d(-33.333333%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .categories-marquee-track {
+    animation: none;
+    overflow-x: auto;
+    width: 100%;
+  }
 }
 
 /* ===================================================
@@ -1626,14 +1665,8 @@ ul { list-style: none; }
    RESPONSIVE
    =================================================== */
 @media (max-width: 992px) {
-  .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px 8px;
-    justify-items: center;
-  }
   .category-card {
-    flex: none;
+    width: clamp(95px, 12vw, 125px);
   }
 }
 
@@ -1734,15 +1767,12 @@ ul { list-style: none; }
   .stores-marquee-wrapper {
     gap: 14px;
   }
-  .categories-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px 6px;
-  }
   .category-card {
-    min-width: auto;
-    max-width: 100%;
-    padding: 2px;
-    flex: none;
+    width: clamp(85px, 20vw, 110px);
+  }
+  .categories-marquee-group {
+    gap: 10px;
+    padding-left: 10px;
   }
   .category-badge-wrap {
     width: 48px;
@@ -1769,9 +1799,12 @@ ul { list-style: none; }
     width: 58px;
     height: 58px;
   }
-  .categories-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px 3px;
+  .category-card {
+    width: 78px;
+  }
+  .categories-marquee-group {
+    gap: 8px;
+    padding-left: 8px;
   }
   .category-badge-wrap {
     width: 42px;
