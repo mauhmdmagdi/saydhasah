@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_420",
+      "name": "حقيبة تجميل وسادة ناعمة بالوردي، جراب منظم كبير للمكياج، حقيبة سفر مقاومة للماء للنساء",
+      "description": "عرض نون في قسم حقائب وأمتعة بسعر 29.95 ريال.",
+      "originalPrice": 39.44,
+      "currentPrice": 29.95,
+      "discount": 24,
+      "category": "cat_022",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/soft-pink-pillow-cosmetic-bag-large-makeup-organizer-pouch-waterproof-travel-bag-for-women/ZB4392EF00FC69A7A67EEZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZB4392EF00FC69A7A67EEZ/45/1765789311/965234e0-6b80-4f2e-b78f-882f714d4ad2.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_419",
       "name": "لباس للنوم مطرز من الدانتيل أحمر",
       "description": "عرض نون في قسم ملابس النوم بسعر 38.80 ريال.",
