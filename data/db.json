@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_433",
+      "name": "Men's and Women's T-shirt, Vintage Tiger Worldwide Graphic Tee, Y2k Insect Unisex Graphic Tees Gothic Grunge Emo Scene Amity Affliction Style Clothes Menswear Womenswear Streetwear",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 1.09 ريال بدلاً من 1.09 ريال.",
+      "originalPrice": 1.09,
+      "currentPrice": 1.09,
+      "discount": 0,
+      "category": "cat_011",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813008766812.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S46e9397860604d79b3f5dfecd135a5b8O.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_432",
       "name": "The six neutral perfume of OAK series are the most popular, lasting and fresh, with strong flower and fruit fragrance, pseudo body fragrance, convenient to carry, and suitable for daily work, commuting, parties, and other occasions",
       "description": "عرض علي إكسبريس المميز بخصم 91% — السعر الحالي 2.16 ريال بدلاً من 24.13 ريال.",
