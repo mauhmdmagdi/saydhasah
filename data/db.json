@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_031",
+      "name": "طقم بناتي قطعتين - بلوزة بطبعة شعار مع بنطال مطابق - أنيق ومريح - قصة مريحة",
+      "description": "عرض نون في قسم ملابس بنات بسعر 75.20 ريال.",
+      "originalPrice": 135.0,
+      "currentPrice": 75.2,
+      "discount": 44,
+      "category": "cat_014",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/girls-2-pc-set-slogan-print-top-with-matching-bottom-stylish-and-comfortable-relaxed-fit/Z8D6D6732CE86B9E78DDEZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z8D6D6732CE86B9E78DDEZ/45/_/1784707388/fffaf384-e50e-4675-af26-5f6f5e89b80a.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_030",
       "name": "لبس احرام مواليد 8 اشهر الى 24 شهر طفل العمرة اطفال  احرام مطاط تنورة و بطقطق مريح طفل رضيع صغير مواليد ولادي مطور بتقنية النانو مغاط احرام التنورة لباس سهل بمطاط ، لبس العمرة للاطفال ، احرام للصغار ، احرامات للاطفال للا",
       "description": "عرض نون في قسم ملابس أولاد بسعر 78.85 ريال.",
