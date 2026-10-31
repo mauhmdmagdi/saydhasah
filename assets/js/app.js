@@ -319,14 +319,33 @@ function renderCategoriesGrid() {
       }
     }
   };
-  container.innerHTML = categories.map(category => {
+
+  const createCard = (category, isDuplicate = false) => {
     const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=2`;
     return `
-      <button class="category-card" type="button" data-category-id="${escapeHtml(category.id)}" title="${escapeHtml(category.name)}" aria-label="${escapeHtml(category.name)}">
+      <button class="category-card" type="button" data-category-id="${escapeHtml(category.id)}" title="${escapeHtml(category.name)}" aria-label="${escapeHtml(category.name)}"${isDuplicate ? ' tabindex="-1"' : ''}>
         <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
       </button>
     `;
-  }).join('');
+  };
+
+  const group1Html = categories.map(c => createCard(c, false)).join('');
+  const group2Html = categories.map(c => createCard(c, true)).join('');
+  const group3Html = categories.map(c => createCard(c, true)).join('');
+
+  container.innerHTML = `
+    <div class="categories-marquee-track">
+      <div class="categories-marquee-group">
+        ${group1Html}
+      </div>
+      <div class="categories-marquee-group" aria-hidden="true">
+        ${group2Html}
+      </div>
+      <div class="categories-marquee-group" aria-hidden="true">
+        ${group3Html}
+      </div>
+    </div>
+  `;
 }
 
 window.filterByCategory = function (catId, catName) {
