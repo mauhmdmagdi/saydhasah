@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_415",
+      "name": "طقم ملابس داخلية رياضية للرجال مكون من قطعتين للخريف/الشتاء، مريح ودافئ، مناسب للشباب، يتضمن قميصًا داخليًا بأكمام طويلة.",
+      "description": "عرض علي إكسبريس المميز بخصم 62% — السعر الحالي 42.17 ريال بدلاً من 110.3 ريال.",
+      "originalPrice": 110.3,
+      "currentPrice": 42.17,
+      "discount": 62,
+      "category": "cat_011",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005010585619070.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7b109c00b4284fdc8b32be11003a375aE.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_414",
       "name": "حقيبة أمتعة قابلة للطي كبيرة السعة من هاو كين مع غطاء وعربة تسوق بعجلات سميكة وهادئة، تصميم إبداعي من مادة ABS+PC",
       "description": "عرض علي إكسبريس المميز بخصم 1% — السعر الحالي 69.25 ريال بدلاً من 69.95 ريال.",
