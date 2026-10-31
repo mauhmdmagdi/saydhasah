@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_437",
+      "name": "تي شيرت مزخرف أسود",
+      "description": "عرض نون في قسم ملابس رجالي بسعر 209.00 ريال.",
+      "originalPrice": 209.0,
+      "currentPrice": 209.0,
+      "discount": 0,
+      "category": "cat_011",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/studded-tee/Z85BF677811912424EAF8Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z85BF677811912424EAF8Z/45/_/1772778100/61129132-e2f3-443a-b887-b12daed639d4.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_436",
       "name": "رداء للنوم من الحرير مزيّن بنقشة طاووس",
       "description": "عرض نون في قسم ملابس النوم بسعر 44.65 ريال.",
