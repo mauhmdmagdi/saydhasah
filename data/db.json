@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_026",
+      "name": "سوفت رايد هارلي سليب أون",
+      "description": "عرض نون في قسم أحذية بسعر 171.00 ريال.",
+      "originalPrice": 335.0,
+      "currentPrice": 171.0,
+      "discount": 49,
+      "category": "cat_021",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/softride-harli-slip-on/Z30F7788494FA39D1249CZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z30F7788494FA39D1249CZ/45/_/1776169857/bfa984c4-9710-41d8-9954-9c99cd54e6bd.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_025",
       "name": "سراويل داخلية بكيني قطنية من 7 قطع من Zeemey تسمح بمرور الهواء بخصر منخفض ملابس داخلية أنيقة للسيدات جذابة",
       "description": "عرض نون في قسم ملابس داخلية بسعر 49.00 ريال.",
