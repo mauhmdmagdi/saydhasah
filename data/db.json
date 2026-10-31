@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_404",
+      "name": "ميزان من أنيوان بشاشة LCD باللون الأسود يقيس بـ جرام و أونصة و مليلتر",
+      "description": "عرض أمازون السعودية في قسم المنزل والمطبخ بخصم 55% — السعر الحالي 39.60 ريال بدلاً من 88.17 ريال.",
+      "originalPrice": 88.17,
+      "currentPrice": 39.6,
+      "discount": 55,
+      "category": "cat_003",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0FR99SJVN?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/612esBV0peL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_403",
       "name": "بخاخ مزيل للعرق بمستخلصات اللؤلؤ للنساء من نيفيا، سعة 150 مل من 3 قطع، منعش",
       "description": "عرض أمازون السعودية في قسم نساء بخصم 65% — السعر الحالي 34.95 ريال بدلاً من 99.36 ريال.",
