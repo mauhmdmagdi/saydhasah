@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_435",
+      "name": "ساعات ذكية للرجال والنساء، هدية للأب والأم والأزواج، جهاز تتبع اللياقة البدنية مزود بمراقبة معدل ضربات القلب والنوم، معيار IP68، متوافقة مع أنظمة أندرويد وiOS، أسود",
+      "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 59% — السعر الحالي 149.97 ريال بدلاً من 369.99 ريال.",
+      "originalPrice": 369.99,
+      "currentPrice": 149.97,
+      "discount": 59,
+      "category": "cat_007",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0HN4KPBJW?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61ISJ7JysLL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_434",
       "name": "Children Clothing Sets Happy Letter Cactus Sunglasses Printed Boys Girls Hoodies + Sweatpants Suit 3-14Y Spring Warm Fleece",
       "description": "عرض علي إكسبريس المميز بخصم 73% — السعر الحالي 6.75 ريال بدلاً من 25.46 ريال.",
