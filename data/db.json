@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_419",
+      "name": "لباس للنوم مطرز من الدانتيل أحمر",
+      "description": "عرض نون في قسم ملابس النوم بسعر 38.80 ريال.",
+      "originalPrice": 38.8,
+      "currentPrice": 38.8,
+      "discount": 0,
+      "category": "cat_019",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/lace-embroidery-sleepwear-nightdress-red/N14058009V/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/v1522929703/N14058009V_1.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_418",
       "name": "فستان بتفاصيل مكشكشة",
       "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
