@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_409",
+      "name": "صندل كلاسيكي أدبي للنساء ، نعل ناعم ، كاجوال ، حذاء لطيف للفتيات القبيح ، كعب مسطح ، إصبع زقزقة ، بسيط ، روما ، الصيف ، جديد",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 40.87 ريال بدلاً من 40.87 ريال.",
+      "originalPrice": 40.87,
+      "currentPrice": 40.87,
+      "discount": 0,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007126083098.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5cf01955266147639adbf50a0720a22aL.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_408",
       "name": "قطعة واحدة، قلادة من الفولاذ المقاوم للصدأ عالية الجودة لا تسبب الحساسية، سلسلة جديلة سميكة 2 مم، عصرية سهلة الارتداء اليومي للحفلات، سلسلة الترقوة للجنسين، مناسبة للمناسبات اليومية والرسمية، اكسسوار شعبي على مدار العام",
       "description": "المبيعات: 245 sold — تقييم المنتج: 5",
