@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_438",
+      "name": "SKY-TOUCH 82 Pieces Hand Tool Kit, Home Repair Tools Case, General Household Tool Kit with Solid Carrying Box Carbon Steel Hardware for Daily Home Repair, Ideal for Home or Work Use",
+      "description": "عرض أمازون السعودية في قسم عدد وأدوات بخصم 18% — السعر الحالي 89.00 ريال بدلاً من 109.00 ريال.",
+      "originalPrice": 109.0,
+      "currentPrice": 89.0,
+      "discount": 18,
+      "category": "cat_016",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0FHWKK16J?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71Kl5qJ+5yL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_437",
       "name": "فريد زهرة نمط تصميم هوب أقراط سبائك الزنك الفضة مطلي مجوهرات خمر البوهيمي نمط الأقراط الإناث",
       "description": "المبيعات: 19K+ sold — تقييم المنتج: 4.7",
