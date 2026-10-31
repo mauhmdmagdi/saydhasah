@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_432",
+      "name": "The six neutral perfume of OAK series are the most popular, lasting and fresh, with strong flower and fruit fragrance, pseudo body fragrance, convenient to carry, and suitable for daily work, commuting, parties, and other occasions",
+      "description": "عرض علي إكسبريس المميز بخصم 91% — السعر الحالي 2.16 ريال بدلاً من 24.13 ريال.",
+      "originalPrice": 24.13,
+      "currentPrice": 2.16,
+      "discount": 91,
+      "category": "cat_023",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256812854092040.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S674a5870b4cf4cd088f8b8ca884ba3c2J.png",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_431",
       "name": "Luggage Sets 6-Piece Suitcases with Double Spinner Wheel, ABS+PC Hard Case with TSA Lock, Waterproof Duffle Bag for Women Men",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 89.21 ريال بدلاً من 89.21 ريال.",
