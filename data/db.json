@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_017",
+      "name": "Heal Your Gut, Mind & Emotions: 5 Steps to Reset Your Health with Ayurveda and Food Chemistry",
+      "description": "عرض أمازون السعودية في قسم الصحة والعناية الشخصية بخصم 69% — السعر الحالي 35.21 ريال بدلاً من 115.00 ريال.",
+      "originalPrice": 115.0,
+      "currentPrice": 35.21,
+      "discount": 69,
+      "category": "cat_008",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/0143463322?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71525i3KJ7L._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_016",
       "name": "ساعات ذكية للرجال والنساء، جهاز تتبع اللياقة البدنية مزود بمراقبة معدل ضربات القلب والنوم، هدية للأب والأم والأزواج، معيار IP68، متوافقة مع أنظمة أندرويد وiOS",
       "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 59% — السعر الحالي 149.99 ريال بدلاً من 369.99 ريال.",
