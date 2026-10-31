@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_426",
+      "name": "2026 Fall High-Neck Zip Jacket for Women, Loose Fit with Drawstring, Color-Block, Street-Style Trendy Coat",
+      "description": "عرض علي إكسبريس المميز بخصم 62% — السعر الحالي 45.59 ريال بدلاً من 119.97 ريال.",
+      "originalPrice": 119.97,
+      "currentPrice": 45.59,
+      "discount": 62,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813110697703.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S618805a357424e8cbca3538480a3271fj.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_425",
       "name": "2026 New Air 3【 Pro3 】 Bluetooth Wireless Earbuds With Heart Rate Monitoring, Active Noise Cancellation Headphones, Waterproof for Daily Use, For IPhone IOS Smartphone, Gaming /Sports /Fitness Earphones.",
       "description": "عرض علي إكسبريس المميز بخصم 68% — السعر الحالي 18.59 ريال بدلاً من 57.66 ريال.",
