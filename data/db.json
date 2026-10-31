@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_413",
+      "name": "شباشب رجالية رائجة جديدة لصيف هذا العام، مصنوعة من مادة EVA ذات نعل ناعم، صنادل مسطحة للمشي في الداخل والخارج، أحذية شاطئية، شباشب رجالية.",
+      "description": "عرض علي إكسبريس المميز بخصم 66% — السعر الحالي 34.72 ريال بدلاً من 103.17 ريال.",
+      "originalPrice": 103.17,
+      "currentPrice": 34.72,
+      "discount": 66,
+      "category": "cat_021",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012976803128.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sce9fc0983eef4c48aaba1a44d15ae1cdZ.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_412",
       "name": "مجموعة عشوائية من 5 قطع ملابس داخلية رجالية من الحرير الجليدي، سراويل داخلية صيفية رقيقة وعصرية سريعة الجفاف بمقاسات كبيرة",
       "description": "عرض علي إكسبريس المميز بخصم 51% — السعر الحالي 43.19 ريال بدلاً من 88.14 ريال.",
