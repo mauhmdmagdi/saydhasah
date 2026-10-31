@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_075",
+      "name": "عطر او دي تواليت كوول ووتر رجالي، 75 مل من دافيدوف",
+      "description": "عرض أمازون السعودية في قسم العطور بخصم 58% — السعر الحالي 75.00 ريال بدلاً من 177.00 ريال.",
+      "originalPrice": 177.0,
+      "currentPrice": 75.0,
+      "discount": 58,
+      "category": "cat_023",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0009OAHBY?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61NpqREsoEL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_074",
       "name": "مجموعة صناديق وأكياس تغليف باقات الزهور والهدايا الأنيقة للمناسبات 5 قطع",
       "description": "أكياس وصناديق تغليف هدايا مبتكرة من شي إن (SHEIN) بتصميم راقٍ مثالي للمناسبات السعيدة وتنسيق الزهور.",
