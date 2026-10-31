@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_407",
+      "name": "فستان بتفاصيل مكشكشة",
+      "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
+      "originalPrice": 159.0,
+      "currentPrice": 159.0,
+      "discount": 0,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/ruched-detail-dress/ZEA5C9D116BF087FCB403Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEA5C9D116BF087FCB403Z/45/_/1706559758/d01dede8-24ee-4ac7-adff-e6e0ef47485f.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_406",
       "name": "سماعات أذن FreeBuds SE 2، بلوتوث لاسلكية 5.3، عمر بطارية يصل إلى 40 ساعة، تشغيل الموسيقى لمدة 3 ساعات بعد شحن لمدة 10 دقائق، مدمجة ومريحة، مقاومة للغبار والرذاذ بمعيار IP54",
       "description": "عرض نون في قسم الإلكترونيات بسعر 75.00 ريال.",
