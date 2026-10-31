@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_014",
+      "name": "جل تدليك رياضي من كراوترهوف لتخفيف آلام العضلات و التبريد، 150 مل، بتأثير تبريد و امتصاص سريع",
+      "description": "عرض أمازون السعودية في قسم الرياضة واللياقة بخصم 60% — السعر الحالي 39.03 ريال بدلاً من 98.11 ريال.",
+      "originalPrice": 98.11,
+      "currentPrice": 39.03,
+      "discount": 60,
+      "category": "cat_005",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B07BJL2K3Z?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71UScfO5kTL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_013",
       "name": "كريم اساس بيبي سكين خافي العيوب الفوري، شفاف، 22 مل من ميبيلين نيو يورك",
       "description": "عرض أمازون السعودية في قسم الجمال والعناية بخصم 67% — السعر الحالي 20.33 ريال بدلاً من 61.38 ريال.",
