@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_064",
+      "name": "طقم بربتوز وأفرول مواليد قطني ناعم بأزرار سفلية لسهولة الارتداء",
+      "description": "أفرول قطني فائق النعومة لحديثي الولادة من شي إن (SHEIN) مصمم من القطن النقي لحماية بشرة الرضيع الحساسة.",
+      "originalPrice": 65.0,
+      "currentPrice": 29.0,
+      "discount": 55,
+      "category": "cat_015",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Newborn-Baby-Cotton-Romper-Onesie-p-564077473.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202609123440/b849d85000c59cf91d09ee89917db3d1c910541684f1e37a7ca2d9731ec53fc3_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_063",
       "name": "فستان بناتي صيفي أنيق بطيات ناعمة ونقشات ربيعية جذابة",
       "description": "فستان بناتي جميل من شي إن (SHEIN) بتصميم أميرات ناعم وخامة قطنية خفيفة ومريحة للحفلات والمناسبات.",
