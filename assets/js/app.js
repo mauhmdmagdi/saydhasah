@@ -409,10 +409,13 @@ function renderCategoriesGrid() {
   };
 
   const createCard = (category, isDuplicate = false) => {
-    const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=2`;
+    const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=20261031v7`;
     return `
       <button class="category-card" type="button" data-category-id="${escapeHtml(category.id)}" title="${escapeHtml(category.name)}" aria-label="${escapeHtml(category.name)}"${isDuplicate ? ' tabindex="-1"' : ''}>
-        <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
+        <div class="category-icon-wrapper">
+          <img src="${imgSrc}" alt="${escapeHtml(category.name)}" class="category-card-img" loading="lazy">
+        </div>
+        <span class="category-card-name">${escapeHtml(category.name)}</span>
       </button>
     `;
   };
@@ -792,6 +795,28 @@ function initFavoritesSystem() {
     homeBtn.addEventListener('click', (e) => {
       e.preventDefault();
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  if (catsBtn) {
+    catsBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.getElementById('categories');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.location.href = 'pages/categories.html';
+      }
+    });
+  }
+
+  if (dealsBtn) {
+    dealsBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.getElementById('deals');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     });
   }
 
