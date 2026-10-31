@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_076",
+      "name": "ماء عطر فيولا 75ملليلتر",
+      "description": "عرض نون في قسم العطور بسعر 75.50 ريال.",
+      "originalPrice": 99.0,
+      "currentPrice": 75.5,
+      "discount": 24,
+      "category": "cat_023",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/viola-edp-75ml/N18913641A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pnsku/N18913641A/45/_/1767607494/518a79e6-e0fb-4502-b355-14def733a758.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_075",
       "name": "عطر او دي تواليت كوول ووتر رجالي، 75 مل من دافيدوف",
       "description": "عرض أمازون السعودية في قسم العطور بخصم 58% — السعر الحالي 75.00 ريال بدلاً من 177.00 ريال.",
