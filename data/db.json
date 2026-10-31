@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_052",
+      "name": "Autumn Winter Baby Lamb Wool Plus Velvet Waistcoat Girls Boys Plush Vest Single Breasted V Neck Child Warm Fashion Warm Coat",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 8.33 ريال بدلاً من 8.33 ريال.",
+      "originalPrice": 8.33,
+      "currentPrice": 8.33,
+      "discount": 0,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256807670836798.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a65573ef84c4415a18e28eef8b4aa39o.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_051",
       "name": "2-piece Autumn/Winter Men's Casual And Comfortable Warm Suit Youth Sports And Fitness Base Underwear Set Long Sleeved Base Shirt",
       "description": "عرض علي إكسبريس المميز بخصم 65% — السعر الحالي 10.33 ريال بدلاً من 29.18 ريال.",
