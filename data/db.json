@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_418",
+      "name": "فستان بتفاصيل مكشكشة",
+      "description": "عرض نون في قسم فساتين بسعر 159.00 ريال.",
+      "originalPrice": 159.0,
+      "currentPrice": 159.0,
+      "discount": 0,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/ruched-detail-dress/ZEA5C9D116BF087FCB403Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEA5C9D116BF087FCB403Z/45/_/1706559758/d01dede8-24ee-4ac7-adff-e6e0ef47485f.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_417",
       "name": "ساعات ذكية للرجال والنساء، جهاز تتبع اللياقة البدنية مزود بمراقبة معدل ضربات القلب والنوم، هدية للأب والأم والأزواج، معيار IP68، متوافقة مع أنظمة أندرويد وiOS أرجواني داكن",
       "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 59% — السعر الحالي 149.99 ريال بدلاً من 369.99 ريال.",
