@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_403",
+      "name": "بخاخ مزيل للعرق بمستخلصات اللؤلؤ للنساء من نيفيا، سعة 150 مل من 3 قطع، منعش",
+      "description": "عرض أمازون السعودية في قسم نساء بخصم 65% — السعر الحالي 34.95 ريال بدلاً من 99.36 ريال.",
+      "originalPrice": 99.36,
+      "currentPrice": 34.95,
+      "discount": 65,
+      "category": "cat_012",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0BC8YM53M?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71qk5hDB3SL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_402",
       "name": "ملابس داخلية للنساء من كيه-تشوني، سراويل داخلية عالية الخصر من القطن جيدة التهوية بتغطية كاملة، سراويل داخلية في عبوة متنوعة بقصة عادية وكبيرة",
       "description": "عرض أمازون السعودية في قسم ملابس داخلية بخصم 34% — السعر الحالي 33.00 ريال بدلاً من 49.88 ريال.",
