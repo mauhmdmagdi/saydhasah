@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_407",
+      "name": "حلقة مفتوحة متعددة الطبقات، حلقة إصبع بسيطة مجوفة، إكسسوار يومي متعدد الاستخدامات للنساء، هدية رائعة",
+      "description": "منتج حقيقي من تيمو ضمن قسم نساء.",
+      "originalPrice": 8.08,
+      "currentPrice": 7.85,
+      "discount": 3,
+      "category": "cat_012",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-606694142764514.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/009abe4d-ba66-4ac1-8677-8e30bd27c539.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_406",
       "name": "سماعات أذن FreeBuds SE 2، بلوتوث لاسلكية 5.3، عمر بطارية يصل إلى 40 ساعة، تشغيل الموسيقى لمدة 3 ساعات بعد شحن لمدة 10 دقائق، مدمجة ومريحة، مقاومة للغبار والرذاذ بمعيار IP54",
       "description": "عرض نون في قسم الإلكترونيات بسعر 75.00 ريال.",
