@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_416",
+      "name": "ملابس صيفية جديدة للأطفال، طقم ملابس أنيق للأولاد الصغار مكون من قميص مطبوع بالكامل وشورت، طقم من قطعتين، ملابس كاجوال للأطفال الصغار، بدلة رياضية للأطفال",
+      "description": "عرض علي إكسبريس المميز بخصم 56% — السعر الحالي 40.96 ريال بدلاً من 93.35 ريال.",
+      "originalPrice": 93.35,
+      "currentPrice": 40.96,
+      "discount": 56,
+      "category": "cat_013",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012075383094.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf5eba39839334aec90bc226d783bb716v.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_415",
       "name": "طقم ملابس داخلية رياضية للرجال مكون من قطعتين للخريف/الشتاء، مريح ودافئ، مناسب للشباب، يتضمن قميصًا داخليًا بأكمام طويلة.",
       "description": "عرض علي إكسبريس المميز بخصم 62% — السعر الحالي 42.17 ريال بدلاً من 110.3 ريال.",
