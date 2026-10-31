@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_006",
+      "name": "Nike COURT VISION LO NN womens LACED SHOES",
+      "description": "عرض أمازون السعودية في قسم أحذية بخصم 73% — السعر الحالي 104.91 ريال بدلاً من 385.00 ريال.",
+      "originalPrice": 385.0,
+      "currentPrice": 104.91,
+      "discount": 73,
+      "category": "cat_021",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0983L2N9G?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61oZve9XmvL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_005",
       "name": "ملابس داخلية للنساء من كيه-تشوني، سراويل داخلية عالية الخصر من القطن جيدة التهوية بتغطية كاملة، سراويل داخلية في عبوة متنوعة بقصة عادية وكبيرة",
       "description": "عرض أمازون السعودية في قسم ملابس داخلية بخصم 34% — السعر الحالي 33.00 ريال بدلاً من 49.88 ريال.",
