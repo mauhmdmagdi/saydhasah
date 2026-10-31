@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_427",
+      "name": "MARYYIMEI Fashion design Women's Long Dress V-Neck Batwing Sleeve Loose Waist Elegant Print Casual Holiday Ball Gown Dresses",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 83.79 ريال بدلاً من 83.79 ريال.",
+      "originalPrice": 83.79,
+      "currentPrice": 83.79,
+      "discount": 0,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256809536297444.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S52d157bc15074720a12c59a1cdc237a5v.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_426",
       "name": "2026 Fall High-Neck Zip Jacket for Women, Loose Fit with Drawstring, Color-Block, Street-Style Trendy Coat",
       "description": "عرض علي إكسبريس المميز بخصم 62% — السعر الحالي 45.59 ريال بدلاً من 119.97 ريال.",
