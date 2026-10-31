@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_062",
+      "name": "طقم صيفي ولادي كاجوال قطعتين تيشيرت وشورت مريح للأطفال",
+      "description": "طقم ولادي مبهج وعصري من شي إن (SHEIN) مكون من قطعتين بألوان حيوية وقماش قطني ناعم يمنح حرية الحركة.",
+      "originalPrice": 75.0,
+      "currentPrice": 36.0,
+      "discount": 52,
+      "category": "cat_013",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Boys-Casual-Summer-2pcs-Outfit-Set-p-30751531.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_abc/2024/03/08/3d/1709900731c07b37f2039f25e29883faf945661d6b.png",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_061",
       "name": "تيشيرت بولو كاجوال رجالي بأكمام قصيرة بتصميم عصري مريح",
       "description": "تيشيرت بولو رجالي عالي الجودة من شي إن (SHEIN) بخامة قطنية ناعمة وجيدة التهوية مع ياقة أنيقة للارتداء اليومي.",
