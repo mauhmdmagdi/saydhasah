@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_033",
+      "name": "مجموعة أدوات مطبخ صغيرة مكونة من 22 قطعة، تجربة طهي حقيقية – مجموعة ألعاب طهي صغيرة كاملة مصممة للأطفال والرضع، تجمع بين التعليم والمرح. مناسبة للبنين والبنات على حد سواء، ومثالية للعب الأطفال في المطبخ.",
+      "description": "عرض نون في قسم المنزل والمطبخ بسعر 115.55 ريال.",
+      "originalPrice": 159.0,
+      "currentPrice": 115.55,
+      "discount": 27,
+      "category": "cat_003",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/22-piece-mini-kitchen-set-authentic-cooking-experience-a-complete-little-chef-toy-set-designed-for-children-and-infants-combining-education-with-play-suitable-for-both-boys-and-girls-perfect-for-children-s-kitchen-play/Z20DC282282165C4FD372Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z20DC282282165C4FD372Z/45/_/1787626544/acaed080-29aa-44b9-819d-9d834af69ea7.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_032",
       "name": "سلة هدايا للأطفال، مجموعة هدايا لحديثي الولادة مع خشخيشة للأطفال، مجموعة هدايا للأطفال حديثي الولادة، هدايا للأطفال حديثي الولادة، مجموعة سلة هدايا للأطفال متوسطة الحجم للأمهات المتوقعات (أزرق)...",
       "description": "عرض نون في قسم ملابس مواليد بسعر 89.95 ريال.",
