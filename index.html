@@ -8,7 +8,7 @@
   <title> صيدها صح | قبل لا تروح عليك </title>
   <meta name="description"
     content="منصة صيدها صح تجمع لك أفضل العروض والتخفيضات المختارة من أمازون السعودية — أسعار محدّثة وروابط مباشرة لكل منتج.">
-  <link rel="stylesheet" href="assets/css/main.css?v=20261031v5">
+  <link rel="stylesheet" href="assets/css/main.css?v=20261031a">
   <link rel="icon" type="image/svg+xml" href="assets/images/logos/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logos/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="192x192" href="assets/images/logos/favicon-192x192.png">
@@ -142,6 +142,28 @@
       <div class="deal-banner-text">
         <h2>🔥 عروض اليوم الحصرية</h2>
         <p>خصومات جنونية تنتهي قريباً — لا تفوّت فرصة التوفير القصوى!</p>
+      </div>
+      <div class="countdown-timer" id="dealsCountdown"
+        aria-label="الوقت المتبقي على انتهاء عروض اليوم">
+        <div class="countdown-unit" id="timerDaysUnit" style="display:none">
+          <span class="countdown-number" id="timerDays">00</span>
+          <span class="countdown-label">أيام</span>
+        </div>
+        <span class="countdown-sep" id="timerDaysSep" style="display:none">:</span>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerHours">00</span>
+          <span class="countdown-label">ساعات</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerMinutes">00</span>
+          <span class="countdown-label">دقائق</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit">
+          <span class="countdown-number" id="timerSeconds">00</span>
+          <span class="countdown-label">ثواني</span>
+        </div>
       </div>
       <div class="section-actions-inline">
         <button type="button" class="btn-rotate-section" onclick="rotateSection('todayDeals')" title="اكتشف صفقات أخرى">🔄 صفقات أخرى</button>
@@ -395,7 +417,7 @@
 
   <!-- Scripts -->
   <script src="assets/js/db.js?v=20261028v4"></script>
-  <script src="assets/js/app.js?v=20261031v5"></script>
+  <script src="assets/js/app.js?v=20261031a"></script>
 </body>
 
 </html>
