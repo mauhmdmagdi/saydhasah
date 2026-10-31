@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_020",
+      "name": "الواثق بنفسه و قصص اخرى",
+      "description": "عرض أمازون السعودية في قسم المزيد بخصم 70% — السعر الحالي 29.00 ريال بدلاً من 98.00 ريال.",
+      "originalPrice": 98.0,
+      "currentPrice": 29.0,
+      "discount": 70,
+      "category": "cat_010",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0D87LC4NT?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/41N6V3OliPL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_019",
       "name": "أداة استخراج البراغي - أداة إزالة براغي أنابيب المياه مزدوجة الاستخدام لإزالة البراغي المكسورة لأنابيب 1.27 سم، 1.9 سم، أداة سهلة لاستخراج البراغي التالفة أو المكسورة، من سزلياندز",
       "description": "عرض أمازون السعودية في قسم عدد وأدوات بخصم 22% — السعر الحالي 10.00 ريال بدلاً من 12.77 ريال.",
