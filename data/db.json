@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_059",
+      "name": "حقيبة نسائية بلون موحد مبطنة بتصميم عصري وسعة كبيرة بكتف واحد مع إغلاق مغناطيسي",
+      "description": "حقيبة توت نسائية أنيقة وكبيرة السعة من شي إن (SHEIN) مناسبة للدوام والجامعة والتسوق والتنقل اليومي.",
+      "originalPrice": 52.0,
+      "currentPrice": 24.63,
+      "discount": 53,
+      "category": "cat_022",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-s-Solid-Color-Quilted-Inner-Bag-Fashion-Large-Capacity-One-Shoulder-Combination-Tote-Bag-p-437489529.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/03/31/81/17749462034487c112004c53238a357808f21297e5_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_058",
       "name": "حذاء سنيكرز كاجوال عصري وخفيف الوزن للمشي اليومي المريح",
       "description": "سنيكرز مريح بنعل مبطن من شي إن (SHEIN) يوفر راحة فائقة طوال اليوم وتصميم أنيق يتماشى مع مختلف الملابس.",
