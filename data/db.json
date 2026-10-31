@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_045",
+      "name": "Women Elegant Sleeveless Bodycon Midi Dress Stand Collar Neck Tie Ruched Waist Sheath Pencil Dress Office Business Cocktail Party Formal Dresses",
+      "description": "عرض علي إكسبريس المميز بخصم 83% — السعر الحالي 5.15 ريال بدلاً من 30.34 ريال.",
+      "originalPrice": 30.34,
+      "currentPrice": 5.15,
+      "discount": 83,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256812845092993.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S59eb1bfea7f1471a95f2ba5342fb6b2dp.png",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_044",
       "name": "Women Oversized Zip Up Hoodie Jacket, Metal Ring Zipper Hooded Sweatshirt, Irregular Hem Casual Outerwear with Kangaroo Pocket",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 7.21 ريال بدلاً من 7.21 ريال.",
