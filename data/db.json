@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_044",
+      "name": "Women Oversized Zip Up Hoodie Jacket, Metal Ring Zipper Hooded Sweatshirt, Irregular Hem Casual Outerwear with Kangaroo Pocket",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 7.21 ريال بدلاً من 7.21 ريال.",
+      "originalPrice": 7.21,
+      "currentPrice": 7.21,
+      "discount": 0,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813208671442.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S241ad65cb033487fae51cac5df91ac86M.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_043",
       "name": "2026 New Air 3【 Pro3 】 Bluetooth Wireless Earbuds With Heart Rate Monitoring, Active Noise Cancellation Headphones, Waterproof for Daily Use, For IPhone IOS Smartphone, Gaming /Sports /Fitness Earphones.",
       "description": "عرض علي إكسبريس المميز بخصم 68% — السعر الحالي 18.57 ريال بدلاً من 57.66 ريال.",
