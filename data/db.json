@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_063",
+      "name": "فستان بناتي صيفي أنيق بطيات ناعمة ونقشات ربيعية جذابة",
+      "description": "فستان بناتي جميل من شي إن (SHEIN) بتصميم أميرات ناعم وخامة قطنية خفيفة ومريحة للحفلات والمناسبات.",
+      "originalPrice": 85.0,
+      "currentPrice": 39.0,
+      "discount": 54,
+      "category": "cat_014",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Young-Girls-Floral-Pleated-Dress-p-27275263.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/images3_abc/2024/01/02/43/1704202650ee3cb31cc57c781e4ff64225754ccd42.png",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_062",
       "name": "طقم صيفي ولادي كاجوال قطعتين تيشيرت وشورت مريح للأطفال",
       "description": "طقم ولادي مبهج وعصري من شي إن (SHEIN) مكون من قطعتين بألوان حيوية وقماش قطني ناعم يمنح حرية الحركة.",
