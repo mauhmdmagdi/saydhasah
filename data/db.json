@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_410",
+      "name": "فستان أنيق للربيع والخريف بأزرار وياقة على شكل V وأكمام طويلة على شكل فانوس مع رباط وتصميم مطوي باللون الكاكي والأزرق والأحمر والأخضر والأسود للنساء",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 51.68 ريال بدلاً من 51.68 ريال.",
+      "originalPrice": 51.68,
+      "currentPrice": 51.68,
+      "discount": 0,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005007274401363.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0ba64e5839d44446bde10f01465fdd96r.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_409",
       "name": "صندل كلاسيكي أدبي للنساء ، نعل ناعم ، كاجوال ، حذاء لطيف للفتيات القبيح ، كعب مسطح ، إصبع زقزقة ، بسيط ، روما ، الصيف ، جديد",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 40.87 ريال بدلاً من 40.87 ريال.",
