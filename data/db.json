@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_008",
+      "name": "او دي بارفان غوتشي بلوم للنساء من غوتشي، 100مل",
+      "description": "عرض أمازون السعودية في قسم العطور بخصم 62% — السعر الحالي 235.10 ريال بدلاً من 626.75 ريال.",
+      "originalPrice": 626.75,
+      "currentPrice": 235.1,
+      "discount": 62,
+      "category": "cat_023",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0757ZLMLZ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/7134Ds7j4dL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_007",
       "name": "حقيبة كتف بنمط هوبو للنساء من تشتشديوسا، حقيبة يد بتصميم ريترو كلاسيكي للسهرات، مصنوعة من الجلد النباتي، حقيبة توت كبيرة للكتف، يمكن حملها تحت الإبط",
       "description": "عرض أمازون السعودية في قسم حقائب وأمتعة بخصم 45% — السعر الحالي 110.00 ريال بدلاً من 198.77 ريال.",
