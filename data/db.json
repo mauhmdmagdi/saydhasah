@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_412",
+      "name": "مجموعة عشوائية من 5 قطع ملابس داخلية رجالية من الحرير الجليدي، سراويل داخلية صيفية رقيقة وعصرية سريعة الجفاف بمقاسات كبيرة",
+      "description": "عرض علي إكسبريس المميز بخصم 51% — السعر الحالي 43.19 ريال بدلاً من 88.14 ريال.",
+      "originalPrice": 88.14,
+      "currentPrice": 43.19,
+      "discount": 51,
+      "category": "cat_020",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F1005012048947101.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S97c5ab48c616469ab4346326e31758e2w.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-10-31",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_411",
       "name": "قميص نوم نسائي صيفي من الحرير على الطراز الفرنسي، ملابس نوم نسائية من الحرير الرقيق، قميص نوم ساتان منزلي مع حواف دانتيل، بيجامة",
       "description": "عرض علي إكسبريس المميز بخصم 54% — السعر الحالي 47.69 ريال بدلاً من 103.09 ريال.",
