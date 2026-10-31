@@ -409,7 +409,7 @@ function renderCategoriesGrid() {
   };
 
   const createCard = (category, isDuplicate = false) => {
-    const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=20261031v10`;
+    const imgSrc = `assets/images/categories/${escapeHtml(category.id)}.svg?v=20261031v11`;
     return `
       <button class="category-card" type="button" data-category-id="${escapeHtml(category.id)}" title="${escapeHtml(category.name)}" aria-label="${escapeHtml(category.name)}"${isDuplicate ? ' tabindex="-1"' : ''}>
         <div class="category-icon-wrapper">
