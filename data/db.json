@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_094",
+      "name": "ساعة يد كلاسيكية بعقارب مضيئة - قياس 47 مم - لون فضي للرجال",
+      "description": "عرض نون في قسم الساعات والمجوهرات بسعر 40.25 ريال.",
+      "originalPrice": 999.0,
+      "currentPrice": 40.25,
+      "discount": 96,
+      "category": "cat_007",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/men-s-classic-luminous-analog-watch-47-mm-silver/N45429331A/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pnsku/N45429331A/45/_/1767607887/4e2fe540-d8cf-486d-9650-0978d6826662.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_093",
       "name": "ساعة يد ماسون بعرض انالوج للرجال من تومي هيلفيجر",
       "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 66% — السعر الحالي 319.00 ريال بدلاً من 925.00 ريال.",
