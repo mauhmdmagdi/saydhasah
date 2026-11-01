@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_084",
+      "name": "سرير و محبس أطفال آمن و مريح مع حواجز شبكية للحفاظ على الأجواء الداخلية أكثر تهوية مصنوع من مواد آمنة لطفلك",
+      "description": "عرض نون في قسم الأطفال والرضع بسعر 189.00 ريال.",
+      "originalPrice": 699.0,
+      "currentPrice": 189.0,
+      "discount": 73,
+      "category": "cat_006",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/breathable-padded-soft-portable-and-comfortable-baby-crib-and-bassinet/ZDD888A6F75C028E85405Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZDD888A6F75C028E85405Z/45/_/1792577198/7b542a6f-55bd-4bf2-a626-6b99c93a777b.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_083",
       "name": "Women V-Neck Cape Sleeve Midi Dress Split Bodycon Elegant Evening Party Wedding Guest Dresses",
       "description": "عرض علي إكسبريس المميز بخصم 95% — السعر الحالي 1.55 ريال بدلاً من 29.98 ريال.",
