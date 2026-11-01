@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_082",
+      "name": "Women Oversized Zip Up Hoodie Jacket, Metal Ring Zipper Hooded Sweatshirt, Irregular Hem Casual Outerwear with Kangaroo Pocket",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 12.83 ريال بدلاً من 12.83 ريال.",
+      "originalPrice": 12.83,
+      "currentPrice": 12.83,
+      "discount": 0,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813208671442.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S241ad65cb033487fae51cac5df91ac86M.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_081",
       "name": "شحن سريع، يدعم PD60W، نقل البيانات عالي السرعة، كابل من النوع C إلى النوع C، مناسب لهاتف Iphone 15 و16 وMacbook/Oneplus والأجهزة الأخرى",
       "description": "المبيعات: 100K+ sold — تقييم المنتج: 4.8",
