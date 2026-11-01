@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_099",
+      "name": "Comfortable Solid Color Medium Top Snow Boots Versatile Non-slip Winter Warm Outdoor Boots",
+      "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.09 ريال بدلاً من 27.25 ريال.",
+      "originalPrice": 27.25,
+      "currentPrice": 1.09,
+      "discount": 96,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256807201157000.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5dc46357f7544094860b481ecf8f836ba.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_098",
       "name": "Heavy Bass Sleep Headphones Wireless Bluetooth Earphones With Mic Sports Earbuds Noise Reduction Mini HD Headset For Smart Phone",
       "description": "عرض علي إكسبريس المميز بخصم 97% — السعر الحالي 1.09 ريال بدلاً من 39.96 ريال.",
