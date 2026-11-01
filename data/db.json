@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_081",
+      "name": "شحن سريع، يدعم PD60W، نقل البيانات عالي السرعة، كابل من النوع C إلى النوع C، مناسب لهاتف Iphone 15 و16 وMacbook/Oneplus والأجهزة الأخرى",
+      "description": "المبيعات: 100K+ sold — تقييم المنتج: 4.8",
+      "originalPrice": 47.99,
+      "currentPrice": 8.27,
+      "discount": 83,
+      "category": "cat_001",
+      "store": "temu",
+      "storeLink": "https://www.temu.com/g-601099869785181.html?_app_share_pid=alt065258&referral_code=alt065258",
+      "image": "https://img.kwcdn.com/product/fancy/ffc0d313-650a-494f-a7cb-efd60f0e378f.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_080",
       "name": "تيشيرت جيرسي بشعار صغير",
       "description": "عرض نون في قسم ملابس رجالي بسعر 139.00 ريال.",
