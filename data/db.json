@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_098",
+      "name": "Heavy Bass Sleep Headphones Wireless Bluetooth Earphones With Mic Sports Earbuds Noise Reduction Mini HD Headset For Smart Phone",
+      "description": "عرض علي إكسبريس المميز بخصم 97% — السعر الحالي 1.09 ريال بدلاً من 39.96 ريال.",
+      "originalPrice": 39.96,
+      "currentPrice": 1.09,
+      "discount": 97,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256810207081557.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa8e3158324d54c4280c576aa5203caf4q.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_097",
       "name": "Women Wrist Watch By De Vani Stainless Steel with Bracelet Rose Gold Color",
       "description": "عرض نون في قسم نساء بسعر 23.49 ريال.",
