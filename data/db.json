@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_087",
+      "name": "بخاخ كولونيا مركز جوفان مسك للنساء - 59 مل",
+      "description": "عرض أمازون السعودية في قسم نساء بخصم 65% — السعر الحالي 18.95 ريال بدلاً من 54.74 ريال.",
+      "originalPrice": 54.74,
+      "currentPrice": 18.95,
+      "discount": 65,
+      "category": "cat_012",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B001FWXFSQ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61n0G9e4u7L._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_086",
       "name": "بخاخ مزيل للعرق بمستخلصات اللؤلؤ للنساء من نيفيا، سعة 150 مل من 3 قطع، منعش",
       "description": "عرض أمازون السعودية في قسم نساء بخصم 66% — السعر الحالي 33.29 ريال بدلاً من 99.36 ريال.",
