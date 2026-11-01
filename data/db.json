@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_085",
+      "name": "22lb 2-in-1 Adjustable Dumbbell & Barbell Set for Home Exercise & Fitness",
+      "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 15.69 ريال بدلاً من 15.69 ريال.",
+      "originalPrice": 15.69,
+      "currentPrice": 15.69,
+      "discount": 0,
+      "category": "cat_005",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256812402552653.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S799d6588b6e14277a9d3eacd9e4d42cfo.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_084",
       "name": "عقلة باب بدون مسامير لتمارين السحب والعقلة بطول قابل للتعديل 90 سم الى 120 سم وقدرة تحمل 150 كيلو",
       "description": "عرض نون في قسم الرياضة واللياقة بسعر 109.00 ريال.",
