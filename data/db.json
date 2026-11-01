@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_093",
+      "name": "ساعة يد ماسون بعرض انالوج للرجال من تومي هيلفيجر",
+      "description": "عرض أمازون السعودية في قسم الساعات والمجوهرات بخصم 66% — السعر الحالي 319.00 ريال بدلاً من 925.00 ريال.",
+      "originalPrice": 925.0,
+      "currentPrice": 319.0,
+      "discount": 66,
+      "category": "cat_007",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B08H2F1VQJ?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/61GglZysaeL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_092",
       "name": "2026 New Summer Leisure Sandals For Women Flat Shoes Soft EVA Sole Light Weight Female Daily Walking Sandalias Street Footwear",
       "description": "عرض علي إكسبريس المميز بخصم 84% — السعر الحالي 2.34 ريال بدلاً من 14.3 ريال.",
