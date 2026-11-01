@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_086",
+      "name": "بخاخ مزيل للعرق بمستخلصات اللؤلؤ للنساء من نيفيا، سعة 150 مل من 3 قطع، منعش",
+      "description": "عرض أمازون السعودية في قسم نساء بخصم 66% — السعر الحالي 33.29 ريال بدلاً من 99.36 ريال.",
+      "originalPrice": 99.36,
+      "currentPrice": 33.29,
+      "discount": 66,
+      "category": "cat_012",
+      "store": "amazon",
+      "storeLink": "https://www.amazon.sa/dp/B0BC8YM53M?tag=amazon0137a1-21",
+      "image": "https://m.media-amazon.com/images/I/71qk5hDB3SL._AC_SL500_.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_085",
       "name": "طقم بناتي صيفي 100% قطن (تيشيرت وشورت) | ملابس كاجوال للأطفال | قماش ناعم وقابل للتنفس | طبعة زهور “يوم جميل” | تيشيرت أبيض مع شورت وردي",
       "description": "عرض نون في قسم ملابس بنات بسعر 40.00 ريال.",
