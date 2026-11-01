@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_085",
+      "name": "طقم بناتي صيفي 100% قطن (تيشيرت وشورت) | ملابس كاجوال للأطفال | قماش ناعم وقابل للتنفس | طبعة زهور “يوم جميل” | تيشيرت أبيض مع شورت وردي",
+      "description": "عرض نون في قسم ملابس بنات بسعر 40.00 ريال.",
+      "originalPrice": 129.0,
+      "currentPrice": 40.0,
+      "discount": 69,
+      "category": "cat_014",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/girls-100-cotton-t-shirt-shorts-set-kids-summer-casual-outfit-soft-breathable-fabric-floral-a-nice-day-print-white-t-shirt-with-pink-shorts/Z83B8927CD5E4BBDF3ABFZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z83B8927CD5E4BBDF3ABFZ/45/_/1772798349/219de45b-fd04-4406-9cfd-fe6828194f05.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_084",
       "name": "سرير و محبس أطفال آمن و مريح مع حواجز شبكية للحفاظ على الأجواء الداخلية أكثر تهوية مصنوع من مواد آمنة لطفلك",
       "description": "عرض نون في قسم الأطفال والرضع بسعر 189.00 ريال.",
