@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_101",
+      "name": "فستان أبيض مطرز ميدي",
+      "description": "عرض نون في قسم فساتين بسعر 56.70 ريال.",
+      "originalPrice": 199.0,
+      "currentPrice": 56.7,
+      "discount": 72,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/floral-lace-midi-dress/Z6600F84C4F56D88B5422Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z6600F84C4F56D88B5422Z/45/_/1721751802/7b6385e7-ea4e-4e01-9070-aa5dad76c01e.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_100",
       "name": "ساعة يد للنساء من دي فاني لون ذهبي شريط الساعة بمقاس مرن",
       "description": "عرض نون في قسم نساء بسعر 23.49 ريال.",
