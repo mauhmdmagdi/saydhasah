@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_083",
+      "name": "Women V-Neck Cape Sleeve Midi Dress Split Bodycon Elegant Evening Party Wedding Guest Dresses",
+      "description": "عرض علي إكسبريس المميز بخصم 95% — السعر الحالي 1.55 ريال بدلاً من 29.98 ريال.",
+      "originalPrice": 29.98,
+      "currentPrice": 1.55,
+      "discount": 95,
+      "category": "cat_018",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256812854155745.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5db17dd5c903464c9650d55ff66cb7a5X.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_082",
       "name": "Women Oversized Zip Up Hoodie Jacket, Metal Ring Zipper Hooded Sweatshirt, Irregular Hem Casual Outerwear with Kangaroo Pocket",
       "description": "عرض علي إكسبريس المميز بخصم 0% — السعر الحالي 12.83 ريال بدلاً من 12.83 ريال.",
