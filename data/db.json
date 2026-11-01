@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_090",
+      "name": "فستان مزين بكتف مكشوف",
+      "description": "عرض نون في قسم فساتين بسعر 112.00 ريال.",
+      "originalPrice": 335.0,
+      "currentPrice": 112.0,
+      "discount": 67,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/off-shoulder-embellished-dress/ZBAD541E07309C4100A38Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBAD541E07309C4100A38Z/45/1757570426/d63bc10d-c5df-4d1d-ae0d-d964ea9f77a3.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_089",
       "name": "نوعية أنيق سيدة زهرة نمط سوار نوع ساعة مجموعة , أحمر , أرجوانيّ , زرقاء ساعة مجموعة , مناسبة لأنّ كثير مناسبة أن يرتدي , إختبار مثاليّ لأنّ عطلة وعيد ميلاد هبة",
       "description": "عرض نون في قسم نساء بسعر 45.00 ريال.",
