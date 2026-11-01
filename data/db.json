@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_091",
+      "name": "Smartwatch Men Women Wristwatches Smart Watch Message Fitness Monitor Bracelet Birthday Gift Electronic Clock For Android IOS",
+      "description": "عرض علي إكسبريس المميز بخصم 97% — السعر الحالي 0.33 ريال بدلاً من 10.87 ريال.",
+      "originalPrice": 10.87,
+      "currentPrice": 0.33,
+      "discount": 97,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256807330851231.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0dca4f85065b4641b45702880d1a32723.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_090",
       "name": "فستان مزين بكتف مكشوف",
       "description": "عرض نون في قسم فساتين بسعر 112.00 ريال.",
