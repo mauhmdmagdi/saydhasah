@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_080",
+      "name": "تيشيرت جيرسي بشعار صغير",
+      "description": "عرض نون في قسم ملابس رجالي بسعر 139.00 ريال.",
+      "originalPrice": 139.0,
+      "currentPrice": 139.0,
+      "discount": 0,
+      "category": "cat_011",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/essential-small-logo-t-shirt/Z7CF1501D09A7769DB012Z/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z7CF1501D09A7769DB012Z/45/_/1773137694/ba4ff074-e100-446e-b49f-9ebb5e566f19.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_079",
       "name": "تي شيرت مزخرف أسود",
       "description": "عرض نون في قسم ملابس رجالي بسعر 209.00 ريال.",
