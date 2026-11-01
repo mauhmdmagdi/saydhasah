@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_088",
+      "name": "سماعات رأس إلغاء الضوضاء النشطة الهجينة بوضعيات متعددة، صوت عالي الدقة، وقت تشغيل 50 ساعة، شحن سريع، كوب أذن ناعم، سماعات بلوتوث، سماعات رأس للألعاب مع إلغاء الضوضاء، سفر، تأثير ضوء RGB.",
+      "description": "عرض نون في قسم الإلكترونيات بسعر 69.00 ريال.",
+      "originalPrice": 219.0,
+      "currentPrice": 69.0,
+      "discount": 68,
+      "category": "cat_001",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/hybrid-active-noise-cancelling-headphones-with-multiple-modes-hi-res-sound-50h-playtime-fast-charge-soft-earcups-bluetooth-headphones-gaming-headset-anc-travel-rgb-light-effect/Z55BC722F62614B2AC04DZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/pzsku/Z55BC722F62614B2AC04DZ/45/1760861832/84b26658-3a4d-423f-afed-f9682f649628.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_087",
       "name": "بخاخ كولونيا مركز جوفان مسك للنساء - 59 مل",
       "description": "عرض أمازون السعودية في قسم نساء بخصم 65% — السعر الحالي 18.95 ريال بدلاً من 54.74 ريال.",
