@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_102",
+      "name": "New Solid Color Simple Cross-strap Fashionable Women's Shoes Plus Velvet Warm Casual and Comfortable Short Boots Chaussure Femme",
+      "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.15 ريال بدلاً من 32.5 ريال.",
+      "originalPrice": 32.5,
+      "currentPrice": 1.15,
+      "discount": 96,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256807343703957.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2f4343f02f734faca1759d5ea28ab701h.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_101",
       "name": "فستان أبيض مطرز ميدي",
       "description": "عرض نون في قسم فساتين بسعر 56.70 ريال.",
