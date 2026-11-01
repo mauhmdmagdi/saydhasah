@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_095",
+      "name": "Men's Watch Fashion Trend Double Calendar Night Light Waterproof Steel Strip Business Leisure Quartz Watches for Man Reloj Hombr",
+      "description": "عرض علي إكسبريس المميز بخصم 95% — السعر الحالي 1.27 ريال بدلاً من 25.4 ريال.",
+      "originalPrice": 25.4,
+      "currentPrice": 1.27,
+      "discount": 95,
+      "category": "cat_007",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256813164147677.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd8b19da6c064ab5a34ed6c232803cdew.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_094",
       "name": "ساعة يد كلاسيكية بعقارب مضيئة - قياس 47 مم - لون فضي للرجال",
       "description": "عرض نون في قسم الساعات والمجوهرات بسعر 40.25 ريال.",
