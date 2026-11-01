@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_092",
+      "name": "2026 New Summer Leisure Sandals For Women Flat Shoes Soft EVA Sole Light Weight Female Daily Walking Sandalias Street Footwear",
+      "description": "عرض علي إكسبريس المميز بخصم 84% — السعر الحالي 2.34 ريال بدلاً من 14.3 ريال.",
+      "originalPrice": 14.3,
+      "currentPrice": 2.34,
+      "discount": 84,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256808932312293.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc53651da0de49ec8019cd445fa6194eg.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-01",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_091",
       "name": "Smartwatch Men Women Wristwatches Smart Watch Message Fitness Monitor Bracelet Birthday Gift Electronic Clock For Android IOS",
       "description": "عرض علي إكسبريس المميز بخصم 97% — السعر الحالي 0.33 ريال بدلاً من 10.87 ريال.",
