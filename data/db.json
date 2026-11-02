@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_103",
+      "name": "Wireless Bluetooth Headphones Foldable Gaming Headset With Bluetooth 5.3 Technology 40mm Bass Driver HiFi Stereo Sound Over Ear Comfort Memory Foam Cushion Extended Battery Life 400mAh For PC Mobile Phone Laptop Tablet Universal Compatible Music Gaming",
+      "description": "عرض علي إكسبريس المميز بخصم 97% — السعر الحالي 1.09 ريال بدلاً من 37.31 ريال.",
+      "originalPrice": 37.31,
+      "currentPrice": 1.09,
+      "discount": 97,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256812962250331.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9015a26c353c4ec39ac3d11f98ea2f95l.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_102",
       "name": "New Solid Color Simple Cross-strap Fashionable Women's Shoes Plus Velvet Warm Casual and Comfortable Short Boots Chaussure Femme",
       "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.15 ريال بدلاً من 32.5 ريال.",
