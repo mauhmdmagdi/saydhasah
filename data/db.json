@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_148",
+      "name": "شي إن (SHEIN) — فساتين طويلة بتصميم عصري وخامة عالية الجودة (فساتين)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 54% — السعر الحالي 61.00 ريال بدلاً من 132.20 ريال.",
+      "originalPrice": 132.2,
+      "currentPrice": 61.0,
+      "discount": 54,
+      "category": "cat_018",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Long-Dresses-p-556633517.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202610218209/b584b43ebedb4c211213df5d190342caa13eea1757f926c5d105553a61e57726_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_147",
       "name": "شي إن (SHEIN) — ملابس علوية بتصميم عصري وخامة عالية الجودة (نساء)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 47.00 ريال بدلاً من 99.80 ريال.",
