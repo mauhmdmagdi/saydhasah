@@ -11,6 +11,10 @@ class StoreDB {
   constructor() {
     this.data = null;
     this.isReady = false;
+    this.remoteSnapshot = null;
+    this.remoteSyncTimer = null;
+    this.remoteSyncInFlight = false;
+    this.remoteSyncErrorLogged = false;
     this.initPromise = this.init();
   }
 
@@ -29,10 +33,12 @@ class StoreDB {
           const remoteData = await res.json();
           if (remoteData && Array.isArray(remoteData.products)) {
             this.data = remoteData;
+            this.remoteSnapshot = JSON.stringify(remoteData);
             this.migrateUsers();
             this.migrateCategories();
             this.save();
             this.isReady = true;
+            this.startRemoteSync(basePath);
             return this.data;
           }
         }
@@ -53,6 +59,7 @@ class StoreDB {
       this.migrateUsers();
       this.migrateCategories();
       this.isReady = true;
+      this.startRemoteSync(basePath);
       return this.data;
     } catch (e) {
       console.error('Database initialization error:', e);
@@ -888,6 +895,56 @@ class StoreDB {
         }
       ]
     };
+  }
+
+  startRemoteSync(basePath) {
+    if (this.remoteSyncTimer || window.location.pathname.includes('/admin/')) return;
+
+    const refreshWhenVisible = () => {
+      if (document.visibilityState !== 'hidden') {
+        this.refreshFromRemote(basePath);
+      }
+    };
+
+    this.remoteSyncTimer = setInterval(refreshWhenVisible, 30000);
+    document.addEventListener('visibilitychange', refreshWhenVisible);
+  }
+
+  async refreshFromRemote(basePath) {
+    if (this.remoteSyncInFlight || !this.isReady) return false;
+
+    this.remoteSyncInFlight = true;
+    try {
+      const response = await fetch(`${basePath}data/db.json?sync=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error(`Database refresh failed with HTTP ${response.status}`);
+      }
+
+      const remoteData = await response.json();
+      if (!remoteData || !Array.isArray(remoteData.products)) {
+        throw new Error('Remote database response has an invalid products list');
+      }
+
+      const snapshot = JSON.stringify(remoteData);
+      this.remoteSyncErrorLogged = false;
+      if (snapshot === this.remoteSnapshot) return false;
+
+      this.remoteSnapshot = snapshot;
+      this.data = remoteData;
+      this.migrateUsers();
+      this.migrateCategories();
+      this.save();
+      window.dispatchEvent(new CustomEvent('saydhasah:database-updated'));
+      return true;
+    } catch (error) {
+      if (!this.remoteSyncErrorLogged) {
+        console.warn('Could not refresh the latest remote database; will retry automatically.', error);
+        this.remoteSyncErrorLogged = true;
+      }
+      return false;
+    } finally {
+      this.remoteSyncInFlight = false;
+    }
   }
 
   save() {

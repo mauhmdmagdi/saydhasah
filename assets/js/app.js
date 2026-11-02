@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   initStoreApp();
 });
 
+window.addEventListener('saydhasah:database-updated', () => {
+  applySiteSettings();
+  initAnnouncementTicker();
+  renderStoreBadges();
+  renderCategoriesGrid();
+  renderAllProductSections();
+  updateProductCountBanner();
+
+  const searchInput = document.getElementById('headerSearchInput');
+  if (searchInput && searchInput.value.trim()) {
+    searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+  }
+});
+
 function initStoreApp() {
   applySiteSettings();
   initAnnouncementTicker();
@@ -456,7 +470,6 @@ window._dealsRotator = {
 
 function renderAllProductSections() {
   const allProds = window.db.getProducts({ onlyActive: true });
-  if (!allProds || allProds.length === 0) return;
 
   // 1. عروض 11.11: اعرض جميع منتجات الحملة السارية قبل قسم المنتجات الجديدة.
   const todayKey = new Date().toISOString().slice(0, 10);
@@ -597,8 +610,11 @@ window.toggleExpandGrid = function (containerId) {
 
 function initLiveDealsTicker(allProds) {
   const track = document.getElementById('liveDealsTickerTrack');
-  if (!track || !allProds || allProds.length === 0) return;
-  if (track.children.length > 0) return;
+  if (!track) return;
+  if (!allProds || allProds.length === 0) {
+    track.replaceChildren();
+    return;
+  }
 
   const topDeals = allProds
     .filter(p => (Number(p.discount) || 0) >= 35)
