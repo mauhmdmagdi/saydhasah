@@ -459,7 +459,10 @@ function renderAllProductSections() {
   if (!allProds || allProds.length === 0) return;
 
   // 1. وصل حديثاً (عرض 12 صنفاً من أحدث ما تم إضافته للموقع مع التدوير الديناميكي)
-  const newArrivals = allProds.filter(p => p.tag === 'new_arrival');
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const campaignOffers = allProds.filter(p => p.campaign === '11.11' && (!p.pinUntil || p.pinUntil >= todayKey));
+  const campaignIds = new Set(campaignOffers.map(p => p.id));
+  const newArrivals = [...campaignOffers, ...allProds.filter(p => p.tag === 'new_arrival' && !campaignIds.has(p.id))];
   const recentList = [...allProds].reverse();
   const allNewArrivals = [...new Set([...newArrivals, ...recentList])];
   window._newArrivalsPool = allNewArrivals;
@@ -664,6 +667,7 @@ function createProductCardHTML(p) {
       </button>
 
       <div class="product-card-top">
+        ${p.campaign === '11.11' && (!p.pinUntil || p.pinUntil >= new Date().toISOString().slice(0, 10)) ? '<span style="background:#b91c1c;color:#fff;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:800">11.11</span>' : ''}
         ${createStoreBadgeHTML(p.store)}
       </div>
 
@@ -953,6 +957,7 @@ window.openProductDetailModal = function (prodId) {
   modal.innerHTML = `
     <div class="admin-modal" style="max-width: 600px;">
       <div class="admin-modal-header">
+        ${p.campaign === '11.11' && (!p.pinUntil || p.pinUntil >= new Date().toISOString().slice(0, 10)) ? '<span style="background:#b91c1c;color:#fff;padding:4px 9px;border-radius:999px;font-size:11px;font-weight:800">11.11</span>' : ''}
         ${createStoreBadgeHTML(p.store)}
         <button class="modal-close-btn" onclick="document.getElementById('productDetailModal').classList.remove('active')">✕</button>
       </div>
