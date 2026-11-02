@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_155",
+      "name": "Nike أحذية رياضية كاجوال للرجال موديل AIR MONARCH IV، أحذية رياضية ذات وسادة هوائية، أحذية رياضية كلاسيكية ذات تصميم سميك، أحذية جري بوسادة هوائية كاملة الطول، أحذية تدريب لياقة بدنية، ينصح بطلب مقاس أكبر بنصف مقاس 41544",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 14% — السعر الحالي 302.72 ريال بدلاً من 352.00 ريال.",
+      "originalPrice": 352.0,
+      "currentPrice": 302.72,
+      "discount": 14,
+      "category": "cat_001",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/SHEIN-Product-p-51367494.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/p/spmp/2026/09/27/15/1790477845c4fb9467a3e460ea73754f8653bedcb8_thumbnail_405x552.png",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_154",
       "name": "EVA cave shoes winter padded men and women new thick bottom Baotou shoes cotton warm couple cotton slippers men and women",
       "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.09 ريال بدلاً من 27.88 ريال.",
