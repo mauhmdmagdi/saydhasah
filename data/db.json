@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_167",
+      "name": "فستان بكتف مكشوف وخصر أميرة",
+      "description": "عرض نون في قسم فساتين بسعر 45.00 ريال.",
+      "originalPrice": 225.0,
+      "currentPrice": 45.0,
+      "discount": 80,
+      "category": "cat_018",
+      "store": "noon",
+      "storeLink": "https://www.noon.com/saudi-ar/off-shoulder-dress-with-princess-waist-cut/ZC72C49588676F191F53AZ/p/?coupon=saydha&project=PRJ639948",
+      "image": "https://f.nooncdn.com/p/5652d09f55e95b83bbecc408468757f2|pzsku/ZC72C49588676F191F53AZ/45/1769530721/0739611d-51c9-4d79-9039-5560068876bb.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_156",
       "name": "حذاء جري جالكسي 7 للنساء من اديداس",
       "description": "عرض أمازون السعودية في قسم أحذية بخصم 44% — السعر الحالي 167.00 ريال بدلاً من 299.00 ريال. اختير ضمن عروض موسم 11.11؛ السعر والتوفر يتغيران حسب المتجر.",
