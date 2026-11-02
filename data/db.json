@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_110",
+      "name": "شي إن (SHEIN) — فساتين بتصميم عصري وخامة عالية الجودة (فساتين)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 68.00 ريال بدلاً من 143.40 ريال.",
+      "originalPrice": 143.4,
+      "currentPrice": 68.0,
+      "discount": 53,
+      "category": "cat_018",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Dresses-p-569735324.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS2026102110314/469343facc58f1df36845922ab9d60e555989b98710a501e6c7231cc230eca55_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_109",
       "name": "Yasmyna فستان نسائي رسمي للخريف، أنيق وناعم ومحتشم، باللون البرغندي، من قماش الجاكار مع شيفون، برقبة دائرية وأكمام جرس مزدوجة الطبقات وخصر مشدود وتنورة كاملة بتصميم باتشورك",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 28% — السعر الحالي 96.00 ريال بدلاً من 132.48 ريال.",
