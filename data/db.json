@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_152",
+      "name": "شي إن (SHEIN) — فساتين ماكسي للنساء بتصميم عصري وخامة عالية الجودة (فساتين)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 64.00 ريال بدلاً من 137.00 ريال.",
+      "originalPrice": 137.0,
+      "currentPrice": 64.0,
+      "discount": 53,
+      "category": "cat_018",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Maxi-Dresses-p-37959420.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS2026101520019/5a6e5e3488a36520b1eddd2aa13933985fbced5132d90285e00aecb20221a05c_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_151",
       "name": "شي إن (SHEIN) — تي شيرتات بتصميم عصري وخامة عالية الجودة (نساء)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 52.00 ريال بدلاً من 107.80 ريال.",
