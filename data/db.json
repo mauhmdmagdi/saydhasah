@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_150",
+      "name": "شي إن (SHEIN) — إلكترونيات المستهلك بتصميم عصري وخامة عالية الجودة (الإلكترونيات)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 49% — السعر الحالي 47.00 ريال بدلاً من 91.80 ريال.",
+      "originalPrice": 91.8,
+      "currentPrice": 47.0,
+      "discount": 49,
+      "category": "cat_001",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Consumer-Electronic-p-341294823.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2025/12/10/95/1765333001b1be8100e662f6550935d904e2092951_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_149",
       "name": "Smart Watch Sport Men Fitness Monitoring Woman Smartwatch Bluetooth Connection Message Remind Health 116Plus Clock D13 Bracelet",
       "description": "عرض علي إكسبريس المميز بخصم 98% — السعر الحالي 0.33 ريال بدلاً من 14.64 ريال.",
