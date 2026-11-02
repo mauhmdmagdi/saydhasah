@@ -458,12 +458,17 @@ function renderAllProductSections() {
   const allProds = window.db.getProducts({ onlyActive: true });
   if (!allProds || allProds.length === 0) return;
 
-  // 1. وصل حديثاً (عرض 12 صنفاً من أحدث ما تم إضافته للموقع مع التدوير الديناميكي)
+  // 1. عروض 11.11: اعرض جميع منتجات الحملة السارية قبل قسم المنتجات الجديدة.
   const todayKey = new Date().toISOString().slice(0, 10);
   const campaignOffers = allProds.filter(p => p.campaign === '11.11' && (!p.pinUntil || p.pinUntil >= todayKey));
+  const campaignSection = document.getElementById('elevenElevenSection');
+  if (campaignSection) campaignSection.style.display = campaignOffers.length ? '' : 'none';
+  renderProductGrid('elevenElevenGrid', campaignOffers);
+
+  // 2. وصل حديثاً (أحدث المنتجات، باستثناء عروض الحملة المعروضة أعلاه)
   const campaignIds = new Set(campaignOffers.map(p => p.id));
-  const newArrivals = [...campaignOffers, ...allProds.filter(p => p.tag === 'new_arrival' && !campaignIds.has(p.id))];
-  const recentList = [...allProds].reverse();
+  const newArrivals = allProds.filter(p => p.tag === 'new_arrival' && !campaignIds.has(p.id));
+  const recentList = [...allProds].reverse().filter(p => !campaignIds.has(p.id));
   const allNewArrivals = [...new Set([...newArrivals, ...recentList])];
   window._newArrivalsPool = allNewArrivals;
   renderProductGrid('newArrivalsGrid', allNewArrivals.slice(0, 12));
