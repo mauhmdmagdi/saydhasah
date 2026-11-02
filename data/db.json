@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_145",
+      "name": "1/2 /4 pcs Anti-lose Tracker for Apple Airtag Replacemen via Find My Bluetooth GPS Tracker For Luggage IOS MFi Key Finder",
+      "description": "عرض علي إكسبريس المميز بخصم 97% — السعر الحالي 0.33 ريال بدلاً من 12.86 ريال.",
+      "originalPrice": 12.86,
+      "currentPrice": 0.33,
+      "discount": 97,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256807256356755.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2f937ef322a543c5ac29801c6da82f36o.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_111",
       "name": "سماعة بلوتوث لاسلكية فوق الأذن مع ميكروفون للمكالمات الهاتفية، موديل WH-CH520 من سوني، لون أسود",
       "description": "عرض أمازون السعودية في قسم الإلكترونيات بخصم 37% — السعر الحالي 138.00 ريال بدلاً من 219.00 ريال.",
