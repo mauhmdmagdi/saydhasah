@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_153",
+      "name": "SK26 Bluetooth 5.4 Wireless Earphones Small Earbuds Sleeping Sport Invisible Headphones Bass Sound Quality Headset Sliding Cover",
+      "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.09 ريال بدلاً من 27.25 ريال.",
+      "originalPrice": 27.25,
+      "currentPrice": 1.09,
+      "discount": 96,
+      "category": "cat_001",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256809799847416.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc7e00ad6ceea40ae95b32b724322bea98.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_152",
       "name": "شي إن (SHEIN) — فساتين ماكسي للنساء بتصميم عصري وخامة عالية الجودة (فساتين)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 64.00 ريال بدلاً من 137.00 ريال.",
