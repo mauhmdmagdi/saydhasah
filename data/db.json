@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_147",
+      "name": "شي إن (SHEIN) — ملابس علوية بتصميم عصري وخامة عالية الجودة (نساء)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 47.00 ريال بدلاً من 99.80 ريال.",
+      "originalPrice": 99.8,
+      "currentPrice": 47.0,
+      "discount": 53,
+      "category": "cat_012",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Tops-p-327442493.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS202610054627/6cd5382b0f8020eb8e136d68588990a44af97d1e1fa91b4c90a5207c8502140c_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_146",
       "name": "شي إن (SHEIN) — كمبيوتر ومكتب بتصميم عصري وخامة عالية الجودة (الإلكترونيات)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 49% — السعر الحالي 47.00 ريال بدلاً من 91.80 ريال.",
