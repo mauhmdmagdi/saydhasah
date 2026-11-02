@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_105",
+      "name": "بلوزة نسائية كاجوال أنيقة بأكمام طويلة وتفاصيل أزرار أمامية",
+      "description": "بلوزة نسائية راقية من شي إن (SHEIN) بقصة كلاسيكية مناسبة للدوام والمناسبات اليومية بخامة عالية الجودة.",
+      "originalPrice": 95.0,
+      "currentPrice": 44.0,
+      "discount": 54,
+      "category": "cat_012",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Elegant-Blouse-Top-p-33026451.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/pi/2026/06/27/cb/17825310988d3a0d7e76e798792d109d341fa0023c_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_104",
       "name": "مكبر صوت سبيكر بلوتوث محمول بصوت جهير قوي وإضاءة أنيقة للمنزل والرحلات",
       "description": "سبيكر بلوتوث لاسلكي محمول من شي إن (SHEIN) يدعم الاتصال السريع بالهواتف والأجهزة اللوحية بجودة صوت فائقة.",
