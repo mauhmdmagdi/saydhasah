@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_151",
+      "name": "شي إن (SHEIN) — تي شيرتات بتصميم عصري وخامة عالية الجودة (نساء)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 52.00 ريال بدلاً من 107.80 ريال.",
+      "originalPrice": 107.8,
+      "currentPrice": 52.0,
+      "discount": 52,
+      "category": "cat_012",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/T-shirts-p-566497038.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/dps/PS2026091813485/d8b974e9b96c0b3cb18b818a11cbcc9e0147c90cb2f379ecfaa4046e17803d8b_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_150",
       "name": "شي إن (SHEIN) — إلكترونيات المستهلك بتصميم عصري وخامة عالية الجودة (الإلكترونيات)",
       "description": "عرض مميز من شي إن (SHEIN) بخصم 49% — السعر الحالي 47.00 ريال بدلاً من 91.80 ريال.",
