@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_108",
+      "name": "Miniso 1 قطعة غطاء حماية هاتف أكريليك شفاف كرتوني جديد معتمد 2 في 1 بشحن لاسلكي مغناطيسي وتصميم إبداعي مع حماية كاميرا مرتفعة ومقاومة للسقوط متوافق مع سلسلة أبل 17 Pro Max/Air و16 و11/12/13/14 Plus/XR/7/8 Plus/15 Pro Max",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 7% — السعر الحالي 8.36 ريال بدلاً من 9.00 ريال.",
+      "originalPrice": 9.0,
+      "currentPrice": 8.36,
+      "discount": 7,
+      "category": "cat_001",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/SHEIN-Product-p-529369039.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/10/1b/1783670211ad5f3048711f0809039bb9f7661bf19d_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_107",
       "name": "Sunscreen Drying Sports Coat Women Tight Top Yoga Jacket Long Sleeve Zipper Jacket Running Fitness Slim Workout Coat Sportswear",
       "description": "عرض علي إكسبريس المميز بخصم 79% — السعر الحالي 3.33 ريال بدلاً من 16.02 ريال.",
