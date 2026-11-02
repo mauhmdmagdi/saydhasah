@@ -216,6 +216,22 @@
   ],
   "products": [
     {
+      "id": "prod_154",
+      "name": "EVA cave shoes winter padded men and women new thick bottom Baotou shoes cotton warm couple cotton slippers men and women",
+      "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.09 ريال بدلاً من 27.88 ريال.",
+      "originalPrice": 27.88,
+      "currentPrice": 1.09,
+      "discount": 96,
+      "category": "cat_012",
+      "store": "aliexpress",
+      "storeLink": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3ytFsdh&dl_target_url=https%3A%2F%2Far.aliexpress.com%2Fitem%2F3256807427828352.html",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9d3197120034444c81829271e9131325c.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-02",
+      "currency": "ريال"
+    },
+    {
       "id": "prod_153",
       "name": "SK26 Bluetooth 5.4 Wireless Earphones Small Earbuds Sleeping Sport Invisible Headphones Bass Sound Quality Headset Sliding Cover",
       "description": "عرض علي إكسبريس المميز بخصم 96% — السعر الحالي 1.09 ريال بدلاً من 27.25 ريال.",
