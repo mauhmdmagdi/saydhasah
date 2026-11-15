@@ -216,6 +216,114 @@
   ],
   "products": [
     {
+      "id": "prod_652",
+      "name": "شي إن (SHEIN) — جوارب الطاقم رجالية بتصميم عصري وخامة عالية الجودة (ملابس داخلية)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 35.00 ريال بدلاً من 73.20 ريال.",
+      "originalPrice": 73.2,
+      "currentPrice": 35.0,
+      "discount": 52,
+      "category": "cat_020",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Men-Crew-Socks-p-503218697.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/07/29/30/17853057157f7b7f7f31e9a65d4cce6e91d3f3f18b_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-15",
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
+    },
+    {
+      "id": "prod_653",
+      "name": "شي إن (SHEIN) — فساتين نوم مقاسات كبيرة بتصميم عصري وخامة عالية الجودة (ملابس داخلية)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 36.00 ريال بدلاً من 74.80 ريال.",
+      "originalPrice": 74.8,
+      "currentPrice": 36.0,
+      "discount": 52,
+      "category": "cat_020",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Plus-Size-Sleep-Dresses-p-559148938.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/smartflow/2026/08/18/a3/1787054801b1e0f627ac6d438337429c32256eed62_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-15",
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
+    },
+    {
+      "id": "prod_654",
+      "name": "شي إن (SHEIN) — جوارب غير مرئية نسائية بتصميم عصري وخامة عالية الجودة (ملابس داخلية)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 52% — السعر الحالي 37.00 ريال بدلاً من 76.40 ريال.",
+      "originalPrice": 76.4,
+      "currentPrice": 37.0,
+      "discount": 52,
+      "category": "cat_020",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Women-Invisible-Socks-p-445600424.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/06/d8/1780722378d27272dc1de68ef2cf7c4f078e6d5da0_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-15",
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
+    },
+    {
+      "id": "prod_655",
+      "name": "شي إن (SHEIN) — بناطيل رياضية رجالية بتصميم عصري وخامة عالية الجودة (الرياضة واللياقة)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 53% — السعر الحالي 62.00 ريال بدلاً من 131.00 ريال.",
+      "originalPrice": 131.0,
+      "currentPrice": 62.0,
+      "discount": 53,
+      "category": "cat_005",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Men-Sports-Pants-p-439517725.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/05/31/19/1780197059fe6ca5d3ffd2e5b46b64fdda9411cbeb_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-15",
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
+    },
+    {
+      "id": "prod_656",
+      "name": "شي إن (SHEIN) — شورتات رجالية للخارج بتصميم عصري وخامة عالية الجودة (الرياضة واللياقة)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 55% — السعر الحالي 53.00 ريال بدلاً من 116.60 ريال.",
+      "originalPrice": 116.6,
+      "currentPrice": 53.0,
+      "discount": 55,
+      "category": "cat_005",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Men-Outdoor-Shorts-p-108309931.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/04/24/b0/1777016486eba21fef1e6f8ac7d7c35d89de869654_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-15",
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
+    },
+    {
+      "id": "prod_657",
+      "name": "شي إن (SHEIN) — إضاءة العطلة بتصميم عصري وخامة عالية الجودة (عدد وأدوات)",
+      "description": "عرض مميز من شي إن (SHEIN) بخصم 49% — السعر الحالي 47.00 ريال بدلاً من 92.80 ريال.",
+      "originalPrice": 92.8,
+      "currentPrice": 47.0,
+      "discount": 49,
+      "category": "cat_016",
+      "store": "shein",
+      "storeLink": "https://ar.shein.com/Holiday-Lighting-p-502610413.html?url_from_affiliate=V584333&aff_id=V584333&aff_code=V584333",
+      "image": "https://img.ltwebstatic.com/v4/j/spmp/2026/06/12/91/178124682232edbe69c17bf52e4119008f51830600_thumbnail_405x552.jpg",
+      "tag": "new_arrival",
+      "isActive": true,
+      "createdAt": "2026-11-15",
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
+    },
+    {
       "id": "prod_606",
       "name": "فستان بكتف مكشوف",
       "description": "عرض نون في قسم فساتين بسعر 32.00 ريال.",
@@ -229,7 +337,9 @@
       "tag": "new_arrival",
       "isActive": true,
       "createdAt": "2026-11-15",
-      "currency": "ريال"
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
     },
     {
       "id": "prod_607",
@@ -245,7 +355,9 @@
       "tag": "new_arrival",
       "isActive": true,
       "createdAt": "2026-11-15",
-      "currency": "ريال"
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
     },
     {
       "id": "prod_608",
@@ -437,7 +549,9 @@
       "tag": "new_arrival",
       "isActive": true,
       "createdAt": "2026-11-15",
-      "currency": "ريال"
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
     },
     {
       "id": "prod_620",
@@ -453,7 +567,9 @@
       "tag": "new_arrival",
       "isActive": true,
       "createdAt": "2026-11-15",
-      "currency": "ريال"
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
     },
     {
       "id": "prod_621",
@@ -661,7 +777,9 @@
       "tag": "new_arrival",
       "isActive": true,
       "createdAt": "2026-11-15",
-      "currency": "ريال"
+      "currency": "ريال",
+      "campaign": "11.11",
+      "pinUntil": "2026-11-12"
     },
     {
       "id": "prod_634",
